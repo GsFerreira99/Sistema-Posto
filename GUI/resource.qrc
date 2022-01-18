@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>img10.png</file>
+    <file>icon_pesquisa.png</file>
+    <file>img09.png</file>
+    <file>img07.png</file>
+    <file>img08.png</file>
+    <file>img04.png</file>
+    <file>img05.png</file>
+    <file>img06.png</file>
+    <file>img01.png</file>
+    <file>img02.png</file>
+    <file>img03.png</file>
+  </qresource>
+</RCC>

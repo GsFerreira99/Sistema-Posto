@@ -1,0 +1,12 @@
+__pycache__/
+ *.pyc
+.vscode
+test/
+Database/teste_db.py
+Database/Database.db
+build/
+dist/
+venv/
+*.spec
+virtual/
+venv_32x/

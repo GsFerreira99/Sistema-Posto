@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'InterfaceVWLagM.ui'
+## Form generated from reading UI file 'InterfaceeEyhSR.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -2598,7 +2598,7 @@ class Ui_Sistema(object):
         self.config_comb_btn.setObjectName(u"config_comb_btn")
         sizePolicy.setHeightForWidth(self.config_comb_btn.sizePolicy().hasHeightForWidth())
         self.config_comb_btn.setSizePolicy(sizePolicy)
-        self.config_comb_btn.setMaximumSize(QSize(90, 80))
+        self.config_comb_btn.setMaximumSize(QSize(150, 80))
         self.config_comb_btn.setFont(font2)
         self.config_comb_btn.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
@@ -2606,7 +2606,6 @@ class Ui_Sistema(object):
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
 "	color: white;\n"
 "	border-radius: none;\n"
-"\n"
 "}\n"
 "\n"
 "QPushButton:hover{\n"
@@ -2624,7 +2623,7 @@ class Ui_Sistema(object):
         self.config_user_btn.setEnabled(False)
         sizePolicy.setHeightForWidth(self.config_user_btn.sizePolicy().hasHeightForWidth())
         self.config_user_btn.setSizePolicy(sizePolicy)
-        self.config_user_btn.setMaximumSize(QSize(90, 80))
+        self.config_user_btn.setMaximumSize(QSize(150, 80))
         self.config_user_btn.setFont(font2)
         self.config_user_btn.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
@@ -2632,16 +2631,11 @@ class Ui_Sistema(object):
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
 "	color: white;\n"
 "	border-radius: none;\n"
-"\n"
 "}\n"
 "\n"
 "QPushButton:hover{\n"
 "	background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(61, 61, 61, 255), stop:1 rgba(75, 75, 75, 255))\n"
-"}\n"
-"\n"
-"\n"
-"\n"
-"")
+"}")
 
         self.horizontalLayout_19.addWidget(self.config_user_btn)
 
@@ -2686,7 +2680,7 @@ class Ui_Sistema(object):
         self.config_comb_editar.setObjectName(u"config_comb_editar")
         sizePolicy.setHeightForWidth(self.config_comb_editar.sizePolicy().hasHeightForWidth())
         self.config_comb_editar.setSizePolicy(sizePolicy)
-        self.config_comb_editar.setMaximumSize(QSize(90, 80))
+        self.config_comb_editar.setMaximumSize(QSize(150, 80))
         self.config_comb_editar.setFont(font2)
         self.config_comb_editar.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
@@ -2711,7 +2705,7 @@ class Ui_Sistema(object):
         self.config_comb_info_2.setObjectName(u"config_comb_info_2")
         sizePolicy.setHeightForWidth(self.config_comb_info_2.sizePolicy().hasHeightForWidth())
         self.config_comb_info_2.setSizePolicy(sizePolicy)
-        self.config_comb_info_2.setMaximumSize(QSize(90, 80))
+        self.config_comb_info_2.setMaximumSize(QSize(150, 80))
         self.config_comb_info_2.setFont(font2)
         self.config_comb_info_2.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
@@ -2731,6 +2725,31 @@ class Ui_Sistema(object):
 "")
 
         self.horizontalLayout_20.addWidget(self.config_comb_info_2)
+
+        self.config_comb_entrada = QPushButton(self.config_combustivel)
+        self.config_comb_entrada.setObjectName(u"config_comb_entrada")
+        sizePolicy.setHeightForWidth(self.config_comb_entrada.sizePolicy().hasHeightForWidth())
+        self.config_comb_entrada.setSizePolicy(sizePolicy)
+        self.config_comb_entrada.setMaximumSize(QSize(150, 80))
+        self.config_comb_entrada.setFont(font2)
+        self.config_comb_entrada.setStyleSheet(u"QPushButton {\n"
+"	border: none;\n"
+"	border-right: 1px solid rgb(166, 166, 166);\n"
+"	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
+"	color: white;\n"
+"	border-radius: none;\n"
+"\n"
+"}\n"
+"\n"
+"QPushButton:hover{\n"
+"	background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(61, 61, 61, 255), stop:1 rgba(75, 75, 75, 255))\n"
+"}\n"
+"\n"
+"\n"
+"\n"
+"")
+
+        self.horizontalLayout_20.addWidget(self.config_comb_entrada)
 
         self.horizontalSpacer_9 = QSpacerItem(785, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
@@ -2875,86 +2894,6 @@ class Ui_Sistema(object):
         self.frame_38.setFrameShadow(QFrame.Raised)
         self.gridLayout_49 = QGridLayout(self.frame_38)
         self.gridLayout_49.setObjectName(u"gridLayout_49")
-        self.label_92 = QLabel(self.frame_38)
-        self.label_92.setObjectName(u"label_92")
-        sizePolicy2.setHeightForWidth(self.label_92.sizePolicy().hasHeightForWidth())
-        self.label_92.setSizePolicy(sizePolicy2)
-        self.label_92.setMaximumSize(QSize(90, 30))
-        self.label_92.setFont(font2)
-        self.label_92.setStyleSheet(u"border: none;")
-
-        self.gridLayout_49.addWidget(self.label_92, 3, 2, 1, 1)
-
-        self.label_110 = QLabel(self.frame_38)
-        self.label_110.setObjectName(u"label_110")
-        self.label_110.setMaximumSize(QSize(16777215, 30))
-        self.label_110.setFont(font2)
-        self.label_110.setStyleSheet(u"border: none;")
-
-        self.gridLayout_49.addWidget(self.label_110, 5, 3, 1, 1)
-
-        self.label_109 = QLabel(self.frame_38)
-        self.label_109.setObjectName(u"label_109")
-        self.label_109.setMaximumSize(QSize(16777215, 30))
-        self.label_109.setFont(font2)
-        self.label_109.setStyleSheet(u"border: none;")
-
-        self.gridLayout_49.addWidget(self.label_109, 4, 3, 1, 1)
-
-        self.groupBox_5 = QGroupBox(self.frame_38)
-        self.groupBox_5.setObjectName(u"groupBox_5")
-        self.groupBox_5.setMaximumSize(QSize(550, 100))
-        self.groupBox_5.setFont(font7)
-        self.horizontalLayout_21 = QHBoxLayout(self.groupBox_5)
-        self.horizontalLayout_21.setObjectName(u"horizontalLayout_21")
-        self.label_96 = QLabel(self.groupBox_5)
-        self.label_96.setObjectName(u"label_96")
-        sizePolicy2.setHeightForWidth(self.label_96.sizePolicy().hasHeightForWidth())
-        self.label_96.setSizePolicy(sizePolicy2)
-        self.label_96.setMaximumSize(QSize(120, 30))
-        self.label_96.setFont(font2)
-        self.label_96.setStyleSheet(u"border: none;")
-
-        self.horizontalLayout_21.addWidget(self.label_96)
-
-        self.config_comb_edit_combustivel_2 = QComboBox(self.groupBox_5)
-        self.config_comb_edit_combustivel_2.addItem("")
-        self.config_comb_edit_combustivel_2.setObjectName(u"config_comb_edit_combustivel_2")
-        sizePolicy.setHeightForWidth(self.config_comb_edit_combustivel_2.sizePolicy().hasHeightForWidth())
-        self.config_comb_edit_combustivel_2.setSizePolicy(sizePolicy)
-        self.config_comb_edit_combustivel_2.setMaximumSize(QSize(200, 30))
-        self.config_comb_edit_combustivel_2.setStyleSheet(u"background-color: white;\n"
-"border-radius: 5px;\n"
-"")
-        self.config_comb_edit_combustivel_2.setEditable(True)
-
-        self.horizontalLayout_21.addWidget(self.config_comb_edit_combustivel_2)
-
-        self.label_93 = QLabel(self.groupBox_5)
-        self.label_93.setObjectName(u"label_93")
-        self.label_93.setMaximumSize(QSize(70, 30))
-        self.label_93.setFont(font2)
-        self.label_93.setStyleSheet(u"border: none;")
-
-        self.horizontalLayout_21.addWidget(self.label_93)
-
-        self.config_comb_edit_novo_2 = QLineEdit(self.groupBox_5)
-        self.config_comb_edit_novo_2.setObjectName(u"config_comb_edit_novo_2")
-        self.config_comb_edit_novo_2.setEnabled(True)
-        self.config_comb_edit_novo_2.setMaximumSize(QSize(150, 25))
-        self.config_comb_edit_novo_2.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
-"border-radius: 10px;\n"
-"color: rgb(90, 90, 90)")
-        self.config_comb_edit_novo_2.setFrame(False)
-        self.config_comb_edit_novo_2.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
-        self.config_comb_edit_novo_2.setDragEnabled(False)
-        self.config_comb_edit_novo_2.setReadOnly(True)
-
-        self.horizontalLayout_21.addWidget(self.config_comb_edit_novo_2)
-
-
-        self.gridLayout_49.addWidget(self.groupBox_5, 0, 0, 1, 1)
-
         self.label_95 = QLabel(self.frame_38)
         self.label_95.setObjectName(u"label_95")
         sizePolicy2.setHeightForWidth(self.label_95.sizePolicy().hasHeightForWidth())
@@ -2963,11 +2902,11 @@ class Ui_Sistema(object):
         self.label_95.setFont(font2)
         self.label_95.setStyleSheet(u"border: none;")
 
-        self.gridLayout_49.addWidget(self.label_95, 3, 1, 1, 1)
+        self.gridLayout_49.addWidget(self.label_95, 2, 1, 1, 1)
 
         self.verticalSpacer_2 = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
-        self.gridLayout_49.addItem(self.verticalSpacer_2, 4, 0, 1, 1)
+        self.gridLayout_49.addItem(self.verticalSpacer_2, 3, 0, 1, 1)
 
         self.groupBox_6 = QGroupBox(self.frame_38)
         self.groupBox_6.setObjectName(u"groupBox_6")
@@ -3022,6 +2961,86 @@ class Ui_Sistema(object):
 
 
         self.gridLayout_49.addWidget(self.groupBox_6, 1, 0, 1, 1)
+
+        self.label_109 = QLabel(self.frame_38)
+        self.label_109.setObjectName(u"label_109")
+        self.label_109.setMaximumSize(QSize(16777215, 30))
+        self.label_109.setFont(font2)
+        self.label_109.setStyleSheet(u"border: none;")
+
+        self.gridLayout_49.addWidget(self.label_109, 3, 3, 1, 1)
+
+        self.label_92 = QLabel(self.frame_38)
+        self.label_92.setObjectName(u"label_92")
+        sizePolicy2.setHeightForWidth(self.label_92.sizePolicy().hasHeightForWidth())
+        self.label_92.setSizePolicy(sizePolicy2)
+        self.label_92.setMaximumSize(QSize(90, 30))
+        self.label_92.setFont(font2)
+        self.label_92.setStyleSheet(u"border: none;")
+
+        self.gridLayout_49.addWidget(self.label_92, 2, 2, 1, 1)
+
+        self.label_110 = QLabel(self.frame_38)
+        self.label_110.setObjectName(u"label_110")
+        self.label_110.setMaximumSize(QSize(16777215, 30))
+        self.label_110.setFont(font2)
+        self.label_110.setStyleSheet(u"border: none;")
+
+        self.gridLayout_49.addWidget(self.label_110, 4, 3, 1, 1)
+
+        self.groupBox_5 = QGroupBox(self.frame_38)
+        self.groupBox_5.setObjectName(u"groupBox_5")
+        self.groupBox_5.setMaximumSize(QSize(550, 100))
+        self.groupBox_5.setFont(font7)
+        self.horizontalLayout_21 = QHBoxLayout(self.groupBox_5)
+        self.horizontalLayout_21.setObjectName(u"horizontalLayout_21")
+        self.label_96 = QLabel(self.groupBox_5)
+        self.label_96.setObjectName(u"label_96")
+        sizePolicy2.setHeightForWidth(self.label_96.sizePolicy().hasHeightForWidth())
+        self.label_96.setSizePolicy(sizePolicy2)
+        self.label_96.setMaximumSize(QSize(120, 30))
+        self.label_96.setFont(font2)
+        self.label_96.setStyleSheet(u"border: none;")
+
+        self.horizontalLayout_21.addWidget(self.label_96)
+
+        self.config_comb_edit_combustivel_2 = QComboBox(self.groupBox_5)
+        self.config_comb_edit_combustivel_2.addItem("")
+        self.config_comb_edit_combustivel_2.setObjectName(u"config_comb_edit_combustivel_2")
+        sizePolicy.setHeightForWidth(self.config_comb_edit_combustivel_2.sizePolicy().hasHeightForWidth())
+        self.config_comb_edit_combustivel_2.setSizePolicy(sizePolicy)
+        self.config_comb_edit_combustivel_2.setMaximumSize(QSize(200, 30))
+        self.config_comb_edit_combustivel_2.setStyleSheet(u"background-color: white;\n"
+"border-radius: 5px;\n"
+"")
+        self.config_comb_edit_combustivel_2.setEditable(True)
+
+        self.horizontalLayout_21.addWidget(self.config_comb_edit_combustivel_2)
+
+        self.label_93 = QLabel(self.groupBox_5)
+        self.label_93.setObjectName(u"label_93")
+        self.label_93.setMaximumSize(QSize(70, 30))
+        self.label_93.setFont(font2)
+        self.label_93.setStyleSheet(u"border: none;")
+
+        self.horizontalLayout_21.addWidget(self.label_93)
+
+        self.config_comb_edit_novo_2 = QLineEdit(self.groupBox_5)
+        self.config_comb_edit_novo_2.setObjectName(u"config_comb_edit_novo_2")
+        self.config_comb_edit_novo_2.setEnabled(True)
+        self.config_comb_edit_novo_2.setMaximumSize(QSize(150, 25))
+        self.config_comb_edit_novo_2.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90)")
+        self.config_comb_edit_novo_2.setFrame(False)
+        self.config_comb_edit_novo_2.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
+        self.config_comb_edit_novo_2.setDragEnabled(False)
+        self.config_comb_edit_novo_2.setReadOnly(True)
+
+        self.horizontalLayout_21.addWidget(self.config_comb_edit_novo_2)
+
+
+        self.gridLayout_49.addWidget(self.groupBox_5, 0, 0, 1, 1)
 
 
         self.gridLayout_50.addWidget(self.frame_38, 0, 0, 1, 1)
@@ -3177,6 +3196,255 @@ class Ui_Sistema(object):
         self.gridLayout_45.addWidget(self.frame_34, 1, 0, 1, 1)
 
         self.stackedWidget_11.addWidget(self.editar_combustivel)
+        self.entrada_combustivel = QWidget()
+        self.entrada_combustivel.setObjectName(u"entrada_combustivel")
+        self.gridLayout_82 = QGridLayout(self.entrada_combustivel)
+        self.gridLayout_82.setObjectName(u"gridLayout_82")
+        self.label_55 = QLabel(self.entrada_combustivel)
+        self.label_55.setObjectName(u"label_55")
+        sizePolicy1.setHeightForWidth(self.label_55.sizePolicy().hasHeightForWidth())
+        self.label_55.setSizePolicy(sizePolicy1)
+        self.label_55.setMaximumSize(QSize(16777215, 40))
+        self.label_55.setFont(font8)
+        self.label_55.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
+"color: white;\n"
+"border-radius: 10px;\n"
+"")
+        self.label_55.setAlignment(Qt.AlignCenter)
+
+        self.gridLayout_82.addWidget(self.label_55, 0, 0, 1, 1)
+
+        self.frame_42 = QFrame(self.entrada_combustivel)
+        self.frame_42.setObjectName(u"frame_42")
+        self.frame_42.setMaximumSize(QSize(600, 16777215))
+        self.frame_42.setFont(font2)
+        self.frame_42.setFrameShape(QFrame.StyledPanel)
+        self.frame_42.setFrameShadow(QFrame.Raised)
+        self.gridLayout_76 = QGridLayout(self.frame_42)
+        self.gridLayout_76.setObjectName(u"gridLayout_76")
+        self.label_144 = QLabel(self.frame_42)
+        self.label_144.setObjectName(u"label_144")
+        self.label_144.setMaximumSize(QSize(16777215, 30))
+        self.label_144.setFont(font2)
+        self.label_144.setStyleSheet(u"border: none;")
+
+        self.gridLayout_76.addWidget(self.label_144, 7, 0, 1, 1)
+
+        self.label_113 = QLabel(self.frame_42)
+        self.label_113.setObjectName(u"label_113")
+        self.label_113.setMaximumSize(QSize(16777215, 30))
+        self.label_113.setFont(font2)
+        self.label_113.setStyleSheet(u"border: none;")
+
+        self.gridLayout_76.addWidget(self.label_113, 12, 4, 1, 1)
+
+        self.label_136 = QLabel(self.frame_42)
+        self.label_136.setObjectName(u"label_136")
+        self.label_136.setMaximumSize(QSize(16777215, 30))
+        self.label_136.setFont(font2)
+        self.label_136.setStyleSheet(u"border: none;")
+
+        self.gridLayout_76.addWidget(self.label_136, 1, 0, 1, 1)
+
+        self.label_141 = QLabel(self.frame_42)
+        self.label_141.setObjectName(u"label_141")
+        sizePolicy2.setHeightForWidth(self.label_141.sizePolicy().hasHeightForWidth())
+        self.label_141.setSizePolicy(sizePolicy2)
+        self.label_141.setMaximumSize(QSize(90, 30))
+        self.label_141.setFont(font2)
+        self.label_141.setStyleSheet(u"border: none;")
+
+        self.gridLayout_76.addWidget(self.label_141, 10, 2, 1, 1)
+
+        self.config_comb_entrada_combustivel = QComboBox(self.frame_42)
+        self.config_comb_entrada_combustivel.addItem("")
+        self.config_comb_entrada_combustivel.setObjectName(u"config_comb_entrada_combustivel")
+        self.config_comb_entrada_combustivel.setMaximumSize(QSize(16777215, 30))
+        self.config_comb_entrada_combustivel.setStyleSheet(u"background-color: white;\n"
+"border-radius: 5px;\n"
+"")
+        self.config_comb_entrada_combustivel.setEditable(True)
+
+        self.gridLayout_76.addWidget(self.config_comb_entrada_combustivel, 0, 2, 1, 3)
+
+        self.label_143 = QLabel(self.frame_42)
+        self.label_143.setObjectName(u"label_143")
+        self.label_143.setMaximumSize(QSize(16777215, 30))
+        self.label_143.setFont(font2)
+        self.label_143.setStyleSheet(u"border: none;")
+
+        self.gridLayout_76.addWidget(self.label_143, 4, 0, 1, 1)
+
+        self.config_comb_entrada_valor = QLineEdit(self.frame_42)
+        self.config_comb_entrada_valor.setObjectName(u"config_comb_entrada_valor")
+        self.config_comb_entrada_valor.setEnabled(True)
+        self.config_comb_entrada_valor.setMaximumSize(QSize(16777215, 25))
+        self.config_comb_entrada_valor.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90)")
+        self.config_comb_entrada_valor.setFrame(False)
+        self.config_comb_entrada_valor.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
+        self.config_comb_entrada_valor.setDragEnabled(False)
+        self.config_comb_entrada_valor.setReadOnly(False)
+
+        self.gridLayout_76.addWidget(self.config_comb_entrada_valor, 3, 2, 1, 3)
+
+        self.label_108 = QLabel(self.frame_42)
+        self.label_108.setObjectName(u"label_108")
+        self.label_108.setMaximumSize(QSize(16777215, 30))
+        self.label_108.setFont(font2)
+        self.label_108.setStyleSheet(u"border: none;")
+
+        self.gridLayout_76.addWidget(self.label_108, 3, 0, 1, 1)
+
+        self.config_comb_entrada_quantidade = QLineEdit(self.frame_42)
+        self.config_comb_entrada_quantidade.setObjectName(u"config_comb_entrada_quantidade")
+        self.config_comb_entrada_quantidade.setEnabled(True)
+        self.config_comb_entrada_quantidade.setMaximumSize(QSize(16777215, 25))
+        self.config_comb_entrada_quantidade.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90)")
+        self.config_comb_entrada_quantidade.setFrame(False)
+        self.config_comb_entrada_quantidade.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
+        self.config_comb_entrada_quantidade.setDragEnabled(False)
+        self.config_comb_entrada_quantidade.setReadOnly(False)
+
+        self.gridLayout_76.addWidget(self.config_comb_entrada_quantidade, 1, 2, 1, 3)
+
+        self.config_comb_entrada_parcelamento = QComboBox(self.frame_42)
+        self.config_comb_entrada_parcelamento.addItem("")
+        self.config_comb_entrada_parcelamento.addItem("")
+        self.config_comb_entrada_parcelamento.addItem("")
+        self.config_comb_entrada_parcelamento.addItem("")
+        self.config_comb_entrada_parcelamento.addItem("")
+        self.config_comb_entrada_parcelamento.addItem("")
+        self.config_comb_entrada_parcelamento.addItem("")
+        self.config_comb_entrada_parcelamento.addItem("")
+        self.config_comb_entrada_parcelamento.addItem("")
+        self.config_comb_entrada_parcelamento.addItem("")
+        self.config_comb_entrada_parcelamento.addItem("")
+        self.config_comb_entrada_parcelamento.addItem("")
+        self.config_comb_entrada_parcelamento.setObjectName(u"config_comb_entrada_parcelamento")
+        self.config_comb_entrada_parcelamento.setMaximumSize(QSize(16777215, 30))
+        self.config_comb_entrada_parcelamento.setStyleSheet(u"background-color: white;\n"
+"border-radius: 5px;\n"
+"padding-left: 20px;\n"
+"")
+        self.config_comb_entrada_parcelamento.setEditable(True)
+
+        self.gridLayout_76.addWidget(self.config_comb_entrada_parcelamento, 7, 2, 1, 2)
+
+        self.config_comb_edit_btn_2 = QPushButton(self.frame_42)
+        self.config_comb_edit_btn_2.setObjectName(u"config_comb_edit_btn_2")
+        sizePolicy3.setHeightForWidth(self.config_comb_edit_btn_2.sizePolicy().hasHeightForWidth())
+        self.config_comb_edit_btn_2.setSizePolicy(sizePolicy3)
+        self.config_comb_edit_btn_2.setMaximumSize(QSize(9999999, 30))
+        self.config_comb_edit_btn_2.setFont(font2)
+        self.config_comb_edit_btn_2.setStyleSheet(u"QPushButton{\n"
+"	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 209, 22, 255));\n"
+"	border-radius: 10px;\n"
+"}\n"
+"\n"
+"QPushButton:hover{\n"
+"	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 237, 162, 255));\n"
+"	border: 1px solid rgb(135, 135, 135);\n"
+"}\n"
+"")
+
+        self.gridLayout_76.addWidget(self.config_comb_edit_btn_2, 9, 2, 1, 3)
+
+        self.label_88 = QLabel(self.frame_42)
+        self.label_88.setObjectName(u"label_88")
+        sizePolicy2.setHeightForWidth(self.label_88.sizePolicy().hasHeightForWidth())
+        self.label_88.setSizePolicy(sizePolicy2)
+        self.label_88.setMaximumSize(QSize(90, 30))
+        self.label_88.setFont(font2)
+        self.label_88.setStyleSheet(u"border: none;")
+
+        self.gridLayout_76.addWidget(self.label_88, 10, 3, 1, 1)
+
+        self.label_112 = QLabel(self.frame_42)
+        self.label_112.setObjectName(u"label_112")
+        self.label_112.setMaximumSize(QSize(16777215, 30))
+        self.label_112.setFont(font2)
+        self.label_112.setStyleSheet(u"border: none;")
+
+        self.gridLayout_76.addWidget(self.label_112, 11, 4, 1, 1)
+
+        self.label_142 = QLabel(self.frame_42)
+        self.label_142.setObjectName(u"label_142")
+        sizePolicy2.setHeightForWidth(self.label_142.sizePolicy().hasHeightForWidth())
+        self.label_142.setSizePolicy(sizePolicy2)
+        self.label_142.setMaximumSize(QSize(120, 30))
+        self.label_142.setFont(font2)
+        self.label_142.setStyleSheet(u"border: none;")
+
+        self.gridLayout_76.addWidget(self.label_142, 0, 0, 1, 1)
+
+        self.config_comb_entrada_data = QDateEdit(self.frame_42)
+        self.config_comb_entrada_data.setObjectName(u"config_comb_entrada_data")
+        sizePolicy4.setHeightForWidth(self.config_comb_entrada_data.sizePolicy().hasHeightForWidth())
+        self.config_comb_entrada_data.setSizePolicy(sizePolicy4)
+        self.config_comb_entrada_data.setMaximumSize(QSize(16777215, 40))
+        self.config_comb_entrada_data.setStyleSheet(u"QDateEdit{\n"
+"background-color: white;\n"
+"border-radius: 5px;\n"
+"padding-left: 10px;\n"
+"}\n"
+"\n"
+"QCalendarWidget QWidget{\n"
+"	\n"
+"	background-color: rgb(243, 243, 243);\n"
+"}\n"
+"\n"
+"QCalendarWidget QToolButton {\n"
+"	color: black;\n"
+"}\n"
+"\n"
+"")
+        self.config_comb_entrada_data.setCalendarPopup(True)
+        self.config_comb_entrada_data.setDate(QDate(2021, 1, 1))
+
+        self.gridLayout_76.addWidget(self.config_comb_entrada_data, 4, 2, 1, 2)
+
+        self.label_146 = QLabel(self.frame_42)
+        self.label_146.setObjectName(u"label_146")
+        self.label_146.setMaximumSize(QSize(16777215, 30))
+        self.label_146.setFont(font2)
+        self.label_146.setStyleSheet(u"border: none;")
+
+        self.gridLayout_76.addWidget(self.label_146, 5, 0, 1, 1)
+
+        self.config_comb_entrada_vencimento = QDateEdit(self.frame_42)
+        self.config_comb_entrada_vencimento.setObjectName(u"config_comb_entrada_vencimento")
+        sizePolicy4.setHeightForWidth(self.config_comb_entrada_vencimento.sizePolicy().hasHeightForWidth())
+        self.config_comb_entrada_vencimento.setSizePolicy(sizePolicy4)
+        self.config_comb_entrada_vencimento.setMaximumSize(QSize(16777215, 40))
+        self.config_comb_entrada_vencimento.setStyleSheet(u"QDateEdit{\n"
+"background-color: white;\n"
+"border-radius: 5px;\n"
+"padding-left: 10px;\n"
+"}\n"
+"\n"
+"QCalendarWidget QWidget{\n"
+"	\n"
+"	background-color: rgb(243, 243, 243);\n"
+"}\n"
+"\n"
+"QCalendarWidget QToolButton {\n"
+"	color: black;\n"
+"}\n"
+"\n"
+"")
+        self.config_comb_entrada_vencimento.setCalendarPopup(True)
+        self.config_comb_entrada_vencimento.setDate(QDate(2021, 1, 1))
+
+        self.gridLayout_76.addWidget(self.config_comb_entrada_vencimento, 5, 2, 1, 2)
+
+
+        self.gridLayout_82.addWidget(self.frame_42, 1, 0, 1, 1)
+
+        self.stackedWidget_11.addWidget(self.entrada_combustivel)
         self.home_combustivel = QWidget()
         self.home_combustivel.setObjectName(u"home_combustivel")
         self.stackedWidget_11.addWidget(self.home_combustivel)
@@ -4742,21 +5010,290 @@ class Ui_Sistema(object):
         self.verticalLayout_7.setSpacing(0)
         self.verticalLayout_7.setObjectName(u"verticalLayout_7")
         self.verticalLayout_7.setContentsMargins(0, 0, 0, 0)
-        self.label_102 = QLabel(self.widget_7)
+        self.frame_43 = QFrame(self.widget_7)
+        self.frame_43.setObjectName(u"frame_43")
+        self.frame_43.setMaximumSize(QSize(16777215, 50))
+        self.frame_43.setFrameShape(QFrame.StyledPanel)
+        self.frame_43.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_63 = QHBoxLayout(self.frame_43)
+        self.horizontalLayout_63.setObjectName(u"horizontalLayout_63")
+        self.horizontalLayout_63.setContentsMargins(10, 0, 10, 0)
+        self.label_102 = QLabel(self.frame_43)
         self.label_102.setObjectName(u"label_102")
-        self.label_102.setMaximumSize(QSize(16777215, 30))
-        font21 = QFont()
-        font21.setPointSize(10)
-        font21.setBold(False)
-        font21.setWeight(50)
-        self.label_102.setFont(font21)
+        self.label_102.setMaximumSize(QSize(16777215, 35))
+        self.label_102.setFont(font4)
         self.label_102.setAlignment(Qt.AlignCenter)
 
-        self.verticalLayout_7.addWidget(self.label_102)
+        self.horizontalLayout_63.addWidget(self.label_102)
+
+        self.comboBox = QComboBox(self.frame_43)
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.setObjectName(u"comboBox")
+        self.comboBox.setMaximumSize(QSize(100, 30))
+        self.comboBox.setStyleSheet(u"QComboBox {\n"
+"	background-color: rgb(255, 255, 255);\n"
+"border-radius: 5px;\n"
+"}")
+
+        self.horizontalLayout_63.addWidget(self.comboBox)
+
+        self.stackedWidget_19 = QStackedWidget(self.frame_43)
+        self.stackedWidget_19.setObjectName(u"stackedWidget_19")
+        sizePolicy3.setHeightForWidth(self.stackedWidget_19.sizePolicy().hasHeightForWidth())
+        self.stackedWidget_19.setSizePolicy(sizePolicy3)
+        self.stackedWidget_19.setMaximumSize(QSize(200, 30))
+        self.page_17 = QWidget()
+        self.page_17.setObjectName(u"page_17")
+        self.horizontalLayout_64 = QHBoxLayout(self.page_17)
+        self.horizontalLayout_64.setObjectName(u"horizontalLayout_64")
+        self.horizontalLayout_64.setContentsMargins(0, 0, 0, 0)
+        self.frame_49 = QFrame(self.page_17)
+        self.frame_49.setObjectName(u"frame_49")
+        self.frame_49.setEnabled(True)
+        sizePolicy2.setHeightForWidth(self.frame_49.sizePolicy().hasHeightForWidth())
+        self.frame_49.setSizePolicy(sizePolicy2)
+        self.frame_49.setMaximumSize(QSize(200, 16777215))
+        self.frame_49.setFrameShape(QFrame.StyledPanel)
+        self.frame_49.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_65 = QHBoxLayout(self.frame_49)
+        self.horizontalLayout_65.setObjectName(u"horizontalLayout_65")
+        self.horizontalLayout_65.setContentsMargins(0, 0, 0, 0)
+        self.financeiro_fluxo_filtro_dat1 = QDateEdit(self.frame_49)
+        self.financeiro_fluxo_filtro_dat1.setObjectName(u"financeiro_fluxo_filtro_dat1")
+        self.financeiro_fluxo_filtro_dat1.setStyleSheet(u"QDateEdit{\n"
+"background-color: white;\n"
+"border-radius: 5px;\n"
+"}\n"
+"\n"
+"QCalendarWidget QWidget{\n"
+"	\n"
+"	background-color: rgb(243, 243, 243);\n"
+"}\n"
+"\n"
+"QCalendarWidget QToolButton {\n"
+"	color: black;\n"
+"}\n"
+"\n"
+"")
+        self.financeiro_fluxo_filtro_dat1.setCalendarPopup(True)
+        self.financeiro_fluxo_filtro_dat1.setDate(QDate(2021, 1, 1))
+
+        self.horizontalLayout_65.addWidget(self.financeiro_fluxo_filtro_dat1)
+
+        self.label_179 = QLabel(self.frame_49)
+        self.label_179.setObjectName(u"label_179")
+        self.label_179.setMaximumSize(QSize(10, 16777215))
+        self.label_179.setFont(font6)
+        self.label_179.setStyleSheet(u"")
+
+        self.horizontalLayout_65.addWidget(self.label_179)
+
+        self.financeiro_fluxo_filtro_dat2 = QDateEdit(self.frame_49)
+        self.financeiro_fluxo_filtro_dat2.setObjectName(u"financeiro_fluxo_filtro_dat2")
+        self.financeiro_fluxo_filtro_dat2.setStyleSheet(u"QDateEdit{\n"
+"background-color: white;\n"
+"border-radius: 5px;\n"
+"}\n"
+"\n"
+"QCalendarWidget QWidget{\n"
+"	\n"
+"	background-color: rgb(243, 243, 243);\n"
+"}\n"
+"\n"
+"QCalendarWidget QToolButton {\n"
+"	color: black;\n"
+"}\n"
+"\n"
+"")
+        self.financeiro_fluxo_filtro_dat2.setCalendarPopup(True)
+        self.financeiro_fluxo_filtro_dat2.setDate(QDate(2021, 1, 1))
+
+        self.horizontalLayout_65.addWidget(self.financeiro_fluxo_filtro_dat2)
+
+
+        self.horizontalLayout_64.addWidget(self.frame_49)
+
+        self.financeiro_fluxo_pesq = QPushButton(self.page_17)
+        self.financeiro_fluxo_pesq.setObjectName(u"financeiro_fluxo_pesq")
+        self.financeiro_fluxo_pesq.setMaximumSize(QSize(40, 40))
+        self.financeiro_fluxo_pesq.setStyleSheet(u"QPushButton {\n"
+"	image: url(:/icons/img09.png);\n"
+"	padding: 8px;\n"
+"	border-radius: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"	padding: 6px;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"	background-color: rgb(247, 247, 247);\n"
+"}")
+
+        self.horizontalLayout_64.addWidget(self.financeiro_fluxo_pesq)
+
+        self.stackedWidget_19.addWidget(self.page_17)
+        self.page_18 = QWidget()
+        self.page_18.setObjectName(u"page_18")
+        self.stackedWidget_19.addWidget(self.page_18)
+
+        self.horizontalLayout_63.addWidget(self.stackedWidget_19)
+
+
+        self.verticalLayout_7.addWidget(self.frame_43)
 
         self.fin_home_graf = QWidget(self.widget_7)
         self.fin_home_graf.setObjectName(u"fin_home_graf")
-        self.fin_home_graf.setStyleSheet(u"")
+        self.fin_home_graf.setStyleSheet(u"QLabel {\n"
+"	font: 12pt \"Segoe UI Historic\";\n"
+"	padding-left: 30px;\n"
+"	padding-right: 50px;\n"
+"}")
+        self.verticalLayout_8 = QVBoxLayout(self.fin_home_graf)
+        self.verticalLayout_8.setObjectName(u"verticalLayout_8")
+        self.frame_44 = QFrame(self.fin_home_graf)
+        self.frame_44.setObjectName(u"frame_44")
+        self.frame_44.setStyleSheet(u"border:none;")
+        self.frame_44.setFrameShape(QFrame.StyledPanel)
+        self.frame_44.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_25 = QHBoxLayout(self.frame_44)
+        self.horizontalLayout_25.setObjectName(u"horizontalLayout_25")
+        self.widget_31 = QWidget(self.frame_44)
+        self.widget_31.setObjectName(u"widget_31")
+        self.widget_31.setMaximumSize(QSize(50, 50))
+        self.widget_31.setStyleSheet(u"border: 0px;\n"
+"image: url(:/icons/img08.png);\n"
+"padding: 5px;")
+        self.horizontalLayout_50 = QHBoxLayout(self.widget_31)
+        self.horizontalLayout_50.setObjectName(u"horizontalLayout_50")
+
+        self.horizontalLayout_25.addWidget(self.widget_31)
+
+        self.label_145 = QLabel(self.frame_44)
+        self.label_145.setObjectName(u"label_145")
+        self.label_145.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
+
+        self.horizontalLayout_25.addWidget(self.label_145)
+
+        self.financeiro_fluxo_receita = QLabel(self.frame_44)
+        self.financeiro_fluxo_receita.setObjectName(u"financeiro_fluxo_receita")
+        self.financeiro_fluxo_receita.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
+
+        self.horizontalLayout_25.addWidget(self.financeiro_fluxo_receita)
+
+
+        self.verticalLayout_8.addWidget(self.frame_44)
+
+        self.frame_45 = QFrame(self.fin_home_graf)
+        self.frame_45.setObjectName(u"frame_45")
+        self.frame_45.setStyleSheet(u"border:none;")
+        self.frame_45.setFrameShape(QFrame.StyledPanel)
+        self.frame_45.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_40 = QHBoxLayout(self.frame_45)
+        self.horizontalLayout_40.setObjectName(u"horizontalLayout_40")
+        self.widget_41 = QWidget(self.frame_45)
+        self.widget_41.setObjectName(u"widget_41")
+        self.widget_41.setMaximumSize(QSize(50, 50))
+        self.widget_41.setStyleSheet(u"border: 0px;\n"
+"image: url(:/icons/img07.png);\n"
+"padding: 5px;")
+        self.horizontalLayout_54 = QHBoxLayout(self.widget_41)
+        self.horizontalLayout_54.setObjectName(u"horizontalLayout_54")
+
+        self.horizontalLayout_40.addWidget(self.widget_41)
+
+        self.label_147 = QLabel(self.frame_45)
+        self.label_147.setObjectName(u"label_147")
+
+        self.horizontalLayout_40.addWidget(self.label_147)
+
+        self.financeiro_fluxo_despesa = QLabel(self.frame_45)
+        self.financeiro_fluxo_despesa.setObjectName(u"financeiro_fluxo_despesa")
+        self.financeiro_fluxo_despesa.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
+
+        self.horizontalLayout_40.addWidget(self.financeiro_fluxo_despesa)
+
+
+        self.verticalLayout_8.addWidget(self.frame_45)
+
+        self.frame_46 = QFrame(self.fin_home_graf)
+        self.frame_46.setObjectName(u"frame_46")
+        self.frame_46.setStyleSheet(u"border:none;")
+        self.frame_46.setFrameShape(QFrame.StyledPanel)
+        self.frame_46.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_41 = QHBoxLayout(self.frame_46)
+        self.horizontalLayout_41.setObjectName(u"horizontalLayout_41")
+        self.widget_32 = QWidget(self.frame_46)
+        self.widget_32.setObjectName(u"widget_32")
+        self.widget_32.setMaximumSize(QSize(50, 50))
+        self.widget_32.setStyleSheet(u"border: 0px;\n"
+"image: url(:/icons/img08.png);\n"
+"padding: 5px;")
+        self.horizontalLayout_52 = QHBoxLayout(self.widget_32)
+        self.horizontalLayout_52.setObjectName(u"horizontalLayout_52")
+
+        self.horizontalLayout_41.addWidget(self.widget_32)
+
+        self.label_150 = QLabel(self.frame_46)
+        self.label_150.setObjectName(u"label_150")
+
+        self.horizontalLayout_41.addWidget(self.label_150)
+
+        self.financeiro_fluxo_entrada = QLabel(self.frame_46)
+        self.financeiro_fluxo_entrada.setObjectName(u"financeiro_fluxo_entrada")
+        self.financeiro_fluxo_entrada.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
+
+        self.horizontalLayout_41.addWidget(self.financeiro_fluxo_entrada)
+
+
+        self.verticalLayout_8.addWidget(self.frame_46)
+
+        self.frame_47 = QFrame(self.fin_home_graf)
+        self.frame_47.setObjectName(u"frame_47")
+        self.frame_47.setStyleSheet(u"border:none;\n"
+"font: 63 12pt \"Segoe UI Semibold\";")
+        self.frame_47.setFrameShape(QFrame.StyledPanel)
+        self.frame_47.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_47 = QHBoxLayout(self.frame_47)
+        self.horizontalLayout_47.setObjectName(u"horizontalLayout_47")
+        self.widget_44 = QWidget(self.frame_47)
+        self.widget_44.setObjectName(u"widget_44")
+        self.widget_44.setMaximumSize(QSize(50, 50))
+        self.widget_44.setStyleSheet(u"border: 0px;\n"
+"padding: 5px;")
+        self.horizontalLayout_62 = QHBoxLayout(self.widget_44)
+        self.horizontalLayout_62.setObjectName(u"horizontalLayout_62")
+
+        self.horizontalLayout_47.addWidget(self.widget_44)
+
+        self.label_165 = QLabel(self.frame_47)
+        self.label_165.setObjectName(u"label_165")
+        font21 = QFont()
+        font21.setFamily(u"Segoe UI Semibold")
+        font21.setPointSize(12)
+        font21.setBold(False)
+        font21.setItalic(False)
+        font21.setWeight(7)
+        self.label_165.setFont(font21)
+        self.label_165.setStyleSheet(u"")
+
+        self.horizontalLayout_47.addWidget(self.label_165)
+
+        self.financeiro_fluxo_total = QLabel(self.frame_47)
+        self.financeiro_fluxo_total.setObjectName(u"financeiro_fluxo_total")
+        self.financeiro_fluxo_total.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
+
+        self.horizontalLayout_47.addWidget(self.financeiro_fluxo_total)
+
+
+        self.verticalLayout_8.addWidget(self.frame_47)
+
 
         self.verticalLayout_7.addWidget(self.fin_home_graf)
 
@@ -4788,6 +5325,8 @@ class Ui_Sistema(object):
         self.gridLayout_62.setContentsMargins(20, 15, 20, 15)
         self.widget_29 = QWidget(self.widget_10)
         self.widget_29.setObjectName(u"widget_29")
+        sizePolicy2.setHeightForWidth(self.widget_29.sizePolicy().hasHeightForWidth())
+        self.widget_29.setSizePolicy(sizePolicy2)
         self.widget_29.setMaximumSize(QSize(50, 50))
         self.widget_29.setStyleSheet(u"border: 0px;\n"
 "image: url(:/icons/img08.png);\n"
@@ -4800,7 +5339,11 @@ class Ui_Sistema(object):
         self.label_121 = QLabel(self.widget_10)
         self.label_121.setObjectName(u"label_121")
         self.label_121.setMaximumSize(QSize(16777215, 60))
-        self.label_121.setFont(font21)
+        font22 = QFont()
+        font22.setPointSize(10)
+        font22.setBold(False)
+        font22.setWeight(50)
+        self.label_121.setFont(font22)
         self.label_121.setStyleSheet(u"border: 0px;")
         self.label_121.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -4839,11 +5382,11 @@ class Ui_Sistema(object):
         self.label_116 = QLabel(self.widget_10)
         self.label_116.setObjectName(u"label_116")
         self.label_116.setMaximumSize(QSize(16777215, 40))
-        font22 = QFont()
-        font22.setPointSize(12)
-        font22.setBold(False)
-        font22.setWeight(50)
-        self.label_116.setFont(font22)
+        font23 = QFont()
+        font23.setPointSize(12)
+        font23.setBold(False)
+        font23.setWeight(50)
+        self.label_116.setFont(font23)
         self.label_116.setStyleSheet(u"border: 0px;")
         self.label_116.setAlignment(Qt.AlignCenter)
 
@@ -4862,7 +5405,7 @@ class Ui_Sistema(object):
         self.label_126 = QLabel(self.widget_11)
         self.label_126.setObjectName(u"label_126")
         self.label_126.setMaximumSize(QSize(16777215, 60))
-        self.label_126.setFont(font21)
+        self.label_126.setFont(font22)
         self.label_126.setStyleSheet(u"border: 0px;")
         self.label_126.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -4870,6 +5413,8 @@ class Ui_Sistema(object):
 
         self.widget_34 = QWidget(self.widget_11)
         self.widget_34.setObjectName(u"widget_34")
+        sizePolicy2.setHeightForWidth(self.widget_34.sizePolicy().hasHeightForWidth())
+        self.widget_34.setSizePolicy(sizePolicy2)
         self.widget_34.setMaximumSize(QSize(50, 50))
         self.widget_34.setStyleSheet(u"border: 0px;\n"
 "image: url(:/icons/img07.png);\n"
@@ -4912,7 +5457,7 @@ class Ui_Sistema(object):
         self.label_127 = QLabel(self.widget_11)
         self.label_127.setObjectName(u"label_127")
         self.label_127.setMaximumSize(QSize(16777215, 40))
-        self.label_127.setFont(font22)
+        self.label_127.setFont(font23)
         self.label_127.setStyleSheet(u"border: 0px;")
         self.label_127.setAlignment(Qt.AlignCenter)
 
@@ -4930,6 +5475,8 @@ class Ui_Sistema(object):
         self.gridLayout_66.setContentsMargins(20, 15, 20, 15)
         self.widget_36 = QWidget(self.widget_12)
         self.widget_36.setObjectName(u"widget_36")
+        sizePolicy2.setHeightForWidth(self.widget_36.sizePolicy().hasHeightForWidth())
+        self.widget_36.setSizePolicy(sizePolicy2)
         self.widget_36.setMaximumSize(QSize(50, 50))
         self.widget_36.setStyleSheet(u"border: 0px;\n"
 "image: url(:/icons/img10.png);\n"
@@ -4942,7 +5489,7 @@ class Ui_Sistema(object):
         self.label_128 = QLabel(self.widget_12)
         self.label_128.setObjectName(u"label_128")
         self.label_128.setMaximumSize(QSize(16777215, 60))
-        self.label_128.setFont(font21)
+        self.label_128.setFont(font22)
         self.label_128.setStyleSheet(u"border: 0px;")
         self.label_128.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -4981,7 +5528,7 @@ class Ui_Sistema(object):
         self.label_129 = QLabel(self.widget_12)
         self.label_129.setObjectName(u"label_129")
         self.label_129.setMaximumSize(QSize(16777215, 40))
-        self.label_129.setFont(font22)
+        self.label_129.setFont(font23)
         self.label_129.setStyleSheet(u"border: 0px;")
         self.label_129.setAlignment(Qt.AlignCenter)
 
@@ -4999,6 +5546,8 @@ class Ui_Sistema(object):
         self.gridLayout_67.setContentsMargins(20, 15, 20, 15)
         self.widget_38 = QWidget(self.widget_15)
         self.widget_38.setObjectName(u"widget_38")
+        sizePolicy2.setHeightForWidth(self.widget_38.sizePolicy().hasHeightForWidth())
+        self.widget_38.setSizePolicy(sizePolicy2)
         self.widget_38.setMaximumSize(QSize(50, 50))
         self.widget_38.setStyleSheet(u"border: 0px;\n"
 "image: url(:/icons/img08.png);\n"
@@ -5011,7 +5560,7 @@ class Ui_Sistema(object):
         self.label_130 = QLabel(self.widget_15)
         self.label_130.setObjectName(u"label_130")
         self.label_130.setMaximumSize(QSize(16777215, 60))
-        self.label_130.setFont(font21)
+        self.label_130.setFont(font22)
         self.label_130.setStyleSheet(u"border: 0px;")
         self.label_130.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -5050,7 +5599,7 @@ class Ui_Sistema(object):
         self.label_131 = QLabel(self.widget_15)
         self.label_131.setObjectName(u"label_131")
         self.label_131.setMaximumSize(QSize(16777215, 40))
-        self.label_131.setFont(font22)
+        self.label_131.setFont(font23)
         self.label_131.setStyleSheet(u"border: 0px;")
         self.label_131.setAlignment(Qt.AlignCenter)
 
@@ -5701,13 +6250,13 @@ class Ui_Sistema(object):
         __qtablewidgetitem56 = QTableWidgetItem()
         self.tableWidget.setItem(1, 4, __qtablewidgetitem56)
         self.tableWidget.setObjectName(u"tableWidget")
-        font23 = QFont()
-        font23.setFamily(u"Roboto")
-        font23.setPointSize(9)
-        font23.setBold(False)
-        font23.setItalic(False)
-        font23.setWeight(50)
-        self.tableWidget.setFont(font23)
+        font24 = QFont()
+        font24.setFamily(u"Roboto")
+        font24.setPointSize(9)
+        font24.setBold(False)
+        font24.setItalic(False)
+        font24.setWeight(50)
+        self.tableWidget.setFont(font24)
         self.tableWidget.setStyleSheet(u"QTableWidget{\n"
 "	font: 9pt \"Roboto\";\n"
 "	border-radius: 10px;\n"
@@ -5779,7 +6328,7 @@ class Ui_Sistema(object):
         __qtablewidgetitem70 = QTableWidgetItem()
         self.tableWidget_2.setItem(1, 3, __qtablewidgetitem70)
         self.tableWidget_2.setObjectName(u"tableWidget_2")
-        self.tableWidget_2.setFont(font23)
+        self.tableWidget_2.setFont(font24)
         self.tableWidget_2.setStyleSheet(u"QTableWidget{\n"
 "	font: 9pt \"Roboto\";\n"
 "	border-radius: 10px;\n"
@@ -5890,7 +6439,7 @@ class Ui_Sistema(object):
         __qtablewidgetitem90 = QTableWidgetItem()
         self.tableWidget_3.setItem(1, 5, __qtablewidgetitem90)
         self.tableWidget_3.setObjectName(u"tableWidget_3")
-        self.tableWidget_3.setFont(font23)
+        self.tableWidget_3.setFont(font24)
         self.tableWidget_3.setStyleSheet(u"QTableWidget{\n"
 "	font: 9pt \"Roboto\";\n"
 "	border-radius: 10px;\n"
@@ -6020,7 +6569,7 @@ class Ui_Sistema(object):
         self.label_160 = QLabel(self.fin_novo_wid03)
         self.label_160.setObjectName(u"label_160")
         self.label_160.setMaximumSize(QSize(16777215, 60))
-        self.label_160.setFont(font21)
+        self.label_160.setFont(font22)
         self.label_160.setStyleSheet(u"border: 0px;")
         self.label_160.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -6059,7 +6608,7 @@ class Ui_Sistema(object):
         self.label_161 = QLabel(self.fin_novo_wid03)
         self.label_161.setObjectName(u"label_161")
         self.label_161.setMaximumSize(QSize(16777215, 40))
-        self.label_161.setFont(font22)
+        self.label_161.setFont(font23)
         self.label_161.setStyleSheet(u"border: 0px;")
         self.label_161.setAlignment(Qt.AlignCenter)
 
@@ -6078,7 +6627,7 @@ class Ui_Sistema(object):
         self.label_162 = QLabel(self.fin_novo_wid04)
         self.label_162.setObjectName(u"label_162")
         self.label_162.setMaximumSize(QSize(16777215, 60))
-        self.label_162.setFont(font21)
+        self.label_162.setFont(font22)
         self.label_162.setStyleSheet(u"border: 0px;")
         self.label_162.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -6117,7 +6666,7 @@ class Ui_Sistema(object):
         self.label_163 = QLabel(self.fin_novo_wid04)
         self.label_163.setObjectName(u"label_163")
         self.label_163.setMaximumSize(QSize(16777215, 40))
-        self.label_163.setFont(font22)
+        self.label_163.setFont(font23)
         self.label_163.setStyleSheet(u"border: 0px;")
         self.label_163.setAlignment(Qt.AlignCenter)
 
@@ -6156,7 +6705,7 @@ class Ui_Sistema(object):
         self.label_156 = QLabel(self.fin_novo_wid01)
         self.label_156.setObjectName(u"label_156")
         self.label_156.setMaximumSize(QSize(16777215, 60))
-        self.label_156.setFont(font21)
+        self.label_156.setFont(font22)
         self.label_156.setStyleSheet(u"border: 0px;")
         self.label_156.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -6195,7 +6744,7 @@ class Ui_Sistema(object):
         self.label_157 = QLabel(self.fin_novo_wid01)
         self.label_157.setObjectName(u"label_157")
         self.label_157.setMaximumSize(QSize(16777215, 40))
-        self.label_157.setFont(font22)
+        self.label_157.setFont(font23)
         self.label_157.setStyleSheet(u"border: 0px;")
         self.label_157.setAlignment(Qt.AlignCenter)
 
@@ -6224,7 +6773,7 @@ class Ui_Sistema(object):
         self.label_158 = QLabel(self.fin_novo_wid02)
         self.label_158.setObjectName(u"label_158")
         self.label_158.setMaximumSize(QSize(16777215, 60))
-        self.label_158.setFont(font21)
+        self.label_158.setFont(font22)
         self.label_158.setStyleSheet(u"border: 0px;")
         self.label_158.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -6263,7 +6812,7 @@ class Ui_Sistema(object):
         self.label_159 = QLabel(self.fin_novo_wid02)
         self.label_159.setObjectName(u"label_159")
         self.label_159.setMaximumSize(QSize(16777215, 40))
-        self.label_159.setFont(font22)
+        self.label_159.setFont(font23)
         self.label_159.setStyleSheet(u"border: 0px;")
         self.label_159.setAlignment(Qt.AlignCenter)
 
@@ -6282,7 +6831,7 @@ class Ui_Sistema(object):
         self.label_166 = QLabel(self.fin_novo_wid05)
         self.label_166.setObjectName(u"label_166")
         self.label_166.setMaximumSize(QSize(16777215, 60))
-        self.label_166.setFont(font21)
+        self.label_166.setFont(font22)
         self.label_166.setStyleSheet(u"border: 0px;")
         self.label_166.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -6321,7 +6870,7 @@ class Ui_Sistema(object):
         self.label_167 = QLabel(self.fin_novo_wid05)
         self.label_167.setObjectName(u"label_167")
         self.label_167.setMaximumSize(QSize(16777215, 40))
-        self.label_167.setFont(font22)
+        self.label_167.setFont(font23)
         self.label_167.setStyleSheet(u"border: 0px;")
         self.label_167.setAlignment(Qt.AlignCenter)
 
@@ -6362,9 +6911,9 @@ class Ui_Sistema(object):
         self.label_114 = QLabel(self.widget_19)
         self.label_114.setObjectName(u"label_114")
         self.label_114.setMaximumSize(QSize(16777215, 50))
-        font24 = QFont()
-        font24.setPointSize(17)
-        self.label_114.setFont(font24)
+        font25 = QFont()
+        font25.setPointSize(17)
+        self.label_114.setFont(font25)
         self.label_114.setAlignment(Qt.AlignCenter)
 
         self.gridLayout_58.addWidget(self.label_114, 0, 0, 1, 2)
@@ -6628,7 +7177,7 @@ class Ui_Sistema(object):
         self.label_115 = QLabel(self.widget_21)
         self.label_115.setObjectName(u"label_115")
         self.label_115.setMaximumSize(QSize(16777215, 50))
-        self.label_115.setFont(font24)
+        self.label_115.setFont(font25)
         self.label_115.setAlignment(Qt.AlignCenter)
 
         self.gridLayout_69.addWidget(self.label_115, 0, 0, 1, 2)
@@ -6700,7 +7249,7 @@ class Ui_Sistema(object):
         self.label_149 = QLabel(self.widget_23)
         self.label_149.setObjectName(u"label_149")
         self.label_149.setMaximumSize(QSize(16777215, 50))
-        self.label_149.setFont(font24)
+        self.label_149.setFont(font25)
         self.label_149.setAlignment(Qt.AlignCenter)
 
         self.gridLayout_73.addWidget(self.label_149, 0, 0, 1, 2)
@@ -6864,7 +7413,7 @@ class Ui_Sistema(object):
         self.fin_btn_home.setObjectName(u"fin_btn_home")
         sizePolicy.setHeightForWidth(self.fin_btn_home.sizePolicy().hasHeightForWidth())
         self.fin_btn_home.setSizePolicy(sizePolicy)
-        self.fin_btn_home.setMaximumSize(QSize(90, 55))
+        self.fin_btn_home.setMaximumSize(QSize(150, 55))
         self.fin_btn_home.setFont(font2)
         self.fin_btn_home.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
@@ -6939,7 +7488,7 @@ class Ui_Sistema(object):
         self.fin_btn_mov.setObjectName(u"fin_btn_mov")
         sizePolicy.setHeightForWidth(self.fin_btn_mov.sizePolicy().hasHeightForWidth())
         self.fin_btn_mov.setSizePolicy(sizePolicy)
-        self.fin_btn_mov.setMaximumSize(QSize(100, 55))
+        self.fin_btn_mov.setMaximumSize(QSize(150, 55))
         self.fin_btn_mov.setFont(font2)
         self.fin_btn_mov.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
@@ -6964,7 +7513,7 @@ class Ui_Sistema(object):
         self.fin_btn_novo.setObjectName(u"fin_btn_novo")
         sizePolicy.setHeightForWidth(self.fin_btn_novo.sizePolicy().hasHeightForWidth())
         self.fin_btn_novo.setSizePolicy(sizePolicy)
-        self.fin_btn_novo.setMaximumSize(QSize(100, 55))
+        self.fin_btn_novo.setMaximumSize(QSize(150, 55))
         self.fin_btn_novo.setFont(font2)
         self.fin_btn_novo.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
@@ -7037,9 +7586,9 @@ class Ui_Sistema(object):
         sizePolicy5.setHeightForWidth(self.btn_entrar.sizePolicy().hasHeightForWidth())
         self.btn_entrar.setSizePolicy(sizePolicy5)
         self.btn_entrar.setMaximumSize(QSize(16777215, 40))
-        font25 = QFont()
-        font25.setPointSize(16)
-        self.btn_entrar.setFont(font25)
+        font26 = QFont()
+        font26.setPointSize(16)
+        self.btn_entrar.setFont(font26)
         self.btn_entrar.setStyleSheet(u"QPushButton{\n"
 "	background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(52, 52, 52, 255), stop:1 rgba(75, 75, 75, 255));\n"
 "	border-radius: 10px;\n"
@@ -7066,9 +7615,9 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.lb_info.sizePolicy().hasHeightForWidth())
         self.lb_info.setSizePolicy(sizePolicy1)
         self.lb_info.setMaximumSize(QSize(16777215, 30))
-        font26 = QFont()
-        font26.setPointSize(13)
-        self.lb_info.setFont(font26)
+        font27 = QFont()
+        font27.setPointSize(13)
+        self.lb_info.setFont(font27)
         self.lb_info.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
 "color: red;")
         self.lb_info.setAlignment(Qt.AlignCenter)
@@ -7095,9 +7644,9 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.label_6.sizePolicy().hasHeightForWidth())
         self.label_6.setSizePolicy(sizePolicy1)
         self.label_6.setMaximumSize(QSize(16777215, 100))
-        font27 = QFont()
-        font27.setPointSize(43)
-        self.label_6.setFont(font27)
+        font28 = QFont()
+        font28.setPointSize(43)
+        self.label_6.setFont(font28)
         self.label_6.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));")
         self.label_6.setAlignment(Qt.AlignCenter)
 
@@ -7133,9 +7682,9 @@ class Ui_Sistema(object):
         self.label_5.setObjectName(u"label_5")
         sizePolicy.setHeightForWidth(self.label_5.sizePolicy().hasHeightForWidth())
         self.label_5.setSizePolicy(sizePolicy)
-        font28 = QFont()
-        font28.setPointSize(75)
-        self.label_5.setFont(font28)
+        font29 = QFont()
+        font29.setPointSize(75)
+        self.label_5.setFont(font29)
         self.label_5.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
 "image: url(:/icons/img01.png)\n"
 "")
@@ -7279,16 +7828,17 @@ class Ui_Sistema(object):
         self.retranslateUi(Sistema)
 
         self.stackedWidget.setCurrentIndex(0)
-        self.stackedWidget_2.setCurrentIndex(2)
+        self.stackedWidget_2.setCurrentIndex(3)
         self.nav_consultas.setCurrentIndex(4)
         self.stackedWidget_3.setCurrentIndex(0)
         self.stackedWidget_4.setCurrentIndex(0)
         self.stackedWidget_5.setCurrentIndex(0)
         self.stackedWidget_9.setCurrentIndex(0)
-        self.stackedWidget_12.setCurrentIndex(0)
-        self.stackedWidget_10.setCurrentIndex(0)
+        self.stackedWidget_12.setCurrentIndex(1)
+        self.stackedWidget_10.setCurrentIndex(1)
         self.stackedWidget_7.setCurrentIndex(3)
         self.stackedWidget_6.setCurrentIndex(0)
+        self.stackedWidget_19.setCurrentIndex(0)
         self.stackedWidget_15.setCurrentIndex(2)
         self.stackedWidget_16.setCurrentIndex(0)
         self.stackedWidget_18.setCurrentIndex(0)
@@ -7512,18 +8062,10 @@ class Ui_Sistema(object):
         self.config_comb_voltar.setText("")
         self.config_comb_editar.setText(QCoreApplication.translate("Sistema", u"Alterar Pre\u00e7o", None))
         self.config_comb_info_2.setText(QCoreApplication.translate("Sistema", u"Informa\u00e7\u00f5es", None))
+        self.config_comb_entrada.setText(QCoreApplication.translate("Sistema", u"Nova Entrada", None))
         self.config_user_voltar.setText("")
         self.config_user_novo_btn.setText(QCoreApplication.translate("Sistema", u"Novo", None))
         self.config_user_lista_2.setText(QCoreApplication.translate("Sistema", u"Lista", None))
-        self.label_92.setText("")
-        self.label_110.setText("")
-        self.label_109.setText("")
-        self.groupBox_5.setTitle(QCoreApplication.translate("Sistema", u"Pre\u00e7o Combust\u00edvel", None))
-        self.label_96.setText(QCoreApplication.translate("Sistema", u"Combustivel:", None))
-        self.config_comb_edit_combustivel_2.setItemText(0, "")
-
-        self.label_93.setText(QCoreApplication.translate("Sistema", u"     Valor:", None))
-        self.config_comb_edit_novo_2.setText("")
         self.label_95.setText("")
         self.groupBox_6.setTitle(QCoreApplication.translate("Sistema", u"Tanque de Combustivel", None))
         self.label_97.setText(QCoreApplication.translate("Sistema", u"Tanque:", None))
@@ -7531,6 +8073,15 @@ class Ui_Sistema(object):
 
         self.label_94.setText(QCoreApplication.translate("Sistema", u"     Quantidade(L): ", None))
         self.config_comb_edit_novo_3.setText("")
+        self.label_109.setText("")
+        self.label_92.setText("")
+        self.label_110.setText("")
+        self.groupBox_5.setTitle(QCoreApplication.translate("Sistema", u"Pre\u00e7o Combust\u00edvel", None))
+        self.label_96.setText(QCoreApplication.translate("Sistema", u"Combustivel:", None))
+        self.config_comb_edit_combustivel_2.setItemText(0, "")
+
+        self.label_93.setText(QCoreApplication.translate("Sistema", u"     Valor:", None))
+        self.config_comb_edit_novo_2.setText("")
         self.label_50.setText(QCoreApplication.translate("Sistema", u"Pre\u00e7o Combustivel", None))
         self.label_86.setText("")
         self.label_91.setText(QCoreApplication.translate("Sistema", u"Valor Novo:", None))
@@ -7544,6 +8095,35 @@ class Ui_Sistema(object):
 
         self.label_79.setText(QCoreApplication.translate("Sistema", u"Combustivel:", None))
         self.config_comb_edit_novo.setText("")
+        self.label_55.setText(QCoreApplication.translate("Sistema", u"Entrada Combustivel", None))
+        self.label_144.setText(QCoreApplication.translate("Sistema", u"Parcelamento", None))
+        self.label_113.setText("")
+        self.label_136.setText(QCoreApplication.translate("Sistema", u"Quantidade", None))
+        self.label_141.setText("")
+        self.config_comb_entrada_combustivel.setItemText(0, "")
+
+        self.label_143.setText(QCoreApplication.translate("Sistema", u"Data entrega", None))
+        self.config_comb_entrada_valor.setText("")
+        self.label_108.setText(QCoreApplication.translate("Sistema", u"Valor da Nota", None))
+        self.config_comb_entrada_quantidade.setText("")
+        self.config_comb_entrada_parcelamento.setItemText(0, QCoreApplication.translate("Sistema", u"1", None))
+        self.config_comb_entrada_parcelamento.setItemText(1, QCoreApplication.translate("Sistema", u"2", None))
+        self.config_comb_entrada_parcelamento.setItemText(2, QCoreApplication.translate("Sistema", u"3", None))
+        self.config_comb_entrada_parcelamento.setItemText(3, QCoreApplication.translate("Sistema", u"4", None))
+        self.config_comb_entrada_parcelamento.setItemText(4, QCoreApplication.translate("Sistema", u"5", None))
+        self.config_comb_entrada_parcelamento.setItemText(5, QCoreApplication.translate("Sistema", u"6", None))
+        self.config_comb_entrada_parcelamento.setItemText(6, QCoreApplication.translate("Sistema", u"7", None))
+        self.config_comb_entrada_parcelamento.setItemText(7, QCoreApplication.translate("Sistema", u"8", None))
+        self.config_comb_entrada_parcelamento.setItemText(8, QCoreApplication.translate("Sistema", u"9", None))
+        self.config_comb_entrada_parcelamento.setItemText(9, QCoreApplication.translate("Sistema", u"10", None))
+        self.config_comb_entrada_parcelamento.setItemText(10, QCoreApplication.translate("Sistema", u"11", None))
+        self.config_comb_entrada_parcelamento.setItemText(11, QCoreApplication.translate("Sistema", u"12", None))
+
+        self.config_comb_edit_btn_2.setText(QCoreApplication.translate("Sistema", u"Salvar", None))
+        self.label_88.setText("")
+        self.label_112.setText("")
+        self.label_142.setText(QCoreApplication.translate("Sistema", u"Combustivel", None))
+        self.label_146.setText(QCoreApplication.translate("Sistema", u"Vencimento", None))
         self.cons_lb_2.setText(QCoreApplication.translate("Sistema", u"     Estoque", None))
         self.est_lb_nav.setText("")
         self.est_btn_entrada.setText(QCoreApplication.translate("Sistema", u"Entrada", None))
@@ -7681,6 +8261,24 @@ class Ui_Sistema(object):
         self.label_98.setText(QCoreApplication.translate("Sistema", u"Conta Banc\u00e1ria", None))
         self.fin_home_cx_banco.setText(QCoreApplication.translate("Sistema", u"R$ 1000,00", None))
         self.label_102.setText(QCoreApplication.translate("Sistema", u"Fluxo de Caixa", None))
+        self.comboBox.setItemText(0, QCoreApplication.translate("Sistema", u"Ultima Semana", None))
+        self.comboBox.setItemText(1, QCoreApplication.translate("Sistema", u"Ultima Quinzena", None))
+        self.comboBox.setItemText(2, QCoreApplication.translate("Sistema", u"Ultimo M\u00eas", None))
+        self.comboBox.setItemText(3, QCoreApplication.translate("Sistema", u"Ultimo Trimestre", None))
+        self.comboBox.setItemText(4, QCoreApplication.translate("Sistema", u"Ultimo Semestre", None))
+        self.comboBox.setItemText(5, QCoreApplication.translate("Sistema", u"Ultimo Ano", None))
+        self.comboBox.setItemText(6, QCoreApplication.translate("Sistema", u"Selecionar Periodo", None))
+
+        self.label_179.setText(QCoreApplication.translate("Sistema", u"\u00e0", None))
+        self.financeiro_fluxo_pesq.setText("")
+        self.label_145.setText(QCoreApplication.translate("Sistema", u"Receitas", None))
+        self.financeiro_fluxo_receita.setText(QCoreApplication.translate("Sistema", u"R$ 000,00", None))
+        self.label_147.setText(QCoreApplication.translate("Sistema", u"Despesas", None))
+        self.financeiro_fluxo_despesa.setText(QCoreApplication.translate("Sistema", u"R$ 000,00", None))
+        self.label_150.setText(QCoreApplication.translate("Sistema", u"Entradas", None))
+        self.financeiro_fluxo_entrada.setText(QCoreApplication.translate("Sistema", u"R$ 000,00", None))
+        self.label_165.setText(QCoreApplication.translate("Sistema", u"Total", None))
+        self.financeiro_fluxo_total.setText(QCoreApplication.translate("Sistema", u"R$ 000,00", None))
         self.label_107.setText(QCoreApplication.translate("Sistema", u"Ultimas Movimenta\u00e7\u00f5es", None))
         self.label_121.setText(QCoreApplication.translate("Sistema", u"Vendas Combust\u00edvel", None))
         self.pushButton.setText("")

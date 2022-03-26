@@ -429,7 +429,7 @@ QPushButton:hover{
            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));</string>
           </property>
           <property name="currentIndex">
-           <number>2</number>
+           <number>3</number>
           </property>
           <widget class="QWidget" name="Inicio">
            <layout class="QGridLayout" name="gridLayout_3">
@@ -5608,7 +5608,7 @@ border-bottom: none;
                   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));</string>
                  </property>
                  <property name="currentIndex">
-                  <number>0</number>
+                  <number>1</number>
                  </property>
                  <widget class="QWidget" name="config_main">
                   <layout class="QHBoxLayout" name="horizontalLayout_19">
@@ -5637,7 +5637,7 @@ border-bottom: none;
                      </property>
                      <property name="maximumSize">
                       <size>
-                       <width>90</width>
+                       <width>150</width>
                        <height>80</height>
                       </size>
                      </property>
@@ -5653,7 +5653,6 @@ border-bottom: none;
 	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
 	color: white;
 	border-radius: none;
-
 }
 
 QPushButton:hover{
@@ -5682,7 +5681,7 @@ QPushButton:hover{
                      </property>
                      <property name="maximumSize">
                       <size>
-                       <width>90</width>
+                       <width>150</width>
                        <height>80</height>
                       </size>
                      </property>
@@ -5698,16 +5697,11 @@ QPushButton:hover{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
 	color: white;
 	border-radius: none;
-
 }
 
 QPushButton:hover{
 	background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(61, 61, 61, 255), stop:1 rgba(75, 75, 75, 255))
-}
-
-
-
-</string>
+}</string>
                      </property>
                      <property name="text">
                       <string>Usuarios</string>
@@ -5799,7 +5793,7 @@ QPushButton:hover{
                      </property>
                      <property name="maximumSize">
                       <size>
-                       <width>90</width>
+                       <width>150</width>
                        <height>80</height>
                       </size>
                      </property>
@@ -5841,7 +5835,7 @@ QPushButton:hover{
                      </property>
                      <property name="maximumSize">
                       <size>
-                       <width>90</width>
+                       <width>150</width>
                        <height>80</height>
                       </size>
                      </property>
@@ -5870,6 +5864,48 @@ QPushButton:hover{
                      </property>
                      <property name="text">
                       <string>Informações</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="config_comb_entrada">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>150</width>
+                       <height>80</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>12</pointsize>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+	border: none;
+	border-right: 1px solid rgb(166, 166, 166);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+	color: white;
+	border-radius: none;
+
+}
+
+QPushButton:hover{
+	background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(61, 61, 61, 255), stop:1 rgba(75, 75, 75, 255))
+}
+
+
+
+</string>
+                     </property>
+                     <property name="text">
+                      <string>Nova Entrada</string>
                      </property>
                     </widget>
                    </item>
@@ -6058,7 +6094,7 @@ QPushButton:hover{
                <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));</string>
               </property>
               <property name="currentIndex">
-               <number>0</number>
+               <number>1</number>
               </property>
               <widget class="QWidget" name="usuarios">
                <layout class="QGridLayout" name="gridLayout_47">
@@ -6128,7 +6164,198 @@ QPushButton:hover{
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QGridLayout" name="gridLayout_49">
-                       <item row="3" column="2">
+                       <item row="2" column="1">
+                        <widget class="QLabel" name="label_95">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>90</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border: none;</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="3" column="0">
+                        <spacer name="verticalSpacer_2">
+                         <property name="orientation">
+                          <enum>Qt::Vertical</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>20</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                       <item row="1" column="0">
+                        <widget class="QGroupBox" name="groupBox_6">
+                         <property name="maximumSize">
+                          <size>
+                           <width>550</width>
+                           <height>100</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>11</pointsize>
+                          </font>
+                         </property>
+                         <property name="title">
+                          <string>Tanque de Combustivel</string>
+                         </property>
+                         <layout class="QHBoxLayout" name="horizontalLayout_23">
+                          <item>
+                           <widget class="QLabel" name="label_97">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>120</width>
+                              <height>30</height>
+                             </size>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <pointsize>12</pointsize>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">border: none;</string>
+                            </property>
+                            <property name="text">
+                             <string>Tanque:</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QComboBox" name="config_comb_edit_combustivel_3">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>200</width>
+                              <height>30</height>
+                             </size>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">background-color: white;
+border-radius: 5px;
+</string>
+                            </property>
+                            <property name="editable">
+                             <bool>true</bool>
+                            </property>
+                            <item>
+                             <property name="text">
+                              <string/>
+                             </property>
+                            </item>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLabel" name="label_94">
+                            <property name="maximumSize">
+                             <size>
+                              <width>150</width>
+                              <height>30</height>
+                             </size>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <pointsize>12</pointsize>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">border: none;</string>
+                            </property>
+                            <property name="text">
+                             <string>     Quantidade(L): </string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLineEdit" name="config_comb_edit_novo_3">
+                            <property name="enabled">
+                             <bool>true</bool>
+                            </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>150</width>
+                              <height>25</height>
+                             </size>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;
+color: rgb(90, 90, 90)</string>
+                            </property>
+                            <property name="text">
+                             <string/>
+                            </property>
+                            <property name="frame">
+                             <bool>false</bool>
+                            </property>
+                            <property name="alignment">
+                             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                            </property>
+                            <property name="dragEnabled">
+                             <bool>false</bool>
+                            </property>
+                            <property name="readOnly">
+                             <bool>true</bool>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item row="3" column="3">
+                        <widget class="QLabel" name="label_109">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border: none;</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="2" column="2">
                         <widget class="QLabel" name="label_92">
                          <property name="sizePolicy">
                           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
@@ -6155,29 +6382,8 @@ QPushButton:hover{
                          </property>
                         </widget>
                        </item>
-                       <item row="5" column="3">
-                        <widget class="QLabel" name="label_110">
-                         <property name="maximumSize">
-                          <size>
-                           <width>16777215</width>
-                           <height>30</height>
-                          </size>
-                         </property>
-                         <property name="font">
-                          <font>
-                           <pointsize>12</pointsize>
-                          </font>
-                         </property>
-                         <property name="styleSheet">
-                          <string notr="true">border: none;</string>
-                         </property>
-                         <property name="text">
-                          <string/>
-                         </property>
-                        </widget>
-                       </item>
                        <item row="4" column="3">
-                        <widget class="QLabel" name="label_109">
+                        <widget class="QLabel" name="label_110">
                          <property name="maximumSize">
                           <size>
                            <width>16777215</width>
@@ -6293,176 +6499,6 @@ border-radius: 5px;
                           </item>
                           <item>
                            <widget class="QLineEdit" name="config_comb_edit_novo_2">
-                            <property name="enabled">
-                             <bool>true</bool>
-                            </property>
-                            <property name="maximumSize">
-                             <size>
-                              <width>150</width>
-                              <height>25</height>
-                             </size>
-                            </property>
-                            <property name="styleSheet">
-                             <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 10px;
-color: rgb(90, 90, 90)</string>
-                            </property>
-                            <property name="text">
-                             <string/>
-                            </property>
-                            <property name="frame">
-                             <bool>false</bool>
-                            </property>
-                            <property name="alignment">
-                             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-                            </property>
-                            <property name="dragEnabled">
-                             <bool>false</bool>
-                            </property>
-                            <property name="readOnly">
-                             <bool>true</bool>
-                            </property>
-                           </widget>
-                          </item>
-                         </layout>
-                        </widget>
-                       </item>
-                       <item row="3" column="1">
-                        <widget class="QLabel" name="label_95">
-                         <property name="sizePolicy">
-                          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-                           <horstretch>0</horstretch>
-                           <verstretch>0</verstretch>
-                          </sizepolicy>
-                         </property>
-                         <property name="maximumSize">
-                          <size>
-                           <width>90</width>
-                           <height>30</height>
-                          </size>
-                         </property>
-                         <property name="font">
-                          <font>
-                           <pointsize>12</pointsize>
-                          </font>
-                         </property>
-                         <property name="styleSheet">
-                          <string notr="true">border: none;</string>
-                         </property>
-                         <property name="text">
-                          <string/>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="4" column="0">
-                        <spacer name="verticalSpacer_2">
-                         <property name="orientation">
-                          <enum>Qt::Vertical</enum>
-                         </property>
-                         <property name="sizeHint" stdset="0">
-                          <size>
-                           <width>20</width>
-                           <height>40</height>
-                          </size>
-                         </property>
-                        </spacer>
-                       </item>
-                       <item row="1" column="0">
-                        <widget class="QGroupBox" name="groupBox_6">
-                         <property name="maximumSize">
-                          <size>
-                           <width>550</width>
-                           <height>100</height>
-                          </size>
-                         </property>
-                         <property name="font">
-                          <font>
-                           <pointsize>11</pointsize>
-                          </font>
-                         </property>
-                         <property name="title">
-                          <string>Tanque de Combustivel</string>
-                         </property>
-                         <layout class="QHBoxLayout" name="horizontalLayout_23">
-                          <item>
-                           <widget class="QLabel" name="label_97">
-                            <property name="sizePolicy">
-                             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-                              <horstretch>0</horstretch>
-                              <verstretch>0</verstretch>
-                             </sizepolicy>
-                            </property>
-                            <property name="maximumSize">
-                             <size>
-                              <width>120</width>
-                              <height>30</height>
-                             </size>
-                            </property>
-                            <property name="font">
-                             <font>
-                              <pointsize>12</pointsize>
-                             </font>
-                            </property>
-                            <property name="styleSheet">
-                             <string notr="true">border: none;</string>
-                            </property>
-                            <property name="text">
-                             <string>Tanque:</string>
-                            </property>
-                           </widget>
-                          </item>
-                          <item>
-                           <widget class="QComboBox" name="config_comb_edit_combustivel_3">
-                            <property name="sizePolicy">
-                             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-                              <horstretch>0</horstretch>
-                              <verstretch>0</verstretch>
-                             </sizepolicy>
-                            </property>
-                            <property name="maximumSize">
-                             <size>
-                              <width>200</width>
-                              <height>30</height>
-                             </size>
-                            </property>
-                            <property name="styleSheet">
-                             <string notr="true">background-color: white;
-border-radius: 5px;
-</string>
-                            </property>
-                            <property name="editable">
-                             <bool>true</bool>
-                            </property>
-                            <item>
-                             <property name="text">
-                              <string/>
-                             </property>
-                            </item>
-                           </widget>
-                          </item>
-                          <item>
-                           <widget class="QLabel" name="label_94">
-                            <property name="maximumSize">
-                             <size>
-                              <width>150</width>
-                              <height>30</height>
-                             </size>
-                            </property>
-                            <property name="font">
-                             <font>
-                              <pointsize>12</pointsize>
-                             </font>
-                            </property>
-                            <property name="styleSheet">
-                             <string notr="true">border: none;</string>
-                            </property>
-                            <property name="text">
-                             <string>     Quantidade(L): </string>
-                            </property>
-                           </widget>
-                          </item>
-                          <item>
-                           <widget class="QLineEdit" name="config_comb_edit_novo_3">
                             <property name="enabled">
                              <bool>true</bool>
                             </property>
@@ -6846,6 +6882,588 @@ color: rgb(90, 90, 90)</string>
                          </property>
                          <property name="readOnly">
                           <bool>false</bool>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                  <widget class="QWidget" name="entrada_combustivel">
+                   <layout class="QGridLayout" name="gridLayout_82">
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_55">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <pointsize>18</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));
+color: white;
+border-radius: 10px;
+</string>
+                      </property>
+                      <property name="text">
+                       <string>Entrada Combustivel</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QFrame" name="frame_42">
+                      <property name="maximumSize">
+                       <size>
+                        <width>600</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <pointsize>12</pointsize>
+                       </font>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_76">
+                       <item row="7" column="0">
+                        <widget class="QLabel" name="label_144">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border: none;</string>
+                         </property>
+                         <property name="text">
+                          <string>Parcelamento</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="12" column="4">
+                        <widget class="QLabel" name="label_113">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border: none;</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="0">
+                        <widget class="QLabel" name="label_136">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border: none;</string>
+                         </property>
+                         <property name="text">
+                          <string>Quantidade</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="10" column="2">
+                        <widget class="QLabel" name="label_141">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>90</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border: none;</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="2" colspan="3">
+                        <widget class="QComboBox" name="config_comb_entrada_combustivel">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color: white;
+border-radius: 5px;
+</string>
+                         </property>
+                         <property name="editable">
+                          <bool>true</bool>
+                         </property>
+                         <item>
+                          <property name="text">
+                           <string/>
+                          </property>
+                         </item>
+                        </widget>
+                       </item>
+                       <item row="4" column="0">
+                        <widget class="QLabel" name="label_143">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border: none;</string>
+                         </property>
+                         <property name="text">
+                          <string>Data entrega</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="3" column="2" colspan="3">
+                        <widget class="QLineEdit" name="config_comb_entrada_valor">
+                         <property name="enabled">
+                          <bool>true</bool>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>25</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;
+color: rgb(90, 90, 90)</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="frame">
+                          <bool>false</bool>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="dragEnabled">
+                          <bool>false</bool>
+                         </property>
+                         <property name="readOnly">
+                          <bool>false</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="3" column="0">
+                        <widget class="QLabel" name="label_108">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border: none;</string>
+                         </property>
+                         <property name="text">
+                          <string>Valor da Nota</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="2" colspan="3">
+                        <widget class="QLineEdit" name="config_comb_entrada_quantidade">
+                         <property name="enabled">
+                          <bool>true</bool>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>25</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;
+color: rgb(90, 90, 90)</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="frame">
+                          <bool>false</bool>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="dragEnabled">
+                          <bool>false</bool>
+                         </property>
+                         <property name="readOnly">
+                          <bool>false</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="7" column="2" colspan="2">
+                        <widget class="QComboBox" name="config_comb_entrada_parcelamento">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color: white;
+border-radius: 5px;
+padding-left: 20px;
+</string>
+                         </property>
+                         <property name="editable">
+                          <bool>true</bool>
+                         </property>
+                         <item>
+                          <property name="text">
+                           <string>1</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>2</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>3</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>4</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>5</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>6</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>7</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>8</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>9</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>10</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>11</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>12</string>
+                          </property>
+                         </item>
+                        </widget>
+                       </item>
+                       <item row="9" column="2" colspan="3">
+                        <widget class="QPushButton" name="config_comb_edit_btn_2">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>9999999</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 209, 22, 255));
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 237, 162, 255));
+	border: 1px solid rgb(135, 135, 135);
+}
+</string>
+                         </property>
+                         <property name="text">
+                          <string>Salvar</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="10" column="3">
+                        <widget class="QLabel" name="label_88">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>90</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border: none;</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="11" column="4">
+                        <widget class="QLabel" name="label_112">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border: none;</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="0">
+                        <widget class="QLabel" name="label_142">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>120</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border: none;</string>
+                         </property>
+                         <property name="text">
+                          <string>Combustivel</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="4" column="2" colspan="2">
+                        <widget class="QDateEdit" name="config_comb_entrada_data">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QDateEdit{
+background-color: white;
+border-radius: 5px;
+padding-left: 10px;
+}
+
+QCalendarWidget QWidget{
+	
+	background-color: rgb(243, 243, 243);
+}
+
+QCalendarWidget QToolButton {
+	color: black;
+}
+
+</string>
+                         </property>
+                         <property name="calendarPopup">
+                          <bool>true</bool>
+                         </property>
+                         <property name="date">
+                          <date>
+                           <year>2021</year>
+                           <month>1</month>
+                           <day>1</day>
+                          </date>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="5" column="0">
+                        <widget class="QLabel" name="label_146">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>12</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border: none;</string>
+                         </property>
+                         <property name="text">
+                          <string>Vencimento</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="5" column="2" colspan="2">
+                        <widget class="QDateEdit" name="config_comb_entrada_vencimento">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QDateEdit{
+background-color: white;
+border-radius: 5px;
+padding-left: 10px;
+}
+
+QCalendarWidget QWidget{
+	
+	background-color: rgb(243, 243, 243);
+}
+
+QCalendarWidget QToolButton {
+	color: black;
+}
+
+</string>
+                         </property>
+                         <property name="calendarPopup">
+                          <bool>true</bool>
+                         </property>
+                         <property name="date">
+                          <date>
+                           <year>2021</year>
+                           <month>1</month>
+                           <day>1</day>
+                          </date>
                          </property>
                         </widget>
                        </item>
@@ -10320,33 +10938,513 @@ border-bottom: 1px solid rgb(235, 235, 235)</string>
                     <number>0</number>
                    </property>
                    <item>
-                    <widget class="QLabel" name="label_102">
+                    <widget class="QFrame" name="frame_43">
                      <property name="maximumSize">
                       <size>
                        <width>16777215</width>
-                       <height>30</height>
+                       <height>50</height>
                       </size>
                      </property>
-                     <property name="font">
-                      <font>
-                       <pointsize>10</pointsize>
-                       <weight>50</weight>
-                       <bold>false</bold>
-                      </font>
+                     <property name="frameShape">
+                      <enum>QFrame::StyledPanel</enum>
                      </property>
-                     <property name="text">
-                      <string>Fluxo de Caixa</string>
+                     <property name="frameShadow">
+                      <enum>QFrame::Raised</enum>
                      </property>
-                     <property name="alignment">
-                      <set>Qt::AlignCenter</set>
-                     </property>
+                     <layout class="QHBoxLayout" name="horizontalLayout_63">
+                      <property name="leftMargin">
+                       <number>10</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>10</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label_102">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>35</height>
+                         </size>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <pointsize>13</pointsize>
+                          <weight>50</weight>
+                          <bold>false</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>Fluxo de Caixa</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QComboBox" name="comboBox">
+                        <property name="maximumSize">
+                         <size>
+                          <width>100</width>
+                          <height>30</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">QComboBox {
+	background-color: rgb(255, 255, 255);
+border-radius: 5px;
+}</string>
+                        </property>
+                        <item>
+                         <property name="text">
+                          <string>Ultima Semana</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>Ultima Quinzena</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>Ultimo Mês</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>Ultimo Trimestre</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>Ultimo Semestre</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>Ultimo Ano</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>Selecionar Periodo</string>
+                         </property>
+                        </item>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QStackedWidget" name="stackedWidget_19">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>200</width>
+                          <height>30</height>
+                         </size>
+                        </property>
+                        <property name="currentIndex">
+                         <number>0</number>
+                        </property>
+                        <widget class="QWidget" name="page_17">
+                         <layout class="QHBoxLayout" name="horizontalLayout_64">
+                          <property name="leftMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="topMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="rightMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="bottomMargin">
+                           <number>0</number>
+                          </property>
+                          <item>
+                           <widget class="QFrame" name="frame_49">
+                            <property name="enabled">
+                             <bool>true</bool>
+                            </property>
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>200</width>
+                              <height>16777215</height>
+                             </size>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_65">
+                             <property name="leftMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>0</number>
+                             </property>
+                             <item>
+                              <widget class="QDateEdit" name="financeiro_fluxo_filtro_dat1">
+                               <property name="styleSheet">
+                                <string notr="true">QDateEdit{
+background-color: white;
+border-radius: 5px;
+}
+
+QCalendarWidget QWidget{
+	
+	background-color: rgb(243, 243, 243);
+}
+
+QCalendarWidget QToolButton {
+	color: black;
+}
+
+</string>
+                               </property>
+                               <property name="calendarPopup">
+                                <bool>true</bool>
+                               </property>
+                               <property name="date">
+                                <date>
+                                 <year>2021</year>
+                                 <month>1</month>
+                                 <day>1</day>
+                                </date>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_179">
+                               <property name="maximumSize">
+                                <size>
+                                 <width>10</width>
+                                 <height>16777215</height>
+                                </size>
+                               </property>
+                               <property name="font">
+                                <font>
+                                 <pointsize>10</pointsize>
+                                </font>
+                               </property>
+                               <property name="styleSheet">
+                                <string notr="true"/>
+                               </property>
+                               <property name="text">
+                                <string>à</string>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QDateEdit" name="financeiro_fluxo_filtro_dat2">
+                               <property name="styleSheet">
+                                <string notr="true">QDateEdit{
+background-color: white;
+border-radius: 5px;
+}
+
+QCalendarWidget QWidget{
+	
+	background-color: rgb(243, 243, 243);
+}
+
+QCalendarWidget QToolButton {
+	color: black;
+}
+
+</string>
+                               </property>
+                               <property name="calendarPopup">
+                                <bool>true</bool>
+                               </property>
+                               <property name="date">
+                                <date>
+                                 <year>2021</year>
+                                 <month>1</month>
+                                 <day>1</day>
+                                </date>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QPushButton" name="financeiro_fluxo_pesq">
+                            <property name="maximumSize">
+                             <size>
+                              <width>40</width>
+                              <height>40</height>
+                             </size>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QPushButton {
+	image: url(:/icons/img09.png);
+	padding: 8px;
+	border-radius: 5px;
+}
+
+QPushButton:hover {
+	padding: 6px;
+}
+
+QPushButton:pressed {
+	background-color: rgb(247, 247, 247);
+}</string>
+                            </property>
+                            <property name="text">
+                             <string/>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                        <widget class="QWidget" name="page_18"/>
+                       </widget>
+                      </item>
+                     </layout>
                     </widget>
                    </item>
                    <item>
                     <widget class="QWidget" name="fin_home_graf" native="true">
                      <property name="styleSheet">
-                      <string notr="true"/>
+                      <string notr="true">QLabel {
+	font: 12pt &quot;Segoe UI Historic&quot;;
+	padding-left: 30px;
+	padding-right: 50px;
+}</string>
                      </property>
+                     <layout class="QVBoxLayout" name="verticalLayout_8">
+                      <item>
+                       <widget class="QFrame" name="frame_44">
+                        <property name="styleSheet">
+                         <string notr="true">border:none;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_25">
+                         <item>
+                          <widget class="QWidget" name="widget_31" native="true">
+                           <property name="maximumSize">
+                            <size>
+                             <width>50</width>
+                             <height>50</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">border: 0px;
+image: url(:/icons/img08.png);
+padding: 5px;</string>
+                           </property>
+                           <layout class="QHBoxLayout" name="horizontalLayout_50"/>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="label_145">
+                           <property name="text">
+                            <string>Receitas</string>
+                           </property>
+                           <property name="alignment">
+                            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="financeiro_fluxo_receita">
+                           <property name="text">
+                            <string>R$ 000,00</string>
+                           </property>
+                           <property name="alignment">
+                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QFrame" name="frame_45">
+                        <property name="styleSheet">
+                         <string notr="true">border:none;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_40">
+                         <item>
+                          <widget class="QWidget" name="widget_41" native="true">
+                           <property name="maximumSize">
+                            <size>
+                             <width>50</width>
+                             <height>50</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">border: 0px;
+image: url(:/icons/img07.png);
+padding: 5px;</string>
+                           </property>
+                           <layout class="QHBoxLayout" name="horizontalLayout_54"/>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="label_147">
+                           <property name="text">
+                            <string>Despesas</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="financeiro_fluxo_despesa">
+                           <property name="text">
+                            <string>R$ 000,00</string>
+                           </property>
+                           <property name="alignment">
+                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QFrame" name="frame_46">
+                        <property name="styleSheet">
+                         <string notr="true">border:none;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_41">
+                         <item>
+                          <widget class="QWidget" name="widget_32" native="true">
+                           <property name="maximumSize">
+                            <size>
+                             <width>50</width>
+                             <height>50</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">border: 0px;
+image: url(:/icons/img08.png);
+padding: 5px;</string>
+                           </property>
+                           <layout class="QHBoxLayout" name="horizontalLayout_52"/>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="label_150">
+                           <property name="text">
+                            <string>Entradas</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="financeiro_fluxo_entrada">
+                           <property name="text">
+                            <string>R$ 000,00</string>
+                           </property>
+                           <property name="alignment">
+                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QFrame" name="frame_47">
+                        <property name="styleSheet">
+                         <string notr="true">border:none;
+font: 63 12pt &quot;Segoe UI Semibold&quot;;</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_47">
+                         <item>
+                          <widget class="QWidget" name="widget_44" native="true">
+                           <property name="maximumSize">
+                            <size>
+                             <width>50</width>
+                             <height>50</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">border: 0px;
+padding: 5px;</string>
+                           </property>
+                           <layout class="QHBoxLayout" name="horizontalLayout_62"/>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="label_165">
+                           <property name="font">
+                            <font>
+                             <family>Segoe UI Semibold</family>
+                             <pointsize>12</pointsize>
+                             <weight>7</weight>
+                             <italic>false</italic>
+                             <bold>false</bold>
+                            </font>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true"/>
+                           </property>
+                           <property name="text">
+                            <string>Total</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="financeiro_fluxo_total">
+                           <property name="text">
+                            <string>R$ 000,00</string>
+                           </property>
+                           <property name="alignment">
+                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                     </layout>
                     </widget>
                    </item>
                   </layout>
@@ -10422,6 +11520,12 @@ border-bottom: 1px solid rgb(235, 235, 235)</string>
                       </property>
                       <item row="0" column="0" rowspan="3">
                        <widget class="QWidget" name="widget_29" native="true">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
                         <property name="maximumSize">
                          <size>
                           <width>50</width>
@@ -10598,6 +11702,12 @@ QPushButton:pressed {
                       </item>
                       <item row="0" column="0" rowspan="3">
                        <widget class="QWidget" name="widget_34" native="true">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
                         <property name="maximumSize">
                          <size>
                           <width>50</width>
@@ -10722,6 +11832,12 @@ QPushButton:pressed {
                       </property>
                       <item row="0" column="0" rowspan="3">
                        <widget class="QWidget" name="widget_36" native="true">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
                         <property name="maximumSize">
                          <size>
                           <width>50</width>
@@ -10872,6 +11988,12 @@ QPushButton:pressed {
                       </property>
                       <item row="0" column="0" rowspan="3">
                        <widget class="QWidget" name="widget_38" native="true">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
                         <property name="maximumSize">
                          <size>
                           <width>50</width>
@@ -14815,7 +15937,7 @@ border-radius: 5px 5px;</string>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
+                   <width>150</width>
                    <height>55</height>
                   </size>
                  </property>
@@ -14980,7 +16102,7 @@ border-bottom: none;
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
+                   <width>150</width>
                    <height>55</height>
                   </size>
                  </property>
@@ -15022,7 +16144,7 @@ QPushButton:hover{
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
+                   <width>150</width>
                    <height>55</height>
                   </size>
                  </property>

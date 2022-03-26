@@ -94,3 +94,9 @@ def verificar_vazio(dados):
         if i == "":
             return True
     return False
+
+def verificar_vazio_dic(dados):
+    for i in dados.values():
+        if i == "":
+            return True
+    return False

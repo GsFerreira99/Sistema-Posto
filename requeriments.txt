@@ -1,3 +1,5 @@
 matplotlib
 PyQt5
 cx_freeze
+PyPdf2
+reportlab

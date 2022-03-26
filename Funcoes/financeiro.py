@@ -271,11 +271,12 @@ class Home(Financeiro):
         if periodo == "Hoje":
             dados = DataBase(caminho_db()).querry_generica("SELECT valor FROM Despesas WHERE data = '{}' AND status = 'Pago' ".format(QDateTime.currentDateTime().toString('yyyy-MM-dd')))
         if periodo == "Mês":
-            data = "{}-31".format(QDateTime.currentDateTime().toString('yyyy-MM'))
-            dados = DataBase(caminho_db()).querry_generica("SELECT valor FROM Despesas WHERE data BETWEEN '{}' AND '{}' AND status = 'Pago' ".format(QDateTime.currentDateTime().toString('yyyy-MM-dd'), data))
+            data_ini = "{}-01".format(QDateTime.currentDateTime().toString('yyyy-MM'))
+            data_fim = "{}-31".format(QDateTime.currentDateTime().toString('yyyy-MM'))
+            dados = DataBase(caminho_db()).querry_generica("SELECT valor FROM Despesas WHERE data BETWEEN '{}' AND '{}' AND status = 'Pago' ".format(data_ini, data_fim))
         total = 0
         for i in dados:
-            total+= i
+            total+= i[0]
         return mascara_dinheiro(total)
 
 class Transacao:

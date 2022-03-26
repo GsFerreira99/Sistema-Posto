@@ -10,3 +10,4 @@ venv/
 *.spec
 virtual/
 venv_32x/
+*.pdf

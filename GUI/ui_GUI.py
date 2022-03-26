@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'InterfacemRjAjN.ui'
+## Form generated from reading UI file 'InterfaceVWLagM.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -19,9 +19,8 @@ class Ui_Sistema(object):
         if not Sistema.objectName():
             Sistema.setObjectName(u"Sistema")
         Sistema.setEnabled(True)
-        Sistema.resize(1056, 600)
+        Sistema.resize(1550, 840)
         font = QFont()
-        font.setFamily(u"Bahnschrift SemiBold SemiConden")
         Sistema.setFont(font)
         Sistema.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(173, 173, 173, 255), stop:1 rgba(231, 231, 231, 255));\n"
 "")
@@ -62,7 +61,6 @@ class Ui_Sistema(object):
         self.btn_estoque.setSizePolicy(sizePolicy)
         self.btn_estoque.setMaximumSize(QSize(100, 60))
         font1 = QFont()
-        font1.setFamily(u"Bahnschrift Light Condensed")
         font1.setPointSize(14)
         self.btn_estoque.setFont(font1)
         self.btn_estoque.setStyleSheet(u"QPushButton {\n"
@@ -113,7 +111,6 @@ class Ui_Sistema(object):
         self.btn_config.setSizePolicy(sizePolicy)
         self.btn_config.setMaximumSize(QSize(100, 60))
         font2 = QFont()
-        font2.setFamily(u"Oswald Light")
         font2.setPointSize(12)
         self.btn_config.setFont(font2)
         self.btn_config.setStyleSheet(u"QPushButton {\n"
@@ -259,7 +256,6 @@ class Ui_Sistema(object):
         self.label_13 = QLabel(self.frame_7)
         self.label_13.setObjectName(u"label_13")
         font3 = QFont()
-        font3.setFamily(u"Noto Serif")
         font3.setPointSize(16)
         font3.setBold(True)
         font3.setWeight(75)
@@ -342,7 +338,6 @@ class Ui_Sistema(object):
         self.ini_btn_ponto.setObjectName(u"ini_btn_ponto")
         self.ini_btn_ponto.setMaximumSize(QSize(200, 50))
         font4 = QFont()
-        font4.setFamily(u"Bahnschrift Light Condensed")
         font4.setPointSize(13)
         font4.setBold(False)
         font4.setWeight(50)
@@ -396,7 +391,6 @@ class Ui_Sistema(object):
         self.label_59.setSizePolicy(sizePolicy1)
         self.label_59.setMaximumSize(QSize(16777215, 800))
         font5 = QFont()
-        font5.setFamily(u"Oswald Light")
         font5.setPointSize(80)
         self.label_59.setFont(font5)
         self.label_59.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
@@ -466,7 +460,6 @@ class Ui_Sistema(object):
         self.cons_lb_informacao.setObjectName(u"cons_lb_informacao")
         self.cons_lb_informacao.setMaximumSize(QSize(80, 16777215))
         font6 = QFont()
-        font6.setFamily(u"Noto Serif")
         font6.setPointSize(10)
         self.cons_lb_informacao.setFont(font6)
         self.cons_lb_informacao.setStyleSheet(u"")
@@ -578,10 +571,7 @@ class Ui_Sistema(object):
         sizePolicy.setHeightForWidth(self.cons_btn_ok.sizePolicy().hasHeightForWidth())
         self.cons_btn_ok.setSizePolicy(sizePolicy)
         self.cons_btn_ok.setMaximumSize(QSize(30, 28))
-        font7 = QFont()
-        font7.setFamily(u"Oswald Light")
-        font7.setPointSize(10)
-        self.cons_btn_ok.setFont(font7)
+        self.cons_btn_ok.setFont(font6)
         self.cons_btn_ok.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
 "	border-right: 1px solid rgb(166, 166, 166); \n"
@@ -658,7 +648,7 @@ class Ui_Sistema(object):
         sizePolicy.setHeightForWidth(self.cons_btn_exportar.sizePolicy().hasHeightForWidth())
         self.cons_btn_exportar.setSizePolicy(sizePolicy)
         self.cons_btn_exportar.setMaximumSize(QSize(60, 28))
-        self.cons_btn_exportar.setFont(font7)
+        self.cons_btn_exportar.setFont(font6)
         self.cons_btn_exportar.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
 "	border-right: 1px solid rgb(166, 166, 166); \n"
@@ -706,7 +696,7 @@ class Ui_Sistema(object):
         sizePolicy.setHeightForWidth(self.cons_btn_tab_ok.sizePolicy().hasHeightForWidth())
         self.cons_btn_tab_ok.setSizePolicy(sizePolicy)
         self.cons_btn_tab_ok.setMaximumSize(QSize(30, 28))
-        self.cons_btn_tab_ok.setFont(font7)
+        self.cons_btn_tab_ok.setFont(font6)
         self.cons_btn_tab_ok.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
 "	border-right: 1px solid rgb(166, 166, 166); \n"
@@ -745,12 +735,7 @@ class Ui_Sistema(object):
         sizePolicy.setHeightForWidth(self.cons_btn_tab_del.sizePolicy().hasHeightForWidth())
         self.cons_btn_tab_del.setSizePolicy(sizePolicy)
         self.cons_btn_tab_del.setMaximumSize(QSize(60, 30))
-        font8 = QFont()
-        font8.setFamily(u"Oswald Light")
-        font8.setPointSize(13)
-        font8.setBold(False)
-        font8.setWeight(50)
-        self.cons_btn_tab_del.setFont(font8)
+        self.cons_btn_tab_del.setFont(font4)
         self.cons_btn_tab_del.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
 "	border-right: 1px solid rgb(166, 166, 166); \n"
@@ -777,7 +762,7 @@ class Ui_Sistema(object):
         sizePolicy.setHeightForWidth(self.cons_btn_tab_detalhes.sizePolicy().hasHeightForWidth())
         self.cons_btn_tab_detalhes.setSizePolicy(sizePolicy)
         self.cons_btn_tab_detalhes.setMaximumSize(QSize(82, 30))
-        self.cons_btn_tab_detalhes.setFont(font8)
+        self.cons_btn_tab_detalhes.setFont(font4)
         self.cons_btn_tab_detalhes.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
 "	border-right: 1px solid rgb(166, 166, 166); \n"
@@ -823,46 +808,41 @@ class Ui_Sistema(object):
         self.cons_tb = QTableWidget(self.Tabelas)
         if (self.cons_tb.columnCount() < 10):
             self.cons_tb.setColumnCount(10)
-        font9 = QFont()
-        font9.setPointSize(11)
+        font7 = QFont()
+        font7.setPointSize(11)
         __qtablewidgetitem = QTableWidgetItem()
-        __qtablewidgetitem.setFont(font9);
+        __qtablewidgetitem.setFont(font7);
         self.cons_tb.setHorizontalHeaderItem(0, __qtablewidgetitem)
         __qtablewidgetitem1 = QTableWidgetItem()
-        __qtablewidgetitem1.setFont(font9);
+        __qtablewidgetitem1.setFont(font7);
         self.cons_tb.setHorizontalHeaderItem(1, __qtablewidgetitem1)
         __qtablewidgetitem2 = QTableWidgetItem()
-        __qtablewidgetitem2.setFont(font9);
+        __qtablewidgetitem2.setFont(font7);
         self.cons_tb.setHorizontalHeaderItem(2, __qtablewidgetitem2)
         __qtablewidgetitem3 = QTableWidgetItem()
-        __qtablewidgetitem3.setFont(font9);
+        __qtablewidgetitem3.setFont(font7);
         self.cons_tb.setHorizontalHeaderItem(3, __qtablewidgetitem3)
         __qtablewidgetitem4 = QTableWidgetItem()
-        __qtablewidgetitem4.setFont(font9);
+        __qtablewidgetitem4.setFont(font7);
         self.cons_tb.setHorizontalHeaderItem(4, __qtablewidgetitem4)
         __qtablewidgetitem5 = QTableWidgetItem()
-        __qtablewidgetitem5.setFont(font9);
+        __qtablewidgetitem5.setFont(font7);
         self.cons_tb.setHorizontalHeaderItem(5, __qtablewidgetitem5)
-        font10 = QFont()
-        font10.setFamily(u"MS Shell Dlg 2")
-        font10.setPointSize(11)
         __qtablewidgetitem6 = QTableWidgetItem()
-        __qtablewidgetitem6.setFont(font10);
+        __qtablewidgetitem6.setFont(font7);
         self.cons_tb.setHorizontalHeaderItem(6, __qtablewidgetitem6)
         __qtablewidgetitem7 = QTableWidgetItem()
-        __qtablewidgetitem7.setFont(font10);
+        __qtablewidgetitem7.setFont(font7);
         self.cons_tb.setHorizontalHeaderItem(7, __qtablewidgetitem7)
         __qtablewidgetitem8 = QTableWidgetItem()
-        __qtablewidgetitem8.setFont(font9);
+        __qtablewidgetitem8.setFont(font7);
         self.cons_tb.setHorizontalHeaderItem(8, __qtablewidgetitem8)
         __qtablewidgetitem9 = QTableWidgetItem()
-        __qtablewidgetitem9.setFont(font9);
+        __qtablewidgetitem9.setFont(font7);
         self.cons_tb.setHorizontalHeaderItem(9, __qtablewidgetitem9)
         self.cons_tb.setObjectName(u"cons_tb")
         self.cons_tb.setEnabled(True)
-        font11 = QFont()
-        font11.setPointSize(10)
-        self.cons_tb.setFont(font11)
+        self.cons_tb.setFont(font6)
         self.cons_tb.setStyleSheet(u"QTableWidget{\n"
 "	border: 1px solid rgb(125, 125, 125);\n"
 "	background-color: rgb(200, 200, 200);\n"
@@ -1022,7 +1002,7 @@ class Ui_Sistema(object):
         sizePolicy.setHeightForWidth(self.cons_btn_tab_ret.sizePolicy().hasHeightForWidth())
         self.cons_btn_tab_ret.setSizePolicy(sizePolicy)
         self.cons_btn_tab_ret.setMaximumSize(QSize(82, 30))
-        self.cons_btn_tab_ret.setFont(font8)
+        self.cons_btn_tab_ret.setFont(font4)
         self.cons_btn_tab_ret.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
 "	border-right: 1px solid rgb(166, 166, 166); \n"
@@ -1246,7 +1226,7 @@ class Ui_Sistema(object):
         sizePolicy.setHeightForWidth(self.cons_btn_ok_2.sizePolicy().hasHeightForWidth())
         self.cons_btn_ok_2.setSizePolicy(sizePolicy)
         self.cons_btn_ok_2.setMaximumSize(QSize(30, 28))
-        self.cons_btn_ok_2.setFont(font7)
+        self.cons_btn_ok_2.setFont(font6)
         self.cons_btn_ok_2.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
 "	border-right: 1px solid rgb(166, 166, 166); \n"
@@ -1284,23 +1264,23 @@ class Ui_Sistema(object):
         if (self.cons_tb_retiradas.columnCount() < 5):
             self.cons_tb_retiradas.setColumnCount(5)
         __qtablewidgetitem10 = QTableWidgetItem()
-        __qtablewidgetitem10.setFont(font9);
+        __qtablewidgetitem10.setFont(font7);
         self.cons_tb_retiradas.setHorizontalHeaderItem(0, __qtablewidgetitem10)
         __qtablewidgetitem11 = QTableWidgetItem()
-        __qtablewidgetitem11.setFont(font10);
+        __qtablewidgetitem11.setFont(font7);
         self.cons_tb_retiradas.setHorizontalHeaderItem(1, __qtablewidgetitem11)
         __qtablewidgetitem12 = QTableWidgetItem()
-        __qtablewidgetitem12.setFont(font9);
+        __qtablewidgetitem12.setFont(font7);
         self.cons_tb_retiradas.setHorizontalHeaderItem(2, __qtablewidgetitem12)
         __qtablewidgetitem13 = QTableWidgetItem()
-        __qtablewidgetitem13.setFont(font9);
+        __qtablewidgetitem13.setFont(font7);
         self.cons_tb_retiradas.setHorizontalHeaderItem(3, __qtablewidgetitem13)
         __qtablewidgetitem14 = QTableWidgetItem()
-        __qtablewidgetitem14.setFont(font9);
+        __qtablewidgetitem14.setFont(font7);
         self.cons_tb_retiradas.setHorizontalHeaderItem(4, __qtablewidgetitem14)
         self.cons_tb_retiradas.setObjectName(u"cons_tb_retiradas")
         self.cons_tb_retiradas.setEnabled(True)
-        self.cons_tb_retiradas.setFont(font11)
+        self.cons_tb_retiradas.setFont(font6)
         self.cons_tb_retiradas.setStyleSheet(u"QTableWidget{\n"
 "	border: 1px solid rgb(125, 125, 125);\n"
 "	background-color: rgb(200, 200, 200);\n"
@@ -1510,7 +1490,7 @@ class Ui_Sistema(object):
         sizePolicy.setHeightForWidth(self.cons_ponto_btn_ok.sizePolicy().hasHeightForWidth())
         self.cons_ponto_btn_ok.setSizePolicy(sizePolicy)
         self.cons_ponto_btn_ok.setMaximumSize(QSize(30, 28))
-        self.cons_ponto_btn_ok.setFont(font7)
+        self.cons_ponto_btn_ok.setFont(font6)
         self.cons_ponto_btn_ok.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
 "	border-right: 1px solid rgb(166, 166, 166); \n"
@@ -1549,26 +1529,26 @@ class Ui_Sistema(object):
         if (self.cons_ponto_tb.columnCount() < 6):
             self.cons_ponto_tb.setColumnCount(6)
         __qtablewidgetitem15 = QTableWidgetItem()
-        __qtablewidgetitem15.setFont(font9);
+        __qtablewidgetitem15.setFont(font7);
         self.cons_ponto_tb.setHorizontalHeaderItem(0, __qtablewidgetitem15)
         __qtablewidgetitem16 = QTableWidgetItem()
-        __qtablewidgetitem16.setFont(font10);
+        __qtablewidgetitem16.setFont(font7);
         self.cons_ponto_tb.setHorizontalHeaderItem(1, __qtablewidgetitem16)
         __qtablewidgetitem17 = QTableWidgetItem()
-        __qtablewidgetitem17.setFont(font9);
+        __qtablewidgetitem17.setFont(font7);
         self.cons_ponto_tb.setHorizontalHeaderItem(2, __qtablewidgetitem17)
         __qtablewidgetitem18 = QTableWidgetItem()
-        __qtablewidgetitem18.setFont(font9);
+        __qtablewidgetitem18.setFont(font7);
         self.cons_ponto_tb.setHorizontalHeaderItem(3, __qtablewidgetitem18)
         __qtablewidgetitem19 = QTableWidgetItem()
-        __qtablewidgetitem19.setFont(font9);
+        __qtablewidgetitem19.setFont(font7);
         self.cons_ponto_tb.setHorizontalHeaderItem(4, __qtablewidgetitem19)
         __qtablewidgetitem20 = QTableWidgetItem()
-        __qtablewidgetitem20.setFont(font9);
+        __qtablewidgetitem20.setFont(font7);
         self.cons_ponto_tb.setHorizontalHeaderItem(5, __qtablewidgetitem20)
         self.cons_ponto_tb.setObjectName(u"cons_ponto_tb")
         self.cons_ponto_tb.setEnabled(True)
-        self.cons_ponto_tb.setFont(font11)
+        self.cons_ponto_tb.setFont(font6)
         self.cons_ponto_tb.setStyleSheet(u"QTableWidget{\n"
 "	border: 1px solid rgb(125, 125, 125);\n"
 "	background-color: rgb(200, 200, 200);\n"
@@ -1657,12 +1637,11 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.cons_lb.sizePolicy().hasHeightForWidth())
         self.cons_lb.setSizePolicy(sizePolicy1)
         self.cons_lb.setMaximumSize(QSize(155, 70))
-        font12 = QFont()
-        font12.setFamily(u"Noto Serif")
-        font12.setPointSize(18)
-        font12.setBold(True)
-        font12.setWeight(75)
-        self.cons_lb.setFont(font12)
+        font8 = QFont()
+        font8.setPointSize(18)
+        font8.setBold(True)
+        font8.setWeight(75)
+        self.cons_lb.setFont(font8)
         self.cons_lb.setStyleSheet(u"\n"
 "border-bottom: none;\n"
 "\n"
@@ -1676,7 +1655,7 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.cons_lb_nav.sizePolicy().hasHeightForWidth())
         self.cons_lb_nav.setSizePolicy(sizePolicy1)
         self.cons_lb_nav.setMaximumSize(QSize(16777215, 70))
-        self.cons_lb_nav.setFont(font12)
+        self.cons_lb_nav.setFont(font8)
         self.cons_lb_nav.setStyleSheet(u"\n"
 "border-bottom: none;\n"
 "\n"
@@ -1845,84 +1824,98 @@ class Ui_Sistema(object):
         self.frame_6.setFrameShadow(QFrame.Raised)
         self.gridLayout_21 = QGridLayout(self.frame_6)
         self.gridLayout_21.setObjectName(u"gridLayout_21")
-        self.gridLayout_21.setHorizontalSpacing(0)
-        self.gridLayout_21.setContentsMargins(0, 0, 0, 0)
-        self.label_24 = QLabel(self.frame_6)
-        self.label_24.setObjectName(u"label_24")
-        sizePolicy.setHeightForWidth(self.label_24.sizePolicy().hasHeightForWidth())
-        self.label_24.setSizePolicy(sizePolicy)
-        self.label_24.setMaximumSize(QSize(50, 70))
-        font13 = QFont()
-        font13.setFamily(u"Noto Serif")
-        font13.setPointSize(12)
-        font13.setBold(True)
-        font13.setWeight(75)
-        self.label_24.setFont(font13)
-        self.label_24.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
-"color: white;")
-        self.label_24.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
+        self.gridLayout_21.setHorizontalSpacing(10)
+        self.gridLayout_21.setContentsMargins(0, 0, 15, 0)
+        self.cx_nome = QComboBox(self.frame_6)
+        self.cx_nome.addItem("")
+        self.cx_nome.setObjectName(u"cx_nome")
+        self.cx_nome.setMinimumSize(QSize(200, 0))
+        self.cx_nome.setMaximumSize(QSize(200, 30))
+        self.cx_nome.setStyleSheet(u"color: white;\n"
+"border-radius: 5px;\n"
+"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0))")
+        self.cx_nome.setEditable(True)
 
-        self.gridLayout_21.addWidget(self.label_24, 0, 4, 1, 1)
-
-        self.lb_cx_funcionario = QLabel(self.frame_6)
-        self.lb_cx_funcionario.setObjectName(u"lb_cx_funcionario")
-        sizePolicy.setHeightForWidth(self.lb_cx_funcionario.sizePolicy().hasHeightForWidth())
-        self.lb_cx_funcionario.setSizePolicy(sizePolicy)
-        self.lb_cx_funcionario.setMaximumSize(QSize(200, 70))
-        self.lb_cx_funcionario.setFont(font13)
-        self.lb_cx_funcionario.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
-"color: white;")
-        self.lb_cx_funcionario.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
-
-        self.gridLayout_21.addWidget(self.lb_cx_funcionario, 0, 3, 1, 1)
-
-        self.lb_cx_data = QLabel(self.frame_6)
-        self.lb_cx_data.setObjectName(u"lb_cx_data")
-        sizePolicy.setHeightForWidth(self.lb_cx_data.sizePolicy().hasHeightForWidth())
-        self.lb_cx_data.setSizePolicy(sizePolicy)
-        self.lb_cx_data.setMaximumSize(QSize(100, 70))
-        self.lb_cx_data.setFont(font13)
-        self.lb_cx_data.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
-"color: white;")
-        self.lb_cx_data.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
-
-        self.gridLayout_21.addWidget(self.lb_cx_data, 0, 5, 1, 1)
-
-        self.label = QLabel(self.frame_6)
-        self.label.setObjectName(u"label")
-        sizePolicy.setHeightForWidth(self.label.sizePolicy().hasHeightForWidth())
-        self.label.setSizePolicy(sizePolicy)
-        self.label.setMaximumSize(QSize(350, 70))
-        self.label.setFont(font12)
-        self.label.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
-"color: white;")
-        self.label.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
-
-        self.gridLayout_21.addWidget(self.label, 0, 0, 1, 1)
+        self.gridLayout_21.addWidget(self.cx_nome, 0, 3, 1, 1)
 
         self.label_11 = QLabel(self.frame_6)
         self.label_11.setObjectName(u"label_11")
         sizePolicy.setHeightForWidth(self.label_11.sizePolicy().hasHeightForWidth())
         self.label_11.setSizePolicy(sizePolicy)
         self.label_11.setMaximumSize(QSize(115, 70))
-        self.label_11.setFont(font13)
+        font9 = QFont()
+        font9.setPointSize(12)
+        font9.setBold(True)
+        font9.setWeight(75)
+        self.label_11.setFont(font9)
         self.label_11.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
 "color: white;")
         self.label_11.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
 
         self.gridLayout_21.addWidget(self.label_11, 0, 2, 1, 1)
 
+        self.label = QLabel(self.frame_6)
+        self.label.setObjectName(u"label")
+        sizePolicy.setHeightForWidth(self.label.sizePolicy().hasHeightForWidth())
+        self.label.setSizePolicy(sizePolicy)
+        self.label.setMaximumSize(QSize(350, 70))
+        self.label.setFont(font8)
+        self.label.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
+"color: white;")
+        self.label.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
+
+        self.gridLayout_21.addWidget(self.label, 0, 0, 1, 1)
+
+        self.label_24 = QLabel(self.frame_6)
+        self.label_24.setObjectName(u"label_24")
+        sizePolicy.setHeightForWidth(self.label_24.sizePolicy().hasHeightForWidth())
+        self.label_24.setSizePolicy(sizePolicy)
+        self.label_24.setMaximumSize(QSize(50, 70))
+        self.label_24.setFont(font9)
+        self.label_24.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
+"color: white;")
+        self.label_24.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
+
+        self.gridLayout_21.addWidget(self.label_24, 0, 4, 1, 1)
+
         self.label_31 = QLabel(self.frame_6)
         self.label_31.setObjectName(u"label_31")
         sizePolicy.setHeightForWidth(self.label_31.sizePolicy().hasHeightForWidth())
         self.label_31.setSizePolicy(sizePolicy)
         self.label_31.setMaximumSize(QSize(16777215, 70))
-        self.label_31.setFont(font13)
+        self.label_31.setFont(font9)
         self.label_31.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
 "color: white;")
         self.label_31.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
 
         self.gridLayout_21.addWidget(self.label_31, 0, 1, 1, 1)
+
+        self.cx_data = QDateEdit(self.frame_6)
+        self.cx_data.setObjectName(u"cx_data")
+        self.cx_data.setMinimumSize(QSize(100, 0))
+        self.cx_data.setMaximumSize(QSize(200, 30))
+        self.cx_data.setFont(font6)
+        self.cx_data.setStyleSheet(u"QDateEdit{\n"
+"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
+"border-radius: 5px;\n"
+"color: white;\n"
+"}\n"
+"\n"
+"QCalendarWidget QWidget{\n"
+"	\n"
+"	background-color: rgb(243, 243, 243);\n"
+"}\n"
+"\n"
+"QCalendarWidget QToolButton {\n"
+"	color: black;\n"
+"}\n"
+"\n"
+"")
+        self.cx_data.setAlignment(Qt.AlignCenter)
+        self.cx_data.setCalendarPopup(True)
+        self.cx_data.setDate(QDate(2021, 1, 1))
+
+        self.gridLayout_21.addWidget(self.cx_data, 0, 5, 1, 1)
 
 
         self.gridLayout_4.addWidget(self.frame_6, 0, 0, 1, 1)
@@ -1951,7 +1944,7 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.label_8.sizePolicy().hasHeightForWidth())
         self.label_8.setSizePolicy(sizePolicy1)
         self.label_8.setMaximumSize(QSize(16777215, 40))
-        self.label_8.setFont(font12)
+        self.label_8.setFont(font8)
         self.label_8.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
 "color: white;\n"
 "border-radius: 10px;\n"
@@ -1965,7 +1958,7 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.label_2.sizePolicy().hasHeightForWidth())
         self.label_2.setSizePolicy(sizePolicy1)
         self.label_2.setMaximumSize(QSize(16777215, 40))
-        self.label_2.setFont(font12)
+        self.label_2.setFont(font8)
         self.label_2.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
 "color: white;\n"
 "border-radius: 10px;\n"
@@ -2003,10 +1996,7 @@ class Ui_Sistema(object):
         self.groupBox = QGroupBox(self.frame_4)
         self.groupBox.setObjectName(u"groupBox")
         self.groupBox.setMaximumSize(QSize(16777215, 80))
-        font14 = QFont()
-        font14.setFamily(u"Noto Serif")
-        font14.setPointSize(11)
-        self.groupBox.setFont(font14)
+        self.groupBox.setFont(font7)
         self.groupBox.setStyleSheet(u"border: 1px solid white;")
         self.groupBox.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
         self.gridLayout_14 = QGridLayout(self.groupBox)
@@ -2060,7 +2050,7 @@ class Ui_Sistema(object):
         self.groupBox_2 = QGroupBox(self.frame_4)
         self.groupBox_2.setObjectName(u"groupBox_2")
         self.groupBox_2.setMaximumSize(QSize(16777215, 80))
-        self.groupBox_2.setFont(font14)
+        self.groupBox_2.setFont(font7)
         self.groupBox_2.setStyleSheet(u"border: 1px solid white;")
         self.groupBox_2.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
         self.gridLayout_16 = QGridLayout(self.groupBox_2)
@@ -2139,7 +2129,7 @@ class Ui_Sistema(object):
         self.groupBox_3 = QGroupBox(self.frame_4)
         self.groupBox_3.setObjectName(u"groupBox_3")
         self.groupBox_3.setMaximumSize(QSize(16777215, 200))
-        self.groupBox_3.setFont(font14)
+        self.groupBox_3.setFont(font7)
         self.groupBox_3.setStyleSheet(u"border: 1px solid white;")
         self.groupBox_3.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
         self.gridLayout_20 = QGridLayout(self.groupBox_3)
@@ -2402,7 +2392,7 @@ class Ui_Sistema(object):
         self.groupBox_4 = QGroupBox(self.frame_5)
         self.groupBox_4.setObjectName(u"groupBox_4")
         self.groupBox_4.setMaximumSize(QSize(16777215, 150))
-        self.groupBox_4.setFont(font14)
+        self.groupBox_4.setFont(font7)
         self.groupBox_4.setStyleSheet(u"border: 1px solid white;")
         self.groupBox_4.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
         self.gridLayout_22 = QGridLayout(self.groupBox_4)
@@ -2569,7 +2559,7 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.cons_lb_3.sizePolicy().hasHeightForWidth())
         self.cons_lb_3.setSizePolicy(sizePolicy1)
         self.cons_lb_3.setMaximumSize(QSize(230, 70))
-        self.cons_lb_3.setFont(font12)
+        self.cons_lb_3.setFont(font8)
         self.cons_lb_3.setStyleSheet(u"\n"
 "border-bottom: none;\n"
 "\n"
@@ -2583,7 +2573,7 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.cons_lb_nav_2.sizePolicy().hasHeightForWidth())
         self.cons_lb_nav_2.setSizePolicy(sizePolicy1)
         self.cons_lb_nav_2.setMaximumSize(QSize(16777215, 70))
-        self.cons_lb_nav_2.setFont(font12)
+        self.cons_lb_nav_2.setFont(font8)
         self.cons_lb_nav_2.setStyleSheet(u"\n"
 "border-bottom: none;\n"
 "\n"
@@ -2880,9 +2870,7 @@ class Ui_Sistema(object):
         self.gridLayout_50.setContentsMargins(0, 0, 0, 0)
         self.frame_38 = QFrame(self.config_comb_info)
         self.frame_38.setObjectName(u"frame_38")
-        font15 = QFont()
-        font15.setPointSize(12)
-        self.frame_38.setFont(font15)
+        self.frame_38.setFont(font2)
         self.frame_38.setFrameShape(QFrame.StyledPanel)
         self.frame_38.setFrameShadow(QFrame.Raised)
         self.gridLayout_49 = QGridLayout(self.frame_38)
@@ -2892,10 +2880,7 @@ class Ui_Sistema(object):
         sizePolicy2.setHeightForWidth(self.label_92.sizePolicy().hasHeightForWidth())
         self.label_92.setSizePolicy(sizePolicy2)
         self.label_92.setMaximumSize(QSize(90, 30))
-        font16 = QFont()
-        font16.setFamily(u"Noto Serif")
-        font16.setPointSize(12)
-        self.label_92.setFont(font16)
+        self.label_92.setFont(font2)
         self.label_92.setStyleSheet(u"border: none;")
 
         self.gridLayout_49.addWidget(self.label_92, 3, 2, 1, 1)
@@ -2903,7 +2888,7 @@ class Ui_Sistema(object):
         self.label_110 = QLabel(self.frame_38)
         self.label_110.setObjectName(u"label_110")
         self.label_110.setMaximumSize(QSize(16777215, 30))
-        self.label_110.setFont(font16)
+        self.label_110.setFont(font2)
         self.label_110.setStyleSheet(u"border: none;")
 
         self.gridLayout_49.addWidget(self.label_110, 5, 3, 1, 1)
@@ -2911,7 +2896,7 @@ class Ui_Sistema(object):
         self.label_109 = QLabel(self.frame_38)
         self.label_109.setObjectName(u"label_109")
         self.label_109.setMaximumSize(QSize(16777215, 30))
-        self.label_109.setFont(font16)
+        self.label_109.setFont(font2)
         self.label_109.setStyleSheet(u"border: none;")
 
         self.gridLayout_49.addWidget(self.label_109, 4, 3, 1, 1)
@@ -2919,7 +2904,7 @@ class Ui_Sistema(object):
         self.groupBox_5 = QGroupBox(self.frame_38)
         self.groupBox_5.setObjectName(u"groupBox_5")
         self.groupBox_5.setMaximumSize(QSize(550, 100))
-        self.groupBox_5.setFont(font9)
+        self.groupBox_5.setFont(font7)
         self.horizontalLayout_21 = QHBoxLayout(self.groupBox_5)
         self.horizontalLayout_21.setObjectName(u"horizontalLayout_21")
         self.label_96 = QLabel(self.groupBox_5)
@@ -2927,7 +2912,7 @@ class Ui_Sistema(object):
         sizePolicy2.setHeightForWidth(self.label_96.sizePolicy().hasHeightForWidth())
         self.label_96.setSizePolicy(sizePolicy2)
         self.label_96.setMaximumSize(QSize(120, 30))
-        self.label_96.setFont(font16)
+        self.label_96.setFont(font2)
         self.label_96.setStyleSheet(u"border: none;")
 
         self.horizontalLayout_21.addWidget(self.label_96)
@@ -2948,7 +2933,7 @@ class Ui_Sistema(object):
         self.label_93 = QLabel(self.groupBox_5)
         self.label_93.setObjectName(u"label_93")
         self.label_93.setMaximumSize(QSize(70, 30))
-        self.label_93.setFont(font16)
+        self.label_93.setFont(font2)
         self.label_93.setStyleSheet(u"border: none;")
 
         self.horizontalLayout_21.addWidget(self.label_93)
@@ -2975,7 +2960,7 @@ class Ui_Sistema(object):
         sizePolicy2.setHeightForWidth(self.label_95.sizePolicy().hasHeightForWidth())
         self.label_95.setSizePolicy(sizePolicy2)
         self.label_95.setMaximumSize(QSize(90, 30))
-        self.label_95.setFont(font16)
+        self.label_95.setFont(font2)
         self.label_95.setStyleSheet(u"border: none;")
 
         self.gridLayout_49.addWidget(self.label_95, 3, 1, 1, 1)
@@ -2987,7 +2972,7 @@ class Ui_Sistema(object):
         self.groupBox_6 = QGroupBox(self.frame_38)
         self.groupBox_6.setObjectName(u"groupBox_6")
         self.groupBox_6.setMaximumSize(QSize(550, 100))
-        self.groupBox_6.setFont(font9)
+        self.groupBox_6.setFont(font7)
         self.horizontalLayout_23 = QHBoxLayout(self.groupBox_6)
         self.horizontalLayout_23.setObjectName(u"horizontalLayout_23")
         self.label_97 = QLabel(self.groupBox_6)
@@ -2995,7 +2980,7 @@ class Ui_Sistema(object):
         sizePolicy2.setHeightForWidth(self.label_97.sizePolicy().hasHeightForWidth())
         self.label_97.setSizePolicy(sizePolicy2)
         self.label_97.setMaximumSize(QSize(120, 30))
-        self.label_97.setFont(font16)
+        self.label_97.setFont(font2)
         self.label_97.setStyleSheet(u"border: none;")
 
         self.horizontalLayout_23.addWidget(self.label_97)
@@ -3016,7 +3001,7 @@ class Ui_Sistema(object):
         self.label_94 = QLabel(self.groupBox_6)
         self.label_94.setObjectName(u"label_94")
         self.label_94.setMaximumSize(QSize(150, 30))
-        self.label_94.setFont(font16)
+        self.label_94.setFont(font2)
         self.label_94.setStyleSheet(u"border: none;")
 
         self.horizontalLayout_23.addWidget(self.label_94)
@@ -3051,7 +3036,7 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.label_50.sizePolicy().hasHeightForWidth())
         self.label_50.setSizePolicy(sizePolicy1)
         self.label_50.setMaximumSize(QSize(16777215, 40))
-        self.label_50.setFont(font12)
+        self.label_50.setFont(font8)
         self.label_50.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
 "color: white;\n"
 "border-radius: 10px;\n"
@@ -3063,7 +3048,7 @@ class Ui_Sistema(object):
         self.frame_34 = QFrame(self.editar_combustivel)
         self.frame_34.setObjectName(u"frame_34")
         self.frame_34.setMaximumSize(QSize(600, 16777215))
-        self.frame_34.setFont(font15)
+        self.frame_34.setFont(font2)
         self.frame_34.setFrameShape(QFrame.StyledPanel)
         self.frame_34.setFrameShadow(QFrame.Raised)
         self.gridLayout_43 = QGridLayout(self.frame_34)
@@ -3073,7 +3058,7 @@ class Ui_Sistema(object):
         sizePolicy2.setHeightForWidth(self.label_86.sizePolicy().hasHeightForWidth())
         self.label_86.setSizePolicy(sizePolicy2)
         self.label_86.setMaximumSize(QSize(90, 30))
-        self.label_86.setFont(font16)
+        self.label_86.setFont(font2)
         self.label_86.setStyleSheet(u"border: none;")
 
         self.gridLayout_43.addWidget(self.label_86, 5, 3, 1, 1)
@@ -3081,7 +3066,7 @@ class Ui_Sistema(object):
         self.label_91 = QLabel(self.frame_34)
         self.label_91.setObjectName(u"label_91")
         self.label_91.setMaximumSize(QSize(16777215, 30))
-        self.label_91.setFont(font16)
+        self.label_91.setFont(font2)
         self.label_91.setStyleSheet(u"border: none;")
 
         self.gridLayout_43.addWidget(self.label_91, 3, 0, 1, 1)
@@ -3089,7 +3074,7 @@ class Ui_Sistema(object):
         self.label_105 = QLabel(self.frame_34)
         self.label_105.setObjectName(u"label_105")
         self.label_105.setMaximumSize(QSize(16777215, 30))
-        self.label_105.setFont(font16)
+        self.label_105.setFont(font2)
         self.label_105.setStyleSheet(u"border: none;")
 
         self.gridLayout_43.addWidget(self.label_105, 6, 4, 1, 1)
@@ -3113,7 +3098,7 @@ class Ui_Sistema(object):
         sizePolicy3.setHeightForWidth(self.config_comb_edit_btn.sizePolicy().hasHeightForWidth())
         self.config_comb_edit_btn.setSizePolicy(sizePolicy3)
         self.config_comb_edit_btn.setMaximumSize(QSize(9999999, 30))
-        self.config_comb_edit_btn.setFont(font16)
+        self.config_comb_edit_btn.setFont(font2)
         self.config_comb_edit_btn.setStyleSheet(u"QPushButton{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 209, 22, 255));\n"
 "	border-radius: 10px;\n"
@@ -3130,7 +3115,7 @@ class Ui_Sistema(object):
         self.label_106 = QLabel(self.frame_34)
         self.label_106.setObjectName(u"label_106")
         self.label_106.setMaximumSize(QSize(16777215, 30))
-        self.label_106.setFont(font16)
+        self.label_106.setFont(font2)
         self.label_106.setStyleSheet(u"border: none;")
 
         self.gridLayout_43.addWidget(self.label_106, 7, 4, 1, 1)
@@ -3138,7 +3123,7 @@ class Ui_Sistema(object):
         self.label_85 = QLabel(self.frame_34)
         self.label_85.setObjectName(u"label_85")
         self.label_85.setMaximumSize(QSize(16777215, 30))
-        self.label_85.setFont(font16)
+        self.label_85.setFont(font2)
         self.label_85.setStyleSheet(u"border: none;")
 
         self.gridLayout_43.addWidget(self.label_85, 1, 0, 1, 1)
@@ -3148,7 +3133,7 @@ class Ui_Sistema(object):
         sizePolicy2.setHeightForWidth(self.label_82.sizePolicy().hasHeightForWidth())
         self.label_82.setSizePolicy(sizePolicy2)
         self.label_82.setMaximumSize(QSize(90, 30))
-        self.label_82.setFont(font16)
+        self.label_82.setFont(font2)
         self.label_82.setStyleSheet(u"border: none;")
 
         self.gridLayout_43.addWidget(self.label_82, 5, 2, 1, 1)
@@ -3169,7 +3154,7 @@ class Ui_Sistema(object):
         sizePolicy2.setHeightForWidth(self.label_79.sizePolicy().hasHeightForWidth())
         self.label_79.setSizePolicy(sizePolicy2)
         self.label_79.setMaximumSize(QSize(120, 30))
-        self.label_79.setFont(font16)
+        self.label_79.setFont(font2)
         self.label_79.setStyleSheet(u"border: none;")
 
         self.gridLayout_43.addWidget(self.label_79, 0, 0, 1, 1)
@@ -3246,7 +3231,7 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.cons_lb_2.sizePolicy().hasHeightForWidth())
         self.cons_lb_2.setSizePolicy(sizePolicy1)
         self.cons_lb_2.setMaximumSize(QSize(155, 70))
-        self.cons_lb_2.setFont(font12)
+        self.cons_lb_2.setFont(font8)
         self.cons_lb_2.setStyleSheet(u"\n"
 "border-bottom: none;\n"
 "\n"
@@ -3260,7 +3245,7 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.est_lb_nav.sizePolicy().hasHeightForWidth())
         self.est_lb_nav.setSizePolicy(sizePolicy1)
         self.est_lb_nav.setMaximumSize(QSize(16777215, 70))
-        self.est_lb_nav.setFont(font12)
+        self.est_lb_nav.setFont(font8)
         self.est_lb_nav.setStyleSheet(u"\n"
 "border-bottom: none;\n"
 "\n"
@@ -3367,7 +3352,7 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.label_26.sizePolicy().hasHeightForWidth())
         self.label_26.setSizePolicy(sizePolicy1)
         self.label_26.setMaximumSize(QSize(16777215, 40))
-        self.label_26.setFont(font12)
+        self.label_26.setFont(font8)
         self.label_26.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
 "color: white;\n"
 "border-radius: 10px;\n"
@@ -3379,7 +3364,7 @@ class Ui_Sistema(object):
         self.frame_22 = QFrame(self.novo_produto)
         self.frame_22.setObjectName(u"frame_22")
         self.frame_22.setMaximumSize(QSize(600, 16777215))
-        self.frame_22.setFont(font15)
+        self.frame_22.setFont(font2)
         self.frame_22.setFrameShape(QFrame.StyledPanel)
         self.frame_22.setFrameShadow(QFrame.Raised)
         self.gridLayout_34 = QGridLayout(self.frame_22)
@@ -3387,7 +3372,7 @@ class Ui_Sistema(object):
         self.label_70 = QLabel(self.frame_22)
         self.label_70.setObjectName(u"label_70")
         self.label_70.setMaximumSize(QSize(16777215, 30))
-        self.label_70.setFont(font16)
+        self.label_70.setFont(font2)
         self.label_70.setStyleSheet(u"border: none;")
 
         self.gridLayout_34.addWidget(self.label_70, 7, 0, 1, 1)
@@ -3395,7 +3380,7 @@ class Ui_Sistema(object):
         self.label_75 = QLabel(self.frame_22)
         self.label_75.setObjectName(u"label_75")
         self.label_75.setMaximumSize(QSize(16777215, 30))
-        self.label_75.setFont(font16)
+        self.label_75.setFont(font2)
         self.label_75.setStyleSheet(u"border: none;")
 
         self.gridLayout_34.addWidget(self.label_75, 5, 0, 1, 1)
@@ -3418,7 +3403,7 @@ class Ui_Sistema(object):
         sizePolicy2.setHeightForWidth(self.label_69.sizePolicy().hasHeightForWidth())
         self.label_69.setSizePolicy(sizePolicy2)
         self.label_69.setMaximumSize(QSize(90, 30))
-        self.label_69.setFont(font16)
+        self.label_69.setFont(font2)
         self.label_69.setStyleSheet(u"border: none;")
 
         self.gridLayout_34.addWidget(self.label_69, 9, 1, 1, 1)
@@ -3442,7 +3427,7 @@ class Ui_Sistema(object):
         sizePolicy3.setHeightForWidth(self.btn_est_cadastrar.sizePolicy().hasHeightForWidth())
         self.btn_est_cadastrar.setSizePolicy(sizePolicy3)
         self.btn_est_cadastrar.setMaximumSize(QSize(9999999, 30))
-        self.btn_est_cadastrar.setFont(font16)
+        self.btn_est_cadastrar.setFont(font2)
         self.btn_est_cadastrar.setStyleSheet(u"QPushButton{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 209, 22, 255));\n"
 "	border-radius: 10px;\n"
@@ -3459,7 +3444,7 @@ class Ui_Sistema(object):
         self.label_71 = QLabel(self.frame_22)
         self.label_71.setObjectName(u"label_71")
         self.label_71.setMaximumSize(QSize(16777215, 30))
-        self.label_71.setFont(font16)
+        self.label_71.setFont(font2)
         self.label_71.setStyleSheet(u"border: none;")
 
         self.gridLayout_34.addWidget(self.label_71, 1, 0, 1, 1)
@@ -3520,7 +3505,7 @@ class Ui_Sistema(object):
         sizePolicy2.setHeightForWidth(self.label_68.sizePolicy().hasHeightForWidth())
         self.label_68.setSizePolicy(sizePolicy2)
         self.label_68.setMaximumSize(QSize(90, 30))
-        self.label_68.setFont(font16)
+        self.label_68.setFont(font2)
         self.label_68.setStyleSheet(u"border: none;")
 
         self.gridLayout_34.addWidget(self.label_68, 9, 2, 1, 1)
@@ -3528,7 +3513,7 @@ class Ui_Sistema(object):
         self.label_73 = QLabel(self.frame_22)
         self.label_73.setObjectName(u"label_73")
         self.label_73.setMaximumSize(QSize(16777215, 30))
-        self.label_73.setFont(font16)
+        self.label_73.setFont(font2)
         self.label_73.setStyleSheet(u"border: none;")
 
         self.gridLayout_34.addWidget(self.label_73, 8, 0, 1, 1)
@@ -3536,7 +3521,7 @@ class Ui_Sistema(object):
         self.label_77 = QLabel(self.frame_22)
         self.label_77.setObjectName(u"label_77")
         self.label_77.setMaximumSize(QSize(16777215, 30))
-        self.label_77.setFont(font16)
+        self.label_77.setFont(font2)
         self.label_77.setStyleSheet(u"border: none;")
 
         self.gridLayout_34.addWidget(self.label_77, 0, 0, 1, 1)
@@ -3558,7 +3543,7 @@ class Ui_Sistema(object):
         self.label_72 = QLabel(self.frame_22)
         self.label_72.setObjectName(u"label_72")
         self.label_72.setMaximumSize(QSize(16777215, 30))
-        self.label_72.setFont(font16)
+        self.label_72.setFont(font2)
         self.label_72.setStyleSheet(u"border: none;")
 
         self.gridLayout_34.addWidget(self.label_72, 2, 0, 1, 1)
@@ -3566,7 +3551,7 @@ class Ui_Sistema(object):
         self.label_76 = QLabel(self.frame_22)
         self.label_76.setObjectName(u"label_76")
         self.label_76.setMaximumSize(QSize(16777215, 30))
-        self.label_76.setFont(font16)
+        self.label_76.setFont(font2)
         self.label_76.setStyleSheet(u"border: none;")
 
         self.gridLayout_34.addWidget(self.label_76, 6, 0, 1, 1)
@@ -3574,7 +3559,7 @@ class Ui_Sistema(object):
         self.label_74 = QLabel(self.frame_22)
         self.label_74.setObjectName(u"label_74")
         self.label_74.setMaximumSize(QSize(16777215, 30))
-        self.label_74.setFont(font16)
+        self.label_74.setFont(font2)
         self.label_74.setStyleSheet(u"border: none;")
 
         self.gridLayout_34.addWidget(self.label_74, 3, 0, 1, 1)
@@ -3609,7 +3594,7 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.label_36.sizePolicy().hasHeightForWidth())
         self.label_36.setSizePolicy(sizePolicy1)
         self.label_36.setMaximumSize(QSize(16777215, 40))
-        self.label_36.setFont(font12)
+        self.label_36.setFont(font8)
         self.label_36.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
 "color: white;\n"
 "border-radius: 10px;\n"
@@ -3621,7 +3606,7 @@ class Ui_Sistema(object):
         self.frame_23 = QFrame(self.entrada_produto)
         self.frame_23.setObjectName(u"frame_23")
         self.frame_23.setMaximumSize(QSize(600, 16777215))
-        self.frame_23.setFont(font15)
+        self.frame_23.setFont(font2)
         self.frame_23.setFrameShape(QFrame.StyledPanel)
         self.frame_23.setFrameShadow(QFrame.Raised)
         self.gridLayout_35 = QGridLayout(self.frame_23)
@@ -3631,7 +3616,7 @@ class Ui_Sistema(object):
         sizePolicy2.setHeightForWidth(self.label_81.sizePolicy().hasHeightForWidth())
         self.label_81.setSizePolicy(sizePolicy2)
         self.label_81.setMaximumSize(QSize(90, 30))
-        self.label_81.setFont(font16)
+        self.label_81.setFont(font2)
         self.label_81.setStyleSheet(u"border: none;")
 
         self.gridLayout_35.addWidget(self.label_81, 2, 1, 1, 1)
@@ -3664,7 +3649,7 @@ class Ui_Sistema(object):
         self.label_84 = QLabel(self.frame_23)
         self.label_84.setObjectName(u"label_84")
         self.label_84.setMaximumSize(QSize(16777215, 30))
-        self.label_84.setFont(font16)
+        self.label_84.setFont(font2)
         self.label_84.setStyleSheet(u"border: none;")
 
         self.gridLayout_35.addWidget(self.label_84, 1, 0, 1, 1)
@@ -3672,7 +3657,7 @@ class Ui_Sistema(object):
         self.label_103 = QLabel(self.frame_23)
         self.label_103.setObjectName(u"label_103")
         self.label_103.setMaximumSize(QSize(16777215, 30))
-        self.label_103.setFont(font16)
+        self.label_103.setFont(font2)
         self.label_103.setStyleSheet(u"border: none;")
 
         self.gridLayout_35.addWidget(self.label_103, 3, 3, 1, 1)
@@ -3682,7 +3667,7 @@ class Ui_Sistema(object):
         sizePolicy3.setHeightForWidth(self.est_new_btn_cadastrar.sizePolicy().hasHeightForWidth())
         self.est_new_btn_cadastrar.setSizePolicy(sizePolicy3)
         self.est_new_btn_cadastrar.setMaximumSize(QSize(9999999, 30))
-        self.est_new_btn_cadastrar.setFont(font16)
+        self.est_new_btn_cadastrar.setFont(font2)
         self.est_new_btn_cadastrar.setStyleSheet(u"QPushButton{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 209, 22, 255));\n"
 "	border-radius: 10px;\n"
@@ -3701,7 +3686,7 @@ class Ui_Sistema(object):
         sizePolicy2.setHeightForWidth(self.label_83.sizePolicy().hasHeightForWidth())
         self.label_83.setSizePolicy(sizePolicy2)
         self.label_83.setMaximumSize(QSize(90, 30))
-        self.label_83.setFont(font16)
+        self.label_83.setFont(font2)
         self.label_83.setStyleSheet(u"border: none;")
 
         self.gridLayout_35.addWidget(self.label_83, 2, 2, 1, 1)
@@ -3709,7 +3694,7 @@ class Ui_Sistema(object):
         self.label_78 = QLabel(self.frame_23)
         self.label_78.setObjectName(u"label_78")
         self.label_78.setMaximumSize(QSize(16777215, 30))
-        self.label_78.setFont(font16)
+        self.label_78.setFont(font2)
         self.label_78.setStyleSheet(u"border: none;")
 
         self.gridLayout_35.addWidget(self.label_78, 0, 0, 1, 1)
@@ -3717,7 +3702,7 @@ class Ui_Sistema(object):
         self.label_104 = QLabel(self.frame_23)
         self.label_104.setObjectName(u"label_104")
         self.label_104.setMaximumSize(QSize(16777215, 30))
-        self.label_104.setFont(font16)
+        self.label_104.setFont(font2)
         self.label_104.setStyleSheet(u"border: none;")
 
         self.gridLayout_35.addWidget(self.label_104, 4, 3, 1, 1)
@@ -3867,40 +3852,39 @@ class Ui_Sistema(object):
         if (self.est_consult_tab.columnCount() < 9):
             self.est_consult_tab.setColumnCount(9)
         __qtablewidgetitem24 = QTableWidgetItem()
-        __qtablewidgetitem24.setFont(font9);
+        __qtablewidgetitem24.setFont(font7);
         self.est_consult_tab.setHorizontalHeaderItem(0, __qtablewidgetitem24)
         __qtablewidgetitem25 = QTableWidgetItem()
-        __qtablewidgetitem25.setFont(font9);
+        __qtablewidgetitem25.setFont(font7);
         self.est_consult_tab.setHorizontalHeaderItem(1, __qtablewidgetitem25)
         __qtablewidgetitem26 = QTableWidgetItem()
-        __qtablewidgetitem26.setFont(font9);
+        __qtablewidgetitem26.setFont(font7);
         self.est_consult_tab.setHorizontalHeaderItem(2, __qtablewidgetitem26)
         __qtablewidgetitem27 = QTableWidgetItem()
-        __qtablewidgetitem27.setFont(font10);
+        __qtablewidgetitem27.setFont(font7);
         self.est_consult_tab.setHorizontalHeaderItem(3, __qtablewidgetitem27)
-        font17 = QFont()
-        font17.setFamily(u"MS Shell Dlg 2")
-        font17.setPointSize(11)
-        font17.setBold(False)
-        font17.setWeight(50)
+        font10 = QFont()
+        font10.setPointSize(11)
+        font10.setBold(False)
+        font10.setWeight(50)
         __qtablewidgetitem28 = QTableWidgetItem()
-        __qtablewidgetitem28.setFont(font17);
+        __qtablewidgetitem28.setFont(font10);
         self.est_consult_tab.setHorizontalHeaderItem(4, __qtablewidgetitem28)
         __qtablewidgetitem29 = QTableWidgetItem()
-        __qtablewidgetitem29.setFont(font10);
+        __qtablewidgetitem29.setFont(font7);
         self.est_consult_tab.setHorizontalHeaderItem(5, __qtablewidgetitem29)
         __qtablewidgetitem30 = QTableWidgetItem()
-        __qtablewidgetitem30.setFont(font10);
+        __qtablewidgetitem30.setFont(font7);
         self.est_consult_tab.setHorizontalHeaderItem(6, __qtablewidgetitem30)
         __qtablewidgetitem31 = QTableWidgetItem()
-        __qtablewidgetitem31.setFont(font9);
+        __qtablewidgetitem31.setFont(font7);
         self.est_consult_tab.setHorizontalHeaderItem(7, __qtablewidgetitem31)
         __qtablewidgetitem32 = QTableWidgetItem()
-        __qtablewidgetitem32.setFont(font10);
+        __qtablewidgetitem32.setFont(font7);
         self.est_consult_tab.setHorizontalHeaderItem(8, __qtablewidgetitem32)
         self.est_consult_tab.setObjectName(u"est_consult_tab")
         self.est_consult_tab.setEnabled(True)
-        self.est_consult_tab.setFont(font11)
+        self.est_consult_tab.setFont(font6)
         self.est_consult_tab.setStyleSheet(u"QTableWidget{\n"
 "	border: 1px solid rgb(125, 125, 125);\n"
 "	background-color: rgb(200, 200, 200);\n"
@@ -3958,7 +3942,7 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.label_25.sizePolicy().hasHeightForWidth())
         self.label_25.setSizePolicy(sizePolicy1)
         self.label_25.setMaximumSize(QSize(16777215, 40))
-        self.label_25.setFont(font12)
+        self.label_25.setFont(font8)
         self.label_25.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
 "color: white;\n"
 "border-radius: 10px;\n"
@@ -3970,7 +3954,7 @@ class Ui_Sistema(object):
         self.frame_21 = QFrame(self.editar_dados)
         self.frame_21.setObjectName(u"frame_21")
         self.frame_21.setMaximumSize(QSize(600, 16777215))
-        self.frame_21.setFont(font15)
+        self.frame_21.setFont(font2)
         self.frame_21.setFrameShape(QFrame.StyledPanel)
         self.frame_21.setFrameShadow(QFrame.Raised)
         self.gridLayout_32 = QGridLayout(self.frame_21)
@@ -3992,7 +3976,7 @@ class Ui_Sistema(object):
         self.label_60 = QLabel(self.frame_21)
         self.label_60.setObjectName(u"label_60")
         self.label_60.setMaximumSize(QSize(16777215, 30))
-        self.label_60.setFont(font16)
+        self.label_60.setFont(font2)
         self.label_60.setStyleSheet(u"border: none;")
 
         self.gridLayout_32.addWidget(self.label_60, 1, 0, 1, 1)
@@ -4002,7 +3986,7 @@ class Ui_Sistema(object):
         sizePolicy2.setHeightForWidth(self.label_66.sizePolicy().hasHeightForWidth())
         self.label_66.setSizePolicy(sizePolicy2)
         self.label_66.setMaximumSize(QSize(90, 30))
-        self.label_66.setFont(font16)
+        self.label_66.setFont(font2)
         self.label_66.setStyleSheet(u"border: none;")
 
         self.gridLayout_32.addWidget(self.label_66, 8, 2, 1, 1)
@@ -4023,7 +4007,7 @@ class Ui_Sistema(object):
         self.label_64 = QLabel(self.frame_21)
         self.label_64.setObjectName(u"label_64")
         self.label_64.setMaximumSize(QSize(16777215, 30))
-        self.label_64.setFont(font16)
+        self.label_64.setFont(font2)
         self.label_64.setStyleSheet(u"border: none;")
 
         self.gridLayout_32.addWidget(self.label_64, 6, 0, 1, 1)
@@ -4046,7 +4030,7 @@ class Ui_Sistema(object):
         sizePolicy3.setHeightForWidth(self.est_edt_btn_salvar.sizePolicy().hasHeightForWidth())
         self.est_edt_btn_salvar.setSizePolicy(sizePolicy3)
         self.est_edt_btn_salvar.setMaximumSize(QSize(90, 30))
-        self.est_edt_btn_salvar.setFont(font16)
+        self.est_edt_btn_salvar.setFont(font2)
         self.est_edt_btn_salvar.setStyleSheet(u"QPushButton{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 209, 22, 255));\n"
 "	border-radius: 10px;\n"
@@ -4092,7 +4076,7 @@ class Ui_Sistema(object):
         sizePolicy2.setHeightForWidth(self.label_67.sizePolicy().hasHeightForWidth())
         self.label_67.setSizePolicy(sizePolicy2)
         self.label_67.setMaximumSize(QSize(90, 30))
-        self.label_67.setFont(font16)
+        self.label_67.setFont(font2)
         self.label_67.setStyleSheet(u"border: none;")
 
         self.gridLayout_32.addWidget(self.label_67, 8, 1, 1, 1)
@@ -4111,7 +4095,7 @@ class Ui_Sistema(object):
         self.label_61 = QLabel(self.frame_21)
         self.label_61.setObjectName(u"label_61")
         self.label_61.setMaximumSize(QSize(16777215, 30))
-        self.label_61.setFont(font16)
+        self.label_61.setFont(font2)
         self.label_61.setStyleSheet(u"border: none;")
 
         self.gridLayout_32.addWidget(self.label_61, 2, 0, 1, 1)
@@ -4119,7 +4103,7 @@ class Ui_Sistema(object):
         self.label_65 = QLabel(self.frame_21)
         self.label_65.setObjectName(u"label_65")
         self.label_65.setMaximumSize(QSize(16777215, 30))
-        self.label_65.setFont(font16)
+        self.label_65.setFont(font2)
         self.label_65.setStyleSheet(u"border: none;")
 
         self.gridLayout_32.addWidget(self.label_65, 7, 0, 1, 1)
@@ -4129,7 +4113,7 @@ class Ui_Sistema(object):
         sizePolicy3.setHeightForWidth(self.est_edt_btn_cancelar.sizePolicy().hasHeightForWidth())
         self.est_edt_btn_cancelar.setSizePolicy(sizePolicy3)
         self.est_edt_btn_cancelar.setMaximumSize(QSize(90, 30))
-        self.est_edt_btn_cancelar.setFont(font16)
+        self.est_edt_btn_cancelar.setFont(font2)
         self.est_edt_btn_cancelar.setStyleSheet(u"QPushButton{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 209, 22, 255));\n"
 "	border-radius: 10px;\n"
@@ -4146,7 +4130,7 @@ class Ui_Sistema(object):
         self.label_62 = QLabel(self.frame_21)
         self.label_62.setObjectName(u"label_62")
         self.label_62.setMaximumSize(QSize(16777215, 30))
-        self.label_62.setFont(font16)
+        self.label_62.setFont(font2)
         self.label_62.setStyleSheet(u"border: none;")
 
         self.gridLayout_32.addWidget(self.label_62, 4, 0, 1, 1)
@@ -4168,7 +4152,7 @@ class Ui_Sistema(object):
         self.label_58 = QLabel(self.frame_21)
         self.label_58.setObjectName(u"label_58")
         self.label_58.setMaximumSize(QSize(16777215, 30))
-        self.label_58.setFont(font16)
+        self.label_58.setFont(font2)
         self.label_58.setStyleSheet(u"border: none;")
 
         self.gridLayout_32.addWidget(self.label_58, 0, 0, 1, 1)
@@ -4176,7 +4160,7 @@ class Ui_Sistema(object):
         self.label_63 = QLabel(self.frame_21)
         self.label_63.setObjectName(u"label_63")
         self.label_63.setMaximumSize(QSize(16777215, 30))
-        self.label_63.setFont(font16)
+        self.label_63.setFont(font2)
         self.label_63.setStyleSheet(u"border: none;")
 
         self.gridLayout_32.addWidget(self.label_63, 5, 0, 1, 1)
@@ -4184,7 +4168,7 @@ class Ui_Sistema(object):
         self.label_90 = QLabel(self.frame_21)
         self.label_90.setObjectName(u"label_90")
         self.label_90.setMaximumSize(QSize(16777215, 30))
-        self.label_90.setFont(font16)
+        self.label_90.setFont(font2)
         self.label_90.setStyleSheet(u"border: none;")
 
         self.gridLayout_32.addWidget(self.label_90, 3, 0, 1, 1)
@@ -4232,35 +4216,33 @@ class Ui_Sistema(object):
         self.vend_tb = QTableWidget(self.frame_24)
         if (self.vend_tb.columnCount() < 7):
             self.vend_tb.setColumnCount(7)
-        font18 = QFont()
-        font18.setFamily(u"Segoe UI Semibold")
-        font18.setPointSize(11)
-        font18.setBold(True)
-        font18.setWeight(75)
+        font11 = QFont()
+        font11.setPointSize(11)
+        font11.setBold(True)
+        font11.setWeight(75)
         __qtablewidgetitem33 = QTableWidgetItem()
-        __qtablewidgetitem33.setFont(font18);
+        __qtablewidgetitem33.setFont(font11);
         self.vend_tb.setHorizontalHeaderItem(0, __qtablewidgetitem33)
         __qtablewidgetitem34 = QTableWidgetItem()
-        __qtablewidgetitem34.setTextAlignment(Qt.AlignCenter);
-        __qtablewidgetitem34.setFont(font18);
+        __qtablewidgetitem34.setFont(font11);
         self.vend_tb.setHorizontalHeaderItem(1, __qtablewidgetitem34)
         __qtablewidgetitem35 = QTableWidgetItem()
-        __qtablewidgetitem35.setFont(font18);
+        __qtablewidgetitem35.setFont(font11);
         self.vend_tb.setHorizontalHeaderItem(2, __qtablewidgetitem35)
         __qtablewidgetitem36 = QTableWidgetItem()
-        __qtablewidgetitem36.setFont(font18);
+        __qtablewidgetitem36.setFont(font11);
         self.vend_tb.setHorizontalHeaderItem(3, __qtablewidgetitem36)
         __qtablewidgetitem37 = QTableWidgetItem()
-        __qtablewidgetitem37.setFont(font18);
+        __qtablewidgetitem37.setFont(font11);
         self.vend_tb.setHorizontalHeaderItem(4, __qtablewidgetitem37)
         __qtablewidgetitem38 = QTableWidgetItem()
-        __qtablewidgetitem38.setFont(font18);
+        __qtablewidgetitem38.setFont(font11);
         self.vend_tb.setHorizontalHeaderItem(5, __qtablewidgetitem38)
         __qtablewidgetitem39 = QTableWidgetItem()
-        __qtablewidgetitem39.setFont(font18);
+        __qtablewidgetitem39.setFont(font11);
         self.vend_tb.setHorizontalHeaderItem(6, __qtablewidgetitem39)
         self.vend_tb.setObjectName(u"vend_tb")
-        self.vend_tb.setFont(font11)
+        self.vend_tb.setFont(font6)
         self.vend_tb.setLayoutDirection(Qt.LeftToRight)
         self.vend_tb.setStyleSheet(u"QTableWidget{\n"
 "	border: 1px solid rgb(125, 125, 125);\n"
@@ -4330,12 +4312,11 @@ class Ui_Sistema(object):
         sizePolicy3.setHeightForWidth(self.vend_btn_finalizar.sizePolicy().hasHeightForWidth())
         self.vend_btn_finalizar.setSizePolicy(sizePolicy3)
         self.vend_btn_finalizar.setMaximumSize(QSize(100, 50))
-        font19 = QFont()
-        font19.setFamily(u"Segoe UI Semibold")
-        font19.setPointSize(14)
-        font19.setBold(True)
-        font19.setWeight(75)
-        self.vend_btn_finalizar.setFont(font19)
+        font12 = QFont()
+        font12.setPointSize(14)
+        font12.setBold(True)
+        font12.setWeight(75)
+        self.vend_btn_finalizar.setFont(font12)
         self.vend_btn_finalizar.setStyleSheet(u"QPushButton {\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:			1 rgba(255, 255, 255, 0));\n"
 "	color: white;\n"
@@ -4355,7 +4336,7 @@ class Ui_Sistema(object):
         sizePolicy3.setHeightForWidth(self.vend_btn_cancelar.sizePolicy().hasHeightForWidth())
         self.vend_btn_cancelar.setSizePolicy(sizePolicy3)
         self.vend_btn_cancelar.setMaximumSize(QSize(100, 50))
-        self.vend_btn_cancelar.setFont(font19)
+        self.vend_btn_cancelar.setFont(font12)
         self.vend_btn_cancelar.setStyleSheet(u"QPushButton {\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:			1 rgba(255, 255, 255, 0));\n"
 "	color: white;\n"
@@ -4375,11 +4356,7 @@ class Ui_Sistema(object):
         sizePolicy2.setHeightForWidth(self.label_46.sizePolicy().hasHeightForWidth())
         self.label_46.setSizePolicy(sizePolicy2)
         self.label_46.setMaximumSize(QSize(16777215, 30))
-        font20 = QFont()
-        font20.setPointSize(11)
-        font20.setBold(True)
-        font20.setWeight(75)
-        self.label_46.setFont(font20)
+        self.label_46.setFont(font11)
         self.label_46.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
 "border: none;")
 
@@ -4388,7 +4365,7 @@ class Ui_Sistema(object):
         self.label_43 = QLabel(self.frame_26)
         self.label_43.setObjectName(u"label_43")
         self.label_43.setMaximumSize(QSize(16777215, 30))
-        self.label_43.setFont(font20)
+        self.label_43.setFont(font11)
         self.label_43.setStyleSheet(u"color: white;\n"
 "border: none;\n"
 "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));")
@@ -4398,11 +4375,11 @@ class Ui_Sistema(object):
         self.label_44 = QLabel(self.frame_26)
         self.label_44.setObjectName(u"label_44")
         self.label_44.setMaximumSize(QSize(16777215, 30))
-        font21 = QFont()
-        font21.setPointSize(20)
-        font21.setBold(True)
-        font21.setWeight(75)
-        self.label_44.setFont(font21)
+        font13 = QFont()
+        font13.setPointSize(20)
+        font13.setBold(True)
+        font13.setWeight(75)
+        self.label_44.setFont(font13)
         self.label_44.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
 "border: none;")
 
@@ -4435,7 +4412,7 @@ class Ui_Sistema(object):
         self.label_3 = QLabel(self.frame_25)
         self.label_3.setObjectName(u"label_3")
         self.label_3.setMaximumSize(QSize(16777215, 30))
-        self.label_3.setFont(font20)
+        self.label_3.setFont(font11)
 
         self.verticalLayout.addWidget(self.label_3)
 
@@ -4451,7 +4428,7 @@ class Ui_Sistema(object):
         self.label_7 = QLabel(self.frame_25)
         self.label_7.setObjectName(u"label_7")
         self.label_7.setMaximumSize(QSize(16777215, 30))
-        self.label_7.setFont(font20)
+        self.label_7.setFont(font11)
 
         self.verticalLayout.addWidget(self.label_7)
 
@@ -4466,7 +4443,7 @@ class Ui_Sistema(object):
         self.label_41 = QLabel(self.frame_25)
         self.label_41.setObjectName(u"label_41")
         self.label_41.setMaximumSize(QSize(16777215, 30))
-        self.label_41.setFont(font20)
+        self.label_41.setFont(font11)
 
         self.verticalLayout.addWidget(self.label_41)
 
@@ -4482,7 +4459,7 @@ class Ui_Sistema(object):
         self.label_42 = QLabel(self.frame_25)
         self.label_42.setObjectName(u"label_42")
         self.label_42.setMaximumSize(QSize(16777215, 30))
-        self.label_42.setFont(font20)
+        self.label_42.setFont(font11)
 
         self.verticalLayout.addWidget(self.label_42)
 
@@ -4498,7 +4475,7 @@ class Ui_Sistema(object):
         self.vend_btn_adicionar = QPushButton(self.frame_25)
         self.vend_btn_adicionar.setObjectName(u"vend_btn_adicionar")
         self.vend_btn_adicionar.setMaximumSize(QSize(16777215, 50))
-        self.vend_btn_adicionar.setFont(font19)
+        self.vend_btn_adicionar.setFont(font12)
         self.vend_btn_adicionar.setStyleSheet(u"QPushButton{\n"
 "	border-radius: 5px;\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 					239), stop:1 rgba(255, 237, 162, 255));\n"
@@ -4526,7 +4503,7 @@ class Ui_Sistema(object):
         self.label_45 = QLabel(self.frame_20)
         self.label_45.setObjectName(u"label_45")
         self.label_45.setMaximumSize(QSize(16777215, 30))
-        self.label_45.setFont(font21)
+        self.label_45.setFont(font13)
         self.label_45.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
 "border: none;\n"
 "color: white;")
@@ -4570,12 +4547,11 @@ class Ui_Sistema(object):
         self.verticalLayout_4.setContentsMargins(0, 0, 0, 0)
         self.label_56 = QLabel(self.widget_3)
         self.label_56.setObjectName(u"label_56")
-        font22 = QFont()
-        font22.setFamily(u"Noto Serif")
-        font22.setPointSize(13)
-        font22.setBold(True)
-        font22.setWeight(75)
-        self.label_56.setFont(font22)
+        font14 = QFont()
+        font14.setPointSize(13)
+        font14.setBold(True)
+        font14.setWeight(75)
+        self.label_56.setFont(font14)
         self.label_56.setStyleSheet(u"image: url(:/icons/img05.png);\n"
 "padding: 10px;\n"
 "")
@@ -4586,13 +4562,12 @@ class Ui_Sistema(object):
         self.label_89 = QLabel(self.widget_3)
         self.label_89.setObjectName(u"label_89")
         self.label_89.setMaximumSize(QSize(16777215, 25))
-        font23 = QFont()
-        font23.setFamily(u"Noto Serif")
-        font23.setPointSize(10)
-        font23.setBold(True)
-        font23.setItalic(False)
-        font23.setWeight(75)
-        self.label_89.setFont(font23)
+        font15 = QFont()
+        font15.setPointSize(10)
+        font15.setBold(True)
+        font15.setItalic(False)
+        font15.setWeight(75)
+        self.label_89.setFont(font15)
         self.label_89.setStyleSheet(u"")
         self.label_89.setAlignment(Qt.AlignCenter)
 
@@ -4603,12 +4578,11 @@ class Ui_Sistema(object):
 
         self.fin_home_cx_posto = QLabel(self.widget_2)
         self.fin_home_cx_posto.setObjectName(u"fin_home_cx_posto")
-        font24 = QFont()
-        font24.setFamily(u"Noto Serif")
-        font24.setPointSize(22)
-        font24.setBold(True)
-        font24.setWeight(75)
-        self.fin_home_cx_posto.setFont(font24)
+        font16 = QFont()
+        font16.setPointSize(22)
+        font16.setBold(True)
+        font16.setWeight(75)
+        self.fin_home_cx_posto.setFont(font16)
         self.fin_home_cx_posto.setStyleSheet(u"color: white;\n"
 "background-color: rgb(0, 119, 199);")
         self.fin_home_cx_posto.setAlignment(Qt.AlignCenter)
@@ -4629,12 +4603,11 @@ class Ui_Sistema(object):
         self.label_119 = QLabel(self.widget_8)
         self.label_119.setObjectName(u"label_119")
         self.label_119.setMaximumSize(QSize(16777215, 30))
-        font25 = QFont()
-        font25.setFamily(u"Noto Serif")
-        font25.setPointSize(17)
-        font25.setBold(False)
-        font25.setWeight(50)
-        self.label_119.setFont(font25)
+        font17 = QFont()
+        font17.setPointSize(17)
+        font17.setBold(False)
+        font17.setWeight(50)
+        self.label_119.setFont(font17)
         self.label_119.setStyleSheet(u"color: rgb(255, 0, 0);")
         self.label_119.setAlignment(Qt.AlignCenter)
 
@@ -4650,12 +4623,11 @@ class Ui_Sistema(object):
         self.label_118 = QLabel(self.widget_28)
         self.label_118.setObjectName(u"label_118")
         self.label_118.setMaximumSize(QSize(16777215, 30))
-        font26 = QFont()
-        font26.setFamily(u"Noto Serif")
-        font26.setPointSize(8)
-        font26.setBold(False)
-        font26.setWeight(50)
-        self.label_118.setFont(font26)
+        font18 = QFont()
+        font18.setPointSize(8)
+        font18.setBold(False)
+        font18.setWeight(50)
+        self.label_118.setFont(font18)
         self.label_118.setStyleSheet(u"")
         self.label_118.setAlignment(Qt.AlignCenter)
 
@@ -4664,12 +4636,11 @@ class Ui_Sistema(object):
         self.label_120 = QLabel(self.widget_28)
         self.label_120.setObjectName(u"label_120")
         self.label_120.setMaximumSize(QSize(80, 30))
-        font27 = QFont()
-        font27.setFamily(u"Noto Serif")
-        font27.setPointSize(8)
-        font27.setBold(True)
-        font27.setWeight(75)
-        self.label_120.setFont(font27)
+        font19 = QFont()
+        font19.setPointSize(8)
+        font19.setBold(True)
+        font19.setWeight(75)
+        self.label_120.setFont(font19)
         self.label_120.setStyleSheet(u"")
         self.label_120.setAlignment(Qt.AlignCenter)
 
@@ -4700,12 +4671,11 @@ class Ui_Sistema(object):
         self.label_117 = QLabel(self.widget_8)
         self.label_117.setObjectName(u"label_117")
         self.label_117.setMaximumSize(QSize(16777215, 30))
-        font28 = QFont()
-        font28.setFamily(u"Noto Serif")
-        font28.setPointSize(10)
-        font28.setBold(True)
-        font28.setWeight(75)
-        self.label_117.setFont(font28)
+        font20 = QFont()
+        font20.setPointSize(10)
+        font20.setBold(True)
+        font20.setWeight(75)
+        self.label_117.setFont(font20)
         self.label_117.setAlignment(Qt.AlignCenter)
 
         self.gridLayout_59.addWidget(self.label_117, 0, 0, 1, 2)
@@ -4732,7 +4702,7 @@ class Ui_Sistema(object):
         self.verticalLayout_5.setContentsMargins(0, 0, 0, 0)
         self.label_87 = QLabel(self.widget_5)
         self.label_87.setObjectName(u"label_87")
-        self.label_87.setFont(font22)
+        self.label_87.setFont(font14)
         self.label_87.setStyleSheet(u"image: url(:/icons/img06.png);\n"
 "padding: 5px;\n"
 "")
@@ -4743,7 +4713,7 @@ class Ui_Sistema(object):
         self.label_98 = QLabel(self.widget_5)
         self.label_98.setObjectName(u"label_98")
         self.label_98.setMaximumSize(QSize(16777215, 25))
-        self.label_98.setFont(font22)
+        self.label_98.setFont(font14)
         self.label_98.setStyleSheet(u"")
         self.label_98.setAlignment(Qt.AlignCenter)
 
@@ -4754,7 +4724,7 @@ class Ui_Sistema(object):
 
         self.fin_home_cx_banco = QLabel(self.widget_4)
         self.fin_home_cx_banco.setObjectName(u"fin_home_cx_banco")
-        self.fin_home_cx_banco.setFont(font24)
+        self.fin_home_cx_banco.setFont(font16)
         self.fin_home_cx_banco.setStyleSheet(u"color: white;\n"
 "background-color: rgb(92, 27, 166)")
         self.fin_home_cx_banco.setAlignment(Qt.AlignCenter)
@@ -4775,12 +4745,11 @@ class Ui_Sistema(object):
         self.label_102 = QLabel(self.widget_7)
         self.label_102.setObjectName(u"label_102")
         self.label_102.setMaximumSize(QSize(16777215, 30))
-        font29 = QFont()
-        font29.setFamily(u"Noto Serif")
-        font29.setPointSize(10)
-        font29.setBold(False)
-        font29.setWeight(50)
-        self.label_102.setFont(font29)
+        font21 = QFont()
+        font21.setPointSize(10)
+        font21.setBold(False)
+        font21.setWeight(50)
+        self.label_102.setFont(font21)
         self.label_102.setAlignment(Qt.AlignCenter)
 
         self.verticalLayout_7.addWidget(self.label_102)
@@ -4804,12 +4773,7 @@ class Ui_Sistema(object):
         self.label_107 = QLabel(self.widget_6)
         self.label_107.setObjectName(u"label_107")
         self.label_107.setMaximumSize(QSize(16777215, 40))
-        font30 = QFont()
-        font30.setFamily(u"Noto Serif")
-        font30.setPointSize(11)
-        font30.setBold(False)
-        font30.setWeight(50)
-        self.label_107.setFont(font30)
+        self.label_107.setFont(font10)
         self.label_107.setStyleSheet(u"border-bottom: 1px solid rgb(235, 235, 235)")
         self.label_107.setAlignment(Qt.AlignCenter)
 
@@ -4836,7 +4800,7 @@ class Ui_Sistema(object):
         self.label_121 = QLabel(self.widget_10)
         self.label_121.setObjectName(u"label_121")
         self.label_121.setMaximumSize(QSize(16777215, 60))
-        self.label_121.setFont(font29)
+        self.label_121.setFont(font21)
         self.label_121.setStyleSheet(u"border: 0px;")
         self.label_121.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -4875,12 +4839,11 @@ class Ui_Sistema(object):
         self.label_116 = QLabel(self.widget_10)
         self.label_116.setObjectName(u"label_116")
         self.label_116.setMaximumSize(QSize(16777215, 40))
-        font31 = QFont()
-        font31.setFamily(u"Noto Serif")
-        font31.setPointSize(12)
-        font31.setBold(False)
-        font31.setWeight(50)
-        self.label_116.setFont(font31)
+        font22 = QFont()
+        font22.setPointSize(12)
+        font22.setBold(False)
+        font22.setWeight(50)
+        self.label_116.setFont(font22)
         self.label_116.setStyleSheet(u"border: 0px;")
         self.label_116.setAlignment(Qt.AlignCenter)
 
@@ -4899,7 +4862,7 @@ class Ui_Sistema(object):
         self.label_126 = QLabel(self.widget_11)
         self.label_126.setObjectName(u"label_126")
         self.label_126.setMaximumSize(QSize(16777215, 60))
-        self.label_126.setFont(font29)
+        self.label_126.setFont(font21)
         self.label_126.setStyleSheet(u"border: 0px;")
         self.label_126.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -4949,7 +4912,7 @@ class Ui_Sistema(object):
         self.label_127 = QLabel(self.widget_11)
         self.label_127.setObjectName(u"label_127")
         self.label_127.setMaximumSize(QSize(16777215, 40))
-        self.label_127.setFont(font31)
+        self.label_127.setFont(font22)
         self.label_127.setStyleSheet(u"border: 0px;")
         self.label_127.setAlignment(Qt.AlignCenter)
 
@@ -4979,7 +4942,7 @@ class Ui_Sistema(object):
         self.label_128 = QLabel(self.widget_12)
         self.label_128.setObjectName(u"label_128")
         self.label_128.setMaximumSize(QSize(16777215, 60))
-        self.label_128.setFont(font29)
+        self.label_128.setFont(font21)
         self.label_128.setStyleSheet(u"border: 0px;")
         self.label_128.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -5018,7 +4981,7 @@ class Ui_Sistema(object):
         self.label_129 = QLabel(self.widget_12)
         self.label_129.setObjectName(u"label_129")
         self.label_129.setMaximumSize(QSize(16777215, 40))
-        self.label_129.setFont(font31)
+        self.label_129.setFont(font22)
         self.label_129.setStyleSheet(u"border: 0px;")
         self.label_129.setAlignment(Qt.AlignCenter)
 
@@ -5048,7 +5011,7 @@ class Ui_Sistema(object):
         self.label_130 = QLabel(self.widget_15)
         self.label_130.setObjectName(u"label_130")
         self.label_130.setMaximumSize(QSize(16777215, 60))
-        self.label_130.setFont(font29)
+        self.label_130.setFont(font21)
         self.label_130.setStyleSheet(u"border: 0px;")
         self.label_130.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -5087,7 +5050,7 @@ class Ui_Sistema(object):
         self.label_131 = QLabel(self.widget_15)
         self.label_131.setObjectName(u"label_131")
         self.label_131.setMaximumSize(QSize(16777215, 40))
-        self.label_131.setFont(font31)
+        self.label_131.setFont(font22)
         self.label_131.setStyleSheet(u"border: 0px;")
         self.label_131.setAlignment(Qt.AlignCenter)
 
@@ -5110,7 +5073,7 @@ class Ui_Sistema(object):
         self.label_122 = QLabel(self.widget_14)
         self.label_122.setObjectName(u"label_122")
         self.label_122.setMaximumSize(QSize(16777215, 30))
-        self.label_122.setFont(font25)
+        self.label_122.setFont(font17)
         self.label_122.setStyleSheet(u"color: rgb(255, 0, 0);")
         self.label_122.setAlignment(Qt.AlignCenter)
 
@@ -5126,7 +5089,7 @@ class Ui_Sistema(object):
         self.label_123 = QLabel(self.widget_30)
         self.label_123.setObjectName(u"label_123")
         self.label_123.setMaximumSize(QSize(16777215, 30))
-        self.label_123.setFont(font26)
+        self.label_123.setFont(font18)
         self.label_123.setStyleSheet(u"")
         self.label_123.setAlignment(Qt.AlignCenter)
 
@@ -5135,7 +5098,7 @@ class Ui_Sistema(object):
         self.label_124 = QLabel(self.widget_30)
         self.label_124.setObjectName(u"label_124")
         self.label_124.setMaximumSize(QSize(80, 30))
-        self.label_124.setFont(font27)
+        self.label_124.setFont(font19)
         self.label_124.setStyleSheet(u"")
         self.label_124.setAlignment(Qt.AlignCenter)
 
@@ -5166,7 +5129,7 @@ class Ui_Sistema(object):
         self.label_125 = QLabel(self.widget_14)
         self.label_125.setObjectName(u"label_125")
         self.label_125.setMaximumSize(QSize(16777215, 30))
-        self.label_125.setFont(font28)
+        self.label_125.setFont(font20)
         self.label_125.setAlignment(Qt.AlignCenter)
 
         self.gridLayout_63.addWidget(self.label_125, 0, 0, 1, 2)
@@ -5193,10 +5156,7 @@ class Ui_Sistema(object):
         self.horizontalLayout_45.setContentsMargins(9, 0, 9, 0)
         self.label_169 = QLabel(self.widget_13)
         self.label_169.setObjectName(u"label_169")
-        font32 = QFont()
-        font32.setFamily(u"Roboto")
-        font32.setPointSize(11)
-        self.label_169.setFont(font32)
+        self.label_169.setFont(font7)
 
         self.horizontalLayout_45.addWidget(self.label_169)
 
@@ -5207,7 +5167,7 @@ class Ui_Sistema(object):
         self.comboBox_8.addItem("")
         self.comboBox_8.setObjectName(u"comboBox_8")
         self.comboBox_8.setMaximumSize(QSize(16777215, 25))
-        self.comboBox_8.setFont(font32)
+        self.comboBox_8.setFont(font7)
         self.comboBox_8.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -5242,7 +5202,7 @@ class Ui_Sistema(object):
         self.label_170 = QLabel(self.entrada_2)
         self.label_170.setObjectName(u"label_170")
         self.label_170.setMaximumSize(QSize(60, 16777215))
-        self.label_170.setFont(font32)
+        self.label_170.setFont(font7)
 
         self.horizontalLayout_46.addWidget(self.label_170)
 
@@ -5252,7 +5212,7 @@ class Ui_Sistema(object):
         self.comboBox_9.addItem("")
         self.comboBox_9.setObjectName(u"comboBox_9")
         self.comboBox_9.setMaximumSize(QSize(150, 25))
-        self.comboBox_9.setFont(font32)
+        self.comboBox_9.setFont(font7)
         self.comboBox_9.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -5268,7 +5228,7 @@ class Ui_Sistema(object):
         sizePolicy3.setHeightForWidth(self.comboBox_11.sizePolicy().hasHeightForWidth())
         self.comboBox_11.setSizePolicy(sizePolicy3)
         self.comboBox_11.setMaximumSize(QSize(200, 25))
-        self.comboBox_11.setFont(font32)
+        self.comboBox_11.setFont(font7)
         self.comboBox_11.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -5281,7 +5241,7 @@ class Ui_Sistema(object):
         self.label_171 = QLabel(self.entrada_2)
         self.label_171.setObjectName(u"label_171")
         self.label_171.setMaximumSize(QSize(75, 16777215))
-        self.label_171.setFont(font32)
+        self.label_171.setFont(font7)
 
         self.horizontalLayout_46.addWidget(self.label_171)
 
@@ -5295,7 +5255,7 @@ class Ui_Sistema(object):
         self.comboBox_10.addItem("")
         self.comboBox_10.setObjectName(u"comboBox_10")
         self.comboBox_10.setMaximumSize(QSize(150, 25))
-        self.comboBox_10.setFont(font32)
+        self.comboBox_10.setFont(font7)
         self.comboBox_10.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -5380,7 +5340,7 @@ class Ui_Sistema(object):
         self.label_172 = QLabel(self.widget_57)
         self.label_172.setObjectName(u"label_172")
         self.label_172.setMaximumSize(QSize(60, 16777215))
-        self.label_172.setFont(font32)
+        self.label_172.setFont(font7)
 
         self.horizontalLayout_53.addWidget(self.label_172)
 
@@ -5391,7 +5351,7 @@ class Ui_Sistema(object):
         self.comboBox_13.addItem("")
         self.comboBox_13.setObjectName(u"comboBox_13")
         self.comboBox_13.setMaximumSize(QSize(150, 25))
-        self.comboBox_13.setFont(font32)
+        self.comboBox_13.setFont(font7)
         self.comboBox_13.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -5407,7 +5367,7 @@ class Ui_Sistema(object):
         sizePolicy3.setHeightForWidth(self.comboBox_14.sizePolicy().hasHeightForWidth())
         self.comboBox_14.setSizePolicy(sizePolicy3)
         self.comboBox_14.setMaximumSize(QSize(200, 25))
-        self.comboBox_14.setFont(font32)
+        self.comboBox_14.setFont(font7)
         self.comboBox_14.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -5420,7 +5380,7 @@ class Ui_Sistema(object):
         self.label_173 = QLabel(self.widget_57)
         self.label_173.setObjectName(u"label_173")
         self.label_173.setMaximumSize(QSize(75, 16777215))
-        self.label_173.setFont(font32)
+        self.label_173.setFont(font7)
 
         self.horizontalLayout_53.addWidget(self.label_173)
 
@@ -5434,7 +5394,7 @@ class Ui_Sistema(object):
         self.comboBox_12.addItem("")
         self.comboBox_12.setObjectName(u"comboBox_12")
         self.comboBox_12.setMaximumSize(QSize(150, 25))
-        self.comboBox_12.setFont(font32)
+        self.comboBox_12.setFont(font7)
         self.comboBox_12.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -5542,7 +5502,7 @@ class Ui_Sistema(object):
         self.label_176 = QLabel(self.widget_59)
         self.label_176.setObjectName(u"label_176")
         self.label_176.setMaximumSize(QSize(60, 16777215))
-        self.label_176.setFont(font32)
+        self.label_176.setFont(font7)
 
         self.horizontalLayout_58.addWidget(self.label_176)
 
@@ -5553,7 +5513,7 @@ class Ui_Sistema(object):
         self.comboBox_18.addItem("")
         self.comboBox_18.setObjectName(u"comboBox_18")
         self.comboBox_18.setMaximumSize(QSize(150, 25))
-        self.comboBox_18.setFont(font32)
+        self.comboBox_18.setFont(font7)
         self.comboBox_18.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -5569,7 +5529,7 @@ class Ui_Sistema(object):
         sizePolicy3.setHeightForWidth(self.comboBox_19.sizePolicy().hasHeightForWidth())
         self.comboBox_19.setSizePolicy(sizePolicy3)
         self.comboBox_19.setMaximumSize(QSize(200, 25))
-        self.comboBox_19.setFont(font32)
+        self.comboBox_19.setFont(font7)
         self.comboBox_19.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -5582,7 +5542,7 @@ class Ui_Sistema(object):
         self.label_177 = QLabel(self.widget_59)
         self.label_177.setObjectName(u"label_177")
         self.label_177.setMaximumSize(QSize(75, 16777215))
-        self.label_177.setFont(font32)
+        self.label_177.setFont(font7)
 
         self.horizontalLayout_58.addWidget(self.label_177)
 
@@ -5596,7 +5556,7 @@ class Ui_Sistema(object):
         self.comboBox_20.addItem("")
         self.comboBox_20.setObjectName(u"comboBox_20")
         self.comboBox_20.setMaximumSize(QSize(150, 25))
-        self.comboBox_20.setFont(font32)
+        self.comboBox_20.setFont(font7)
         self.comboBox_20.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -5704,7 +5664,6 @@ class Ui_Sistema(object):
         if (self.tableWidget.columnCount() < 5):
             self.tableWidget.setColumnCount(5)
         __qtablewidgetitem40 = QTableWidgetItem()
-        __qtablewidgetitem40.setTextAlignment(Qt.AlignCenter);
         self.tableWidget.setHorizontalHeaderItem(0, __qtablewidgetitem40)
         __qtablewidgetitem41 = QTableWidgetItem()
         self.tableWidget.setHorizontalHeaderItem(1, __qtablewidgetitem41)
@@ -5722,7 +5681,6 @@ class Ui_Sistema(object):
         __qtablewidgetitem46 = QTableWidgetItem()
         self.tableWidget.setVerticalHeaderItem(1, __qtablewidgetitem46)
         __qtablewidgetitem47 = QTableWidgetItem()
-        __qtablewidgetitem47.setTextAlignment(Qt.AlignLeading|Qt.AlignVCenter);
         self.tableWidget.setItem(0, 0, __qtablewidgetitem47)
         __qtablewidgetitem48 = QTableWidgetItem()
         self.tableWidget.setItem(0, 1, __qtablewidgetitem48)
@@ -5743,13 +5701,13 @@ class Ui_Sistema(object):
         __qtablewidgetitem56 = QTableWidgetItem()
         self.tableWidget.setItem(1, 4, __qtablewidgetitem56)
         self.tableWidget.setObjectName(u"tableWidget")
-        font33 = QFont()
-        font33.setFamily(u"Roboto")
-        font33.setPointSize(9)
-        font33.setBold(False)
-        font33.setItalic(False)
-        font33.setWeight(50)
-        self.tableWidget.setFont(font33)
+        font23 = QFont()
+        font23.setFamily(u"Roboto")
+        font23.setPointSize(9)
+        font23.setBold(False)
+        font23.setItalic(False)
+        font23.setWeight(50)
+        self.tableWidget.setFont(font23)
         self.tableWidget.setStyleSheet(u"QTableWidget{\n"
 "	font: 9pt \"Roboto\";\n"
 "	border-radius: 10px;\n"
@@ -5790,7 +5748,6 @@ class Ui_Sistema(object):
         if (self.tableWidget_2.columnCount() < 4):
             self.tableWidget_2.setColumnCount(4)
         __qtablewidgetitem57 = QTableWidgetItem()
-        __qtablewidgetitem57.setTextAlignment(Qt.AlignCenter);
         self.tableWidget_2.setHorizontalHeaderItem(0, __qtablewidgetitem57)
         __qtablewidgetitem58 = QTableWidgetItem()
         self.tableWidget_2.setHorizontalHeaderItem(1, __qtablewidgetitem58)
@@ -5806,7 +5763,6 @@ class Ui_Sistema(object):
         __qtablewidgetitem62 = QTableWidgetItem()
         self.tableWidget_2.setVerticalHeaderItem(1, __qtablewidgetitem62)
         __qtablewidgetitem63 = QTableWidgetItem()
-        __qtablewidgetitem63.setTextAlignment(Qt.AlignLeading|Qt.AlignVCenter);
         self.tableWidget_2.setItem(0, 0, __qtablewidgetitem63)
         __qtablewidgetitem64 = QTableWidgetItem()
         self.tableWidget_2.setItem(0, 1, __qtablewidgetitem64)
@@ -5823,7 +5779,7 @@ class Ui_Sistema(object):
         __qtablewidgetitem70 = QTableWidgetItem()
         self.tableWidget_2.setItem(1, 3, __qtablewidgetitem70)
         self.tableWidget_2.setObjectName(u"tableWidget_2")
-        self.tableWidget_2.setFont(font33)
+        self.tableWidget_2.setFont(font23)
         self.tableWidget_2.setStyleSheet(u"QTableWidget{\n"
 "	font: 9pt \"Roboto\";\n"
 "	border-radius: 10px;\n"
@@ -5873,7 +5829,7 @@ class Ui_Sistema(object):
         sizePolicy6.setHeightForWidth(self.label_174.sizePolicy().hasHeightForWidth())
         self.label_174.setSizePolicy(sizePolicy6)
         self.label_174.setMinimumSize(QSize(50, 0))
-        self.label_174.setFont(font32)
+        self.label_174.setFont(font7)
 
         self.horizontalLayout_57.addWidget(self.label_174)
 
@@ -5891,7 +5847,6 @@ class Ui_Sistema(object):
         if (self.tableWidget_3.columnCount() < 6):
             self.tableWidget_3.setColumnCount(6)
         __qtablewidgetitem71 = QTableWidgetItem()
-        __qtablewidgetitem71.setTextAlignment(Qt.AlignCenter);
         self.tableWidget_3.setHorizontalHeaderItem(0, __qtablewidgetitem71)
         __qtablewidgetitem72 = QTableWidgetItem()
         self.tableWidget_3.setHorizontalHeaderItem(1, __qtablewidgetitem72)
@@ -5911,7 +5866,6 @@ class Ui_Sistema(object):
         __qtablewidgetitem78 = QTableWidgetItem()
         self.tableWidget_3.setVerticalHeaderItem(1, __qtablewidgetitem78)
         __qtablewidgetitem79 = QTableWidgetItem()
-        __qtablewidgetitem79.setTextAlignment(Qt.AlignLeading|Qt.AlignVCenter);
         self.tableWidget_3.setItem(0, 0, __qtablewidgetitem79)
         __qtablewidgetitem80 = QTableWidgetItem()
         self.tableWidget_3.setItem(0, 1, __qtablewidgetitem80)
@@ -5936,7 +5890,7 @@ class Ui_Sistema(object):
         __qtablewidgetitem90 = QTableWidgetItem()
         self.tableWidget_3.setItem(1, 5, __qtablewidgetitem90)
         self.tableWidget_3.setObjectName(u"tableWidget_3")
-        self.tableWidget_3.setFont(font33)
+        self.tableWidget_3.setFont(font23)
         self.tableWidget_3.setStyleSheet(u"QTableWidget{\n"
 "	font: 9pt \"Roboto\";\n"
 "	border-radius: 10px;\n"
@@ -6013,10 +5967,7 @@ class Ui_Sistema(object):
         self.horizontalLayout_44.setContentsMargins(9, -1, 9, -1)
         self.label_168 = QLabel(self.widget_17)
         self.label_168.setObjectName(u"label_168")
-        font34 = QFont()
-        font34.setFamily(u"Roboto")
-        font34.setPointSize(12)
-        self.label_168.setFont(font34)
+        self.label_168.setFont(font2)
 
         self.horizontalLayout_44.addWidget(self.label_168)
 
@@ -6026,7 +5977,7 @@ class Ui_Sistema(object):
         self.fin_novo_mov.addItem("")
         self.fin_novo_mov.setObjectName(u"fin_novo_mov")
         self.fin_novo_mov.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_mov.setFont(font32)
+        self.fin_novo_mov.setFont(font7)
         self.fin_novo_mov.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -6069,7 +6020,7 @@ class Ui_Sistema(object):
         self.label_160 = QLabel(self.fin_novo_wid03)
         self.label_160.setObjectName(u"label_160")
         self.label_160.setMaximumSize(QSize(16777215, 60))
-        self.label_160.setFont(font29)
+        self.label_160.setFont(font21)
         self.label_160.setStyleSheet(u"border: 0px;")
         self.label_160.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -6108,7 +6059,7 @@ class Ui_Sistema(object):
         self.label_161 = QLabel(self.fin_novo_wid03)
         self.label_161.setObjectName(u"label_161")
         self.label_161.setMaximumSize(QSize(16777215, 40))
-        self.label_161.setFont(font31)
+        self.label_161.setFont(font22)
         self.label_161.setStyleSheet(u"border: 0px;")
         self.label_161.setAlignment(Qt.AlignCenter)
 
@@ -6127,7 +6078,7 @@ class Ui_Sistema(object):
         self.label_162 = QLabel(self.fin_novo_wid04)
         self.label_162.setObjectName(u"label_162")
         self.label_162.setMaximumSize(QSize(16777215, 60))
-        self.label_162.setFont(font29)
+        self.label_162.setFont(font21)
         self.label_162.setStyleSheet(u"border: 0px;")
         self.label_162.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -6166,7 +6117,7 @@ class Ui_Sistema(object):
         self.label_163 = QLabel(self.fin_novo_wid04)
         self.label_163.setObjectName(u"label_163")
         self.label_163.setMaximumSize(QSize(16777215, 40))
-        self.label_163.setFont(font31)
+        self.label_163.setFont(font22)
         self.label_163.setStyleSheet(u"border: 0px;")
         self.label_163.setAlignment(Qt.AlignCenter)
 
@@ -6196,7 +6147,6 @@ class Ui_Sistema(object):
         self.widget_33.setObjectName(u"widget_33")
         self.widget_33.setMaximumSize(QSize(50, 50))
         self.widget_33.setStyleSheet(u"border: 0px;\n"
-"\n"
 "padding: 5px;")
         self.horizontalLayout_26 = QHBoxLayout(self.widget_33)
         self.horizontalLayout_26.setObjectName(u"horizontalLayout_26")
@@ -6206,7 +6156,7 @@ class Ui_Sistema(object):
         self.label_156 = QLabel(self.fin_novo_wid01)
         self.label_156.setObjectName(u"label_156")
         self.label_156.setMaximumSize(QSize(16777215, 60))
-        self.label_156.setFont(font29)
+        self.label_156.setFont(font21)
         self.label_156.setStyleSheet(u"border: 0px;")
         self.label_156.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -6245,7 +6195,7 @@ class Ui_Sistema(object):
         self.label_157 = QLabel(self.fin_novo_wid01)
         self.label_157.setObjectName(u"label_157")
         self.label_157.setMaximumSize(QSize(16777215, 40))
-        self.label_157.setFont(font31)
+        self.label_157.setFont(font22)
         self.label_157.setStyleSheet(u"border: 0px;")
         self.label_157.setAlignment(Qt.AlignCenter)
 
@@ -6274,7 +6224,7 @@ class Ui_Sistema(object):
         self.label_158 = QLabel(self.fin_novo_wid02)
         self.label_158.setObjectName(u"label_158")
         self.label_158.setMaximumSize(QSize(16777215, 60))
-        self.label_158.setFont(font29)
+        self.label_158.setFont(font21)
         self.label_158.setStyleSheet(u"border: 0px;")
         self.label_158.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -6313,7 +6263,7 @@ class Ui_Sistema(object):
         self.label_159 = QLabel(self.fin_novo_wid02)
         self.label_159.setObjectName(u"label_159")
         self.label_159.setMaximumSize(QSize(16777215, 40))
-        self.label_159.setFont(font31)
+        self.label_159.setFont(font22)
         self.label_159.setStyleSheet(u"border: 0px;")
         self.label_159.setAlignment(Qt.AlignCenter)
 
@@ -6332,7 +6282,7 @@ class Ui_Sistema(object):
         self.label_166 = QLabel(self.fin_novo_wid05)
         self.label_166.setObjectName(u"label_166")
         self.label_166.setMaximumSize(QSize(16777215, 60))
-        self.label_166.setFont(font29)
+        self.label_166.setFont(font21)
         self.label_166.setStyleSheet(u"border: 0px;")
         self.label_166.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 
@@ -6371,7 +6321,7 @@ class Ui_Sistema(object):
         self.label_167 = QLabel(self.fin_novo_wid05)
         self.label_167.setObjectName(u"label_167")
         self.label_167.setMaximumSize(QSize(16777215, 40))
-        self.label_167.setFont(font31)
+        self.label_167.setFont(font22)
         self.label_167.setStyleSheet(u"border: 0px;")
         self.label_167.setAlignment(Qt.AlignCenter)
 
@@ -6412,10 +6362,9 @@ class Ui_Sistema(object):
         self.label_114 = QLabel(self.widget_19)
         self.label_114.setObjectName(u"label_114")
         self.label_114.setMaximumSize(QSize(16777215, 50))
-        font35 = QFont()
-        font35.setFamily(u"Roboto")
-        font35.setPointSize(17)
-        self.label_114.setFont(font35)
+        font24 = QFont()
+        font24.setPointSize(17)
+        self.label_114.setFont(font24)
         self.label_114.setAlignment(Qt.AlignCenter)
 
         self.gridLayout_58.addWidget(self.label_114, 0, 0, 1, 2)
@@ -6423,7 +6372,7 @@ class Ui_Sistema(object):
         self.fin_novo_desp_desc = QLineEdit(self.widget_19)
         self.fin_novo_desp_desc.setObjectName(u"fin_novo_desp_desc")
         self.fin_novo_desp_desc.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_desp_desc.setFont(font32)
+        self.fin_novo_desp_desc.setFont(font7)
         self.fin_novo_desp_desc.setStyleSheet(u"border-bottom: 1px solid rgb(209, 209, 209);")
 
         self.gridLayout_58.addWidget(self.fin_novo_desp_desc, 4, 1, 1, 1)
@@ -6434,7 +6383,7 @@ class Ui_Sistema(object):
         self.fin_novo_desp_conta.addItem("")
         self.fin_novo_desp_conta.setObjectName(u"fin_novo_desp_conta")
         self.fin_novo_desp_conta.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_desp_conta.setFont(font32)
+        self.fin_novo_desp_conta.setFont(font7)
         self.fin_novo_desp_conta.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -6447,26 +6396,26 @@ class Ui_Sistema(object):
         self.fin_novo_desp_valor = QLineEdit(self.widget_19)
         self.fin_novo_desp_valor.setObjectName(u"fin_novo_desp_valor")
         self.fin_novo_desp_valor.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_desp_valor.setFont(font32)
+        self.fin_novo_desp_valor.setFont(font7)
         self.fin_novo_desp_valor.setStyleSheet(u"border-bottom: 1px solid rgb(209, 209, 209);")
 
         self.gridLayout_58.addWidget(self.fin_novo_desp_valor, 5, 1, 1, 1)
 
         self.label_80 = QLabel(self.widget_19)
         self.label_80.setObjectName(u"label_80")
-        self.label_80.setFont(font34)
+        self.label_80.setFont(font2)
 
         self.gridLayout_58.addWidget(self.label_80, 3, 0, 1, 1)
 
         self.label_100 = QLabel(self.widget_19)
         self.label_100.setObjectName(u"label_100")
-        self.label_100.setFont(font34)
+        self.label_100.setFont(font2)
 
         self.gridLayout_58.addWidget(self.label_100, 5, 0, 1, 1)
 
         self.label_57 = QLabel(self.widget_19)
         self.label_57.setObjectName(u"label_57")
-        self.label_57.setFont(font34)
+        self.label_57.setFont(font2)
 
         self.gridLayout_58.addWidget(self.label_57, 1, 0, 1, 1)
 
@@ -6479,7 +6428,7 @@ class Ui_Sistema(object):
         self.fin_novo_desp_btn_inserir = QPushButton(self.widget_20)
         self.fin_novo_desp_btn_inserir.setObjectName(u"fin_novo_desp_btn_inserir")
         self.fin_novo_desp_btn_inserir.setMaximumSize(QSize(16777215, 30))
-        self.fin_novo_desp_btn_inserir.setFont(font34)
+        self.fin_novo_desp_btn_inserir.setFont(font2)
         self.fin_novo_desp_btn_inserir.setStyleSheet(u"QPushButton {\n"
 "background-color: rgb(81, 81, 81);\n"
 "color: rgb(255, 255, 255)\n"
@@ -6502,7 +6451,7 @@ class Ui_Sistema(object):
         self.fin_novo_desp_tipo.addItem("")
         self.fin_novo_desp_tipo.setObjectName(u"fin_novo_desp_tipo")
         self.fin_novo_desp_tipo.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_desp_tipo.setFont(font32)
+        self.fin_novo_desp_tipo.setFont(font7)
         self.fin_novo_desp_tipo.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -6514,19 +6463,19 @@ class Ui_Sistema(object):
 
         self.label_99 = QLabel(self.widget_19)
         self.label_99.setObjectName(u"label_99")
-        self.label_99.setFont(font34)
+        self.label_99.setFont(font2)
 
         self.gridLayout_58.addWidget(self.label_99, 4, 0, 1, 1)
 
         self.label_101 = QLabel(self.widget_19)
         self.label_101.setObjectName(u"label_101")
-        self.label_101.setFont(font34)
+        self.label_101.setFont(font2)
 
         self.gridLayout_58.addWidget(self.label_101, 6, 0, 1, 1)
 
         self.fin_novo_desp_data = QDateEdit(self.widget_19)
         self.fin_novo_desp_data.setObjectName(u"fin_novo_desp_data")
-        self.fin_novo_desp_data.setFont(font32)
+        self.fin_novo_desp_data.setFont(font7)
         self.fin_novo_desp_data.setStyleSheet(u"QDateEdit{\n"
 "background-color: white;\n"
 "border-radius: 5px;\n"
@@ -6549,7 +6498,7 @@ class Ui_Sistema(object):
 
         self.label_140 = QLabel(self.widget_19)
         self.label_140.setObjectName(u"label_140")
-        self.label_140.setFont(font34)
+        self.label_140.setFont(font2)
 
         self.gridLayout_58.addWidget(self.label_140, 7, 0, 1, 1)
 
@@ -6559,7 +6508,7 @@ class Ui_Sistema(object):
         self.fin_novo_desp_status.addItem("")
         self.fin_novo_desp_status.setObjectName(u"fin_novo_desp_status")
         self.fin_novo_desp_status.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_desp_status.setFont(font32)
+        self.fin_novo_desp_status.setFont(font7)
         self.fin_novo_desp_status.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -6593,7 +6542,7 @@ class Ui_Sistema(object):
         self.fin_novo_transf_de.addItem("")
         self.fin_novo_transf_de.setObjectName(u"fin_novo_transf_de")
         self.fin_novo_transf_de.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_transf_de.setFont(font32)
+        self.fin_novo_transf_de.setFont(font7)
         self.fin_novo_transf_de.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -6606,7 +6555,7 @@ class Ui_Sistema(object):
         self.fin_novo_transf_desc = QLineEdit(self.widget_21)
         self.fin_novo_transf_desc.setObjectName(u"fin_novo_transf_desc")
         self.fin_novo_transf_desc.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_transf_desc.setFont(font32)
+        self.fin_novo_transf_desc.setFont(font7)
         self.fin_novo_transf_desc.setStyleSheet(u"border-bottom: 1px solid rgb(209, 209, 209);")
 
         self.gridLayout_69.addWidget(self.fin_novo_transf_desc, 5, 1, 1, 1)
@@ -6614,20 +6563,20 @@ class Ui_Sistema(object):
         self.fin_novo_transf_valor = QLineEdit(self.widget_21)
         self.fin_novo_transf_valor.setObjectName(u"fin_novo_transf_valor")
         self.fin_novo_transf_valor.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_transf_valor.setFont(font32)
+        self.fin_novo_transf_valor.setFont(font7)
         self.fin_novo_transf_valor.setStyleSheet(u"border-bottom: 1px solid rgb(209, 209, 209);")
 
         self.gridLayout_69.addWidget(self.fin_novo_transf_valor, 6, 1, 1, 1)
 
         self.label_135 = QLabel(self.widget_21)
         self.label_135.setObjectName(u"label_135")
-        self.label_135.setFont(font34)
+        self.label_135.setFont(font2)
 
         self.gridLayout_69.addWidget(self.label_135, 5, 0, 1, 1)
 
         self.fin_novo_transf_data = QDateEdit(self.widget_21)
         self.fin_novo_transf_data.setObjectName(u"fin_novo_transf_data")
-        self.fin_novo_transf_data.setFont(font32)
+        self.fin_novo_transf_data.setFont(font7)
         self.fin_novo_transf_data.setStyleSheet(u"QDateEdit{\n"
 "background-color: white;\n"
 "border-radius: 5px;\n"
@@ -6657,7 +6606,7 @@ class Ui_Sistema(object):
         self.fin_novo_transf_btn_inserir = QPushButton(self.widget_22)
         self.fin_novo_transf_btn_inserir.setObjectName(u"fin_novo_transf_btn_inserir")
         self.fin_novo_transf_btn_inserir.setMaximumSize(QSize(16777215, 30))
-        self.fin_novo_transf_btn_inserir.setFont(font34)
+        self.fin_novo_transf_btn_inserir.setFont(font2)
         self.fin_novo_transf_btn_inserir.setStyleSheet(u"QPushButton {\n"
 "background-color: rgb(81, 81, 81);\n"
 "color: rgb(255, 255, 255)\n"
@@ -6679,20 +6628,20 @@ class Ui_Sistema(object):
         self.label_115 = QLabel(self.widget_21)
         self.label_115.setObjectName(u"label_115")
         self.label_115.setMaximumSize(QSize(16777215, 50))
-        self.label_115.setFont(font35)
+        self.label_115.setFont(font24)
         self.label_115.setAlignment(Qt.AlignCenter)
 
         self.gridLayout_69.addWidget(self.label_115, 0, 0, 1, 2)
 
         self.label_133 = QLabel(self.widget_21)
         self.label_133.setObjectName(u"label_133")
-        self.label_133.setFont(font34)
+        self.label_133.setFont(font2)
 
         self.gridLayout_69.addWidget(self.label_133, 6, 0, 1, 1)
 
         self.label_132 = QLabel(self.widget_21)
         self.label_132.setObjectName(u"label_132")
-        self.label_132.setFont(font34)
+        self.label_132.setFont(font2)
 
         self.gridLayout_69.addWidget(self.label_132, 3, 0, 1, 1)
 
@@ -6702,7 +6651,7 @@ class Ui_Sistema(object):
         self.fin_novo_transf_para.addItem("")
         self.fin_novo_transf_para.setObjectName(u"fin_novo_transf_para")
         self.fin_novo_transf_para.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_transf_para.setFont(font32)
+        self.fin_novo_transf_para.setFont(font7)
         self.fin_novo_transf_para.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -6714,13 +6663,13 @@ class Ui_Sistema(object):
 
         self.label_134 = QLabel(self.widget_21)
         self.label_134.setObjectName(u"label_134")
-        self.label_134.setFont(font34)
+        self.label_134.setFont(font2)
 
         self.gridLayout_69.addWidget(self.label_134, 1, 0, 1, 1)
 
         self.label_155 = QLabel(self.widget_21)
         self.label_155.setObjectName(u"label_155")
-        self.label_155.setFont(font34)
+        self.label_155.setFont(font2)
 
         self.gridLayout_69.addWidget(self.label_155, 4, 0, 1, 1)
 
@@ -6744,27 +6693,27 @@ class Ui_Sistema(object):
         self.gridLayout_73.setContentsMargins(40, -1, 40, -1)
         self.label_151 = QLabel(self.widget_23)
         self.label_151.setObjectName(u"label_151")
-        self.label_151.setFont(font34)
+        self.label_151.setFont(font2)
 
         self.gridLayout_73.addWidget(self.label_151, 4, 0, 1, 1)
 
         self.label_149 = QLabel(self.widget_23)
         self.label_149.setObjectName(u"label_149")
         self.label_149.setMaximumSize(QSize(16777215, 50))
-        self.label_149.setFont(font35)
+        self.label_149.setFont(font24)
         self.label_149.setAlignment(Qt.AlignCenter)
 
         self.gridLayout_73.addWidget(self.label_149, 0, 0, 1, 2)
 
         self.label_153 = QLabel(self.widget_23)
         self.label_153.setObjectName(u"label_153")
-        self.label_153.setFont(font34)
+        self.label_153.setFont(font2)
 
         self.gridLayout_73.addWidget(self.label_153, 3, 0, 1, 1)
 
         self.fin_novo_ent_data = QDateEdit(self.widget_23)
         self.fin_novo_ent_data.setObjectName(u"fin_novo_ent_data")
-        self.fin_novo_ent_data.setFont(font32)
+        self.fin_novo_ent_data.setFont(font7)
         self.fin_novo_ent_data.setStyleSheet(u"QDateEdit{\n"
 "background-color: white;\n"
 "border-radius: 5px;\n"
@@ -6788,7 +6737,7 @@ class Ui_Sistema(object):
         self.fin_novo_ent_valor = QLineEdit(self.widget_23)
         self.fin_novo_ent_valor.setObjectName(u"fin_novo_ent_valor")
         self.fin_novo_ent_valor.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_ent_valor.setFont(font32)
+        self.fin_novo_ent_valor.setFont(font7)
         self.fin_novo_ent_valor.setStyleSheet(u"border-bottom: 1px solid rgb(209, 209, 209);")
 
         self.gridLayout_73.addWidget(self.fin_novo_ent_valor, 4, 1, 1, 1)
@@ -6799,7 +6748,7 @@ class Ui_Sistema(object):
         self.fin_novo_ent_conta.addItem("")
         self.fin_novo_ent_conta.setObjectName(u"fin_novo_ent_conta")
         self.fin_novo_ent_conta.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_ent_conta.setFont(font32)
+        self.fin_novo_ent_conta.setFont(font7)
         self.fin_novo_ent_conta.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
@@ -6811,7 +6760,7 @@ class Ui_Sistema(object):
 
         self.label_154 = QLabel(self.widget_23)
         self.label_154.setObjectName(u"label_154")
-        self.label_154.setFont(font34)
+        self.label_154.setFont(font2)
 
         self.gridLayout_73.addWidget(self.label_154, 5, 0, 1, 1)
 
@@ -6824,7 +6773,7 @@ class Ui_Sistema(object):
         self.fin_novo_ent_btn_inserir = QPushButton(self.widget_24)
         self.fin_novo_ent_btn_inserir.setObjectName(u"fin_novo_ent_btn_inserir")
         self.fin_novo_ent_btn_inserir.setMaximumSize(QSize(16777215, 30))
-        self.fin_novo_ent_btn_inserir.setFont(font34)
+        self.fin_novo_ent_btn_inserir.setFont(font2)
         self.fin_novo_ent_btn_inserir.setStyleSheet(u"QPushButton {\n"
 "background-color: rgb(81, 81, 81);\n"
 "color: rgb(255, 255, 255)\n"
@@ -6846,14 +6795,14 @@ class Ui_Sistema(object):
         self.fin_novo_ent_desc = QLineEdit(self.widget_23)
         self.fin_novo_ent_desc.setObjectName(u"fin_novo_ent_desc")
         self.fin_novo_ent_desc.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_ent_desc.setFont(font32)
+        self.fin_novo_ent_desc.setFont(font7)
         self.fin_novo_ent_desc.setStyleSheet(u"border-bottom: 1px solid rgb(209, 209, 209);")
 
         self.gridLayout_73.addWidget(self.fin_novo_ent_desc, 3, 1, 1, 1)
 
         self.label_152 = QLabel(self.widget_23)
         self.label_152.setObjectName(u"label_152")
-        self.label_152.setFont(font34)
+        self.label_152.setFont(font2)
 
         self.gridLayout_73.addWidget(self.label_152, 1, 0, 1, 1)
 
@@ -6863,6 +6812,35 @@ class Ui_Sistema(object):
         self.stackedWidget_8.addWidget(self.entrada)
 
         self.gridLayout_51.addWidget(self.stackedWidget_8, 1, 0, 1, 1)
+
+        self.widget_61 = QWidget(self.widget_18)
+        self.widget_61.setObjectName(u"widget_61")
+        sizePolicy2.setHeightForWidth(self.widget_61.sizePolicy().hasHeightForWidth())
+        self.widget_61.setSizePolicy(sizePolicy2)
+        self.gridLayout_90 = QGridLayout(self.widget_61)
+        self.gridLayout_90.setObjectName(u"gridLayout_90")
+        self.gridLayout_90.setContentsMargins(0, 9, 0, -1)
+        self.widget_26 = QWidget(self.widget_61)
+        self.widget_26.setObjectName(u"widget_26")
+        sizePolicy2.setHeightForWidth(self.widget_26.sizePolicy().hasHeightForWidth())
+        self.widget_26.setSizePolicy(sizePolicy2)
+        self.widget_26.setStyleSheet(u"background-color: rgb(94, 94, 94);\n"
+"COLOR: WHITE;")
+        self.horizontalLayout_61 = QHBoxLayout(self.widget_26)
+        self.horizontalLayout_61.setObjectName(u"horizontalLayout_61")
+        self.horizontalLayout_61.setContentsMargins(0, -1, 0, -1)
+        self.label_175 = QLabel(self.widget_26)
+        self.label_175.setObjectName(u"label_175")
+        self.label_175.setFont(font2)
+        self.label_175.setAlignment(Qt.AlignCenter)
+
+        self.horizontalLayout_61.addWidget(self.label_175)
+
+
+        self.gridLayout_90.addWidget(self.widget_26, 0, 0, 1, 1)
+
+
+        self.gridLayout_51.addWidget(self.widget_61, 0, 1, 1, 1)
 
 
         self.gridLayout_46.addWidget(self.widget_18, 0, 0, 1, 1)
@@ -6931,7 +6909,7 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.cons_lb_5.sizePolicy().hasHeightForWidth())
         self.cons_lb_5.setSizePolicy(sizePolicy1)
         self.cons_lb_5.setMaximumSize(QSize(200, 70))
-        self.cons_lb_5.setFont(font12)
+        self.cons_lb_5.setFont(font8)
         self.cons_lb_5.setStyleSheet(u"\n"
 "border-bottom: none;\n"
 "\n"
@@ -6945,7 +6923,7 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.est_lb_nav_3.sizePolicy().hasHeightForWidth())
         self.est_lb_nav_3.setSizePolicy(sizePolicy1)
         self.est_lb_nav_3.setMaximumSize(QSize(16777215, 70))
-        self.est_lb_nav_3.setFont(font12)
+        self.est_lb_nav_3.setFont(font8)
         self.est_lb_nav_3.setStyleSheet(u"\n"
 "border-bottom: none;\n"
 "\n"
@@ -7025,9 +7003,7 @@ class Ui_Sistema(object):
         self.login.setObjectName(u"login")
         sizePolicy2.setHeightForWidth(self.login.sizePolicy().hasHeightForWidth())
         self.login.setSizePolicy(sizePolicy2)
-        font36 = QFont()
-        font36.setFamily(u"Noto Serif")
-        self.login.setFont(font36)
+        self.login.setFont(font)
         self.login.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 231, 135, 255))")
         self.login.setFrameShape(QFrame.StyledPanel)
         self.login.setFrameShadow(QFrame.Raised)
@@ -7061,10 +7037,9 @@ class Ui_Sistema(object):
         sizePolicy5.setHeightForWidth(self.btn_entrar.sizePolicy().hasHeightForWidth())
         self.btn_entrar.setSizePolicy(sizePolicy5)
         self.btn_entrar.setMaximumSize(QSize(16777215, 40))
-        font37 = QFont()
-        font37.setFamily(u"Bahnschrift Light Condensed")
-        font37.setPointSize(16)
-        self.btn_entrar.setFont(font37)
+        font25 = QFont()
+        font25.setPointSize(16)
+        self.btn_entrar.setFont(font25)
         self.btn_entrar.setStyleSheet(u"QPushButton{\n"
 "	background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(52, 52, 52, 255), stop:1 rgba(75, 75, 75, 255));\n"
 "	border-radius: 10px;\n"
@@ -7091,10 +7066,9 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.lb_info.sizePolicy().hasHeightForWidth())
         self.lb_info.setSizePolicy(sizePolicy1)
         self.lb_info.setMaximumSize(QSize(16777215, 30))
-        font38 = QFont()
-        font38.setFamily(u"Bahnschrift Light Condensed")
-        font38.setPointSize(13)
-        self.lb_info.setFont(font38)
+        font26 = QFont()
+        font26.setPointSize(13)
+        self.lb_info.setFont(font26)
         self.lb_info.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
 "color: red;")
         self.lb_info.setAlignment(Qt.AlignCenter)
@@ -7121,10 +7095,9 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.label_6.sizePolicy().hasHeightForWidth())
         self.label_6.setSizePolicy(sizePolicy1)
         self.label_6.setMaximumSize(QSize(16777215, 100))
-        font39 = QFont()
-        font39.setFamily(u"Barlow Condensed")
-        font39.setPointSize(43)
-        self.label_6.setFont(font39)
+        font27 = QFont()
+        font27.setPointSize(43)
+        self.label_6.setFont(font27)
         self.label_6.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));")
         self.label_6.setAlignment(Qt.AlignCenter)
 
@@ -7135,10 +7108,7 @@ class Ui_Sistema(object):
         sizePolicy1.setHeightForWidth(self.lb_info_3.sizePolicy().hasHeightForWidth())
         self.lb_info_3.setSizePolicy(sizePolicy1)
         self.lb_info_3.setMaximumSize(QSize(16777215, 30))
-        font40 = QFont()
-        font40.setFamily(u"Bahnschrift Light Condensed")
-        font40.setPointSize(10)
-        self.lb_info_3.setFont(font40)
+        self.lb_info_3.setFont(font6)
         self.lb_info_3.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
 "color: red;")
         self.lb_info_3.setAlignment(Qt.AlignCenter)
@@ -7163,10 +7133,9 @@ class Ui_Sistema(object):
         self.label_5.setObjectName(u"label_5")
         sizePolicy.setHeightForWidth(self.label_5.sizePolicy().hasHeightForWidth())
         self.label_5.setSizePolicy(sizePolicy)
-        font41 = QFont()
-        font41.setFamily(u"Oswald Light")
-        font41.setPointSize(75)
-        self.label_5.setFont(font41)
+        font28 = QFont()
+        font28.setPointSize(75)
+        self.label_5.setFont(font28)
         self.label_5.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
 "image: url(:/icons/img01.png)\n"
 "")
@@ -7310,7 +7279,7 @@ class Ui_Sistema(object):
         self.retranslateUi(Sistema)
 
         self.stackedWidget.setCurrentIndex(0)
-        self.stackedWidget_2.setCurrentIndex(6)
+        self.stackedWidget_2.setCurrentIndex(2)
         self.nav_consultas.setCurrentIndex(4)
         self.stackedWidget_3.setCurrentIndex(0)
         self.stackedWidget_4.setCurrentIndex(0)
@@ -7319,13 +7288,13 @@ class Ui_Sistema(object):
         self.stackedWidget_12.setCurrentIndex(0)
         self.stackedWidget_10.setCurrentIndex(0)
         self.stackedWidget_7.setCurrentIndex(3)
-        self.stackedWidget_6.setCurrentIndex(2)
+        self.stackedWidget_6.setCurrentIndex(0)
         self.stackedWidget_15.setCurrentIndex(2)
         self.stackedWidget_16.setCurrentIndex(0)
         self.stackedWidget_18.setCurrentIndex(0)
         self.stackedWidget_17.setCurrentIndex(0)
         self.stackedWidget_14.setCurrentIndex(2)
-        self.stackedWidget_8.setCurrentIndex(2)
+        self.stackedWidget_8.setCurrentIndex(1)
 
 
         QMetaObject.connectSlotsByName(Sistema)
@@ -7472,11 +7441,11 @@ class Ui_Sistema(object):
         self.cons_btn_ponto.setText(QCoreApplication.translate("Sistema", u"Ponto", None))
         self.cons_btn_retiradas.setText(QCoreApplication.translate("Sistema", u"Retiradas", None))
         self.label_4.setText(QCoreApplication.translate("Sistema", u"Total:   ", None))
-        self.label_24.setText(QCoreApplication.translate("Sistema", u"Data:", None))
-        self.lb_cx_funcionario.setText("")
-        self.lb_cx_data.setText(QCoreApplication.translate("Sistema", u"00/00/0000", None))
-        self.label.setText(QCoreApplication.translate("Sistema", u"        Fechamento de Caixa", None))
+        self.cx_nome.setItemText(0, "")
+
         self.label_11.setText(QCoreApplication.translate("Sistema", u"Funcion\u00e1rio: ", None))
+        self.label.setText(QCoreApplication.translate("Sistema", u"        Fechamento de Caixa", None))
+        self.label_24.setText(QCoreApplication.translate("Sistema", u"Data:", None))
         self.label_31.setText("")
         self.label_40.setText("")
         self.label_8.setText(QCoreApplication.translate("Sistema", u"     Retiradas", None))
@@ -7972,6 +7941,7 @@ class Ui_Sistema(object):
         self.label_154.setText(QCoreApplication.translate("Sistema", u"CONTA:     ", None))
         self.fin_novo_ent_btn_inserir.setText(QCoreApplication.translate("Sistema", u"INSERIR", None))
         self.label_152.setText(QCoreApplication.translate("Sistema", u"DATA:     ", None))
+        self.label_175.setText(QCoreApplication.translate("Sistema", u"ULTIMOS LAN\u00c7AMENTOS", None))
         self.fin_btn_home.setText(QCoreApplication.translate("Sistema", u"Home", None))
         self.cons_lb_5.setText(QCoreApplication.translate("Sistema", u"     Financeiro", None))
         self.est_lb_nav_3.setText("")

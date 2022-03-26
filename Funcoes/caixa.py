@@ -21,6 +21,7 @@ class Caixa(Ui_Sistema):
         #Insere informações na tela
         self.ui.cb_bomba.currentIndexChanged.connect(lambda: self.redefinir_campo_leitura_anterior())
         self.atualizar_tela()
+        self.preencher_nome()
 
         #Ação dos botões
         self.ui.btn_cx_inserir.clicked.connect(lambda: self.calculo_caixa())
@@ -67,8 +68,8 @@ class Caixa(Ui_Sistema):
         self.dados_retiradas = {}
 
     def inserir_informacoes_tela(self):
-        self.ui.lb_cx_funcionario.setText(self.dados_usuario['nome'])
-        self.ui.lb_cx_data.setText(QDateTime.currentDateTime().toString("dd/MM/yyyy"))
+        self.ui.cx_nome.setCurrentText(self.dados_usuario['nome'])
+        self.ui.cx_data.setDateTime(QDateTime.currentDateTime())
 
     def redefinir_campo_leitura_anterior(self):
         self.consultar_leitura_anterior()
@@ -155,6 +156,11 @@ class Caixa(Ui_Sistema):
         except AttributeError:
             return float(n)
 
+    def preencher_nome(self):
+        nomes = self.db.querry_generica('SELECT DISTINCT funcionario FROM Caixa')
+        for nome in nomes:
+            self.ui.cx_nome.addItem(nome[0])
+
     def calcular_total_retiradas(self):
         total = 0
         if self.dados_retiradas.values() != {}:
@@ -164,7 +170,6 @@ class Caixa(Ui_Sistema):
         return total
 
     def inserir_dados(self):
-
         if self.dados_retiradas != {}:
             self.dados_fechamento_caixa['retiradas'] = {
                 'codigo' : self.dados['codigo'],
@@ -174,9 +179,9 @@ class Caixa(Ui_Sistema):
         else:
             self.dados_fechamento_caixa['retiradas'] = {'total' : 0}
 
-        self.dados_fechamento_caixa['data'] = QDateTime.currentDateTime().toString("yyyy-MM-dd")
+        self.dados_fechamento_caixa['data'] = self.ui.cx_data.date().toString('yyyy-MM-dd')
         self.dados_fechamento_caixa['bomba'] = self.ui.cb_bomba.currentText()
-        self.dados_fechamento_caixa['funcionario'] = self.ui.dados['nome']
+        self.dados_fechamento_caixa['funcionario'] = self.ui.cx_nome.currentText()
 
         vazio = self.verifica_campos_vazios(self.dados_fechamento_caixa)
 
@@ -233,11 +238,11 @@ class Caixa(Ui_Sistema):
 
         if vazio == False:
             self.dados_retiradas[indice] = dados
-            dados["valor"] = mascara_dinheiro(dados["valor"])
-            self.preencher_tabela_retiradas(dados)
+            info = self.dados_retiradas[indice]
+            self.preencher_tabela_retiradas(info)
             self.ui.ln_cx_retiradas.setText(str(self.calcular_total_retiradas()))
+            self.definir_campo_troco()
             
-
             self.limpar_campos_retiradas()
         else:
             Erro("Preencha todos os campos corretamente.", QMessageBox.Warning)

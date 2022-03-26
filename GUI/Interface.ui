@@ -10,14 +10,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1056</width>
-    <height>600</height>
+    <width>1550</width>
+    <height>840</height>
    </rect>
   </property>
   <property name="font">
-   <font>
-    <family>Bahnschrift SemiBold SemiConden</family>
-   </font>
+   <font/>
   </property>
   <property name="windowTitle">
    <string>Gerenciamento Posto</string>
@@ -126,7 +124,6 @@
              </property>
              <property name="font">
               <font>
-               <family>Bahnschrift Light Condensed</family>
                <pointsize>14</pointsize>
               </font>
              </property>
@@ -170,7 +167,6 @@ QPushButton:hover{
              </property>
              <property name="font">
               <font>
-               <family>Bahnschrift Light Condensed</family>
                <pointsize>14</pointsize>
               </font>
              </property>
@@ -214,7 +210,6 @@ QPushButton:hover{
              </property>
              <property name="font">
               <font>
-               <family>Oswald Light</family>
                <pointsize>12</pointsize>
               </font>
              </property>
@@ -259,7 +254,6 @@ QPushButton:hover{
              </property>
              <property name="font">
               <font>
-               <family>Bahnschrift Light Condensed</family>
                <pointsize>14</pointsize>
               </font>
              </property>
@@ -313,7 +307,6 @@ QPushButton:hover{
              </property>
              <property name="font">
               <font>
-               <family>Bahnschrift Light Condensed</family>
                <pointsize>14</pointsize>
               </font>
              </property>
@@ -354,7 +347,6 @@ QPushButton:hover{
              </property>
              <property name="font">
               <font>
-               <family>Bahnschrift Light Condensed</family>
                <pointsize>14</pointsize>
               </font>
              </property>
@@ -398,7 +390,6 @@ QPushButton:hover{
              </property>
              <property name="font">
               <font>
-               <family>Bahnschrift Light Condensed</family>
                <pointsize>14</pointsize>
               </font>
              </property>
@@ -438,7 +429,7 @@ QPushButton:hover{
            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));</string>
           </property>
           <property name="currentIndex">
-           <number>6</number>
+           <number>2</number>
           </property>
           <widget class="QWidget" name="Inicio">
            <layout class="QGridLayout" name="gridLayout_3">
@@ -470,7 +461,6 @@ QPushButton:hover{
                 <widget class="QLabel" name="label_13">
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>16</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -494,7 +484,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>16</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -518,7 +507,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>16</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -542,7 +530,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>16</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -591,7 +578,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>16</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -621,7 +607,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>16</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -645,7 +630,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>16</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -690,7 +674,6 @@ QPushButton:hover{
                     </property>
                     <property name="font">
                      <font>
-                      <family>Bahnschrift Light Condensed</family>
                       <pointsize>13</pointsize>
                       <weight>50</weight>
                       <bold>false</bold>
@@ -723,7 +706,6 @@ QPushButton:hover{
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>16</pointsize>
                       <weight>75</weight>
                       <bold>true</bold>
@@ -750,7 +732,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>16</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -774,7 +755,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>16</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -807,7 +787,6 @@ QPushButton:hover{
               </property>
               <property name="font">
                <font>
-                <family>Oswald Light</family>
                 <pointsize>80</pointsize>
                </font>
               </property>
@@ -863,7 +842,6 @@ image: url(:/icons/img01.png)</string>
                  </property>
                  <property name="font">
                   <font>
-                   <family>Bahnschrift Light Condensed</family>
                    <pointsize>13</pointsize>
                    <weight>50</weight>
                    <bold>false</bold>
@@ -896,7 +874,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>16</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -941,7 +918,6 @@ QPushButton:hover{
                   </property>
                   <property name="font">
                    <font>
-                    <family>Noto Serif</family>
                     <pointsize>10</pointsize>
                    </font>
                   </property>
@@ -1055,7 +1031,6 @@ QCalendarWidget QToolButton {
                          </property>
                          <property name="font">
                           <font>
-                           <family>Noto Serif</family>
                            <pointsize>10</pointsize>
                           </font>
                          </property>
@@ -1179,7 +1154,6 @@ border-radius: 5px;
                   </property>
                   <property name="font">
                    <font>
-                    <family>Oswald Light</family>
                     <pointsize>10</pointsize>
                    </font>
                   </property>
@@ -1217,7 +1191,6 @@ QPushButton:hover{
                   </property>
                   <property name="font">
                    <font>
-                    <family>Noto Serif</family>
                     <pointsize>10</pointsize>
                    </font>
                   </property>
@@ -1239,7 +1212,6 @@ QPushButton:hover{
                   </property>
                   <property name="font">
                    <font>
-                    <family>Noto Serif</family>
                     <pointsize>10</pointsize>
                    </font>
                   </property>
@@ -1363,7 +1335,6 @@ border-radius: 5px;
                   </property>
                   <property name="font">
                    <font>
-                    <family>Oswald Light</family>
                     <pointsize>10</pointsize>
                    </font>
                   </property>
@@ -1440,7 +1411,6 @@ background-color: rgb(238, 238, 238);</string>
                   </property>
                   <property name="font">
                    <font>
-                    <family>Oswald Light</family>
                     <pointsize>10</pointsize>
                    </font>
                   </property>
@@ -1513,7 +1483,6 @@ border-radius: 5px;
                   </property>
                   <property name="font">
                    <font>
-                    <family>Oswald Light</family>
                     <pointsize>13</pointsize>
                     <weight>50</weight>
                     <bold>false</bold>
@@ -1562,7 +1531,6 @@ QPushButton:hover{
                   </property>
                   <property name="font">
                    <font>
-                    <family>Oswald Light</family>
                     <pointsize>13</pointsize>
                     <weight>50</weight>
                     <bold>false</bold>
@@ -1825,7 +1793,6 @@ QHeaderView, QHeaderView::section {
                    </property>
                    <property name="font">
                     <font>
-                     <family>MS Shell Dlg 2</family>
                      <pointsize>11</pointsize>
                     </font>
                    </property>
@@ -1836,7 +1803,6 @@ QHeaderView, QHeaderView::section {
                    </property>
                    <property name="font">
                     <font>
-                     <family>MS Shell Dlg 2</family>
                      <pointsize>11</pointsize>
                     </font>
                    </property>
@@ -1879,7 +1845,6 @@ QHeaderView, QHeaderView::section {
                   </property>
                   <property name="font">
                    <font>
-                    <family>Noto Serif</family>
                     <pointsize>10</pointsize>
                    </font>
                   </property>
@@ -1907,7 +1872,6 @@ QHeaderView, QHeaderView::section {
                   </property>
                   <property name="font">
                    <font>
-                    <family>Noto Serif</family>
                     <pointsize>10</pointsize>
                    </font>
                   </property>
@@ -2027,7 +1991,6 @@ QCalendarWidget QToolButton {
                          </property>
                          <property name="font">
                           <font>
-                           <family>Noto Serif</family>
                            <pointsize>10</pointsize>
                           </font>
                          </property>
@@ -2097,7 +2060,6 @@ QCalendarWidget QToolButton {
                   </property>
                   <property name="font">
                    <font>
-                    <family>Oswald Light</family>
                     <pointsize>13</pointsize>
                     <weight>50</weight>
                     <bold>false</bold>
@@ -2200,7 +2162,6 @@ border-radius: 5px;
                   </property>
                   <property name="font">
                    <font>
-                    <family>Noto Serif</family>
                     <pointsize>10</pointsize>
                    </font>
                   </property>
@@ -2268,7 +2229,6 @@ border-radius: 5px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>10</pointsize>
                       </font>
                      </property>
@@ -2308,7 +2268,6 @@ border-radius: 5px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>10</pointsize>
                       </font>
                      </property>
@@ -2357,7 +2316,6 @@ color: rgb(90, 90, 90)</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>10</pointsize>
                       </font>
                      </property>
@@ -2531,7 +2489,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Noto Serif</family>
                               <pointsize>10</pointsize>
                              </font>
                             </property>
@@ -2601,7 +2558,6 @@ QCalendarWidget QToolButton {
                      </property>
                      <property name="font">
                       <font>
-                       <family>Oswald Light</family>
                        <pointsize>10</pointsize>
                       </font>
                      </property>
@@ -2770,7 +2726,6 @@ QHeaderView, QHeaderView::section {
                       </property>
                       <property name="font">
                        <font>
-                        <family>MS Shell Dlg 2</family>
                         <pointsize>11</pointsize>
                        </font>
                       </property>
@@ -2851,7 +2806,6 @@ QHeaderView, QHeaderView::section {
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>10</pointsize>
                       </font>
                      </property>
@@ -2920,7 +2874,6 @@ border-radius: 5px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>10</pointsize>
                       </font>
                      </property>
@@ -3094,7 +3047,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Noto Serif</family>
                               <pointsize>10</pointsize>
                              </font>
                             </property>
@@ -3164,7 +3116,6 @@ QCalendarWidget QToolButton {
                      </property>
                      <property name="font">
                       <font>
-                       <family>Oswald Light</family>
                        <pointsize>10</pointsize>
                       </font>
                      </property>
@@ -3345,7 +3296,6 @@ QHeaderView, QHeaderView::section {
                       </property>
                       <property name="font">
                        <font>
-                        <family>MS Shell Dlg 2</family>
                         <pointsize>11</pointsize>
                        </font>
                       </property>
@@ -3495,7 +3445,6 @@ border-radius: none;
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>18</pointsize>
                       <weight>75</weight>
                       <bold>true</bold>
@@ -3531,7 +3480,6 @@ border-bottom: none;
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>18</pointsize>
                       <weight>75</weight>
                       <bold>true</bold>
@@ -3583,7 +3531,6 @@ border-bottom: none;
                  </property>
                  <property name="font">
                   <font>
-                   <family>Oswald Light</family>
                    <pointsize>12</pointsize>
                   </font>
                  </property>
@@ -3629,7 +3576,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Oswald Light</family>
                    <pointsize>12</pointsize>
                   </font>
                  </property>
@@ -3675,7 +3621,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Oswald Light</family>
                    <pointsize>12</pointsize>
                   </font>
                  </property>
@@ -3719,7 +3664,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Oswald Light</family>
                    <pointsize>12</pointsize>
                   </font>
                  </property>
@@ -3808,7 +3752,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>10</pointsize>
                   </font>
                  </property>
@@ -3876,84 +3819,45 @@ border-radius: 5px;
                 <number>0</number>
                </property>
                <property name="rightMargin">
-                <number>0</number>
+                <number>15</number>
                </property>
                <property name="bottomMargin">
                 <number>0</number>
                </property>
                <property name="horizontalSpacing">
-                <number>0</number>
+                <number>10</number>
                </property>
-               <item row="0" column="4">
-                <widget class="QLabel" name="label_24">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>50</width>
-                   <height>70</height>
-                  </size>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Noto Serif</family>
-                   <pointsize>12</pointsize>
-                   <weight>75</weight>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));
-color: white;</string>
-                 </property>
-                 <property name="text">
-                  <string>Data:</string>
-                 </property>
-                 <property name="alignment">
-                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-                 </property>
-                </widget>
-               </item>
                <item row="0" column="3">
-                <widget class="QLabel" name="lb_cx_funcionario">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
+                <widget class="QComboBox" name="cx_nome">
+                 <property name="minimumSize">
+                  <size>
+                   <width>200</width>
+                   <height>0</height>
+                  </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>200</width>
-                   <height>70</height>
+                   <height>30</height>
                   </size>
                  </property>
-                 <property name="font">
-                  <font>
-                   <family>Noto Serif</family>
-                   <pointsize>12</pointsize>
-                   <weight>75</weight>
-                   <bold>true</bold>
-                  </font>
-                 </property>
                  <property name="styleSheet">
-                  <string notr="true">background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));
-color: white;</string>
+                  <string notr="true">color: white;
+border-radius: 5px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0))</string>
                  </property>
-                 <property name="text">
-                  <string/>
+                 <property name="editable">
+                  <bool>true</bool>
                  </property>
-                 <property name="alignment">
-                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-                 </property>
+                 <item>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </item>
                 </widget>
                </item>
-               <item row="0" column="5">
-                <widget class="QLabel" name="lb_cx_data">
+               <item row="0" column="2">
+                <widget class="QLabel" name="label_11">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                    <horstretch>0</horstretch>
@@ -3962,13 +3866,12 @@ color: white;</string>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
+                   <width>115</width>
                    <height>70</height>
                   </size>
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>12</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -3979,7 +3882,7 @@ color: white;</string>
 color: white;</string>
                  </property>
                  <property name="text">
-                  <string>00/00/0000</string>
+                  <string>Funcionário: </string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -4002,7 +3905,6 @@ color: white;</string>
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>18</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -4020,8 +3922,8 @@ color: white;</string>
                  </property>
                 </widget>
                </item>
-               <item row="0" column="2">
-                <widget class="QLabel" name="label_11">
+               <item row="0" column="4">
+                <widget class="QLabel" name="label_24">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                    <horstretch>0</horstretch>
@@ -4030,13 +3932,12 @@ color: white;</string>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>115</width>
+                   <width>50</width>
                    <height>70</height>
                   </size>
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>12</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -4047,7 +3948,7 @@ color: white;</string>
 color: white;</string>
                  </property>
                  <property name="text">
-                  <string>Funcionário: </string>
+                  <string>Data:</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -4070,7 +3971,6 @@ color: white;</string>
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>12</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -4085,6 +3985,58 @@ color: white;</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="5">
+                <widget class="QDateEdit" name="cx_data">
+                 <property name="minimumSize">
+                  <size>
+                   <width>100</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>200</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QDateEdit{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+border-radius: 5px;
+color: white;
+}
+
+QCalendarWidget QWidget{
+	
+	background-color: rgb(243, 243, 243);
+}
+
+QCalendarWidget QToolButton {
+	color: black;
+}
+
+</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                 <property name="calendarPopup">
+                  <bool>true</bool>
+                 </property>
+                 <property name="date">
+                  <date>
+                   <year>2021</year>
+                   <month>1</month>
+                   <day>1</day>
+                  </date>
                  </property>
                 </widget>
                </item>
@@ -4122,7 +4074,6 @@ color: white;</string>
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>10</pointsize>
                   </font>
                  </property>
@@ -4153,7 +4104,6 @@ color: white;</string>
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>18</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -4189,7 +4139,6 @@ border-radius: 10px;
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>18</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -4260,7 +4209,6 @@ border-radius: 5px;
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>10</pointsize>
                      </font>
                     </property>
@@ -4282,7 +4230,6 @@ border-radius: 5px;
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>11</pointsize>
                      </font>
                     </property>
@@ -4339,7 +4286,6 @@ color: rgb(90, 90, 90)</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -4361,7 +4307,6 @@ color: rgb(90, 90, 90)</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -4416,7 +4361,6 @@ color: rgb(90, 90, 90)</string>
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>11</pointsize>
                      </font>
                     </property>
@@ -4488,7 +4432,6 @@ color: rgb(90, 90, 90);</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -4552,7 +4495,6 @@ color: rgb(90, 90, 90)</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -4577,7 +4519,6 @@ color: rgb(90, 90, 90)</string>
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>10</pointsize>
                      </font>
                     </property>
@@ -4608,7 +4549,6 @@ QPushButton:hover{
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>11</pointsize>
                      </font>
                     </property>
@@ -4677,7 +4617,6 @@ color: rgb(90, 90, 90);</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -4834,7 +4773,6 @@ color: rgb(90, 90, 90);</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -4856,7 +4794,6 @@ color: rgb(90, 90, 90);</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -4878,7 +4815,6 @@ color: rgb(90, 90, 90);</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -4933,7 +4869,6 @@ color: rgb(90, 90, 90);</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -4955,7 +4890,6 @@ color: rgb(90, 90, 90);</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -5007,7 +4941,6 @@ color: rgb(90, 90, 90);</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -5029,7 +4962,6 @@ color: rgb(90, 90, 90);</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -5102,7 +5034,6 @@ color: rgb(90, 90, 90);</string>
                  </property>
                  <property name="font">
                   <font>
-                   <family>Noto Serif</family>
                    <pointsize>10</pointsize>
                   </font>
                  </property>
@@ -5169,7 +5100,6 @@ QPushButton:hover{
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>10</pointsize>
                      </font>
                     </property>
@@ -5197,7 +5127,6 @@ QPushButton:hover{
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>10</pointsize>
                      </font>
                     </property>
@@ -5225,7 +5154,6 @@ QPushButton:hover{
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>10</pointsize>
                      </font>
                     </property>
@@ -5256,7 +5184,6 @@ QPushButton:hover{
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>11</pointsize>
                      </font>
                     </property>
@@ -5316,7 +5243,6 @@ color: rgb(90, 90, 90)</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -5338,7 +5264,6 @@ color: rgb(90, 90, 90)</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -5360,7 +5285,6 @@ color: rgb(90, 90, 90)</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -5435,7 +5359,6 @@ color: rgb(90, 90, 90)</string>
                        </property>
                        <property name="font">
                         <font>
-                         <family>Noto Serif</family>
                          <pointsize>10</pointsize>
                         </font>
                        </property>
@@ -5622,7 +5545,6 @@ border-radius: none;
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>18</pointsize>
                       <weight>75</weight>
                       <bold>true</bold>
@@ -5658,7 +5580,6 @@ border-bottom: none;
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>18</pointsize>
                       <weight>75</weight>
                       <bold>true</bold>
@@ -5722,7 +5643,6 @@ border-bottom: none;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Oswald Light</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -5768,7 +5688,6 @@ QPushButton:hover{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Oswald Light</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -5843,7 +5762,6 @@ QPushButton:hover{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Oswald Light</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -5887,7 +5805,6 @@ QPushButton:hover{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Oswald Light</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -5930,7 +5847,6 @@ QPushButton:hover{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Oswald Light</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -6005,7 +5921,6 @@ QPushButton:hover{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Oswald Light</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -6049,7 +5964,6 @@ QPushButton:hover{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Oswald Light</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -6092,7 +6006,6 @@ QPushButton:hover{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Oswald Light</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -6231,7 +6144,6 @@ QPushButton:hover{
                          </property>
                          <property name="font">
                           <font>
-                           <family>Noto Serif</family>
                            <pointsize>12</pointsize>
                           </font>
                          </property>
@@ -6253,7 +6165,6 @@ QPushButton:hover{
                          </property>
                          <property name="font">
                           <font>
-                           <family>Noto Serif</family>
                            <pointsize>12</pointsize>
                           </font>
                          </property>
@@ -6275,7 +6186,6 @@ QPushButton:hover{
                          </property>
                          <property name="font">
                           <font>
-                           <family>Noto Serif</family>
                            <pointsize>12</pointsize>
                           </font>
                          </property>
@@ -6320,7 +6230,6 @@ QPushButton:hover{
                             </property>
                             <property name="font">
                              <font>
-                              <family>Noto Serif</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -6371,7 +6280,6 @@ border-radius: 5px;
                             </property>
                             <property name="font">
                              <font>
-                              <family>Noto Serif</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -6435,7 +6343,6 @@ color: rgb(90, 90, 90)</string>
                          </property>
                          <property name="font">
                           <font>
-                           <family>Noto Serif</family>
                            <pointsize>12</pointsize>
                           </font>
                          </property>
@@ -6493,7 +6400,6 @@ color: rgb(90, 90, 90)</string>
                             </property>
                             <property name="font">
                              <font>
-                              <family>Noto Serif</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -6544,7 +6450,6 @@ border-radius: 5px;
                             </property>
                             <property name="font">
                              <font>
-                              <family>Noto Serif</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -6615,7 +6520,6 @@ color: rgb(90, 90, 90)</string>
                       </property>
                       <property name="font">
                        <font>
-                        <family>Noto Serif</family>
                         <pointsize>18</pointsize>
                         <weight>75</weight>
                         <bold>true</bold>
@@ -6671,7 +6575,6 @@ border-radius: 10px;
                          </property>
                          <property name="font">
                           <font>
-                           <family>Noto Serif</family>
                            <pointsize>12</pointsize>
                           </font>
                          </property>
@@ -6693,7 +6596,6 @@ border-radius: 10px;
                          </property>
                          <property name="font">
                           <font>
-                           <family>Noto Serif</family>
                            <pointsize>12</pointsize>
                           </font>
                          </property>
@@ -6715,7 +6617,6 @@ border-radius: 10px;
                          </property>
                          <property name="font">
                           <font>
-                           <family>Noto Serif</family>
                            <pointsize>12</pointsize>
                           </font>
                          </property>
@@ -6776,7 +6677,6 @@ color: rgb(90, 90, 90)</string>
                          </property>
                          <property name="font">
                           <font>
-                           <family>Noto Serif</family>
                            <pointsize>12</pointsize>
                           </font>
                          </property>
@@ -6807,7 +6707,6 @@ QPushButton:hover{
                          </property>
                          <property name="font">
                           <font>
-                           <family>Noto Serif</family>
                            <pointsize>12</pointsize>
                           </font>
                          </property>
@@ -6829,7 +6728,6 @@ QPushButton:hover{
                          </property>
                          <property name="font">
                           <font>
-                           <family>Noto Serif</family>
                            <pointsize>12</pointsize>
                           </font>
                          </property>
@@ -6857,7 +6755,6 @@ QPushButton:hover{
                          </property>
                          <property name="font">
                           <font>
-                           <family>Noto Serif</family>
                            <pointsize>12</pointsize>
                           </font>
                          </property>
@@ -6908,7 +6805,6 @@ border-radius: 5px;
                          </property>
                          <property name="font">
                           <font>
-                           <family>Noto Serif</family>
                            <pointsize>12</pointsize>
                           </font>
                          </property>
@@ -7073,7 +6969,6 @@ border-radius: none;
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>18</pointsize>
                       <weight>75</weight>
                       <bold>true</bold>
@@ -7109,7 +7004,6 @@ border-bottom: none;
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>18</pointsize>
                       <weight>75</weight>
                       <bold>true</bold>
@@ -7151,7 +7045,6 @@ border-bottom: none;
                  </property>
                  <property name="font">
                   <font>
-                   <family>Oswald Light</family>
                    <pointsize>12</pointsize>
                   </font>
                  </property>
@@ -7194,7 +7087,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Oswald Light</family>
                    <pointsize>12</pointsize>
                   </font>
                  </property>
@@ -7240,7 +7132,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Oswald Light</family>
                    <pointsize>12</pointsize>
                   </font>
                  </property>
@@ -7297,7 +7188,6 @@ QPushButton:hover{
                   </property>
                   <property name="font">
                    <font>
-                    <family>Noto Serif</family>
                     <pointsize>18</pointsize>
                     <weight>75</weight>
                     <bold>true</bold>
@@ -7347,7 +7237,6 @@ border-radius: 10px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -7369,7 +7258,6 @@ border-radius: 10px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -7427,7 +7315,6 @@ color: rgb(90, 90, 90)</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -7488,7 +7375,6 @@ color: rgb(90, 90, 90)</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -7519,7 +7405,6 @@ QPushButton:hover{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -7662,7 +7547,6 @@ border-radius: 5px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -7684,7 +7568,6 @@ border-radius: 5px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -7706,7 +7589,6 @@ border-radius: 5px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -7761,7 +7643,6 @@ color: rgb(90, 90, 90)</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -7783,7 +7664,6 @@ color: rgb(90, 90, 90)</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -7805,7 +7685,6 @@ color: rgb(90, 90, 90)</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -7889,7 +7768,6 @@ border-radius: 5px;
                   </property>
                   <property name="font">
                    <font>
-                    <family>Noto Serif</family>
                     <pointsize>18</pointsize>
                     <weight>75</weight>
                     <bold>true</bold>
@@ -7945,7 +7823,6 @@ border-radius: 10px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -8023,7 +7900,6 @@ color: rgb(90, 90, 90)</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -8045,7 +7921,6 @@ color: rgb(90, 90, 90)</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -8073,7 +7948,6 @@ color: rgb(90, 90, 90)</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -8110,7 +7984,6 @@ QPushButton:hover{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -8132,7 +8005,6 @@ QPushButton:hover{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -8154,7 +8026,6 @@ QPushButton:hover{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -8210,7 +8081,6 @@ QPushButton:hover{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>10</pointsize>
                       </font>
                      </property>
@@ -8317,7 +8187,6 @@ color: rgb(90, 90, 90)</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Oswald Light</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -8364,7 +8233,6 @@ QPushButton:hover{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Oswald Light</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -8411,7 +8279,6 @@ QPushButton:hover{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Oswald Light</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -8591,7 +8458,6 @@ QHeaderView, QHeaderView::section {
                    </property>
                    <property name="font">
                     <font>
-                     <family>MS Shell Dlg 2</family>
                      <pointsize>11</pointsize>
                     </font>
                    </property>
@@ -8602,7 +8468,6 @@ QHeaderView, QHeaderView::section {
                    </property>
                    <property name="font">
                     <font>
-                     <family>MS Shell Dlg 2</family>
                      <pointsize>11</pointsize>
                      <weight>50</weight>
                      <bold>false</bold>
@@ -8615,7 +8480,6 @@ QHeaderView, QHeaderView::section {
                    </property>
                    <property name="font">
                     <font>
-                     <family>MS Shell Dlg 2</family>
                      <pointsize>11</pointsize>
                     </font>
                    </property>
@@ -8626,7 +8490,6 @@ QHeaderView, QHeaderView::section {
                    </property>
                    <property name="font">
                     <font>
-                     <family>MS Shell Dlg 2</family>
                      <pointsize>11</pointsize>
                     </font>
                    </property>
@@ -8647,7 +8510,6 @@ QHeaderView, QHeaderView::section {
                    </property>
                    <property name="font">
                     <font>
-                     <family>MS Shell Dlg 2</family>
                      <pointsize>11</pointsize>
                     </font>
                    </property>
@@ -8674,7 +8536,6 @@ QHeaderView, QHeaderView::section {
                   </property>
                   <property name="font">
                    <font>
-                    <family>Noto Serif</family>
                     <pointsize>18</pointsize>
                     <weight>75</weight>
                     <bold>true</bold>
@@ -8757,7 +8618,6 @@ border-radius: 10px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -8785,7 +8645,6 @@ border-radius: 10px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -8837,7 +8696,6 @@ border-radius: 10px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -8894,7 +8752,6 @@ border-radius: 5px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -8994,7 +8851,6 @@ border-radius: 10px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -9039,7 +8895,6 @@ border-radius: 5px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -9061,7 +8916,6 @@ border-radius: 5px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -9089,7 +8943,6 @@ border-radius: 5px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -9120,7 +8973,6 @@ QPushButton:hover{
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -9175,7 +9027,6 @@ border-radius: 10px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -9197,7 +9048,6 @@ border-radius: 10px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -9219,7 +9069,6 @@ border-radius: 10px;
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>12</pointsize>
                       </font>
                      </property>
@@ -9431,7 +9280,6 @@ QAbstractItemView {
                   </property>
                   <property name="font">
                    <font>
-                    <family>Segoe UI Semibold</family>
                     <pointsize>11</pointsize>
                     <weight>75</weight>
                     <bold>true</bold>
@@ -9444,14 +9292,10 @@ QAbstractItemView {
                   </property>
                   <property name="font">
                    <font>
-                    <family>Segoe UI Semibold</family>
                     <pointsize>11</pointsize>
                     <weight>75</weight>
                     <bold>true</bold>
                    </font>
-                  </property>
-                  <property name="textAlignment">
-                   <set>AlignCenter</set>
                   </property>
                  </column>
                  <column>
@@ -9460,7 +9304,6 @@ QAbstractItemView {
                   </property>
                   <property name="font">
                    <font>
-                    <family>Segoe UI Semibold</family>
                     <pointsize>11</pointsize>
                     <weight>75</weight>
                     <bold>true</bold>
@@ -9473,7 +9316,6 @@ QAbstractItemView {
                   </property>
                   <property name="font">
                    <font>
-                    <family>Segoe UI Semibold</family>
                     <pointsize>11</pointsize>
                     <weight>75</weight>
                     <bold>true</bold>
@@ -9486,7 +9328,6 @@ QAbstractItemView {
                   </property>
                   <property name="font">
                    <font>
-                    <family>Segoe UI Semibold</family>
                     <pointsize>11</pointsize>
                     <weight>75</weight>
                     <bold>true</bold>
@@ -9499,7 +9340,6 @@ QAbstractItemView {
                   </property>
                   <property name="font">
                    <font>
-                    <family>Segoe UI Semibold</family>
                     <pointsize>11</pointsize>
                     <weight>75</weight>
                     <bold>true</bold>
@@ -9512,7 +9352,6 @@ QAbstractItemView {
                   </property>
                   <property name="font">
                    <font>
-                    <family>Segoe UI Semibold</family>
                     <pointsize>11</pointsize>
                     <weight>75</weight>
                     <bold>true</bold>
@@ -9576,7 +9415,6 @@ QAbstractItemView {
                     </property>
                     <property name="font">
                      <font>
-                      <family>Segoe UI Semibold</family>
                       <pointsize>14</pointsize>
                       <weight>75</weight>
                       <bold>true</bold>
@@ -9616,7 +9454,6 @@ QPushButton:hover{
                     </property>
                     <property name="font">
                      <font>
-                      <family>Segoe UI Semibold</family>
                       <pointsize>14</pointsize>
                       <weight>75</weight>
                       <bold>true</bold>
@@ -9931,7 +9768,6 @@ border-radius: 5px;</string>
                  </property>
                  <property name="font">
                   <font>
-                   <family>Segoe UI Semibold</family>
                    <pointsize>14</pointsize>
                    <weight>75</weight>
                    <bold>true</bold>
@@ -10080,7 +9916,6 @@ color: white;</string>
                        <widget class="QLabel" name="label_56">
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>13</pointsize>
                           <weight>75</weight>
                           <bold>true</bold>
@@ -10109,7 +9944,6 @@ padding: 10px;
                         </property>
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>10</pointsize>
                           <weight>75</weight>
                           <italic>false</italic>
@@ -10134,7 +9968,6 @@ padding: 10px;
                     <widget class="QLabel" name="fin_home_cx_posto">
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>22</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
@@ -10190,7 +10023,6 @@ background-color: rgb(0, 119, 199);</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>17</pointsize>
                        <weight>50</weight>
                        <bold>false</bold>
@@ -10241,7 +10073,6 @@ background-color: rgb(0, 119, 199);</string>
                         </property>
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>8</pointsize>
                           <weight>50</weight>
                           <bold>false</bold>
@@ -10268,7 +10099,6 @@ background-color: rgb(0, 119, 199);</string>
                         </property>
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>8</pointsize>
                           <weight>75</weight>
                           <bold>true</bold>
@@ -10326,7 +10156,6 @@ QPushButton:pressed {
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>10</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
@@ -10397,7 +10226,6 @@ color: white;</string>
                        <widget class="QLabel" name="label_87">
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>13</pointsize>
                           <weight>75</weight>
                           <bold>true</bold>
@@ -10426,7 +10254,6 @@ padding: 5px;
                         </property>
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>13</pointsize>
                           <weight>75</weight>
                           <bold>true</bold>
@@ -10450,7 +10277,6 @@ padding: 5px;
                     <widget class="QLabel" name="fin_home_cx_banco">
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>22</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
@@ -10503,7 +10329,6 @@ border-bottom: 1px solid rgb(235, 235, 235)</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>10</pointsize>
                        <weight>50</weight>
                        <bold>false</bold>
@@ -10558,7 +10383,6 @@ border-bottom: 1px solid rgb(235, 235, 235)</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>11</pointsize>
                        <weight>50</weight>
                        <bold>false</bold>
@@ -10622,7 +10446,6 @@ padding: 5px;</string>
                         </property>
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>10</pointsize>
                           <weight>50</weight>
                           <bold>false</bold>
@@ -10707,7 +10530,6 @@ QPushButton:pressed {
                         </property>
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>12</pointsize>
                           <weight>50</weight>
                           <bold>false</bold>
@@ -10758,7 +10580,6 @@ QPushButton:pressed {
                         </property>
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>10</pointsize>
                           <weight>50</weight>
                           <bold>false</bold>
@@ -10859,7 +10680,6 @@ QPushButton:pressed {
                         </property>
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>12</pointsize>
                           <weight>50</weight>
                           <bold>false</bold>
@@ -10926,7 +10746,6 @@ padding: 5px;</string>
                         </property>
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>10</pointsize>
                           <weight>50</weight>
                           <bold>false</bold>
@@ -11011,7 +10830,6 @@ QPushButton:pressed {
                         </property>
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>12</pointsize>
                           <weight>50</weight>
                           <bold>false</bold>
@@ -11078,7 +10896,6 @@ padding: 5px;</string>
                         </property>
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>10</pointsize>
                           <weight>50</weight>
                           <bold>false</bold>
@@ -11163,7 +10980,6 @@ QPushButton:pressed {
                         </property>
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>12</pointsize>
                           <weight>50</weight>
                           <bold>false</bold>
@@ -11221,7 +11037,6 @@ QPushButton:pressed {
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>17</pointsize>
                        <weight>50</weight>
                        <bold>false</bold>
@@ -11272,7 +11087,6 @@ QPushButton:pressed {
                         </property>
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>8</pointsize>
                           <weight>50</weight>
                           <bold>false</bold>
@@ -11299,7 +11113,6 @@ QPushButton:pressed {
                         </property>
                         <property name="font">
                          <font>
-                          <family>Noto Serif</family>
                           <pointsize>8</pointsize>
                           <weight>75</weight>
                           <bold>true</bold>
@@ -11357,7 +11170,6 @@ QPushButton:pressed {
                      </property>
                      <property name="font">
                       <font>
-                       <family>Noto Serif</family>
                        <pointsize>10</pointsize>
                        <weight>75</weight>
                        <bold>true</bold>
@@ -11419,7 +11231,6 @@ color: white;</string>
                     <widget class="QLabel" name="label_169">
                      <property name="font">
                       <font>
-                       <family>Roboto</family>
                        <pointsize>11</pointsize>
                       </font>
                      </property>
@@ -11438,7 +11249,6 @@ color: white;</string>
                      </property>
                      <property name="font">
                       <font>
-                       <family>Roboto</family>
                        <pointsize>11</pointsize>
                       </font>
                      </property>
@@ -11514,7 +11324,6 @@ QCalendarWidget QToolButton {
                          </property>
                          <property name="font">
                           <font>
-                           <family>Roboto</family>
                            <pointsize>11</pointsize>
                           </font>
                          </property>
@@ -11533,7 +11342,6 @@ QCalendarWidget QToolButton {
                          </property>
                          <property name="font">
                           <font>
-                           <family>Roboto</family>
                            <pointsize>11</pointsize>
                           </font>
                          </property>
@@ -11580,7 +11388,6 @@ QCalendarWidget QToolButton {
                          </property>
                          <property name="font">
                           <font>
-                           <family>Roboto</family>
                            <pointsize>11</pointsize>
                           </font>
                          </property>
@@ -11611,7 +11418,6 @@ QCalendarWidget QToolButton {
                          </property>
                          <property name="font">
                           <font>
-                           <family>Roboto</family>
                            <pointsize>11</pointsize>
                           </font>
                          </property>
@@ -11630,7 +11436,6 @@ QCalendarWidget QToolButton {
                          </property>
                          <property name="font">
                           <font>
-                           <family>Roboto</family>
                            <pointsize>11</pointsize>
                           </font>
                          </property>
@@ -11769,7 +11574,6 @@ QCalendarWidget QToolButton {
                                 </property>
                                 <property name="font">
                                  <font>
-                                  <family>Noto Serif</family>
                                   <pointsize>10</pointsize>
                                  </font>
                                 </property>
@@ -11859,7 +11663,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -11878,7 +11681,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -11930,7 +11732,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -11961,7 +11762,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -11980,7 +11780,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -12136,7 +11935,6 @@ QCalendarWidget QToolButton {
                                 </property>
                                 <property name="font">
                                  <font>
-                                  <family>Noto Serif</family>
                                   <pointsize>10</pointsize>
                                  </font>
                                 </property>
@@ -12222,7 +12020,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -12241,7 +12038,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -12293,7 +12089,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -12324,7 +12119,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -12343,7 +12137,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -12485,7 +12278,6 @@ QCalendarWidget QToolButton {
                                 </property>
                                 <property name="font">
                                  <font>
-                                  <family>Noto Serif</family>
                                   <pointsize>10</pointsize>
                                  </font>
                                 </property>
@@ -12646,9 +12438,6 @@ QHeaderView, QHeaderView::section {
                           <property name="text">
                            <string>VENCIMENTO</string>
                           </property>
-                          <property name="textAlignment">
-                           <set>AlignCenter</set>
-                          </property>
                          </column>
                          <column>
                           <property name="text">
@@ -12673,9 +12462,6 @@ QHeaderView, QHeaderView::section {
                          <item row="0" column="0">
                           <property name="text">
                            <string>10/12/2021</string>
-                          </property>
-                          <property name="textAlignment">
-                           <set>AlignLeading|AlignVCenter</set>
                           </property>
                          </item>
                          <item row="0" column="1">
@@ -12793,9 +12579,6 @@ QHeaderView, QHeaderView::section {
                           <property name="text">
                            <string>DATA</string>
                           </property>
-                          <property name="textAlignment">
-                           <set>AlignCenter</set>
-                          </property>
                          </column>
                          <column>
                           <property name="text">
@@ -12815,9 +12598,6 @@ QHeaderView, QHeaderView::section {
                          <item row="0" column="0">
                           <property name="text">
                            <string>10/12/2021</string>
-                          </property>
-                          <property name="textAlignment">
-                           <set>AlignLeading|AlignVCenter</set>
                           </property>
                          </item>
                          <item row="0" column="1">
@@ -12886,7 +12666,6 @@ QHeaderView, QHeaderView::section {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -12978,9 +12757,6 @@ QHeaderView, QHeaderView::section {
                           <property name="text">
                            <string>DATA</string>
                           </property>
-                          <property name="textAlignment">
-                           <set>AlignCenter</set>
-                          </property>
                          </column>
                          <column>
                           <property name="text">
@@ -13010,9 +12786,6 @@ QHeaderView, QHeaderView::section {
                          <item row="0" column="0">
                           <property name="text">
                            <string>10/12/2021</string>
-                          </property>
-                          <property name="textAlignment">
-                           <set>AlignLeading|AlignVCenter</set>
                           </property>
                          </item>
                          <item row="0" column="1">
@@ -13144,7 +12917,6 @@ COLOR: WHITE;</string>
                           <widget class="QLabel" name="label_168">
                            <property name="font">
                             <font>
-                             <family>Roboto</family>
                              <pointsize>12</pointsize>
                             </font>
                            </property>
@@ -13163,7 +12935,6 @@ COLOR: WHITE;</string>
                            </property>
                            <property name="font">
                             <font>
-                             <family>Roboto</family>
                              <pointsize>11</pointsize>
                             </font>
                            </property>
@@ -13258,7 +13029,6 @@ padding: 5px;</string>
                            </property>
                            <property name="font">
                             <font>
-                             <family>Noto Serif</family>
                              <pointsize>10</pointsize>
                              <weight>50</weight>
                              <bold>false</bold>
@@ -13343,7 +13113,6 @@ QPushButton:pressed {
                            </property>
                            <property name="font">
                             <font>
-                             <family>Noto Serif</family>
                              <pointsize>12</pointsize>
                              <weight>50</weight>
                              <bold>false</bold>
@@ -13394,7 +13163,6 @@ QPushButton:pressed {
                            </property>
                            <property name="font">
                             <font>
-                             <family>Noto Serif</family>
                              <pointsize>10</pointsize>
                              <weight>50</weight>
                              <bold>false</bold>
@@ -13479,7 +13247,6 @@ QPushButton:pressed {
                            </property>
                            <property name="font">
                             <font>
-                             <family>Noto Serif</family>
                              <pointsize>12</pointsize>
                              <weight>50</weight>
                              <bold>false</bold>
@@ -13560,7 +13327,6 @@ padding: 5px;</string>
                            </property>
                            <property name="font">
                             <font>
-                             <family>Noto Serif</family>
                              <pointsize>10</pointsize>
                              <weight>50</weight>
                              <bold>false</bold>
@@ -13645,7 +13411,6 @@ QPushButton:pressed {
                            </property>
                            <property name="font">
                             <font>
-                             <family>Noto Serif</family>
                              <pointsize>12</pointsize>
                              <weight>50</weight>
                              <bold>false</bold>
@@ -13711,7 +13476,6 @@ padding: 5px;</string>
                            </property>
                            <property name="font">
                             <font>
-                             <family>Noto Serif</family>
                              <pointsize>10</pointsize>
                              <weight>50</weight>
                              <bold>false</bold>
@@ -13796,7 +13560,6 @@ QPushButton:pressed {
                            </property>
                            <property name="font">
                             <font>
-                             <family>Noto Serif</family>
                              <pointsize>12</pointsize>
                              <weight>50</weight>
                              <bold>false</bold>
@@ -13847,7 +13610,6 @@ QPushButton:pressed {
                            </property>
                            <property name="font">
                             <font>
-                             <family>Noto Serif</family>
                              <pointsize>10</pointsize>
                              <weight>50</weight>
                              <bold>false</bold>
@@ -13932,7 +13694,6 @@ QPushButton:pressed {
                            </property>
                            <property name="font">
                             <font>
-                             <family>Noto Serif</family>
                              <pointsize>12</pointsize>
                              <weight>50</weight>
                              <bold>false</bold>
@@ -14023,7 +13784,6 @@ padding: 5px;</string>
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>17</pointsize>
                              </font>
                             </property>
@@ -14045,7 +13805,6 @@ padding: 5px;</string>
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -14064,7 +13823,6 @@ padding: 5px;</string>
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -14105,7 +13863,6 @@ padding: 5px;</string>
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -14118,7 +13875,6 @@ padding: 5px;</string>
                            <widget class="QLabel" name="label_80">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -14131,7 +13887,6 @@ padding: 5px;</string>
                            <widget class="QLabel" name="label_100">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -14144,7 +13899,6 @@ padding: 5px;</string>
                            <widget class="QLabel" name="label_57">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -14178,7 +13932,6 @@ padding: 5px;</string>
                                </property>
                                <property name="font">
                                 <font>
-                                 <family>Roboto</family>
                                  <pointsize>12</pointsize>
                                 </font>
                                </property>
@@ -14214,7 +13967,6 @@ QPushButton:pressed {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -14239,7 +13991,6 @@ QPushButton:pressed {
                            <widget class="QLabel" name="label_99">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -14252,7 +14003,6 @@ QPushButton:pressed {
                            <widget class="QLabel" name="label_101">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -14265,7 +14015,6 @@ QPushButton:pressed {
                            <widget class="QDateEdit" name="fin_novo_desp_data">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -14302,7 +14051,6 @@ QCalendarWidget QToolButton {
                            <widget class="QLabel" name="label_140">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -14321,7 +14069,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -14405,7 +14152,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -14446,7 +14192,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -14465,7 +14210,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -14478,7 +14222,6 @@ QCalendarWidget QToolButton {
                            <widget class="QLabel" name="label_135">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -14491,7 +14234,6 @@ QCalendarWidget QToolButton {
                            <widget class="QDateEdit" name="fin_novo_transf_data">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -14549,7 +14291,6 @@ QCalendarWidget QToolButton {
                                </property>
                                <property name="font">
                                 <font>
-                                 <family>Roboto</family>
                                  <pointsize>12</pointsize>
                                 </font>
                                </property>
@@ -14585,7 +14326,6 @@ QPushButton:pressed {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>17</pointsize>
                              </font>
                             </property>
@@ -14601,7 +14341,6 @@ QPushButton:pressed {
                            <widget class="QLabel" name="label_133">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -14614,7 +14353,6 @@ QPushButton:pressed {
                            <widget class="QLabel" name="label_132">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -14633,7 +14371,6 @@ QPushButton:pressed {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -14668,7 +14405,6 @@ QPushButton:pressed {
                            <widget class="QLabel" name="label_134">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -14681,7 +14417,6 @@ QPushButton:pressed {
                            <widget class="QLabel" name="label_155">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -14737,7 +14472,6 @@ QPushButton:pressed {
                            <widget class="QLabel" name="label_151">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -14756,7 +14490,6 @@ QPushButton:pressed {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>17</pointsize>
                              </font>
                             </property>
@@ -14772,7 +14505,6 @@ QPushButton:pressed {
                            <widget class="QLabel" name="label_153">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -14785,7 +14517,6 @@ QPushButton:pressed {
                            <widget class="QDateEdit" name="fin_novo_ent_data">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -14828,7 +14559,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -14847,7 +14577,6 @@ QCalendarWidget QToolButton {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -14882,7 +14611,6 @@ QCalendarWidget QToolButton {
                            <widget class="QLabel" name="label_154">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -14916,7 +14644,6 @@ QCalendarWidget QToolButton {
                                </property>
                                <property name="font">
                                 <font>
-                                 <family>Roboto</family>
                                  <pointsize>12</pointsize>
                                 </font>
                                </property>
@@ -14952,7 +14679,6 @@ QPushButton:pressed {
                             </property>
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>11</pointsize>
                              </font>
                             </property>
@@ -14965,7 +14691,6 @@ QPushButton:pressed {
                            <widget class="QLabel" name="label_152">
                             <property name="font">
                              <font>
-                              <family>Roboto</family>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
@@ -15022,7 +14747,6 @@ COLOR: WHITE;</string>
                           <widget class="QLabel" name="label_175">
                            <property name="font">
                             <font>
-                             <family>Roboto</family>
                              <pointsize>12</pointsize>
                             </font>
                            </property>
@@ -15097,7 +14821,6 @@ border-radius: 5px 5px;</string>
                  </property>
                  <property name="font">
                   <font>
-                   <family>Oswald Light</family>
                    <pointsize>12</pointsize>
                   </font>
                  </property>
@@ -15190,7 +14913,6 @@ border-radius: none;
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>18</pointsize>
                       <weight>75</weight>
                       <bold>true</bold>
@@ -15226,7 +14948,6 @@ border-bottom: none;
                     </property>
                     <property name="font">
                      <font>
-                      <family>Noto Serif</family>
                       <pointsize>18</pointsize>
                       <weight>75</weight>
                       <bold>true</bold>
@@ -15265,7 +14986,6 @@ border-bottom: none;
                  </property>
                  <property name="font">
                   <font>
-                   <family>Oswald Light</family>
                    <pointsize>12</pointsize>
                   </font>
                  </property>
@@ -15308,7 +15028,6 @@ QPushButton:hover{
                  </property>
                  <property name="font">
                   <font>
-                   <family>Oswald Light</family>
                    <pointsize>12</pointsize>
                   </font>
                  </property>
@@ -15370,9 +15089,7 @@ QPushButton:hover{
            </sizepolicy>
           </property>
           <property name="font">
-           <font>
-            <family>Noto Serif</family>
-           </font>
+           <font/>
           </property>
           <property name="styleSheet">
            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 231, 135, 255))</string>
@@ -15400,7 +15117,6 @@ QPushButton:hover{
              </property>
              <property name="font">
               <font>
-               <family>Bahnschrift Light Condensed</family>
                <pointsize>14</pointsize>
               </font>
              </property>
@@ -15460,7 +15176,6 @@ border-radius: 10px;</string>
              </property>
              <property name="font">
               <font>
-               <family>Bahnschrift Light Condensed</family>
                <pointsize>16</pointsize>
               </font>
              </property>
@@ -15523,7 +15238,6 @@ QPushButton:hover{
              </property>
              <property name="font">
               <font>
-               <family>Bahnschrift Light Condensed</family>
                <pointsize>13</pointsize>
               </font>
              </property>
@@ -15555,7 +15269,6 @@ color: red;</string>
              </property>
              <property name="font">
               <font>
-               <family>Bahnschrift Light Condensed</family>
                <pointsize>14</pointsize>
               </font>
              </property>
@@ -15596,7 +15309,6 @@ border-radius: 10px;</string>
              </property>
              <property name="font">
               <font>
-               <family>Barlow Condensed</family>
                <pointsize>43</pointsize>
               </font>
              </property>
@@ -15627,7 +15339,6 @@ border-radius: 10px;</string>
              </property>
              <property name="font">
               <font>
-               <family>Bahnschrift Light Condensed</family>
                <pointsize>10</pointsize>
               </font>
              </property>
@@ -15676,7 +15387,6 @@ color: red;</string>
              </property>
              <property name="font">
               <font>
-               <family>Oswald Light</family>
                <pointsize>75</pointsize>
               </font>
              </property>

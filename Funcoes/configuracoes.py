@@ -132,7 +132,7 @@ class Aba_Combustivel(Configuracoes):
                 'conta':'Conta Inter'
             }
         if dados['parcelamento'] == '1':
-                self.inserir_db(f"INSERT INTO Despesas (status, data, tipo, descricao, valor, conta) VALUES ('{info['status']}', '{info['data']}', '{info['tipo']}', '{info['descrição']}', '{info['valor']}', '{info['conta']}')")
+                DataBase(caminho_db()).querry_generica(f"INSERT INTO Despesas (status, data, tipo, descricao, valor, conta) VALUES ('{info['status']}', '{info['data']}', '{info['tipo']}', '{info['descrição']}', '{info['valor']}', '{info['conta']}')")
                 self.inserir_movimentacao("Despesas")
         else:
             datas = self.data_parcela(info["data"], dados['parcelamento'])

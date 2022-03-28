@@ -36,14 +36,39 @@ class Pdf:
         self.output.write(self.outputStream)
         self.outputStream.close()
         
-    def campo(self, titulo, valor, y=-25, font=14):
+    def campo(self, titulo, valor, y=-25, font=12):
         self.font(font)
-        self.can.drawString(60+20, self.mudarY(y), titulo)
+        self.can.drawString(60+20, self.mudarY(-15), titulo)
         self.can.drawString(60+150, self.y, f".........................................................................     {valor}")
 
-    def titulo(self, titulo, font=18, y=-10):
+    def linhas_tabela(self, dados, y=-25, font=12):
         self.font(font)
-        self.can.drawString(60, self.y, titulo)
+        self.mudarY(-20)
+        self.can.drawString(60, self.y, f'{dados[0]}')
+        self.can.drawString(130, self.y, f'{dados[1]}')
+        self.can.drawString(500, self.y, f'{dados[2]}')
+
+    def linhas_tabela_tanque(self, dados, y=-10, font=12):
+        self.font(font)
+        self.mudarY(y)
+        self.can.drawString(80, self.y, f'{dados[0]}')
+        self.can.drawString(220, self.y, f'{dados[1]}')
+        self.can.drawString(360, self.y, f'{dados[2]}')
+        self.can.drawString(448, self.y, f'{dados[3]}')
+
+    def total_tabela(self, valor,x=60, y=-20, font=12):
+        self.font(font)
+        self.can.drawString(x+20, self.mudarY(y), "TOTAL")
+        self.can.drawString(x+80, self.y, f"..........................................................................................................................................     {valor}")
+    
+    def total_tabela_tanque(self, valor,x=60, y=-20, font=12):
+        self.font(font)
+        self.can.drawString(x+20, self.mudarY(y), "TOTAL")
+        self.can.drawString(x+80, self.y, f"...................................................................................     {valor}")
+            
+    def titulo(self, titulo, x=60, font=14, y=-10):
+        self.font(font)
+        self.can.drawString(x, self.y, titulo)
         self.mudarY(y)
 
     def font(self, size, font='Calibri'):

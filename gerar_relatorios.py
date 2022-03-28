@@ -9,7 +9,7 @@ class GerarRelatorios:
         cabecalho.RelatorioGeral(nome, datas).gerar_relatorio_mensal()
 
 
-        
+         
 
 
 GerarRelatorios().geral(['2022-03-01', '2022-03-31'])

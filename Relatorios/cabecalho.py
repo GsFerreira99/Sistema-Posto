@@ -12,7 +12,7 @@ class RelatorioGeral(Pdf):
     def __init__(self, nome_arquivo, datas):
         super().__init__(nome_arquivo)
 
-        self.y = 730
+        self.y = 740
         self.datas = datas
         self.db = db.DataBase(caminho_db())
         self.consultar_dados()
@@ -30,7 +30,6 @@ class RelatorioGeral(Pdf):
                 2:{'titulo':'GASOLINA ATUAL', 'valor': 0},
                 },
             'entradas_tanque':{
-                0:{'data':'','combustivel':'','quantidade':'','valor_nota':''}
             },
             'entradas_tanque_total':0,
             'vendas':{
@@ -42,8 +41,8 @@ class RelatorioGeral(Pdf):
             },
             'entrada_total':0,
             'entradas':{
-                0:{'data':'', 'descrição': '', 'valor': ''}
             },
+            'saldo':0,
             }
 
         self.dados_tanque()
@@ -51,6 +50,7 @@ class RelatorioGeral(Pdf):
         self.dados_pagamentos()
         self.dados_entradas()
         self.dados_tanque_entrada()
+
 
         
     def dados_tanque(self):
@@ -68,34 +68,41 @@ class RelatorioGeral(Pdf):
         tanque[1]['valor'] = self.litro(total + dados[0][0])
         tanque[2]['valor'] = self.litro(dados[0][0])
 
+
     def dados_tanque_entrada(self):
-        entrada = self.db.select_generico(f"SELECT data, combustivel, quantidade, valor_nota FROM entrada_combustivel WHERE data BETWEEN '{self.datas[0]}' AND '{self.datas[1]}'")
+        entrada = self.db.select_generico(f"SELECT data_compra, data, id, quantidade, valor_nota FROM entrada_combustivel WHERE data BETWEEN '{self.datas[0]}' AND '{self.datas[1]}'")
         entrada_tanque = self.dados['entradas_tanque']
         total = 0
 
         for j, i in enumerate(entrada):
-            entrada_tanque[j]['data'] = i[0]
-            entrada_tanque[j]['combustivel'] = i[1]
-            entrada_tanque[j]['quantidade'] = self.litro(i[2])
-            entrada_tanque[j]['valor_nota'] = self.dinheiro(i[3])
-            total += i[2]
+            entrada_tanque[j] = {}
+            entrada_tanque[j]['data_compra'] = i[0]
+            entrada_tanque[j]['data'] = i[1]
+            entrada_tanque[j]['nota'] = i[2]
+            entrada_tanque[j]['quantidade'] = self.litro(i[3])
+            entrada_tanque[j]['valor_nota'] = self.dinheiro(i[4])
+            total += i[3]
 
         self.dados['entradas_tanque_total'] = self.litro(total)
 
     def dados_entradas(self):
-        dados = self.db.select_generico(f"SELECT data, descricao, valor FROM Entrada WHERE data BETWEEN '{self.datas[0]}' AND '{self.datas[1]}'")
+        dados = self.db.select_generico(f"SELECT data, nome, descricao, valor FROM Entrada WHERE data BETWEEN '{self.datas[0]}' AND '{self.datas[1]}'")
         entrada = self.dados['entradas']
         total = 0
         for i, j in enumerate(dados):
+            entrada[i] = {}
             entrada[i]['data'] = j[0]
-            entrada[i]['descrição'] = j[1]
-            entrada[i]['valor'] = self.dinheiro(j[2])
-            total+= j[2]
+            entrada[i]['nome'] = j[1]
+            entrada[i]['descrição'] = j[2]
+            entrada[i]['valor'] = self.dinheiro(j[3])
+            total+= j[3]
+        
+        self.dados['saldo'] = self.dados['saldo'] + total
         self.dados['entrada_total'] = self.dinheiro(total)
 
     def dados_pagamentos(self):
         tipos = self.db.select_generico("SELECT DISTINCT tipo FROM Despesas")
-        dados = self.db.select_generico("SELECT tipo, valor FROM Despesas WHERE data BETWEEN '{}' AND '{}'".format(self.datas[0],self.datas[1]))
+        dados = self.db.select_generico("SELECT tipo, valor FROM Despesas WHERE status ='Pago' AND data BETWEEN '{}' AND '{}'".format(self.datas[0],self.datas[1]))
         pagamentos = self.dados['pagamentos']
         for j in tipos:
             pagamentos[j[0]] = {'titulo': j[0], 'valor': 0}
@@ -107,6 +114,8 @@ class RelatorioGeral(Pdf):
             total['valor'] += i['valor']
 
         pagamentos['TOTAL'] = total
+        saldo = self.dados['saldo']
+        self.dados['saldo'] = saldo - total['valor']
         
         for i in pagamentos.values():
             i['valor'] = self.dinheiro(i['valor'])
@@ -121,6 +130,7 @@ class RelatorioGeral(Pdf):
             vendas[4]['valor'] += i[3]
             vendas[5]['valor'] += i[4]
 
+        self.dados['saldo'] = self.dados['saldo'] + vendas[5]['valor']
         vendas[1]['valor'] = self.litro(vendas[1]['valor'])
         vendas[2]['valor'] = self.dinheiro(vendas[2]['valor'])
         vendas[3]['valor'] = self.dinheiro(vendas[3]['valor'])
@@ -135,6 +145,7 @@ class RelatorioGeral(Pdf):
         self.tanque_entrada()
         self.entradas()
         self.pagamentos()
+        self.saldo()
 
         self.can.save()
         self.gerar_relatorio_mensal()
@@ -147,37 +158,41 @@ class RelatorioGeral(Pdf):
         self.can.drawRightString(570, 790, f"Periodo: {self.dados['data_ini']} à {self.dados['data_fim']}")
 
     def vendas(self):
-        self.titulo('VENDAS')
+        self.titulo('VENDAS', font=12, y=0)
         for i in self.dados['vendas'].values():
-            self.campo(i['titulo'], i['valor'])
-        self.mudarY(-40)
+            self.campo(i['titulo'], i['valor'], font=10)
+        self.mudarY(-30)
 
     def tanque(self):
-            self.titulo('TANQUE')
+            self.titulo('TANQUE', font=12, y=0)
             for i in self.dados['tanque'].values():
-                self.campo(i['titulo'], i['valor'])
+                self.campo(i['titulo'], i['valor'], font=10)
             self.mudarY(-20)
 
     def tanque_entrada(self):
-            self.titulo('ENTRADAS COMBUSTIVEL',x=70, font=10)
-            self.linhas_tabela_tanque(['DATA', 'COMBUSTIVEL', 'QUANTIDADE', 'VALOR'], font=10)
-            for i in self.dados['entradas_tanque'].values():
-                self.linhas_tabela_tanque([i['data'], i['combustivel'], i['quantidade'], i['valor_nota']],y=-15, font=10)
+            self.titulo('ENTRADAS COMBUSTIVEL',x=70, font=11)
+            if self.dados['entradas_tanque'] != {}:
+                self.linhas_tabela_tanque(['COMPRA', 'RECEBIMENTO', 'Nº NOTA', 'QUANTIDADE', 'VALOR',], font=10)
+                for i in self.dados['entradas_tanque'].values():
+                    self.linhas_tabela_tanque([i['data_compra'],i['data'], i['nota'], i['quantidade'], i['valor_nota']],y=-15, font=10)
             self.total_tabela_tanque(self.dados['entradas_tanque_total'], font=10)
-            self.mudarY(-40)
+            self.mudarY(-30)
 
     def entradas(self):
-            self.titulo('ENTRADA CAPITAL')
-            self.linhas_tabela(['DATA', 'DESCRIÇÃO', 'VALOR'])
-            for i in self.dados['entradas'].values():
-                self.linhas_tabela([i['data'], i['descrição'], i['valor']], font=10)
+            self.titulo('ENTRADA CAPITAL', font=12, y=0)
+            if self.dados['entradas'] != {}:
+                self.linhas_tabela(['DATA', 'RESPONSAVEL', 'DESCRIÇÃO', 'VALOR'], font=10)
+                for i in self.dados['entradas'].values():
+                    self.linhas_tabela([i['data'], i['nome'], i['descrição'], i['valor']], font=10)
             self.total_tabela(self.dados['entrada_total'], font=10)
-            self.mudarY(-40)
+            self.mudarY(-30)
 
     def pagamentos(self):
-            self.titulo('PAGAMENTOS')
+            self.titulo('PAGAMENTOS', font=12, y=0)
             for i in self.dados['pagamentos'].values():
-                self.campo(i['titulo'], i['valor'])
-            self.mudarY(-40)
+                self.campo(i['titulo'], i['valor'], font=10)
+            self.mudarY(-30)
 
+    def saldo(self):
+            self.campo_saldo(self.dinheiro(self.dados['saldo']), font=10)
 

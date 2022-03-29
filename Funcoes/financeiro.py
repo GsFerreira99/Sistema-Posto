@@ -222,10 +222,10 @@ class Home(Financeiro):
     
     def contas_a_vencer(self, periodo):
         if periodo == "Hoje":
-            dados = DataBase(caminho_db()).querry_generica("SELECT valor FROM Despesas WHERE data = '{}' AND status = 'em aberto' ".format(QDateTime.currentDateTime().toString('yyyy-MM-dd')))
+            dados = DataBase(caminho_db()).querry_generica("SELECT valor FROM Despesas WHERE data = '{}' AND status = 'Em Aberto' ".format(QDateTime.currentDateTime().toString('yyyy-MM-dd')))
         if periodo == "Mês":
             data = "{}-31".format(QDateTime.currentDateTime().toString('yyyy-MM'))
-            dados = DataBase(caminho_db()).querry_generica("SELECT valor FROM Despesas WHERE data BETWEEN '{}' AND '{}' AND status = 'em aberto' ".format(QDateTime.currentDateTime().toString('yyyy-MM-dd'), data))
+            dados = DataBase(caminho_db()).querry_generica("SELECT valor FROM Despesas WHERE data BETWEEN '{}' AND '{}' AND status = 'Em Aberto' ".format(QDateTime.currentDateTime().toString('yyyy-MM-dd'), data))
         total = 0
         for dado in dados:
             total+= int(dado[0])

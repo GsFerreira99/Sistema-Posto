@@ -58,4 +58,4 @@ def retiradas(arquivo, data):
 
     relatorio_retiradas.RelatorioRetiradas('relatorio_ret-MAR.pdf', info).gerar_relatorio_mensal()
 
-funcionario('joaquim', '2022-03')
+funcionario('junior', '2022-03')

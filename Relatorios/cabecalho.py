@@ -101,7 +101,7 @@ class RelatorioGeral(Pdf):
         self.dados['entrada_total'] = self.dinheiro(total)
 
     def dados_pagamentos(self):
-        tipos = self.db.select_generico("SELECT DISTINCT tipo FROM Despesas")
+        tipos = self.db.select_generico("SELECT DISTINCT tipo FROM Despesas WHERE status ='Pago' AND data BETWEEN '{}' AND '{}'".format(self.datas[0],self.datas[1]))
         dados = self.db.select_generico("SELECT tipo, valor FROM Despesas WHERE status ='Pago' AND data BETWEEN '{}' AND '{}'".format(self.datas[0],self.datas[1]))
         pagamentos = self.dados['pagamentos']
         for j in tipos:
@@ -138,7 +138,7 @@ class RelatorioGeral(Pdf):
         vendas[5]['valor'] = self.dinheiro(vendas[5]['valor'])
 
     def gerar(self):
-        self.can = canvas.Canvas(self.packet, pagesize=letter)
+        self.can = canvas.Canvas(self.packet)
         self.preencher_cabecalho()
         self.vendas()
         self.tanque()

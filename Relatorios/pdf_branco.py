@@ -24,12 +24,14 @@ class Pdf:
 
     def abrir_pdf_modelo(self):
         self.existing_pdf = PdfFileReader(open("Relatorios\MODELO.pdf", "rb"))
+        self.page = self.existing_pdf.getPage(0)
         self.output = PdfFileWriter()
 
     def adiciona_dados_ao_modelo(self):
-        self.page = self.existing_pdf.getPage(0)
-        self.page.mergePage(self.new_pdf.getPage(0))
-        self.output.addPage(self.page)
+        for page in self.new_pdf.pages:
+            page.mergePage(self.page)
+            self.output.addPage(page)
+
     
     def salvar_pdf(self):
         self.outputStream = open(self.nome_arquivo, "wb")
@@ -102,5 +104,3 @@ class Pdf:
 
     def paginacao(self):
         self.can.showPage()
-
-

@@ -23,7 +23,7 @@ class RelatorioDetalhado(Pdf):
         self.dados_pagamentos()
 
     def dados_pagamentos(self):
-        tipos = self.db.select_generico("SELECT DISTINCT tipo FROM Despesas")
+        tipos = self.db.select_generico("SELECT DISTINCT tipo FROM Despesas WHERE status ='Pago' AND data BETWEEN '{}' AND '{}'".format(self.datas[0],self.datas[1]))
         dados = self.db.select_generico("SELECT data, nome, descricao, valor, tipo, categoria FROM Despesas WHERE status ='Pago' AND data BETWEEN '{}' AND '{}'".format(self.datas[0],self.datas[1]))
 
         for j in tipos:
@@ -46,11 +46,12 @@ class RelatorioDetalhado(Pdf):
 
 
     def gerar(self):
-        self.can = canvas.Canvas(self.packet, pagesize=letter)
+        self.can = canvas.Canvas(self.packet)
         self.preencher_cabecalho()
         self.pagamentos()
-        self.gerar_relatorio_mensal()
+
         self.can.save()
+        self.gerar_relatorio_mensal()
 
     
     def preencher_cabecalho(self):
@@ -66,15 +67,15 @@ class RelatorioDetalhado(Pdf):
             for key, value in self.dados.items():
                 self.titulo(f"{key}", x=40, font=10, y=-15)
                 for key2, value2 in value.items():
-                    self.titulo(f"{key2}", font=9, y=-5)
-                    for i in value2.values():
-                        if self.y >= 100:
-                            self.campo_despesa_detalhe([i['data'],i['nome'],i['descrição'],self.dinheiro(i['valor'])], y=-10, font=8)
-                        else:
-                            self.can.showPage()
-                            self.can.drawCentredString(100, 500, 'teste')
-                            self.mudarY(770)
-                    self.mudarY(-20)
+                    if key2 != None and value2 != {}:
+                        self.titulo(f"{key2}", font=9, y=-5)
+                        for i in value2.values():
+                            if self.y >= 100:
+                                self.campo_despesa_detalhe([i['data'],i['nome'],i['descrição'],self.dinheiro(i['valor'])], y=-10, font=8)
+                            else:
+                                self.can.showPage()
+                                self.mudarY(670)
+                        self.mudarY(-20)
                 self.mudarY(-10)
             self.mudarY(-20)
 

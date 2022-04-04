@@ -12,6 +12,6 @@ class GerarRelatorios:
          
 
 
-#GerarRelatorios().geral(['2022-03-01', '2022-03-31'])
+GerarRelatorios().geral(['2022-03-01', '2022-03-31'])
 GerarRelatorios().detalhado(['2022-03-01', '2022-03-31'])
 

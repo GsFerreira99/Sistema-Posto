@@ -1,3 +1,4 @@
+from datetime import date
 from PyQt5.QtWidgets import QMessageBox
 from PyQt5 import QtGui, QtWidgets
 from GUI.ui_GUI import Ui_Sistema
@@ -41,14 +42,24 @@ class Estoque(Ui_Sistema):
 
     #Cadastro Produto
     def receber_dados_novo_produto(self):
-        dados = [self.ui.est_cb_tipo.currentText(), self.ui.est_cb_marca.currentText(), self.ui.ln_est_produto.text(), converter_string_para_float(self.ui.ln_est_qnt.text()),
-            self.ui.ln_est_codBarras.text(), converter_string_para_float(self.ui.ln_est_pCompra.text()),  converter_string_para_float(self.ui.ln_est_pVenda.text())]
+        dados = {
+            'tipo' : self.ui.est_cb_tipo.currentText(),
+            'marca' : self.ui.est_cb_marca.currentText(),
+            'produto' : self.ui.ln_est_produto.text().upper(),
+            'unidade' : self.ui.est_cb_unidade.currentText(),
+            'p_compra' : converter_string_para_float(self.ui.ln_est_pCompra.text()),
+            'p_venda' : converter_string_para_float(self.ui.ln_est_pVenda.text()),
+            'quantidade' : converter_string_para_float(self.ui.ln_est_qnt.text()),
+            'cod_barras' : self.ui.ln_est_codBarras.text(),
+        }
+
         return dados
 
     def cadastrar_novo_produto(self):       
             dados = self.receber_dados_novo_produto()
-            self.ui.db.cadastrar_novo_produto(dados)
+            self.ui.db.querry_generica(f"INSERT INTO Estoque (tipo, marca, produto, unidade, quantidade, cod_barras, preço_compra, preço_venda) VALUES ('{dados['tipo']}', '{dados['marca']}', '{dados['produto']}', '{dados['unidade']}', '{dados['quantidade']}', '{dados['cod_barras']}', '{dados['p_compra']}', '{dados['p_venda']}')")
             Erro("Produto adicionado com sucesso!", QMessageBox.Information, titulo="Sucesso!")
+            self.ui.stackedWidget_7.setCurrentIndex(0)
             self.limpar_cadastro()
     
     def limpar_cadastro(self):
@@ -59,12 +70,17 @@ class Estoque(Ui_Sistema):
     
     #Entrada Produto
     def receber_dados_entrada(self):
-        dados = [int(self.ui.est_new_ln_qnt.text()), self.ui.est_new_cb_produto.currentText()]
+        dados = {
+            'quantidade' : converter_string_para_float(self.ui.est_new_ln_qnt.text()),
+            'produto' : self.ui.est_new_cb_produto.currentText(),
+            'data' : date.today().isoformat()
+        }
         return dados
 
     def adicionar_entrada(self):
         dados = self.receber_dados_entrada()
-        self.ui.db.inserir_nova_entrada(dados)
+        self.ui.db.querry_generica(f"UPDATE Estoque SET quantidade = quantidade + '{dados['quantidade']}' WHERE produto = '{dados['produto']}'")
+        self.ui.db.querry_generica(f"INSERT INTO entrada_produtos (data, produto, quantidade) VALUES ('{dados['data']}', '{dados['produto']}', '{dados['quantidade']}')")
         Erro("Entrada de produto adicionada com sucesso!", QMessageBox.Information, titulo="Sucesso!")
         self.limpar_entrada()
 
@@ -144,6 +160,19 @@ class Estoque(Ui_Sistema):
         return self.dados_tab[int(row)]
 
     def salvar_edicao(self):
+        dados = {
+            'id' : self.id_edicao,
+            'tipo' : self.ui.est_cb_tipo.currentText(),
+            'marca' : self.ui.est_cb_marca.currentText(),
+            'produto' : self.ui.ln_est_produto.text().upper(),
+            'unidade' : self.ui.est_cb_unidade.currentText(),
+            'p_compra' : converter_string_para_float(self.ui.ln_est_pCompra.text()),
+            'p_venda' : converter_string_para_float(self.ui.ln_est_pVenda.text()),
+            'quantidade' : converter_string_para_float(self.ui.ln_est_qnt.text()),
+            'cod_barras' : self.ui.ln_est_codBarras.text(),
+        }
+
+        self.ui.db.querry_generica(f"UPDATE Estoque SET tipo = '{dados['tipo']}', marca = '{dados['marca']}', produto = '{dados['produto']}', unidade = '{dados['unidade']}', preço_compra = '{dados['p_compra']}', preço_venda = '{dados['p_venda']}', quantidade = '{dados['quantidade']}', cod_barras = '{dados['cod_barras']}' WHERE codigo = '{dados['id']}'")
         dados = receber_dados_campos([self.ui.est_edt_cb_tipo.currentText(), self.ui.est_edt_cb_marca.currentText(), 
             self.ui.est_edt_ln_produto.text(), self.ui.est_edt_ln_pCompra.text(), self.ui.est_edt_ln_pVenda.text(), self.ui.est_edt_ln_qnt.text(), 
             self.ui.est_edt_ln_codBarras.text()])

@@ -44,10 +44,18 @@ class Window(QMainWindow, Ui_Sistema):
         self.btn_vendas.clicked.connect(lambda: self.stackedWidget_2.setCurrentIndex(5))
         self.btn_config.clicked.connect(lambda: self.acesso_config())
         self.btn_financeiro.clicked.connect(lambda: self.acesso_financeiro())
+        self.btn_lancamentos.clicked.connect(lambda: self.acesso_lancamentos())
 
         self.btn_logout.clicked.connect(lambda: self.logout())
 
         self.ini_btn_ponto.clicked.connect(lambda: self.registrar_ponto())
+
+    def acesso_lancamentos(self):
+        self.stackedWidget_2.setCurrentIndex(6)
+        Financeiro(self).tela_novo()
+        self.fin_btn_home.setEnabled(False)
+        self.fin_btn_mov.setEnabled(False)
+        self.fin_btn_novo.setEnabled(False)
 
     def acessar_sistema(self):
         #Faz validação dos dados de login no sistema

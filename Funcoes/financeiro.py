@@ -16,14 +16,15 @@ class Financeiro:
         self.ui.fin_btn_home.clicked.connect(self.tela_home)
         self.ui.fin_btn_mov.clicked.connect(lambda: self.ui.stackedWidget_6.setCurrentIndex(2))
         self.ui.fin_btn_novo.clicked.connect(self.tela_novo)
-        
+        self.novo = Novo(self.ui)
 
     def tela_home(self):
         Home(self.ui).inserir_valor_conta()
         self.ui.stackedWidget_6.setCurrentIndex(0)
 
     def tela_novo(self):
-        Novo(self.ui)
+        self.novo.preencher_tipo()
+        self.novo.mudar_tela()
         self.ui.stackedWidget_6.setCurrentIndex(2)
 
 
@@ -105,11 +106,11 @@ class Novo(Financeiro):
             if verificar_vazio(dados) == False:
                 self.inserir_db("INSERT INTO Despesas (status, data, tipo, descricao, valor, conta) VALUES ('{}', '{}', '{}', '{}', '{}', '{}')".format(*dados))
                 self.inserir_movimentacao("Despesas")
-                self.limpar_campos_despesa()
                 if dados[0] == "Pago":
                     Transacao(dados[4]).despesa(dados[5])
                 Erro("Despesa inserida com sucesso!", QMessageBox.Information)
                 self.mudar_tela()
+                self.limpar_campos_despesa()
             else:
                 Erro("Preencha todos os campos", QMessageBox.Information, titulo="ERRO")
 

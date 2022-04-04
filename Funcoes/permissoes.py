@@ -23,15 +23,18 @@ class Permissoes:
         self.main.btn_vendas.setMaximumHeight(60)
         self.main.btn_financeiro.setMaximumHeight(60)
         self.main.btn_estoque.setMaximumHeight(60)
+        self.main.btn_estoque.setEnabled(True)
 
     def funcionario(self):
         #Desabilita
         self.main.btn_consulta.setMaximumHeight(0)
         self.main.btn_vendas.setMaximumHeight(0)
         self.main.btn_financeiro.setMaximumHeight(0)
-        self.main.btn_estoque.setMaximumHeight(0)
         #Habilita
         self.main.ini_btn_ponto.setMaximumWidth(200)
+        self.main.btn_lancamentos.setMaximumHeight(60)
+        self.main.btn_estoque.setMaximumHeight(60)
+        self.main.btn_estoque.setEnabled(True)
 
     def gerente(self):
         #Desabilita

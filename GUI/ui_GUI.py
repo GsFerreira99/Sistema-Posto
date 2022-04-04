@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'InterfaceeEyhSR.ui'
+## Form generated from reading UI file 'InterfacedRDlje.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -46,7 +46,7 @@ class Ui_Sistema(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.frame.sizePolicy().hasHeightForWidth())
         self.frame.setSizePolicy(sizePolicy)
-        self.frame.setMaximumSize(QSize(100, 16777215))
+        self.frame.setMaximumSize(QSize(150, 16777215))
         self.frame.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 222, 90, 239), stop:1 rgba(255, 228, 117, 255));")
         self.frame.setFrameShape(QFrame.StyledPanel)
         self.frame.setFrameShadow(QFrame.Raised)
@@ -54,16 +54,15 @@ class Ui_Sistema(object):
         self.gridLayout_2.setSpacing(0)
         self.gridLayout_2.setObjectName(u"gridLayout_2")
         self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
-        self.btn_estoque = QPushButton(self.frame)
-        self.btn_estoque.setObjectName(u"btn_estoque")
-        self.btn_estoque.setEnabled(False)
-        sizePolicy.setHeightForWidth(self.btn_estoque.sizePolicy().hasHeightForWidth())
-        self.btn_estoque.setSizePolicy(sizePolicy)
-        self.btn_estoque.setMaximumSize(QSize(100, 60))
+        self.btn_caixa = QPushButton(self.frame)
+        self.btn_caixa.setObjectName(u"btn_caixa")
+        sizePolicy.setHeightForWidth(self.btn_caixa.sizePolicy().hasHeightForWidth())
+        self.btn_caixa.setSizePolicy(sizePolicy)
+        self.btn_caixa.setMaximumSize(QSize(150, 60))
         font1 = QFont()
         font1.setPointSize(14)
-        self.btn_estoque.setFont(font1)
-        self.btn_estoque.setStyleSheet(u"QPushButton {\n"
+        self.btn_caixa.setFont(font1)
+        self.btn_caixa.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
 "	border-bottom: 1px solid rgb(166, 166, 166);\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
@@ -78,16 +77,16 @@ class Ui_Sistema(object):
 "\n"
 "")
 
-        self.gridLayout_2.addWidget(self.btn_estoque, 4, 0, 1, 1)
+        self.gridLayout_2.addWidget(self.btn_caixa, 1, 0, 1, 1)
 
-        self.btn_vendas = QPushButton(self.frame)
-        self.btn_vendas.setObjectName(u"btn_vendas")
-        self.btn_vendas.setEnabled(False)
-        sizePolicy.setHeightForWidth(self.btn_vendas.sizePolicy().hasHeightForWidth())
-        self.btn_vendas.setSizePolicy(sizePolicy)
-        self.btn_vendas.setMaximumSize(QSize(100, 60))
-        self.btn_vendas.setFont(font1)
-        self.btn_vendas.setStyleSheet(u"QPushButton {\n"
+        self.btn_financeiro = QPushButton(self.frame)
+        self.btn_financeiro.setObjectName(u"btn_financeiro")
+        self.btn_financeiro.setEnabled(True)
+        sizePolicy.setHeightForWidth(self.btn_financeiro.sizePolicy().hasHeightForWidth())
+        self.btn_financeiro.setSizePolicy(sizePolicy)
+        self.btn_financeiro.setMaximumSize(QSize(150, 60))
+        self.btn_financeiro.setFont(font1)
+        self.btn_financeiro.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
 "	border-bottom: 1px solid rgb(166, 166, 166);\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
@@ -102,14 +101,14 @@ class Ui_Sistema(object):
 "\n"
 "")
 
-        self.gridLayout_2.addWidget(self.btn_vendas, 5, 0, 1, 1)
+        self.gridLayout_2.addWidget(self.btn_financeiro, 4, 0, 1, 1)
 
         self.btn_config = QPushButton(self.frame)
         self.btn_config.setObjectName(u"btn_config")
         self.btn_config.setEnabled(True)
         sizePolicy.setHeightForWidth(self.btn_config.sizePolicy().hasHeightForWidth())
         self.btn_config.setSizePolicy(sizePolicy)
-        self.btn_config.setMaximumSize(QSize(100, 60))
+        self.btn_config.setMaximumSize(QSize(150, 60))
         font2 = QFont()
         font2.setPointSize(12)
         self.btn_config.setFont(font2)
@@ -129,13 +128,64 @@ class Ui_Sistema(object):
 "\n"
 "")
 
-        self.gridLayout_2.addWidget(self.btn_config, 8, 0, 1, 1)
+        self.gridLayout_2.addWidget(self.btn_config, 9, 0, 1, 1)
+
+        self.btn_vendas = QPushButton(self.frame)
+        self.btn_vendas.setObjectName(u"btn_vendas")
+        self.btn_vendas.setEnabled(False)
+        sizePolicy.setHeightForWidth(self.btn_vendas.sizePolicy().hasHeightForWidth())
+        self.btn_vendas.setSizePolicy(sizePolicy)
+        self.btn_vendas.setMaximumSize(QSize(150, 60))
+        self.btn_vendas.setFont(font1)
+        self.btn_vendas.setStyleSheet(u"QPushButton {\n"
+"	border: none;\n"
+"	border-bottom: 1px solid rgb(166, 166, 166);\n"
+"	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
+"\n"
+"}\n"
+"\n"
+"QPushButton:hover{\n"
+"	background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 209, 22, 255))\n"
+"}\n"
+"\n"
+"\n"
+"\n"
+"")
+
+        self.gridLayout_2.addWidget(self.btn_vendas, 6, 0, 1, 1)
+
+        self.verticalSpacer = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
+
+        self.gridLayout_2.addItem(self.verticalSpacer, 8, 0, 1, 1)
+
+        self.btn_consulta = QPushButton(self.frame)
+        self.btn_consulta.setObjectName(u"btn_consulta")
+        sizePolicy.setHeightForWidth(self.btn_consulta.sizePolicy().hasHeightForWidth())
+        self.btn_consulta.setSizePolicy(sizePolicy)
+        self.btn_consulta.setMaximumSize(QSize(150, 60))
+        self.btn_consulta.setFont(font1)
+        self.btn_consulta.setStyleSheet(u"QPushButton {\n"
+"	border: none;\n"
+"	border-bottom: 1px solid rgb(166, 166, 166);\n"
+"	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
+"\n"
+"}\n"
+"\n"
+"QPushButton:hover{\n"
+"	background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 209, 22, 255))\n"
+"}\n"
+"\n"
+"\n"
+"\n"
+"")
+
+        self.gridLayout_2.addWidget(self.btn_consulta, 3, 0, 1, 1)
 
         self.btn_inicio = QPushButton(self.frame)
         self.btn_inicio.setObjectName(u"btn_inicio")
         sizePolicy.setHeightForWidth(self.btn_inicio.sizePolicy().hasHeightForWidth())
         self.btn_inicio.setSizePolicy(sizePolicy)
-        self.btn_inicio.setMaximumSize(QSize(100, 60))
+        self.btn_inicio.setMaximumSize(QSize(150, 60))
         self.btn_inicio.setFont(font1)
         self.btn_inicio.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
@@ -154,17 +204,14 @@ class Ui_Sistema(object):
 
         self.gridLayout_2.addWidget(self.btn_inicio, 0, 0, 1, 1)
 
-        self.verticalSpacer = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
-
-        self.gridLayout_2.addItem(self.verticalSpacer, 7, 0, 1, 1)
-
-        self.btn_caixa = QPushButton(self.frame)
-        self.btn_caixa.setObjectName(u"btn_caixa")
-        sizePolicy.setHeightForWidth(self.btn_caixa.sizePolicy().hasHeightForWidth())
-        self.btn_caixa.setSizePolicy(sizePolicy)
-        self.btn_caixa.setMaximumSize(QSize(100, 60))
-        self.btn_caixa.setFont(font1)
-        self.btn_caixa.setStyleSheet(u"QPushButton {\n"
+        self.btn_estoque = QPushButton(self.frame)
+        self.btn_estoque.setObjectName(u"btn_estoque")
+        self.btn_estoque.setEnabled(False)
+        sizePolicy.setHeightForWidth(self.btn_estoque.sizePolicy().hasHeightForWidth())
+        self.btn_estoque.setSizePolicy(sizePolicy)
+        self.btn_estoque.setMaximumSize(QSize(150, 60))
+        self.btn_estoque.setFont(font1)
+        self.btn_estoque.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
 "	border-bottom: 1px solid rgb(166, 166, 166);\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
@@ -179,15 +226,16 @@ class Ui_Sistema(object):
 "\n"
 "")
 
-        self.gridLayout_2.addWidget(self.btn_caixa, 1, 0, 1, 1)
+        self.gridLayout_2.addWidget(self.btn_estoque, 5, 0, 1, 1)
 
-        self.btn_consulta = QPushButton(self.frame)
-        self.btn_consulta.setObjectName(u"btn_consulta")
-        sizePolicy.setHeightForWidth(self.btn_consulta.sizePolicy().hasHeightForWidth())
-        self.btn_consulta.setSizePolicy(sizePolicy)
-        self.btn_consulta.setMaximumSize(QSize(100, 60))
-        self.btn_consulta.setFont(font1)
-        self.btn_consulta.setStyleSheet(u"QPushButton {\n"
+        self.btn_lancamentos = QPushButton(self.frame)
+        self.btn_lancamentos.setObjectName(u"btn_lancamentos")
+        self.btn_lancamentos.setEnabled(True)
+        sizePolicy.setHeightForWidth(self.btn_lancamentos.sizePolicy().hasHeightForWidth())
+        self.btn_lancamentos.setSizePolicy(sizePolicy)
+        self.btn_lancamentos.setMaximumSize(QSize(150, 0))
+        self.btn_lancamentos.setFont(font1)
+        self.btn_lancamentos.setStyleSheet(u"QPushButton {\n"
 "	border: none;\n"
 "	border-bottom: 1px solid rgb(166, 166, 166);\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
@@ -202,31 +250,7 @@ class Ui_Sistema(object):
 "\n"
 "")
 
-        self.gridLayout_2.addWidget(self.btn_consulta, 2, 0, 1, 1)
-
-        self.btn_financeiro = QPushButton(self.frame)
-        self.btn_financeiro.setObjectName(u"btn_financeiro")
-        self.btn_financeiro.setEnabled(True)
-        sizePolicy.setHeightForWidth(self.btn_financeiro.sizePolicy().hasHeightForWidth())
-        self.btn_financeiro.setSizePolicy(sizePolicy)
-        self.btn_financeiro.setMaximumSize(QSize(100, 60))
-        self.btn_financeiro.setFont(font1)
-        self.btn_financeiro.setStyleSheet(u"QPushButton {\n"
-"	border: none;\n"
-"	border-bottom: 1px solid rgb(166, 166, 166);\n"
-"	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));\n"
-"\n"
-"}\n"
-"\n"
-"QPushButton:hover{\n"
-"	background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 209, 22, 255))\n"
-"}\n"
-"\n"
-"\n"
-"\n"
-"")
-
-        self.gridLayout_2.addWidget(self.btn_financeiro, 3, 0, 1, 1)
+        self.gridLayout_2.addWidget(self.btn_lancamentos, 2, 0, 1, 1)
 
 
         self.gridLayout_6.addWidget(self.frame, 0, 0, 1, 1)
@@ -2339,6 +2363,7 @@ class Ui_Sistema(object):
 
         self.frame_5 = QFrame(self.frame_2)
         self.frame_5.setObjectName(u"frame_5")
+        self.frame_5.setEnabled(False)
         sizePolicy2.setHeightForWidth(self.frame_5.sizePolicy().hasHeightForWidth())
         self.frame_5.setSizePolicy(sizePolicy2)
         self.frame_5.setFrameShape(QFrame.StyledPanel)
@@ -2347,26 +2372,6 @@ class Ui_Sistema(object):
         self.gridLayout_12.setObjectName(u"gridLayout_12")
         self.gridLayout_12.setHorizontalSpacing(6)
         self.gridLayout_12.setContentsMargins(0, 0, 0, 0)
-        self.label_38 = QLabel(self.frame_5)
-        self.label_38.setObjectName(u"label_38")
-        sizePolicy1.setHeightForWidth(self.label_38.sizePolicy().hasHeightForWidth())
-        self.label_38.setSizePolicy(sizePolicy1)
-        self.label_38.setMaximumSize(QSize(16777215, 10))
-        self.label_38.setFont(font6)
-        self.label_38.setStyleSheet(u"border: none;")
-
-        self.gridLayout_12.addWidget(self.label_38, 1, 0, 1, 1)
-
-        self.label_39 = QLabel(self.frame_5)
-        self.label_39.setObjectName(u"label_39")
-        sizePolicy1.setHeightForWidth(self.label_39.sizePolicy().hasHeightForWidth())
-        self.label_39.setSizePolicy(sizePolicy1)
-        self.label_39.setMaximumSize(QSize(16777215, 10))
-        self.label_39.setFont(font6)
-        self.label_39.setStyleSheet(u"border: none;")
-
-        self.gridLayout_12.addWidget(self.label_39, 1, 1, 1, 1)
-
         self.btn_cx_ret_inserir = QPushButton(self.frame_5)
         self.btn_cx_ret_inserir.setObjectName(u"btn_cx_ret_inserir")
         sizePolicy5 = QSizePolicy(QSizePolicy.Minimum, QSizePolicy.Expanding)
@@ -2389,6 +2394,71 @@ class Ui_Sistema(object):
 
         self.gridLayout_12.addWidget(self.btn_cx_ret_inserir, 3, 2, 1, 1)
 
+        self.tb_cx = QTableWidget(self.frame_5)
+        if (self.tb_cx.columnCount() < 3):
+            self.tb_cx.setColumnCount(3)
+        __qtablewidgetitem21 = QTableWidgetItem()
+        self.tb_cx.setHorizontalHeaderItem(0, __qtablewidgetitem21)
+        __qtablewidgetitem22 = QTableWidgetItem()
+        self.tb_cx.setHorizontalHeaderItem(1, __qtablewidgetitem22)
+        __qtablewidgetitem23 = QTableWidgetItem()
+        self.tb_cx.setHorizontalHeaderItem(2, __qtablewidgetitem23)
+        self.tb_cx.setObjectName(u"tb_cx")
+        self.tb_cx.setStyleSheet(u"QTableWidget{\n"
+"	border-radius: 10px;\n"
+"	background-color: rgb(200, 200, 200);\n"
+"}\n"
+"\n"
+"QTableWidget::item {\n"
+"    hborder: 5px solid rgba(68, 119, 170, 150);\n"
+"	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 238, 169, 239), stop:1 rgba(255, 237, 162, 255));\n"
+"	border-radius: 3px;\n"
+"}\n"
+"\n"
+"QTableWidget::item:selected {\n"
+"	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 232, 136, 239), stop:1 rgba(255, 237, 162, 255));\n"
+"	\n"
+"	color: rgb(74, 74, 74);\n"
+"}\n"
+"\n"
+"QHeaderView, QHeaderView::section {\n"
+"    color: white;\n"
+"	background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
+"}")
+        self.tb_cx.setFrameShadow(QFrame.Sunken)
+        self.tb_cx.setDragDropMode(QAbstractItemView.NoDragDrop)
+        self.tb_cx.setSelectionMode(QAbstractItemView.ExtendedSelection)
+        self.tb_cx.setSelectionBehavior(QAbstractItemView.SelectRows)
+        self.tb_cx.setTextElideMode(Qt.ElideRight)
+        self.tb_cx.setWordWrap(True)
+        self.tb_cx.setCornerButtonEnabled(False)
+        self.tb_cx.horizontalHeader().setCascadingSectionResizes(False)
+        self.tb_cx.horizontalHeader().setHighlightSections(True)
+        self.tb_cx.horizontalHeader().setStretchLastSection(True)
+        self.tb_cx.verticalHeader().setVisible(False)
+
+        self.gridLayout_12.addWidget(self.tb_cx, 4, 0, 1, 3)
+
+        self.label_39 = QLabel(self.frame_5)
+        self.label_39.setObjectName(u"label_39")
+        sizePolicy1.setHeightForWidth(self.label_39.sizePolicy().hasHeightForWidth())
+        self.label_39.setSizePolicy(sizePolicy1)
+        self.label_39.setMaximumSize(QSize(16777215, 10))
+        self.label_39.setFont(font6)
+        self.label_39.setStyleSheet(u"border: none;")
+
+        self.gridLayout_12.addWidget(self.label_39, 1, 1, 1, 1)
+
+        self.label_38 = QLabel(self.frame_5)
+        self.label_38.setObjectName(u"label_38")
+        sizePolicy1.setHeightForWidth(self.label_38.sizePolicy().hasHeightForWidth())
+        self.label_38.setSizePolicy(sizePolicy1)
+        self.label_38.setMaximumSize(QSize(16777215, 10))
+        self.label_38.setFont(font6)
+        self.label_38.setStyleSheet(u"border: none;")
+
+        self.gridLayout_12.addWidget(self.label_38, 1, 0, 1, 1)
+
         self.groupBox_4 = QGroupBox(self.frame_5)
         self.groupBox_4.setObjectName(u"groupBox_4")
         self.groupBox_4.setMaximumSize(QSize(16777215, 150))
@@ -2401,7 +2471,7 @@ class Ui_Sistema(object):
         self.gridLayout_22.setVerticalSpacing(10)
         self.ln_cx_ter_valor = QLineEdit(self.groupBox_4)
         self.ln_cx_ter_valor.setObjectName(u"ln_cx_ter_valor")
-        self.ln_cx_ter_valor.setEnabled(True)
+        self.ln_cx_ter_valor.setEnabled(False)
         self.ln_cx_ter_valor.setMaximumSize(QSize(16777215, 20))
         self.ln_cx_ter_valor.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
 "border-radius: 10px;\n"
@@ -2448,7 +2518,7 @@ class Ui_Sistema(object):
 
         self.ln_cx_desc = QLineEdit(self.groupBox_4)
         self.ln_cx_desc.setObjectName(u"ln_cx_desc")
-        self.ln_cx_desc.setEnabled(True)
+        self.ln_cx_desc.setEnabled(False)
         self.ln_cx_desc.setMaximumSize(QSize(16777215, 20))
         self.ln_cx_desc.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
 "border-radius: 10px;\n"
@@ -2471,51 +2541,6 @@ class Ui_Sistema(object):
 
 
         self.gridLayout_12.addWidget(self.groupBox_4, 2, 0, 1, 3)
-
-        self.tb_cx = QTableWidget(self.frame_5)
-        if (self.tb_cx.columnCount() < 3):
-            self.tb_cx.setColumnCount(3)
-        __qtablewidgetitem21 = QTableWidgetItem()
-        self.tb_cx.setHorizontalHeaderItem(0, __qtablewidgetitem21)
-        __qtablewidgetitem22 = QTableWidgetItem()
-        self.tb_cx.setHorizontalHeaderItem(1, __qtablewidgetitem22)
-        __qtablewidgetitem23 = QTableWidgetItem()
-        self.tb_cx.setHorizontalHeaderItem(2, __qtablewidgetitem23)
-        self.tb_cx.setObjectName(u"tb_cx")
-        self.tb_cx.setStyleSheet(u"QTableWidget{\n"
-"	border-radius: 10px;\n"
-"	background-color: rgb(200, 200, 200);\n"
-"}\n"
-"\n"
-"QTableWidget::item {\n"
-"    hborder: 5px solid rgba(68, 119, 170, 150);\n"
-"	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 238, 169, 239), stop:1 rgba(255, 237, 162, 255));\n"
-"	border-radius: 3px;\n"
-"}\n"
-"\n"
-"QTableWidget::item:selected {\n"
-"	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 232, 136, 239), stop:1 rgba(255, 237, 162, 255));\n"
-"	\n"
-"	color: rgb(74, 74, 74);\n"
-"}\n"
-"\n"
-"QHeaderView, QHeaderView::section {\n"
-"    color: white;\n"
-"	background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));\n"
-"}")
-        self.tb_cx.setFrameShadow(QFrame.Sunken)
-        self.tb_cx.setDragDropMode(QAbstractItemView.NoDragDrop)
-        self.tb_cx.setSelectionMode(QAbstractItemView.ExtendedSelection)
-        self.tb_cx.setSelectionBehavior(QAbstractItemView.SelectRows)
-        self.tb_cx.setTextElideMode(Qt.ElideRight)
-        self.tb_cx.setWordWrap(True)
-        self.tb_cx.setCornerButtonEnabled(True)
-        self.tb_cx.horizontalHeader().setCascadingSectionResizes(False)
-        self.tb_cx.horizontalHeader().setHighlightSections(True)
-        self.tb_cx.horizontalHeader().setStretchLastSection(True)
-        self.tb_cx.verticalHeader().setVisible(False)
-
-        self.gridLayout_12.addWidget(self.tb_cx, 4, 0, 1, 3)
 
 
         self.gridLayout_10.addWidget(self.frame_5, 1, 1, 1, 1)
@@ -7828,7 +7853,7 @@ class Ui_Sistema(object):
         self.retranslateUi(Sistema)
 
         self.stackedWidget.setCurrentIndex(0)
-        self.stackedWidget_2.setCurrentIndex(3)
+        self.stackedWidget_2.setCurrentIndex(2)
         self.nav_consultas.setCurrentIndex(4)
         self.stackedWidget_3.setCurrentIndex(0)
         self.stackedWidget_4.setCurrentIndex(0)
@@ -7852,16 +7877,17 @@ class Ui_Sistema(object):
 
     def retranslateUi(self, Sistema):
         Sistema.setWindowTitle(QCoreApplication.translate("Sistema", u"Gerenciamento Posto", None))
-        self.btn_estoque.setText(QCoreApplication.translate("Sistema", u"Estoque", None))
-        self.btn_vendas.setText(QCoreApplication.translate("Sistema", u"Vendas", None))
+        self.btn_caixa.setText(QCoreApplication.translate("Sistema", u"Caixa", None))
+        self.btn_financeiro.setText(QCoreApplication.translate("Sistema", u"Financeiro", None))
 #if QT_CONFIG(tooltip)
         self.btn_config.setToolTip(QCoreApplication.translate("Sistema", u"<html><head/><body><p><img src=\":/icons/download.png\"/></p></body></html>", None))
 #endif // QT_CONFIG(tooltip)
         self.btn_config.setText("")
-        self.btn_inicio.setText(QCoreApplication.translate("Sistema", u"Inicio", None))
-        self.btn_caixa.setText(QCoreApplication.translate("Sistema", u"Caixa", None))
+        self.btn_vendas.setText(QCoreApplication.translate("Sistema", u"Vendas", None))
         self.btn_consulta.setText(QCoreApplication.translate("Sistema", u"Consultas", None))
-        self.btn_financeiro.setText(QCoreApplication.translate("Sistema", u"Financeiro", None))
+        self.btn_inicio.setText(QCoreApplication.translate("Sistema", u"Inicio", None))
+        self.btn_estoque.setText(QCoreApplication.translate("Sistema", u"Estoque", None))
+        self.btn_lancamentos.setText(QCoreApplication.translate("Sistema", u"Lan\u00e7amentos", None))
         self.label_13.setText("")
         self.label_17.setText("")
         self.lb_ini_data_4.setText("")
@@ -8037,9 +8063,15 @@ class Ui_Sistema(object):
         self.ln_cx_retiradas.setInputMask("")
         self.ln_cx_retiradas.setText(QCoreApplication.translate("Sistema", u"0.00", None))
         self.btn_cx_fechar.setText(QCoreApplication.translate("Sistema", u"Fechar", None))
-        self.label_38.setText("")
-        self.label_39.setText("")
         self.btn_cx_ret_inserir.setText(QCoreApplication.translate("Sistema", u"Inserir", None))
+        ___qtablewidgetitem21 = self.tb_cx.horizontalHeaderItem(0)
+        ___qtablewidgetitem21.setText(QCoreApplication.translate("Sistema", u"Nome", None));
+        ___qtablewidgetitem22 = self.tb_cx.horizontalHeaderItem(1)
+        ___qtablewidgetitem22.setText(QCoreApplication.translate("Sistema", u"Valor", None));
+        ___qtablewidgetitem23 = self.tb_cx.horizontalHeaderItem(2)
+        ___qtablewidgetitem23.setText(QCoreApplication.translate("Sistema", u"Descri\u00e7\u00e3o", None));
+        self.label_39.setText("")
+        self.label_38.setText("")
         self.groupBox_4.setTitle("")
         self.ln_cx_ter_valor.setText("")
         self.label_34.setText(QCoreApplication.translate("Sistema", u"Valor", None))
@@ -8049,12 +8081,6 @@ class Ui_Sistema(object):
 
         self.ln_cx_desc.setText("")
         self.label_32.setText("")
-        ___qtablewidgetitem21 = self.tb_cx.horizontalHeaderItem(0)
-        ___qtablewidgetitem21.setText(QCoreApplication.translate("Sistema", u"Nome", None));
-        ___qtablewidgetitem22 = self.tb_cx.horizontalHeaderItem(1)
-        ___qtablewidgetitem22.setText(QCoreApplication.translate("Sistema", u"Valor", None));
-        ___qtablewidgetitem23 = self.tb_cx.horizontalHeaderItem(2)
-        ___qtablewidgetitem23.setText(QCoreApplication.translate("Sistema", u"Descri\u00e7\u00e3o", None));
         self.cons_lb_3.setText(QCoreApplication.translate("Sistema", u"     Configura\u00e7\u00f5es", None))
         self.cons_lb_nav_2.setText("")
         self.config_comb_btn.setText(QCoreApplication.translate("Sistema", u"Combustivel", None))

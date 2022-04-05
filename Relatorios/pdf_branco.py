@@ -81,6 +81,26 @@ class Pdf:
         self.font(font)
         self.can.drawString(60+80, 50, f"............................................................................................................................................     {valor}")
 
+    def dias_trabalhados(self, data, x=60, font=10):
+        self.can.drawString(x+20, self.y, data)
+        self.font(font)
+
+    def campo_pagamentos(self, dados, y=-15, font=12):
+        self.font(font)
+        self.mudarY(y)
+        self.can.drawString(80, self.y, f'{dados[0]}')
+        self.can.drawString(180, self.y, f'{dados[1]}')
+        self.can.drawString(500, self.y, f'{self.dinheiro(float(dados[2]))}')
+
+    def campo_pagamentos_titulo(self, dados, y=-10, font=12):
+        self.font(font)
+        self.mudarY(y)
+        self.can.drawString(80, self.y, f'{dados[0]}')
+        self.can.drawString(180, self.y, f'{dados[1]}')
+        self.can.drawString(500, self.y, f'{dados[2]}')
+        self.mudarY(-15)
+
+
     def campo_despesa_detalhe(self, dados, y=-10, font=12):
         self.font(font)
         self.mudarY(y)

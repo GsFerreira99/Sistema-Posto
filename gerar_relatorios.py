@@ -1,4 +1,5 @@
 from Relatorios import cabecalho, detalhado
+from Relatorios.funcionario import RelatorioFuncionario
 
 
 
@@ -9,9 +10,13 @@ class GerarRelatorios:
     
     def detalhado(self, datas, nome='relatorio_detalhado.pdf'):
         detalhado.RelatorioDetalhado(nome, datas)
+
+    def funcionario_mensal(self, funcionario, datas, nome='relatorio_funcionario.pdf'):
+        RelatorioFuncionario(funcionario, nome, datas)
          
 
 
-GerarRelatorios().geral(['2022-03-01', '2022-03-31'])
-GerarRelatorios().detalhado(['2022-03-01', '2022-03-31'])
+#GerarRelatorios().geral(['2022-03-01', '2022-03-31'])
+#GerarRelatorios().detalhado(['2022-03-01', '2022-03-31'])
+GerarRelatorios().funcionario_mensal('joaquim', ['2022-03-01', '2022-03-31'])
 

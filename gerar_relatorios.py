@@ -18,5 +18,5 @@ class GerarRelatorios:
 
 #GerarRelatorios().geral(['2022-03-01', '2022-03-31'])
 #GerarRelatorios().detalhado(['2022-03-01', '2022-03-31'])
-GerarRelatorios().funcionario_mensal('joaquim', ['2022-03-01', '2022-03-31'])
+GerarRelatorios().funcionario_mensal('junior', ['2022-02-20', '2022-02-28'])
 

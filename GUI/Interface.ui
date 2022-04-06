@@ -11,7 +11,7 @@
     <x>0</x>
     <y>0</y>
     <width>1550</width>
-    <height>840</height>
+    <height>838</height>
    </rect>
   </property>
   <property name="font">
@@ -472,7 +472,7 @@ QPushButton:hover{
            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));</string>
           </property>
           <property name="currentIndex">
-           <number>4</number>
+           <number>2</number>
           </property>
           <widget class="QWidget" name="Inicio">
            <layout class="QGridLayout" name="gridLayout_3">
@@ -607,7 +607,7 @@ QPushButton:hover{
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>../../../../../.designer/Downloads/17004 (1).png</pixmap>
+                  <pixmap>../../../../../../../.designer/Downloads/17004 (1).png</pixmap>
                  </property>
                 </widget>
                </item>
@@ -811,6 +811,41 @@ QPushButton:hover{
                  </property>
                 </widget>
                </item>
+               <item row="2" column="2">
+                <widget class="QLabel" name="lb_ini_data_6">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>400</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>8</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 0, 0);
+border-radius: 20px;
+margin-left: 100px;
+color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
               </layout>
              </widget>
             </item>
@@ -946,7 +981,7 @@ QPushButton:hover{
                <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));</string>
               </property>
               <property name="currentIndex">
-               <number>4</number>
+               <number>1</number>
               </property>
               <widget class="QWidget" name="Home"/>
               <widget class="QWidget" name="Vendas">
@@ -4088,6 +4123,9 @@ QCalendarWidget QToolButton {
             </item>
             <item row="1" column="0">
              <widget class="QFrame" name="frame_2">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
               <property name="styleSheet">
                <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));</string>
               </property>
@@ -4159,7 +4197,7 @@ border-radius: 10px;
 </string>
                  </property>
                  <property name="text">
-                  <string>     Retiradas</string>
+                  <string>     Vendas</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -4204,7 +4242,7 @@ border-radius: 10px;
                <item row="1" column="0">
                 <widget class="QFrame" name="frame_4">
                  <property name="enabled">
-                  <bool>false</bool>
+                  <bool>true</bool>
                  </property>
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
@@ -4426,7 +4464,7 @@ color: rgb(90, 90, 90)</string>
                      <item row="0" column="1">
                       <widget class="QLineEdit" name="ln_ana_atual">
                        <property name="enabled">
-                        <bool>false</bool>
+                        <bool>true</bool>
                        </property>
                        <property name="maximumSize">
                         <size>
@@ -4492,7 +4530,7 @@ color: rgb(90, 90, 90);</string>
                      <item row="0" column="3">
                       <widget class="QLineEdit" name="ln_digi_atual">
                        <property name="enabled">
-                        <bool>false</bool>
+                        <bool>true</bool>
                        </property>
                        <property name="maximumSize">
                         <size>
@@ -4587,6 +4625,9 @@ QPushButton:hover{
                   </item>
                   <item row="5" column="0" colspan="4">
                    <widget class="QGroupBox" name="groupBox_3">
+                    <property name="enabled">
+                     <bool>true</bool>
+                    </property>
                     <property name="maximumSize">
                      <size>
                       <width>16777215</width>
@@ -4614,7 +4655,7 @@ QPushButton:hover{
                      <item row="3" column="1">
                       <widget class="QLineEdit" name="ln_cx_pix">
                        <property name="enabled">
-                        <bool>false</bool>
+                        <bool>true</bool>
                        </property>
                        <property name="maximumSize">
                         <size>
@@ -4677,7 +4718,7 @@ color: rgb(90, 90, 90);</string>
                      <item row="2" column="1">
                       <widget class="QLineEdit" name="ln_cx_din">
                        <property name="enabled">
-                        <bool>false</bool>
+                        <bool>true</bool>
                        </property>
                        <property name="maximumSize">
                         <size>
@@ -4713,7 +4754,7 @@ color: rgb(90, 90, 90);</string>
                      <item row="6" column="1">
                       <widget class="QLineEdit" name="ln_cx_resto_2">
                        <property name="enabled">
-                        <bool>false</bool>
+                        <bool>true</bool>
                        </property>
                        <property name="maximumSize">
                         <size>
@@ -4746,7 +4787,7 @@ color: rgb(90, 90, 90);</string>
                      <item row="4" column="1">
                       <widget class="QLineEdit" name="ln_cx_cartao">
                        <property name="enabled">
-                        <bool>false</bool>
+                        <bool>true</bool>
                        </property>
                        <property name="maximumSize">
                         <size>
@@ -4782,7 +4823,7 @@ color: rgb(90, 90, 90);</string>
                      <item row="1" column="1">
                       <widget class="QLineEdit" name="ln_cx_valor">
                        <property name="enabled">
-                        <bool>false</bool>
+                        <bool>true</bool>
                        </property>
                        <property name="maximumSize">
                         <size>
@@ -4875,7 +4916,7 @@ color: rgb(90, 90, 90);</string>
                      <item row="7" column="1">
                       <widget class="QLineEdit" name="ln_cx_resto">
                        <property name="enabled">
-                        <bool>false</bool>
+                        <bool>true</bool>
                        </property>
                        <property name="maximumSize">
                         <size>
@@ -4950,7 +4991,7 @@ color: rgb(90, 90, 90);</string>
                      <item row="0" column="1">
                       <widget class="QLineEdit" name="ln_cx_litros">
                        <property name="enabled">
-                        <bool>false</bool>
+                        <bool>true</bool>
                        </property>
                        <property name="maximumSize">
                         <size>
@@ -5015,14 +5056,14 @@ color: rgb(90, 90, 90);</string>
                         <string notr="true">border: none;</string>
                        </property>
                        <property name="text">
-                        <string>Retiradas</string>
+                        <string>Vendas</string>
                        </property>
                       </widget>
                      </item>
                      <item row="5" column="1">
-                      <widget class="QLineEdit" name="ln_cx_retiradas">
+                      <widget class="QLineEdit" name="ln_cx_vendas">
                        <property name="enabled">
-                        <bool>false</bool>
+                        <bool>true</bool>
                        </property>
                        <property name="maximumSize">
                         <size>
@@ -5133,65 +5174,43 @@ QPushButton:hover{
                   <property name="horizontalSpacing">
                    <number>6</number>
                   </property>
-                  <item row="3" column="2">
-                   <widget class="QPushButton" name="btn_cx_ret_inserir">
-                    <property name="sizePolicy">
-                     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-                      <horstretch>0</horstretch>
-                      <verstretch>0</verstretch>
-                     </sizepolicy>
-                    </property>
-                    <property name="maximumSize">
-                     <size>
-                      <width>16777215</width>
-                      <height>25</height>
-                     </size>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <pointsize>10</pointsize>
-                     </font>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">QPushButton{
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 209, 22, 255));
-	border-radius: 10px;
-}
-
-QPushButton:hover{
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 237, 162, 255));
-	border: 1px solid rgb(135, 135, 135);
-}
-</string>
-                    </property>
-                    <property name="text">
-                     <string>Inserir</string>
-                    </property>
-                   </widget>
-                  </item>
+                  <property name="verticalSpacing">
+                   <number>11</number>
+                  </property>
                   <item row="4" column="0" colspan="3">
-                   <widget class="QTableWidget" name="tb_cx">
+                   <widget class="QTableWidget" name="cb_cx_ven_tab">
                     <property name="styleSheet">
                      <string notr="true">QTableWidget{
-	border-radius: 10px;
-	background-color: rgb(200, 200, 200);
+	border: 1px solid rgb(125, 125, 125);
+	background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+	border: none;
+	border-right: 1px solid rgb(147, 147, 147);
+	border-left: 1px solid rgb(147, 147, 147);
 }
 
 QTableWidget::item {
-    hborder: 5px solid rgba(68, 119, 170, 150);
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 238, 169, 239), stop:1 rgba(255, 237, 162, 255));
-	border-radius: 3px;
+	background-color: rgb(255, 255, 255);
 }
 
+QTableWidget::item:alternate {
+	background-color:rgb(236, 236, 236)
+}
+
+
 QTableWidget::item:selected {
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 232, 136, 239), stop:1 rgba(255, 237, 162, 255));
-	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 238, 167, 214), stop:1 rgba(255, 239, 172, 255));
 	color: rgb(74, 74, 74);
 }
 
 QHeaderView, QHeaderView::section {
     color: white;
-	background-color: qlineargradient(spread:pad, x1:0.494318, y1:1, x2:0.477, y2:0, stop:0 rgba(98, 98, 98, 255), stop:1 rgba(75, 75, 75, 255));
+	border: none;
+	background-color: qlineargradient(spread:pad, x1:0.489, y1:0, x2:0.489, y2:1, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(81, 81, 81, 255))
+}
+
+QAbstractItemView {
+	background-color: rgb(255, 255, 255);
+	alternate-background-color: yellow
 }</string>
                     </property>
                     <property name="frameShadow">
@@ -5229,12 +5248,7 @@ QHeaderView, QHeaderView::section {
                     </attribute>
                     <column>
                      <property name="text">
-                      <string>Nome</string>
-                     </property>
-                    </column>
-                    <column>
-                     <property name="text">
-                      <string>Valor</string>
+                      <string>Codigo</string>
                      </property>
                     </column>
                     <column>
@@ -5242,6 +5256,56 @@ QHeaderView, QHeaderView::section {
                       <string>Descrição</string>
                      </property>
                     </column>
+                    <column>
+                     <property name="text">
+                      <string>Uni</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Quantidade</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Valor Uni</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Subtotal</string>
+                     </property>
+                    </column>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QLabel" name="label_38">
+                    <property name="enabled">
+                     <bool>false</bool>
+                    </property>
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>10</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>10</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">border: none;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
                    </widget>
                   </item>
                   <item row="1" column="1">
@@ -5271,10 +5335,10 @@ QHeaderView, QHeaderView::section {
                     </property>
                    </widget>
                   </item>
-                  <item row="1" column="0">
-                   <widget class="QLabel" name="label_38">
+                  <item row="3" column="2">
+                   <widget class="QPushButton" name="cb_cx_ven_adc">
                     <property name="sizePolicy">
-                     <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
                       <horstretch>0</horstretch>
                       <verstretch>0</verstretch>
                      </sizepolicy>
@@ -5282,7 +5346,7 @@ QHeaderView, QHeaderView::section {
                     <property name="maximumSize">
                      <size>
                       <width>16777215</width>
-                      <height>10</height>
+                      <height>25</height>
                      </size>
                     </property>
                     <property name="font">
@@ -5291,10 +5355,19 @@ QHeaderView, QHeaderView::section {
                      </font>
                     </property>
                     <property name="styleSheet">
-                     <string notr="true">border: none;</string>
+                     <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 209, 22, 255));
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 237, 162, 255));
+	border: 1px solid rgb(135, 135, 135);
+}
+</string>
                     </property>
                     <property name="text">
-                     <string/>
+                     <string>Adicionar</string>
                     </property>
                    </widget>
                   </item>
@@ -5308,7 +5381,7 @@ QHeaderView, QHeaderView::section {
                     </property>
                     <property name="font">
                      <font>
-                      <pointsize>11</pointsize>
+                      <pointsize>12</pointsize>
                      </font>
                     </property>
                     <property name="styleSheet">
@@ -5327,8 +5400,67 @@ QHeaderView, QHeaderView::section {
                      <property name="verticalSpacing">
                       <number>10</number>
                      </property>
+                     <item row="2" column="0">
+                      <widget class="QLabel" name="label_34">
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>30</height>
+                        </size>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <pointsize>10</pointsize>
+                        </font>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border: none;</string>
+                       </property>
+                       <property name="text">
+                        <string>Quantidade</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="1">
+                      <widget class="QComboBox" name="cb_cx_ven_cod">
+                       <property name="styleSheet">
+                        <string notr="true">background-color: white;
+border-radius: 5px;
+</string>
+                       </property>
+                       <property name="editable">
+                        <bool>true</bool>
+                       </property>
+                       <item>
+                        <property name="text">
+                         <string/>
+                        </property>
+                       </item>
+                      </widget>
+                     </item>
+                     <item row="0" column="0">
+                      <widget class="QLabel" name="label_33">
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>30</height>
+                        </size>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <pointsize>10</pointsize>
+                        </font>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border: none;</string>
+                       </property>
+                       <property name="text">
+                        <string>Codigo/Descrção</string>
+                       </property>
+                      </widget>
+                     </item>
                      <item row="2" column="1">
-                      <widget class="QLineEdit" name="ln_cx_ter_valor">
+                      <widget class="QLineEdit" name="cb_cx_ven_qnt">
                        <property name="enabled">
                         <bool>false</bool>
                        </property>
@@ -5351,116 +5483,6 @@ color: rgb(90, 90, 90)</string>
                        </property>
                        <property name="alignment">
                         <set>Qt::AlignCenter</set>
-                       </property>
-                       <property name="readOnly">
-                        <bool>false</bool>
-                       </property>
-                      </widget>
-                     </item>
-                     <item row="2" column="0">
-                      <widget class="QLabel" name="label_34">
-                       <property name="maximumSize">
-                        <size>
-                         <width>16777215</width>
-                         <height>30</height>
-                        </size>
-                       </property>
-                       <property name="font">
-                        <font>
-                         <pointsize>10</pointsize>
-                        </font>
-                       </property>
-                       <property name="styleSheet">
-                        <string notr="true">border: none;</string>
-                       </property>
-                       <property name="text">
-                        <string>Valor</string>
-                       </property>
-                      </widget>
-                     </item>
-                     <item row="3" column="0">
-                      <widget class="QLabel" name="label_35">
-                       <property name="maximumSize">
-                        <size>
-                         <width>16777215</width>
-                         <height>30</height>
-                        </size>
-                       </property>
-                       <property name="font">
-                        <font>
-                         <pointsize>10</pointsize>
-                        </font>
-                       </property>
-                       <property name="styleSheet">
-                        <string notr="true">border: none;</string>
-                       </property>
-                       <property name="text">
-                        <string>Descrição</string>
-                       </property>
-                      </widget>
-                     </item>
-                     <item row="0" column="0">
-                      <widget class="QLabel" name="label_33">
-                       <property name="maximumSize">
-                        <size>
-                         <width>16777215</width>
-                         <height>30</height>
-                        </size>
-                       </property>
-                       <property name="font">
-                        <font>
-                         <pointsize>10</pointsize>
-                        </font>
-                       </property>
-                       <property name="styleSheet">
-                        <string notr="true">border: none;</string>
-                       </property>
-                       <property name="text">
-                        <string>Nome</string>
-                       </property>
-                      </widget>
-                     </item>
-                     <item row="0" column="1">
-                      <widget class="QComboBox" name="cb_cx_nome">
-                       <property name="styleSheet">
-                        <string notr="true">background-color: white;
-border-radius: 5px;
-</string>
-                       </property>
-                       <property name="editable">
-                        <bool>true</bool>
-                       </property>
-                       <item>
-                        <property name="text">
-                         <string/>
-                        </property>
-                       </item>
-                      </widget>
-                     </item>
-                     <item row="3" column="1" colspan="2">
-                      <widget class="QLineEdit" name="ln_cx_desc">
-                       <property name="enabled">
-                        <bool>false</bool>
-                       </property>
-                       <property name="maximumSize">
-                        <size>
-                         <width>16777215</width>
-                         <height>20</height>
-                        </size>
-                       </property>
-                       <property name="styleSheet">
-                        <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 10px;
-color: rgb(90, 90, 90)</string>
-                       </property>
-                       <property name="text">
-                        <string/>
-                       </property>
-                       <property name="maxLength">
-                        <number>300</number>
-                       </property>
-                       <property name="alignment">
-                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
                        </property>
                        <property name="readOnly">
                         <bool>false</bool>
@@ -5494,7 +5516,213 @@ color: rgb(90, 90, 90)</string>
                        </property>
                       </widget>
                      </item>
+                     <item row="3" column="0">
+                      <widget class="QLabel" name="label_35">
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>30</height>
+                        </size>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <pointsize>10</pointsize>
+                        </font>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border: none;</string>
+                       </property>
+                       <property name="text">
+                        <string>Preço</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="3" column="1">
+                      <widget class="QLineEdit" name="cb_cx_ven_preco">
+                       <property name="enabled">
+                        <bool>false</bool>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;
+color: rgb(90, 90, 90)</string>
+                       </property>
+                       <property name="text">
+                        <string/>
+                       </property>
+                       <property name="maxLength">
+                        <number>300</number>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                       <property name="readOnly">
+                        <bool>false</bool>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="4" column="0">
+                      <widget class="QLabel" name="label_180">
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>30</height>
+                        </size>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <pointsize>10</pointsize>
+                        </font>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border: none;</string>
+                       </property>
+                       <property name="text">
+                        <string>Subtotal</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="4" column="1">
+                      <widget class="QLineEdit" name="cb_cx_ven_subtotal">
+                       <property name="enabled">
+                        <bool>false</bool>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;
+color: rgb(90, 90, 90)</string>
+                       </property>
+                       <property name="text">
+                        <string/>
+                       </property>
+                       <property name="maxLength">
+                        <number>300</number>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                       <property name="readOnly">
+                        <bool>false</bool>
+                       </property>
+                      </widget>
+                     </item>
                     </layout>
+                   </widget>
+                  </item>
+                  <item row="5" column="2">
+                   <widget class="QLineEdit" name="cb_cx_ven_total">
+                    <property name="enabled">
+                     <bool>false</bool>
+                    </property>
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>200</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;
+color: rgb(90, 90, 90)</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="maxLength">
+                     <number>300</number>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                    <property name="readOnly">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="5" column="1">
+                   <widget class="QLabel" name="label_181">
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>12</pointsize>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">border: none;</string>
+                    </property>
+                    <property name="text">
+                     <string>Total:     </string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="5" column="0">
+                   <widget class="QPushButton" name="cb_cx_ven_inserir">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>150</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>10</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:0.489, y1:0, x2:0.489, y2:1, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(81, 81, 81, 255));
+	border-radius: 10px;
+	color: white;
+}
+
+QPushButton:hover{
+	background-color: qlineargradient(spread:pad, x1:0.489, y1:0, x2:0.489, y2:1, stop:0 rgba(56, 56, 56, 255), stop:1 rgba(133, 133, 133, 255));
+	border: 1px solid rgb(135, 135, 135);
+}
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Deletar</string>
+                    </property>
                    </widget>
                   </item>
                  </layout>
@@ -9853,7 +10081,8 @@ border-radius: 5px;
                 <widget class="QTableWidget" name="vend_tb">
                  <property name="font">
                   <font>
-                   <pointsize>10</pointsize>
+                   <pointsize>8</pointsize>
+                   <kerning>true</kerning>
                   </font>
                  </property>
                  <property name="layoutDirection">
@@ -9930,7 +10159,7 @@ QAbstractItemView {
                   <number>50</number>
                  </attribute>
                  <attribute name="horizontalHeaderDefaultSectionSize">
-                  <number>139</number>
+                  <number>152</number>
                  </attribute>
                  <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
                   <bool>false</bool>
@@ -10256,7 +10485,7 @@ border-radius: 5px;</string>
              <widget class="QFrame" name="frame_25">
               <property name="maximumSize">
                <size>
-                <width>400</width>
+                <width>350</width>
                 <height>16777215</height>
                </size>
               </property>
@@ -10522,7 +10751,7 @@ border-radius: 3px;
 </string>
               </property>
               <property name="currentIndex">
-               <number>0</number>
+               <number>1</number>
               </property>
               <widget class="QWidget" name="finan_home">
                <layout class="QGridLayout" name="gridLayout_55">
@@ -12380,6 +12609,7 @@ QPushButton:pressed {
                   </property>
                   <property name="styleSheet">
                    <string notr="true">background-color: rgb(95, 95, 95);
+border-radius: 5px;
 color: white;</string>
                   </property>
                   <layout class="QHBoxLayout" name="horizontalLayout_45">
@@ -14905,7 +15135,7 @@ padding: 5px;</string>
                    <item row="1" column="0">
                     <widget class="QStackedWidget" name="stackedWidget_8">
                      <property name="currentIndex">
-                      <number>1</number>
+                      <number>0</number>
                      </property>
                      <widget class="QWidget" name="despesa">
                       <layout class="QGridLayout" name="gridLayout_68">
@@ -14945,6 +15175,60 @@ padding: 5px;</string>
                           <property name="rightMargin">
                            <number>40</number>
                           </property>
+                          <item row="3" column="0">
+                           <widget class="QLabel" name="label_80">
+                            <property name="font">
+                             <font>
+                              <pointsize>12</pointsize>
+                             </font>
+                            </property>
+                            <property name="text">
+                             <string>TIPO:     </string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="9" column="0">
+                           <widget class="QLabel" name="label_140">
+                            <property name="font">
+                             <font>
+                              <pointsize>12</pointsize>
+                             </font>
+                            </property>
+                            <property name="text">
+                             <string>STATUS:     </string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="7" column="1">
+                           <widget class="QLineEdit" name="fin_novo_desp_valor">
+                            <property name="maximumSize">
+                             <size>
+                              <width>16777215</width>
+                              <height>25</height>
+                             </size>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <pointsize>11</pointsize>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">border-bottom: 1px solid rgb(209, 209, 209);</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="7" column="0">
+                           <widget class="QLabel" name="label_100">
+                            <property name="font">
+                             <font>
+                              <pointsize>12</pointsize>
+                             </font>
+                            </property>
+                            <property name="text">
+                             <string>VALOR:     </string>
+                            </property>
+                           </widget>
+                          </item>
                           <item row="0" column="0" colspan="2">
                            <widget class="QLabel" name="label_114">
                             <property name="maximumSize">
@@ -14966,26 +15250,8 @@ padding: 5px;</string>
                             </property>
                            </widget>
                           </item>
-                          <item row="4" column="1">
-                           <widget class="QLineEdit" name="fin_novo_desp_desc">
-                            <property name="maximumSize">
-                             <size>
-                              <width>16777215</width>
-                              <height>25</height>
-                             </size>
-                            </property>
-                            <property name="font">
-                             <font>
-                              <pointsize>11</pointsize>
-                             </font>
-                            </property>
-                            <property name="styleSheet">
-                             <string notr="true">border-bottom: 1px solid rgb(209, 209, 209);</string>
-                            </property>
-                           </widget>
-                          </item>
-                          <item row="6" column="1">
-                           <widget class="QComboBox" name="fin_novo_desp_conta">
+                          <item row="9" column="1">
+                           <widget class="QComboBox" name="fin_novo_desp_status">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -15014,71 +15280,17 @@ padding: 5px;</string>
                             </item>
                             <item>
                              <property name="text">
-                              <string>Conta Inter</string>
+                              <string>Em aberto</string>
                              </property>
                             </item>
                             <item>
                              <property name="text">
-                              <string>Caixa Posto</string>
+                              <string>Pago</string>
                              </property>
                             </item>
                            </widget>
                           </item>
-                          <item row="5" column="1">
-                           <widget class="QLineEdit" name="fin_novo_desp_valor">
-                            <property name="maximumSize">
-                             <size>
-                              <width>16777215</width>
-                              <height>25</height>
-                             </size>
-                            </property>
-                            <property name="font">
-                             <font>
-                              <pointsize>11</pointsize>
-                             </font>
-                            </property>
-                            <property name="styleSheet">
-                             <string notr="true">border-bottom: 1px solid rgb(209, 209, 209);</string>
-                            </property>
-                           </widget>
-                          </item>
-                          <item row="3" column="0">
-                           <widget class="QLabel" name="label_80">
-                            <property name="font">
-                             <font>
-                              <pointsize>12</pointsize>
-                             </font>
-                            </property>
-                            <property name="text">
-                             <string>TIPO:     </string>
-                            </property>
-                           </widget>
-                          </item>
-                          <item row="5" column="0">
-                           <widget class="QLabel" name="label_100">
-                            <property name="font">
-                             <font>
-                              <pointsize>12</pointsize>
-                             </font>
-                            </property>
-                            <property name="text">
-                             <string>VALOR:     </string>
-                            </property>
-                           </widget>
-                          </item>
-                          <item row="1" column="0">
-                           <widget class="QLabel" name="label_57">
-                            <property name="font">
-                             <font>
-                              <pointsize>12</pointsize>
-                             </font>
-                            </property>
-                            <property name="text">
-                             <string>VENCIMENTO:     </string>
-                            </property>
-                           </widget>
-                          </item>
-                          <item row="8" column="0" colspan="2">
+                          <item row="10" column="0" colspan="2">
                            <widget class="QWidget" name="widget_20" native="true">
                             <property name="maximumSize">
                              <size>
@@ -15128,57 +15340,27 @@ QPushButton:pressed {
                             </layout>
                            </widget>
                           </item>
-                          <item row="3" column="1">
-                           <widget class="QComboBox" name="fin_novo_desp_tipo">
-                            <property name="maximumSize">
-                             <size>
-                              <width>16777215</width>
-                              <height>25</height>
-                             </size>
-                            </property>
+                          <item row="1" column="0">
+                           <widget class="QLabel" name="label_57">
                             <property name="font">
                              <font>
-                              <pointsize>11</pointsize>
+                              <pointsize>12</pointsize>
                              </font>
                             </property>
-                            <property name="styleSheet">
-                             <string notr="true">QComboBox {
-    border-radius: 0px;
-	border-bottom: 1px solid rgb(209, 209, 209);
-}
-</string>
+                            <property name="text">
+                             <string>VENCIMENTO:     </string>
                             </property>
-                            <property name="editable">
-                             <bool>true</bool>
-                            </property>
-                            <item>
-                             <property name="text">
-                              <string/>
-                             </property>
-                            </item>
                            </widget>
                           </item>
                           <item row="4" column="0">
-                           <widget class="QLabel" name="label_99">
+                           <widget class="QLabel" name="label_148">
                             <property name="font">
                              <font>
                               <pointsize>12</pointsize>
                              </font>
                             </property>
                             <property name="text">
-                             <string>DESCRIÇÃO:     </string>
-                            </property>
-                           </widget>
-                          </item>
-                          <item row="6" column="0">
-                           <widget class="QLabel" name="label_101">
-                            <property name="font">
-                             <font>
-                              <pointsize>12</pointsize>
-                             </font>
-                            </property>
-                            <property name="text">
-                             <string>CONTA:     </string>
+                             <string>CATEGORIA:     </string>
                             </property>
                            </widget>
                           </item>
@@ -15218,20 +15400,68 @@ QCalendarWidget QToolButton {
                             </property>
                            </widget>
                           </item>
-                          <item row="7" column="0">
-                           <widget class="QLabel" name="label_140">
+                          <item row="3" column="1">
+                           <widget class="QComboBox" name="fin_novo_desp_tipo">
+                            <property name="maximumSize">
+                             <size>
+                              <width>16777215</width>
+                              <height>25</height>
+                             </size>
+                            </property>
                             <property name="font">
                              <font>
-                              <pointsize>12</pointsize>
+                              <pointsize>11</pointsize>
                              </font>
                             </property>
-                            <property name="text">
-                             <string>STATUS:     </string>
+                            <property name="styleSheet">
+                             <string notr="true">QComboBox {
+    border-radius: 0px;
+	border-bottom: 1px solid rgb(209, 209, 209);
+}
+</string>
                             </property>
+                            <property name="editable">
+                             <bool>true</bool>
+                            </property>
+                            <item>
+                             <property name="text">
+                              <string/>
+                             </property>
+                            </item>
                            </widget>
                           </item>
-                          <item row="7" column="1">
-                           <widget class="QComboBox" name="fin_novo_desp_status">
+                          <item row="4" column="1">
+                           <widget class="QComboBox" name="fin_novo_desp_cat">
+                            <property name="maximumSize">
+                             <size>
+                              <width>16777215</width>
+                              <height>25</height>
+                             </size>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <pointsize>11</pointsize>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QComboBox {
+    border-radius: 0px;
+	border-bottom: 1px solid rgb(209, 209, 209);
+}
+</string>
+                            </property>
+                            <property name="editable">
+                             <bool>true</bool>
+                            </property>
+                            <item>
+                             <property name="text">
+                              <string/>
+                             </property>
+                            </item>
+                           </widget>
+                          </item>
+                          <item row="8" column="1">
+                           <widget class="QComboBox" name="fin_novo_desp_conta">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -15260,12 +15490,96 @@ QCalendarWidget QToolButton {
                             </item>
                             <item>
                              <property name="text">
-                              <string>Em aberto</string>
+                              <string>Conta Inter</string>
                              </property>
                             </item>
                             <item>
                              <property name="text">
-                              <string>Pago</string>
+                              <string>Caixa Posto</string>
+                             </property>
+                            </item>
+                           </widget>
+                          </item>
+                          <item row="6" column="0">
+                           <widget class="QLabel" name="label_99">
+                            <property name="font">
+                             <font>
+                              <pointsize>12</pointsize>
+                             </font>
+                            </property>
+                            <property name="text">
+                             <string>DESCRIÇÃO:     </string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="8" column="0">
+                           <widget class="QLabel" name="label_101">
+                            <property name="font">
+                             <font>
+                              <pointsize>12</pointsize>
+                             </font>
+                            </property>
+                            <property name="text">
+                             <string>CONTA:     </string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="6" column="1">
+                           <widget class="QLineEdit" name="fin_novo_desp_desc">
+                            <property name="maximumSize">
+                             <size>
+                              <width>16777215</width>
+                              <height>25</height>
+                             </size>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <pointsize>11</pointsize>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">border-bottom: 1px solid rgb(209, 209, 209);</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="5" column="0">
+                           <widget class="QLabel" name="label_164">
+                            <property name="font">
+                             <font>
+                              <pointsize>12</pointsize>
+                             </font>
+                            </property>
+                            <property name="text">
+                             <string>NOME:</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="5" column="1">
+                           <widget class="QComboBox" name="fin_novo_desp_nome">
+                            <property name="maximumSize">
+                             <size>
+                              <width>16777215</width>
+                              <height>25</height>
+                             </size>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <pointsize>11</pointsize>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QComboBox {
+    border-radius: 0px;
+	border-bottom: 1px solid rgb(209, 209, 209);
+}
+</string>
+                            </property>
+                            <property name="editable">
+                             <bool>true</bool>
+                            </property>
+                            <item>
+                             <property name="text">
+                              <string/>
                              </property>
                             </item>
                            </widget>
@@ -15868,6 +16182,58 @@ QPushButton:pressed {
                             <property name="text">
                              <string>DATA:     </string>
                             </property>
+                           </widget>
+                          </item>
+                          <item row="2" column="0">
+                           <widget class="QLabel" name="label_178">
+                            <property name="font">
+                             <font>
+                              <pointsize>12</pointsize>
+                             </font>
+                            </property>
+                            <property name="text">
+                             <string>NOME:     </string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="2" column="1">
+                           <widget class="QComboBox" name="fin_novo_ent_nome">
+                            <property name="maximumSize">
+                             <size>
+                              <width>16777215</width>
+                              <height>25</height>
+                             </size>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <pointsize>11</pointsize>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QComboBox {
+    border-radius: 0px;
+	border-bottom: 1px solid rgb(209, 209, 209);
+}
+</string>
+                            </property>
+                            <property name="editable">
+                             <bool>true</bool>
+                            </property>
+                            <item>
+                             <property name="text">
+                              <string/>
+                             </property>
+                            </item>
+                            <item>
+                             <property name="text">
+                              <string>Conta Inter</string>
+                             </property>
+                            </item>
+                            <item>
+                             <property name="text">
+                              <string>Caixa Posto</string>
+                             </property>
+                            </item>
                            </widget>
                           </item>
                          </layout>
@@ -16607,11 +16973,11 @@ image: url(:/icons/img01.png)
   <tabstop>ln_cx_cartao</tabstop>
   <tabstop>ln_cx_resto_2</tabstop>
   <tabstop>ln_cx_resto</tabstop>
-  <tabstop>cb_cx_nome</tabstop>
-  <tabstop>ln_cx_ter_valor</tabstop>
-  <tabstop>ln_cx_desc</tabstop>
-  <tabstop>btn_cx_ret_inserir</tabstop>
-  <tabstop>tb_cx</tabstop>
+  <tabstop>cb_cx_ven_cod</tabstop>
+  <tabstop>cb_cx_ven_qnt</tabstop>
+  <tabstop>cb_cx_ven_preco</tabstop>
+  <tabstop>cb_cx_ven_adc</tabstop>
+  <tabstop>cb_cx_ven_tab</tabstop>
   <tabstop>btn_cx_fechar</tabstop>
   <tabstop>btn_config</tabstop>
   <tabstop>btn_vendas</tabstop>

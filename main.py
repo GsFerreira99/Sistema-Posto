@@ -32,6 +32,7 @@ class Window(QMainWindow, Ui_Sistema):
         super().setupUi(self)
 
         self.stackedWidget.setCurrentIndex(1)
+
         self.btn_entrar.clicked.connect(lambda: self.acessar_sistema())
         self.btn_entrar.setAutoDefault(True)
         self.db = DataBase(caminho_db())
@@ -57,14 +58,28 @@ class Window(QMainWindow, Ui_Sistema):
         self.fin_btn_mov.setEnabled(False)
         self.fin_btn_novo.setEnabled(False)
 
+    def nivel_tanque(self):
+        nivel = self.db.select_generico(f"SELECT quantidade FROM Valor_combustivel WHERE codigo = 1")
+        if int(nivel[0][0]) < 3000:
+            self.lb_ini_data_6.setText("Nivel do tanque abaixo do aceitavel.")
+            self.lb_ini_data_6.setStyleSheet("""background-color: rgb(255, 0, 0);
+                                                border-radius: 20px;
+                                                margin-left: 100px;
+                                                color: rgb(255, 255, 255);""")
+            self.lb_ini_data_6.setMaximumWidth(400)
+        else:
+            self.lb_ini_data_6.setMaximumWidth(0)
+
     def acessar_sistema(self):
         #Faz validação dos dados de login no sistema
         self.login = Login(self.in_usuario.text(), self.in_senha.text())
         dados = self.login.validar_dados()
         if dados[0] == True:
             self.dados = dados[1]
+            self.nivel_tanque()
             self.controle_acesso()
             self.atualizar_pagina_login()
+
         else:
             self.lb_info.setText("Usuário ou senha Incorretos!")
     

@@ -6,7 +6,10 @@ def inserir_dados_cb(combo_box, dados):
     combo_box.clear()
     combo_box.addItem("")
     for i in dados:
-        combo_box.addItem(str(i[0]))
+        if str(i[0]) == 'None':
+            pass
+        else:
+            combo_box.addItem(str(i[0]))
 
 def limpar_campos(campos):
     for campo in campos:

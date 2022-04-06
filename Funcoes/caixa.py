@@ -28,8 +28,7 @@ class Caixa(Ui_Sistema):
         self.ui.btn_cx_inserir.setAutoDefault(True)
         self.ui.btn_cx_fechar.clicked.connect(lambda: self.inserir_dados())
         self.ui.btn_cx_fechar.setAutoDefault(True)
-        self.ui.btn_cx_ret_inserir.clicked.connect(lambda: self.inserir_retirada())
-        self.ui.btn_cx_ret_inserir.setAutoDefault(True)
+
 
         self.ui.ln_cx_din.editingFinished.connect(lambda: self.definir_campo_troco())
         self.ui.ln_cx_pix.editingFinished.connect(lambda: self.definir_campo_troco())
@@ -39,7 +38,7 @@ class Caixa(Ui_Sistema):
         self.limpar_dados()
         self.inserir_informacoes_tela()
         self.inserir_info_cb_bombas()
-        self.inserir_nomes_cb_retiradas()
+
 
     def limpar_dados(self):
         self.dados = {
@@ -66,6 +65,8 @@ class Caixa(Ui_Sistema):
             'retiradas' : {},
         }
         self.dados_retiradas = {}
+
+        self.dados_vendas = {}
 
     def inserir_informacoes_tela(self):
         self.ui.cx_nome.setCurrentText(self.dados_usuario['nome'])
@@ -134,7 +135,7 @@ class Caixa(Ui_Sistema):
             self.dados_fechamento_caixa['cartao'] = self.converter_string_para_float(self.ui.ln_cx_cartao.text())
  
             try:
-                self.dados_fechamento_caixa['total'] = self.dados_fechamento_caixa['dinheiro_caixa'] + self.dados_fechamento_caixa['pix'] + self.dados_fechamento_caixa['cartao'] + self.calcular_total_retiradas()
+                self.dados_fechamento_caixa['total'] = self.dados_fechamento_caixa['dinheiro_caixa'] + self.dados_fechamento_caixa['pix'] + self.dados_fechamento_caixa['cartao']
                 self.dados_fechamento_caixa['resto'] = self.dados_fechamento_caixa['total'] - self.dados_fechamento_caixa['valor']
                 self.ui.ln_cx_resto_2.setText((f"{self.dados_fechamento_caixa['total']:.2f}"))
                 self.ui.ln_cx_resto.setText((f"{self.dados_fechamento_caixa['resto']:.2f}"))
@@ -192,14 +193,8 @@ class Caixa(Ui_Sistema):
                 self.db.inserir_caixa(self.dados_fechamento_caixa)
                 self.inserir_conta()
                 self.calculo_tanque(self.dados_fechamento_caixa['litros'])
-                if len(self.dados_fechamento_caixa['retiradas']) > 1:
-                    self.db.inserir_retiradas(self.dados_fechamento_caixa['retiradas'])
-
                 #self.db.close_db()
                 self.limpar_campos_caixa()
-                self.limpar_campos_retiradas()
-                while (self.ui.tb_cx.rowCount() > 0):
-                    self.ui.tb_cx.removeRow(0)
                 self.ui.stackedWidget_2.setCurrentIndex(0)
         
         else:
@@ -222,30 +217,6 @@ class Caixa(Ui_Sistema):
         self.ui.ln_cx_cartao.setText("")
         self.ui.ln_cx_resto_2.setText("")
         self.ui.ln_cx_resto.setText("")
- 
-    def limpar_campos_retiradas(self):
-        self.ui.ln_cx_desc.setText("")
-        self.ui.ln_cx_ter_valor.setText("")
-        self.ui.cb_cx_nome.setCurrentIndex(0)
-
-    def inserir_retirada(self):
-        vazio = False
-        indice = (len(self.dados_retiradas) + 1)
-
-        info = self.receber_dados_retiradas()
-        vazio, dados = info[0], info[1]
-        vazio = self.verifica_campos_vazios(dados)
-
-        if vazio == False:
-            self.dados_retiradas[indice] = dados
-            info = self.dados_retiradas[indice]
-            self.preencher_tabela_retiradas(info)
-            self.ui.ln_cx_retiradas.setText(str(self.calcular_total_retiradas()))
-            self.definir_campo_troco()
-            
-            self.limpar_campos_retiradas()
-        else:
-            Erro("Preencha todos os campos corretamente.", QMessageBox.Warning)
 
     def verifica_campos_vazios(self, dados):
         for i in dados.values():
@@ -253,33 +224,13 @@ class Caixa(Ui_Sistema):
                 return True 
         return False
 
-    def receber_dados_retiradas(self):
-        dados = {'nome' : '', 'valor' : '', 'descricao' : '',}
-        try:
-            dados['valor'] = self.converter_string_para_float(self.ui.ln_cx_ter_valor.text())
-            dados['nome'] = self.ui.cb_cx_nome.currentText()
-            dados['descricao'] = self.ui.ln_cx_desc.text()
-            return False, dados
-        except ValueError:
-            return True, dados
-
-    def preencher_tabela_retiradas(self, dados):
-        rowPosition = self.ui.tb_cx.rowCount()
-        self.ui.tb_cx.insertRow(rowPosition)
-        for i, info in enumerate(dados.values()):
-            dado = QTableWidgetItem(str(info))
-            self.ui.tb_cx.setItem(rowPosition, i, dado)
-
     def inserir_info_cb_bombas(self):
         dados = self.db.consulta_bombas()
         self.ui.cb_bomba.clear()
         #self.ui.cb_bomba.addItem("")
         for i in dados:
             self.ui.cb_bomba.addItem(str(i[0]))
+
     
-    def inserir_nomes_cb_retiradas(self):
-        dados = self.db.consulta_retirada()
-        self.ui.cb_cx_nome.clear()
-        self.ui.cb_cx_nome.addItem("")
-        for i in dados:
-            self.ui.cb_cx_nome.addItem(str(i[0]))
+class Vendas(Caixa):
+    pass

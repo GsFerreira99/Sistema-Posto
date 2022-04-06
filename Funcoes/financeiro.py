@@ -33,7 +33,7 @@ class Novo(Financeiro):
     def __init__(self, ui):
         self.ui = ui
 
-        self.preencher_tipo()
+        self.preencher_cb()
         self.mudar_tela()
 
         self.ui.fin_novo_mov.currentIndexChanged.connect(lambda: self.mudar_tela())
@@ -99,15 +99,17 @@ class Novo(Financeiro):
             dados.append(self.ui.fin_novo_desp_status.currentText())
             dados.append(self.ui.fin_novo_desp_data.date().toString("yyyy-MM-dd"))
             dados.append(self.ui.fin_novo_desp_tipo.currentText())
+            dados.append(self.ui.fin_novo_desp_cat.currentText())
+            dados.append(self.ui.fin_novo_desp_nome.currentText())
             dados.append(self.ui.fin_novo_desp_desc.text())
             dados.append(converter_string_para_float(self.ui.fin_novo_desp_valor.text()))
             dados.append(self.ui.fin_novo_desp_conta.currentText())
 
             if verificar_vazio(dados) == False:
-                self.inserir_db("INSERT INTO Despesas (status, data, tipo, descricao, valor, conta) VALUES ('{}', '{}', '{}', '{}', '{}', '{}')".format(*dados))
+                self.inserir_db("INSERT INTO Despesas (status, data, tipo, categoria, nome, descricao, valor, conta) VALUES ('{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(*dados))
                 self.inserir_movimentacao("Despesas")
                 if dados[0] == "Pago":
-                    Transacao(dados[4]).despesa(dados[5])
+                    Transacao(dados[6]).despesa(dados[7])
                 Erro("Despesa inserida com sucesso!", QMessageBox.Information)
                 self.mudar_tela()
                 self.limpar_campos_despesa()
@@ -125,9 +127,22 @@ class Novo(Financeiro):
         self.ui.fin_novo_desp_valor.setText("")
         self.ui.fin_novo_desp_conta.setCurrentIndex(0)
 
+    def preencher_cb(self):
+        self.preencher_tipo()
+        self.preencher_nome()
+        self.preencher_categoria()
+
     def preencher_tipo(self):
         dados = DataBase(caminho_db()).select_generico("SELECT DISTINCT tipo FROM Despesas")
         inserir_dados_cb(self.ui.fin_novo_desp_tipo, dados)
+
+    def preencher_categoria(self):
+        dados = DataBase(caminho_db()).select_generico("SELECT DISTINCT categoria FROM Despesas")
+        inserir_dados_cb(self.ui.fin_novo_desp_cat, dados)
+
+    def preencher_nome(self):
+            dados = DataBase(caminho_db()).select_generico("SELECT DISTINCT nome FROM Despesas")
+            inserir_dados_cb(self.ui.fin_novo_desp_nome, dados)
 
     ##ENTRADA
     def inserir_nova_entrada(self):
@@ -187,7 +202,6 @@ class Novo(Financeiro):
             self.ui.fin_novo_transf_para.setCurrentIndex(0)
             self.ui.fin_novo_transf_desc.setText("")
             self.ui.fin_novo_transf_valor.setText("")
-
 
 class Home(Financeiro):
 

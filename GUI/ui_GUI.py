@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'InterfacefgRwID.ui'
+## Form generated from reading UI file 'InterfaceAyWTJL.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -2010,359 +2010,6 @@ class Ui_Sistema(object):
 
         self.gridLayout_10.addWidget(self.label_2, 0, 0, 1, 1)
 
-        self.frame_4 = QFrame(self.frame_2)
-        self.frame_4.setObjectName(u"frame_4")
-        self.frame_4.setEnabled(True)
-        sizePolicy2.setHeightForWidth(self.frame_4.sizePolicy().hasHeightForWidth())
-        self.frame_4.setSizePolicy(sizePolicy2)
-        self.frame_4.setFrameShape(QFrame.StyledPanel)
-        self.frame_4.setFrameShadow(QFrame.Raised)
-        self.gridLayout_11 = QGridLayout(self.frame_4)
-        self.gridLayout_11.setObjectName(u"gridLayout_11")
-        self.gridLayout_11.setContentsMargins(0, 0, 0, 0)
-        self.cb_bomba = QComboBox(self.frame_4)
-        self.cb_bomba.addItem("")
-        self.cb_bomba.setObjectName(u"cb_bomba")
-        self.cb_bomba.setStyleSheet(u"background-color: white;\n"
-"border-radius: 5px;\n"
-"")
-
-        self.gridLayout_11.addWidget(self.cb_bomba, 1, 1, 1, 1)
-
-        self.label_9 = QLabel(self.frame_4)
-        self.label_9.setObjectName(u"label_9")
-        self.label_9.setMaximumSize(QSize(80, 16777215))
-        self.label_9.setFont(font7)
-        self.label_9.setStyleSheet(u"")
-
-        self.gridLayout_11.addWidget(self.label_9, 1, 0, 1, 1)
-
-        self.groupBox = QGroupBox(self.frame_4)
-        self.groupBox.setObjectName(u"groupBox")
-        self.groupBox.setMaximumSize(QSize(16777215, 80))
-        self.groupBox.setFont(font8)
-        self.groupBox.setStyleSheet(u"border: 1px solid white;")
-        self.groupBox.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
-        self.gridLayout_14 = QGridLayout(self.groupBox)
-        self.gridLayout_14.setObjectName(u"gridLayout_14")
-        self.gridLayout_14.setHorizontalSpacing(17)
-        self.ln_digi_anterior = QLineEdit(self.groupBox)
-        self.ln_digi_anterior.setObjectName(u"ln_digi_anterior")
-        self.ln_digi_anterior.setEnabled(False)
-        self.ln_digi_anterior.setMaximumSize(QSize(16777215, 20))
-        self.ln_digi_anterior.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
-"border-radius: 10px;\n"
-"color: rgb(90, 90, 90)")
-        self.ln_digi_anterior.setMaxLength(7)
-        self.ln_digi_anterior.setAlignment(Qt.AlignCenter)
-        self.ln_digi_anterior.setReadOnly(True)
-
-        self.gridLayout_14.addWidget(self.ln_digi_anterior, 0, 3, 1, 1)
-
-        self.label_15 = QLabel(self.groupBox)
-        self.label_15.setObjectName(u"label_15")
-        self.label_15.setMaximumSize(QSize(16777215, 30))
-        self.label_15.setFont(font7)
-        self.label_15.setStyleSheet(u"border: none;")
-
-        self.gridLayout_14.addWidget(self.label_15, 0, 2, 1, 1)
-
-        self.label_14 = QLabel(self.groupBox)
-        self.label_14.setObjectName(u"label_14")
-        self.label_14.setMaximumSize(QSize(16777215, 30))
-        self.label_14.setFont(font7)
-        self.label_14.setStyleSheet(u"border: none;")
-
-        self.gridLayout_14.addWidget(self.label_14, 0, 0, 1, 1)
-
-        self.ln_ana_anterior = QLineEdit(self.groupBox)
-        self.ln_ana_anterior.setObjectName(u"ln_ana_anterior")
-        self.ln_ana_anterior.setEnabled(False)
-        self.ln_ana_anterior.setMaximumSize(QSize(16777215, 20))
-        self.ln_ana_anterior.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
-"border-radius: 10px;\n"
-"color: rgb(90, 90, 90)")
-        self.ln_ana_anterior.setMaxLength(7)
-        self.ln_ana_anterior.setAlignment(Qt.AlignCenter)
-        self.ln_ana_anterior.setReadOnly(True)
-
-        self.gridLayout_14.addWidget(self.ln_ana_anterior, 0, 1, 1, 1)
-
-
-        self.gridLayout_11.addWidget(self.groupBox, 2, 0, 1, 4)
-
-        self.groupBox_2 = QGroupBox(self.frame_4)
-        self.groupBox_2.setObjectName(u"groupBox_2")
-        self.groupBox_2.setMaximumSize(QSize(16777215, 80))
-        self.groupBox_2.setFont(font8)
-        self.groupBox_2.setStyleSheet(u"border: 1px solid white;")
-        self.groupBox_2.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
-        self.gridLayout_16 = QGridLayout(self.groupBox_2)
-        self.gridLayout_16.setObjectName(u"gridLayout_16")
-        self.gridLayout_16.setHorizontalSpacing(17)
-        self.ln_ana_atual = QLineEdit(self.groupBox_2)
-        self.ln_ana_atual.setObjectName(u"ln_ana_atual")
-        self.ln_ana_atual.setEnabled(True)
-        self.ln_ana_atual.setMaximumSize(QSize(16777215, 20))
-        self.ln_ana_atual.setMouseTracking(False)
-        self.ln_ana_atual.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
-"border-radius: 10px;\n"
-"color: rgb(90, 90, 90);")
-        self.ln_ana_atual.setInputMethodHints(Qt.ImhNone)
-        self.ln_ana_atual.setMaxLength(32767)
-        self.ln_ana_atual.setCursorPosition(0)
-        self.ln_ana_atual.setAlignment(Qt.AlignCenter)
-        self.ln_ana_atual.setReadOnly(False)
-        self.ln_ana_atual.setCursorMoveStyle(Qt.VisualMoveStyle)
-
-        self.gridLayout_16.addWidget(self.ln_ana_atual, 0, 1, 1, 1)
-
-        self.label_18 = QLabel(self.groupBox_2)
-        self.label_18.setObjectName(u"label_18")
-        self.label_18.setMaximumSize(QSize(16777215, 30))
-        self.label_18.setFont(font7)
-        self.label_18.setStyleSheet(u"border: none;")
-
-        self.gridLayout_16.addWidget(self.label_18, 0, 2, 1, 1)
-
-        self.ln_digi_atual = QLineEdit(self.groupBox_2)
-        self.ln_digi_atual.setObjectName(u"ln_digi_atual")
-        self.ln_digi_atual.setEnabled(True)
-        self.ln_digi_atual.setMaximumSize(QSize(16777215, 20))
-        self.ln_digi_atual.setMouseTracking(False)
-        self.ln_digi_atual.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
-"border-radius: 10px;\n"
-"color: rgb(90, 90, 90)")
-        self.ln_digi_atual.setMaxLength(32767)
-        self.ln_digi_atual.setCursorPosition(0)
-        self.ln_digi_atual.setAlignment(Qt.AlignCenter)
-        self.ln_digi_atual.setReadOnly(False)
-        self.ln_digi_atual.setCursorMoveStyle(Qt.VisualMoveStyle)
-        self.ln_digi_atual.setClearButtonEnabled(False)
-
-        self.gridLayout_16.addWidget(self.ln_digi_atual, 0, 3, 1, 1)
-
-        self.label_19 = QLabel(self.groupBox_2)
-        self.label_19.setObjectName(u"label_19")
-        self.label_19.setMaximumSize(QSize(16777215, 30))
-        self.label_19.setFont(font7)
-        self.label_19.setStyleSheet(u"border: none;")
-
-        self.gridLayout_16.addWidget(self.label_19, 0, 0, 1, 1)
-
-
-        self.gridLayout_11.addWidget(self.groupBox_2, 3, 0, 1, 4)
-
-        self.btn_cx_inserir = QPushButton(self.frame_4)
-        self.btn_cx_inserir.setObjectName(u"btn_cx_inserir")
-        self.btn_cx_inserir.setMaximumSize(QSize(16777215, 25))
-        self.btn_cx_inserir.setFont(font7)
-        self.btn_cx_inserir.setStyleSheet(u"QPushButton{\n"
-"	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 209, 22, 255));\n"
-"	border-radius: 10px;\n"
-"}\n"
-"\n"
-"QPushButton:hover{\n"
-"	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 237, 162, 255));\n"
-"	border: 1px solid rgb(135, 135, 135);\n"
-"}\n"
-"")
-
-        self.gridLayout_11.addWidget(self.btn_cx_inserir, 4, 3, 1, 1)
-
-        self.groupBox_3 = QGroupBox(self.frame_4)
-        self.groupBox_3.setObjectName(u"groupBox_3")
-        self.groupBox_3.setEnabled(True)
-        self.groupBox_3.setMaximumSize(QSize(16777215, 200))
-        self.groupBox_3.setFont(font8)
-        self.groupBox_3.setStyleSheet(u"border: 1px solid white;")
-        self.groupBox_3.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
-        self.gridLayout_20 = QGridLayout(self.groupBox_3)
-        self.gridLayout_20.setObjectName(u"gridLayout_20")
-        self.gridLayout_20.setHorizontalSpacing(17)
-        self.ln_cx_pix = QLineEdit(self.groupBox_3)
-        self.ln_cx_pix.setObjectName(u"ln_cx_pix")
-        self.ln_cx_pix.setEnabled(True)
-        self.ln_cx_pix.setMaximumSize(QSize(16777215, 20))
-        self.ln_cx_pix.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
-"border-radius: 10px;\n"
-"color: rgb(90, 90, 90);")
-        self.ln_cx_pix.setInputMethodHints(Qt.ImhNone)
-        self.ln_cx_pix.setMaxLength(10)
-        self.ln_cx_pix.setAlignment(Qt.AlignCenter)
-        self.ln_cx_pix.setReadOnly(False)
-
-        self.gridLayout_20.addWidget(self.ln_cx_pix, 3, 1, 1, 1)
-
-        self.label_27 = QLabel(self.groupBox_3)
-        self.label_27.setObjectName(u"label_27")
-        sizePolicy2.setHeightForWidth(self.label_27.sizePolicy().hasHeightForWidth())
-        self.label_27.setSizePolicy(sizePolicy2)
-        self.label_27.setMaximumSize(QSize(100, 30))
-        self.label_27.setFont(font7)
-        self.label_27.setStyleSheet(u"border: none;")
-
-        self.gridLayout_20.addWidget(self.label_27, 0, 0, 1, 1)
-
-        self.ln_cx_din = QLineEdit(self.groupBox_3)
-        self.ln_cx_din.setObjectName(u"ln_cx_din")
-        self.ln_cx_din.setEnabled(True)
-        self.ln_cx_din.setMaximumSize(QSize(16777215, 20))
-        self.ln_cx_din.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
-"border-radius: 10px;\n"
-"color: rgb(90, 90, 90);")
-        self.ln_cx_din.setInputMethodHints(Qt.ImhNone)
-        self.ln_cx_din.setMaxLength(10)
-        self.ln_cx_din.setAlignment(Qt.AlignCenter)
-        self.ln_cx_din.setReadOnly(False)
-
-        self.gridLayout_20.addWidget(self.ln_cx_din, 2, 1, 1, 1)
-
-        self.ln_cx_resto_2 = QLineEdit(self.groupBox_3)
-        self.ln_cx_resto_2.setObjectName(u"ln_cx_resto_2")
-        self.ln_cx_resto_2.setEnabled(True)
-        self.ln_cx_resto_2.setMaximumSize(QSize(16777215, 20))
-        self.ln_cx_resto_2.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
-"border-radius: 10px;\n"
-"color: rgb(90, 90, 90);")
-        self.ln_cx_resto_2.setInputMethodHints(Qt.ImhDigitsOnly)
-        self.ln_cx_resto_2.setMaxLength(7)
-        self.ln_cx_resto_2.setAlignment(Qt.AlignCenter)
-        self.ln_cx_resto_2.setReadOnly(True)
-
-        self.gridLayout_20.addWidget(self.ln_cx_resto_2, 6, 1, 1, 1)
-
-        self.ln_cx_cartao = QLineEdit(self.groupBox_3)
-        self.ln_cx_cartao.setObjectName(u"ln_cx_cartao")
-        self.ln_cx_cartao.setEnabled(True)
-        self.ln_cx_cartao.setMaximumSize(QSize(16777215, 20))
-        self.ln_cx_cartao.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
-"border-radius: 10px;\n"
-"color: rgb(90, 90, 90);")
-        self.ln_cx_cartao.setInputMethodHints(Qt.ImhNone)
-        self.ln_cx_cartao.setMaxLength(10)
-        self.ln_cx_cartao.setAlignment(Qt.AlignCenter)
-        self.ln_cx_cartao.setReadOnly(False)
-
-        self.gridLayout_20.addWidget(self.ln_cx_cartao, 4, 1, 1, 1)
-
-        self.ln_cx_valor = QLineEdit(self.groupBox_3)
-        self.ln_cx_valor.setObjectName(u"ln_cx_valor")
-        self.ln_cx_valor.setEnabled(True)
-        self.ln_cx_valor.setMaximumSize(QSize(16777215, 20))
-        self.ln_cx_valor.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
-"border-radius: 10px;\n"
-"color: rgb(90, 90, 90);")
-        self.ln_cx_valor.setMaxLength(7)
-        self.ln_cx_valor.setAlignment(Qt.AlignCenter)
-        self.ln_cx_valor.setReadOnly(True)
-
-        self.gridLayout_20.addWidget(self.ln_cx_valor, 1, 1, 1, 1)
-
-        self.label_29 = QLabel(self.groupBox_3)
-        self.label_29.setObjectName(u"label_29")
-        self.label_29.setMaximumSize(QSize(16777215, 30))
-        self.label_29.setFont(font7)
-        self.label_29.setStyleSheet(u"border: none;")
-
-        self.gridLayout_20.addWidget(self.label_29, 7, 0, 1, 1)
-
-        self.label_30 = QLabel(self.groupBox_3)
-        self.label_30.setObjectName(u"label_30")
-        self.label_30.setMaximumSize(QSize(16777215, 30))
-        self.label_30.setFont(font7)
-        self.label_30.setStyleSheet(u"border: none;")
-
-        self.gridLayout_20.addWidget(self.label_30, 2, 0, 1, 1)
-
-        self.label_47 = QLabel(self.groupBox_3)
-        self.label_47.setObjectName(u"label_47")
-        self.label_47.setMaximumSize(QSize(16777215, 30))
-        self.label_47.setFont(font7)
-        self.label_47.setStyleSheet(u"border: none;")
-
-        self.gridLayout_20.addWidget(self.label_47, 3, 0, 1, 1)
-
-        self.ln_cx_resto = QLineEdit(self.groupBox_3)
-        self.ln_cx_resto.setObjectName(u"ln_cx_resto")
-        self.ln_cx_resto.setEnabled(True)
-        self.ln_cx_resto.setMaximumSize(QSize(16777215, 20))
-        self.ln_cx_resto.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
-"border-radius: 10px;\n"
-"color: rgb(90, 90, 90);")
-        self.ln_cx_resto.setInputMethodHints(Qt.ImhDigitsOnly)
-        self.ln_cx_resto.setMaxLength(7)
-        self.ln_cx_resto.setAlignment(Qt.AlignCenter)
-        self.ln_cx_resto.setReadOnly(True)
-
-        self.gridLayout_20.addWidget(self.ln_cx_resto, 7, 1, 1, 1)
-
-        self.label_28 = QLabel(self.groupBox_3)
-        self.label_28.setObjectName(u"label_28")
-        self.label_28.setMaximumSize(QSize(16777215, 30))
-        self.label_28.setFont(font7)
-        self.label_28.setStyleSheet(u"border: none;")
-
-        self.gridLayout_20.addWidget(self.label_28, 1, 0, 1, 1)
-
-        self.label_51 = QLabel(self.groupBox_3)
-        self.label_51.setObjectName(u"label_51")
-        self.label_51.setMaximumSize(QSize(16777215, 30))
-        self.label_51.setFont(font7)
-        self.label_51.setStyleSheet(u"border: none;")
-
-        self.gridLayout_20.addWidget(self.label_51, 4, 0, 1, 1)
-
-        self.ln_cx_litros = QLineEdit(self.groupBox_3)
-        self.ln_cx_litros.setObjectName(u"ln_cx_litros")
-        self.ln_cx_litros.setEnabled(True)
-        self.ln_cx_litros.setMaximumSize(QSize(16777215, 20))
-        self.ln_cx_litros.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
-"border-radius: 10px;\n"
-"color: rgb(90, 90, 90);")
-        self.ln_cx_litros.setMaxLength(7)
-        self.ln_cx_litros.setAlignment(Qt.AlignCenter)
-        self.ln_cx_litros.setReadOnly(True)
-
-        self.gridLayout_20.addWidget(self.ln_cx_litros, 0, 1, 1, 1)
-
-        self.label_52 = QLabel(self.groupBox_3)
-        self.label_52.setObjectName(u"label_52")
-        self.label_52.setMaximumSize(QSize(16777215, 30))
-        self.label_52.setFont(font7)
-        self.label_52.setStyleSheet(u"border: none;")
-
-        self.gridLayout_20.addWidget(self.label_52, 6, 0, 1, 1)
-
-        self.label_54 = QLabel(self.groupBox_3)
-        self.label_54.setObjectName(u"label_54")
-        self.label_54.setMaximumSize(QSize(16777215, 30))
-        self.label_54.setFont(font7)
-        self.label_54.setStyleSheet(u"border: none;")
-
-        self.gridLayout_20.addWidget(self.label_54, 5, 0, 1, 1)
-
-        self.ln_cx_vendas = QLineEdit(self.groupBox_3)
-        self.ln_cx_vendas.setObjectName(u"ln_cx_vendas")
-        self.ln_cx_vendas.setEnabled(True)
-        self.ln_cx_vendas.setMaximumSize(QSize(16777215, 20))
-        self.ln_cx_vendas.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
-"border-radius: 10px;\n"
-"color: rgb(90, 90, 90);")
-        self.ln_cx_vendas.setInputMethodHints(Qt.ImhNone)
-        self.ln_cx_vendas.setMaxLength(10)
-        self.ln_cx_vendas.setAlignment(Qt.AlignCenter)
-        self.ln_cx_vendas.setDragEnabled(False)
-        self.ln_cx_vendas.setReadOnly(True)
-
-        self.gridLayout_20.addWidget(self.ln_cx_vendas, 5, 1, 1, 1)
-
-
-        self.gridLayout_11.addWidget(self.groupBox_3, 5, 0, 1, 4)
-
-
-        self.gridLayout_10.addWidget(self.frame_4, 1, 0, 1, 1)
-
         self.btn_cx_fechar = QPushButton(self.frame_2)
         self.btn_cx_fechar.setObjectName(u"btn_cx_fechar")
         sizePolicy.setHeightForWidth(self.btn_cx_fechar.sizePolicy().hasHeightForWidth())
@@ -2384,7 +2031,7 @@ class Ui_Sistema(object):
 
         self.frame_5 = QFrame(self.frame_2)
         self.frame_5.setObjectName(u"frame_5")
-        self.frame_5.setEnabled(False)
+        self.frame_5.setEnabled(True)
         sizePolicy2.setHeightForWidth(self.frame_5.sizePolicy().hasHeightForWidth())
         self.frame_5.setSizePolicy(sizePolicy2)
         self.frame_5.setFrameShape(QFrame.StyledPanel)
@@ -2395,8 +2042,8 @@ class Ui_Sistema(object):
         self.gridLayout_12.setVerticalSpacing(11)
         self.gridLayout_12.setContentsMargins(0, 0, 0, 0)
         self.cb_cx_ven_tab = QTableWidget(self.frame_5)
-        if (self.cb_cx_ven_tab.columnCount() < 6):
-            self.cb_cx_ven_tab.setColumnCount(6)
+        if (self.cb_cx_ven_tab.columnCount() < 5):
+            self.cb_cx_ven_tab.setColumnCount(5)
         __qtablewidgetitem21 = QTableWidgetItem()
         self.cb_cx_ven_tab.setHorizontalHeaderItem(0, __qtablewidgetitem21)
         __qtablewidgetitem22 = QTableWidgetItem()
@@ -2407,8 +2054,6 @@ class Ui_Sistema(object):
         self.cb_cx_ven_tab.setHorizontalHeaderItem(3, __qtablewidgetitem24)
         __qtablewidgetitem25 = QTableWidgetItem()
         self.cb_cx_ven_tab.setHorizontalHeaderItem(4, __qtablewidgetitem25)
-        __qtablewidgetitem26 = QTableWidgetItem()
-        self.cb_cx_ven_tab.setHorizontalHeaderItem(5, __qtablewidgetitem26)
         self.cb_cx_ven_tab.setObjectName(u"cb_cx_ven_tab")
         self.cb_cx_ven_tab.setStyleSheet(u"QTableWidget{\n"
 "	border: 1px solid rgb(125, 125, 125);\n"
@@ -2444,10 +2089,14 @@ class Ui_Sistema(object):
                         "d-color: yellow\n"
 "}")
         self.cb_cx_ven_tab.setFrameShadow(QFrame.Sunken)
+        self.cb_cx_ven_tab.setEditTriggers(QAbstractItemView.NoEditTriggers)
         self.cb_cx_ven_tab.setDragDropMode(QAbstractItemView.NoDragDrop)
-        self.cb_cx_ven_tab.setSelectionMode(QAbstractItemView.ExtendedSelection)
+        self.cb_cx_ven_tab.setSelectionMode(QAbstractItemView.SingleSelection)
         self.cb_cx_ven_tab.setSelectionBehavior(QAbstractItemView.SelectRows)
         self.cb_cx_ven_tab.setTextElideMode(Qt.ElideRight)
+        self.cb_cx_ven_tab.setShowGrid(True)
+        self.cb_cx_ven_tab.setGridStyle(Qt.DotLine)
+        self.cb_cx_ven_tab.setSortingEnabled(True)
         self.cb_cx_ven_tab.setWordWrap(True)
         self.cb_cx_ven_tab.setCornerButtonEnabled(False)
         self.cb_cx_ven_tab.horizontalHeader().setCascadingSectionResizes(False)
@@ -2538,7 +2187,7 @@ class Ui_Sistema(object):
 
         self.cb_cx_ven_qnt = QLineEdit(self.groupBox_4)
         self.cb_cx_ven_qnt.setObjectName(u"cb_cx_ven_qnt")
-        self.cb_cx_ven_qnt.setEnabled(False)
+        self.cb_cx_ven_qnt.setEnabled(True)
         self.cb_cx_ven_qnt.setMaximumSize(QSize(16777215, 20))
         self.cb_cx_ven_qnt.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
 "border-radius: 10px;\n"
@@ -2569,7 +2218,7 @@ class Ui_Sistema(object):
 
         self.cb_cx_ven_preco = QLineEdit(self.groupBox_4)
         self.cb_cx_ven_preco.setObjectName(u"cb_cx_ven_preco")
-        self.cb_cx_ven_preco.setEnabled(False)
+        self.cb_cx_ven_preco.setEnabled(True)
         self.cb_cx_ven_preco.setMaximumSize(QSize(16777215, 20))
         self.cb_cx_ven_preco.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
 "border-radius: 10px;\n"
@@ -2590,7 +2239,7 @@ class Ui_Sistema(object):
 
         self.cb_cx_ven_subtotal = QLineEdit(self.groupBox_4)
         self.cb_cx_ven_subtotal.setObjectName(u"cb_cx_ven_subtotal")
-        self.cb_cx_ven_subtotal.setEnabled(False)
+        self.cb_cx_ven_subtotal.setEnabled(True)
         self.cb_cx_ven_subtotal.setMaximumSize(QSize(16777215, 20))
         self.cb_cx_ven_subtotal.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
 "border-radius: 10px;\n"
@@ -2651,6 +2300,446 @@ class Ui_Sistema(object):
 
 
         self.gridLayout_10.addWidget(self.frame_5, 1, 1, 1, 1)
+
+        self.frame_4 = QFrame(self.frame_2)
+        self.frame_4.setObjectName(u"frame_4")
+        self.frame_4.setEnabled(True)
+        sizePolicy2.setHeightForWidth(self.frame_4.sizePolicy().hasHeightForWidth())
+        self.frame_4.setSizePolicy(sizePolicy2)
+        self.frame_4.setFrameShape(QFrame.StyledPanel)
+        self.frame_4.setFrameShadow(QFrame.Raised)
+        self.gridLayout_11 = QGridLayout(self.frame_4)
+        self.gridLayout_11.setObjectName(u"gridLayout_11")
+        self.gridLayout_11.setContentsMargins(0, 0, 0, 0)
+        self.cb_bomba = QComboBox(self.frame_4)
+        self.cb_bomba.addItem("")
+        self.cb_bomba.setObjectName(u"cb_bomba")
+        self.cb_bomba.setStyleSheet(u"background-color: white;\n"
+"border-radius: 5px;\n"
+"")
+
+        self.gridLayout_11.addWidget(self.cb_bomba, 1, 1, 1, 1)
+
+        self.groupBox = QGroupBox(self.frame_4)
+        self.groupBox.setObjectName(u"groupBox")
+        self.groupBox.setMinimumSize(QSize(0, 60))
+        self.groupBox.setMaximumSize(QSize(16777215, 70))
+        self.groupBox.setFont(font8)
+        self.groupBox.setStyleSheet(u"border: 1px solid white;")
+        self.groupBox.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+        self.gridLayout_14 = QGridLayout(self.groupBox)
+        self.gridLayout_14.setObjectName(u"gridLayout_14")
+        self.gridLayout_14.setHorizontalSpacing(17)
+        self.gridLayout_14.setContentsMargins(-1, 5, -1, 5)
+        self.ln_digi_anterior = QLineEdit(self.groupBox)
+        self.ln_digi_anterior.setObjectName(u"ln_digi_anterior")
+        self.ln_digi_anterior.setEnabled(False)
+        self.ln_digi_anterior.setMaximumSize(QSize(16777215, 20))
+        self.ln_digi_anterior.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90)")
+        self.ln_digi_anterior.setMaxLength(7)
+        self.ln_digi_anterior.setAlignment(Qt.AlignCenter)
+        self.ln_digi_anterior.setReadOnly(True)
+
+        self.gridLayout_14.addWidget(self.ln_digi_anterior, 0, 3, 1, 1)
+
+        self.label_15 = QLabel(self.groupBox)
+        self.label_15.setObjectName(u"label_15")
+        self.label_15.setMaximumSize(QSize(16777215, 30))
+        self.label_15.setFont(font7)
+        self.label_15.setStyleSheet(u"border: none;")
+
+        self.gridLayout_14.addWidget(self.label_15, 0, 2, 1, 1)
+
+        self.label_14 = QLabel(self.groupBox)
+        self.label_14.setObjectName(u"label_14")
+        self.label_14.setMaximumSize(QSize(16777215, 30))
+        self.label_14.setFont(font7)
+        self.label_14.setStyleSheet(u"border: none;")
+
+        self.gridLayout_14.addWidget(self.label_14, 0, 0, 1, 1)
+
+        self.ln_ana_anterior = QLineEdit(self.groupBox)
+        self.ln_ana_anterior.setObjectName(u"ln_ana_anterior")
+        self.ln_ana_anterior.setEnabled(False)
+        self.ln_ana_anterior.setMaximumSize(QSize(16777215, 20))
+        self.ln_ana_anterior.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90)")
+        self.ln_ana_anterior.setMaxLength(7)
+        self.ln_ana_anterior.setAlignment(Qt.AlignCenter)
+        self.ln_ana_anterior.setReadOnly(True)
+
+        self.gridLayout_14.addWidget(self.ln_ana_anterior, 0, 1, 1, 1)
+
+
+        self.gridLayout_11.addWidget(self.groupBox, 2, 0, 1, 4)
+
+        self.label_9 = QLabel(self.frame_4)
+        self.label_9.setObjectName(u"label_9")
+        self.label_9.setMaximumSize(QSize(80, 16777215))
+        self.label_9.setFont(font7)
+        self.label_9.setStyleSheet(u"")
+
+        self.gridLayout_11.addWidget(self.label_9, 1, 0, 1, 1)
+
+        self.btn_cx_inserir = QPushButton(self.frame_4)
+        self.btn_cx_inserir.setObjectName(u"btn_cx_inserir")
+        self.btn_cx_inserir.setMinimumSize(QSize(0, 25))
+        self.btn_cx_inserir.setMaximumSize(QSize(16777215, 25))
+        self.btn_cx_inserir.setFont(font7)
+        self.btn_cx_inserir.setStyleSheet(u"QPushButton{\n"
+"	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 209, 22, 255));\n"
+"	border-radius: 10px;\n"
+"}\n"
+"\n"
+"QPushButton:hover{\n"
+"	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 205, 0, 239), stop:1 rgba(255, 237, 162, 255));\n"
+"	border: 1px solid rgb(135, 135, 135);\n"
+"}\n"
+"")
+
+        self.gridLayout_11.addWidget(self.btn_cx_inserir, 4, 3, 1, 1)
+
+        self.groupBox_2 = QGroupBox(self.frame_4)
+        self.groupBox_2.setObjectName(u"groupBox_2")
+        self.groupBox_2.setMinimumSize(QSize(0, 60))
+        self.groupBox_2.setMaximumSize(QSize(16777215, 70))
+        self.groupBox_2.setFont(font8)
+        self.groupBox_2.setStyleSheet(u"border: 1px solid white;")
+        self.groupBox_2.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+        self.gridLayout_16 = QGridLayout(self.groupBox_2)
+        self.gridLayout_16.setObjectName(u"gridLayout_16")
+        self.gridLayout_16.setHorizontalSpacing(17)
+        self.gridLayout_16.setVerticalSpacing(0)
+        self.gridLayout_16.setContentsMargins(-1, 5, -1, 5)
+        self.ln_ana_atual = QLineEdit(self.groupBox_2)
+        self.ln_ana_atual.setObjectName(u"ln_ana_atual")
+        self.ln_ana_atual.setEnabled(True)
+        self.ln_ana_atual.setMaximumSize(QSize(16777215, 20))
+        self.ln_ana_atual.setMouseTracking(False)
+        self.ln_ana_atual.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90);")
+        self.ln_ana_atual.setInputMethodHints(Qt.ImhNone)
+        self.ln_ana_atual.setMaxLength(32767)
+        self.ln_ana_atual.setCursorPosition(0)
+        self.ln_ana_atual.setAlignment(Qt.AlignCenter)
+        self.ln_ana_atual.setReadOnly(False)
+        self.ln_ana_atual.setCursorMoveStyle(Qt.VisualMoveStyle)
+
+        self.gridLayout_16.addWidget(self.ln_ana_atual, 0, 1, 1, 1)
+
+        self.label_18 = QLabel(self.groupBox_2)
+        self.label_18.setObjectName(u"label_18")
+        self.label_18.setMaximumSize(QSize(16777215, 30))
+        self.label_18.setFont(font7)
+        self.label_18.setStyleSheet(u"border: none;")
+
+        self.gridLayout_16.addWidget(self.label_18, 0, 2, 1, 1)
+
+        self.ln_digi_atual = QLineEdit(self.groupBox_2)
+        self.ln_digi_atual.setObjectName(u"ln_digi_atual")
+        self.ln_digi_atual.setEnabled(True)
+        self.ln_digi_atual.setMaximumSize(QSize(16777215, 20))
+        self.ln_digi_atual.setMouseTracking(False)
+        self.ln_digi_atual.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90)")
+        self.ln_digi_atual.setMaxLength(32767)
+        self.ln_digi_atual.setCursorPosition(0)
+        self.ln_digi_atual.setAlignment(Qt.AlignCenter)
+        self.ln_digi_atual.setReadOnly(False)
+        self.ln_digi_atual.setCursorMoveStyle(Qt.VisualMoveStyle)
+        self.ln_digi_atual.setClearButtonEnabled(False)
+
+        self.gridLayout_16.addWidget(self.ln_digi_atual, 0, 3, 1, 1)
+
+        self.label_19 = QLabel(self.groupBox_2)
+        self.label_19.setObjectName(u"label_19")
+        self.label_19.setMaximumSize(QSize(16777215, 30))
+        self.label_19.setFont(font7)
+        self.label_19.setStyleSheet(u"border: none;")
+
+        self.gridLayout_16.addWidget(self.label_19, 0, 0, 1, 1)
+
+
+        self.gridLayout_11.addWidget(self.groupBox_2, 3, 0, 1, 4)
+
+        self.groupBox_3 = QGroupBox(self.frame_4)
+        self.groupBox_3.setObjectName(u"groupBox_3")
+        self.groupBox_3.setEnabled(True)
+        self.groupBox_3.setMinimumSize(QSize(0, 230))
+        self.groupBox_3.setMaximumSize(QSize(16777215, 250))
+        self.groupBox_3.setFont(font8)
+        self.groupBox_3.setStyleSheet(u"border: 1px solid white;")
+        self.groupBox_3.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+        self.gridLayout_20 = QGridLayout(self.groupBox_3)
+        self.gridLayout_20.setObjectName(u"gridLayout_20")
+        self.gridLayout_20.setHorizontalSpacing(17)
+        self.label_47 = QLabel(self.groupBox_3)
+        self.label_47.setObjectName(u"label_47")
+        self.label_47.setMaximumSize(QSize(16777215, 30))
+        self.label_47.setFont(font7)
+        self.label_47.setStyleSheet(u"border: none;")
+
+        self.gridLayout_20.addWidget(self.label_47, 3, 0, 1, 1)
+
+        self.ln_cx_pix = QLineEdit(self.groupBox_3)
+        self.ln_cx_pix.setObjectName(u"ln_cx_pix")
+        self.ln_cx_pix.setEnabled(True)
+        self.ln_cx_pix.setMaximumSize(QSize(16777215, 20))
+        self.ln_cx_pix.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90);")
+        self.ln_cx_pix.setInputMethodHints(Qt.ImhNone)
+        self.ln_cx_pix.setMaxLength(10)
+        self.ln_cx_pix.setAlignment(Qt.AlignCenter)
+        self.ln_cx_pix.setReadOnly(False)
+
+        self.gridLayout_20.addWidget(self.ln_cx_pix, 3, 2, 1, 1)
+
+        self.ln_cx_litros = QLineEdit(self.groupBox_3)
+        self.ln_cx_litros.setObjectName(u"ln_cx_litros")
+        self.ln_cx_litros.setEnabled(True)
+        self.ln_cx_litros.setMaximumSize(QSize(16777215, 20))
+        self.ln_cx_litros.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90);")
+        self.ln_cx_litros.setMaxLength(7)
+        self.ln_cx_litros.setAlignment(Qt.AlignCenter)
+        self.ln_cx_litros.setReadOnly(True)
+
+        self.gridLayout_20.addWidget(self.ln_cx_litros, 0, 2, 1, 1)
+
+        self.label_51 = QLabel(self.groupBox_3)
+        self.label_51.setObjectName(u"label_51")
+        self.label_51.setMaximumSize(QSize(16777215, 30))
+        self.label_51.setFont(font7)
+        self.label_51.setStyleSheet(u"border: none;")
+
+        self.gridLayout_20.addWidget(self.label_51, 4, 0, 1, 1)
+
+        self.label_52 = QLabel(self.groupBox_3)
+        self.label_52.setObjectName(u"label_52")
+        self.label_52.setMaximumSize(QSize(16777215, 30))
+        self.label_52.setFont(font7)
+        self.label_52.setStyleSheet(u"border: none;")
+
+        self.gridLayout_20.addWidget(self.label_52, 8, 0, 1, 1)
+
+        self.label_27 = QLabel(self.groupBox_3)
+        self.label_27.setObjectName(u"label_27")
+        sizePolicy2.setHeightForWidth(self.label_27.sizePolicy().hasHeightForWidth())
+        self.label_27.setSizePolicy(sizePolicy2)
+        self.label_27.setMaximumSize(QSize(100, 30))
+        self.label_27.setFont(font7)
+        self.label_27.setStyleSheet(u"border: none;")
+
+        self.gridLayout_20.addWidget(self.label_27, 0, 0, 1, 1)
+
+        self.ln_cx_valor = QLineEdit(self.groupBox_3)
+        self.ln_cx_valor.setObjectName(u"ln_cx_valor")
+        self.ln_cx_valor.setEnabled(True)
+        self.ln_cx_valor.setMaximumSize(QSize(16777215, 20))
+        self.ln_cx_valor.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90);")
+        self.ln_cx_valor.setMaxLength(7)
+        self.ln_cx_valor.setAlignment(Qt.AlignCenter)
+        self.ln_cx_valor.setReadOnly(True)
+
+        self.gridLayout_20.addWidget(self.ln_cx_valor, 1, 2, 1, 1)
+
+        self.ln_cx_cartao = QLineEdit(self.groupBox_3)
+        self.ln_cx_cartao.setObjectName(u"ln_cx_cartao")
+        self.ln_cx_cartao.setEnabled(True)
+        self.ln_cx_cartao.setMaximumSize(QSize(16777215, 20))
+        self.ln_cx_cartao.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90);")
+        self.ln_cx_cartao.setInputMethodHints(Qt.ImhNone)
+        self.ln_cx_cartao.setMaxLength(10)
+        self.ln_cx_cartao.setAlignment(Qt.AlignCenter)
+        self.ln_cx_cartao.setReadOnly(False)
+
+        self.gridLayout_20.addWidget(self.ln_cx_cartao, 4, 2, 1, 1)
+
+        self.label_30 = QLabel(self.groupBox_3)
+        self.label_30.setObjectName(u"label_30")
+        self.label_30.setMaximumSize(QSize(16777215, 30))
+        self.label_30.setFont(font7)
+        self.label_30.setStyleSheet(u"border: none;")
+
+        self.gridLayout_20.addWidget(self.label_30, 2, 0, 1, 1)
+
+        self.label_28 = QLabel(self.groupBox_3)
+        self.label_28.setObjectName(u"label_28")
+        self.label_28.setMaximumSize(QSize(16777215, 30))
+        self.label_28.setFont(font7)
+        self.label_28.setStyleSheet(u"border: none;")
+
+        self.gridLayout_20.addWidget(self.label_28, 1, 0, 1, 1)
+
+        self.ln_cx_resto = QLineEdit(self.groupBox_3)
+        self.ln_cx_resto.setObjectName(u"ln_cx_resto")
+        self.ln_cx_resto.setEnabled(True)
+        self.ln_cx_resto.setMaximumSize(QSize(16777215, 20))
+        self.ln_cx_resto.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90);")
+        self.ln_cx_resto.setInputMethodHints(Qt.ImhDigitsOnly)
+        self.ln_cx_resto.setMaxLength(7)
+        self.ln_cx_resto.setAlignment(Qt.AlignCenter)
+        self.ln_cx_resto.setReadOnly(True)
+
+        self.gridLayout_20.addWidget(self.ln_cx_resto, 9, 2, 1, 1)
+
+        self.ln_cx_resto_2 = QLineEdit(self.groupBox_3)
+        self.ln_cx_resto_2.setObjectName(u"ln_cx_resto_2")
+        self.ln_cx_resto_2.setEnabled(True)
+        self.ln_cx_resto_2.setMaximumSize(QSize(16777215, 20))
+        self.ln_cx_resto_2.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90);")
+        self.ln_cx_resto_2.setInputMethodHints(Qt.ImhDigitsOnly)
+        self.ln_cx_resto_2.setMaxLength(7)
+        self.ln_cx_resto_2.setAlignment(Qt.AlignCenter)
+        self.ln_cx_resto_2.setReadOnly(True)
+
+        self.gridLayout_20.addWidget(self.ln_cx_resto_2, 8, 2, 1, 1)
+
+        self.label_29 = QLabel(self.groupBox_3)
+        self.label_29.setObjectName(u"label_29")
+        self.label_29.setMaximumSize(QSize(16777215, 30))
+        self.label_29.setFont(font7)
+        self.label_29.setStyleSheet(u"border: none;")
+
+        self.gridLayout_20.addWidget(self.label_29, 9, 0, 1, 1)
+
+        self.ln_cx_din = QLineEdit(self.groupBox_3)
+        self.ln_cx_din.setObjectName(u"ln_cx_din")
+        self.ln_cx_din.setEnabled(True)
+        self.ln_cx_din.setMaximumSize(QSize(16777215, 20))
+        self.ln_cx_din.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90);")
+        self.ln_cx_din.setInputMethodHints(Qt.ImhNone)
+        self.ln_cx_din.setMaxLength(10)
+        self.ln_cx_din.setAlignment(Qt.AlignCenter)
+        self.ln_cx_din.setReadOnly(False)
+
+        self.gridLayout_20.addWidget(self.ln_cx_din, 2, 2, 1, 1)
+
+
+        self.gridLayout_11.addWidget(self.groupBox_3, 5, 0, 1, 4)
+
+        self.groupBox_7 = QGroupBox(self.frame_4)
+        self.groupBox_7.setObjectName(u"groupBox_7")
+        self.groupBox_7.setMinimumSize(QSize(0, 130))
+        self.groupBox_7.setMaximumSize(QSize(16777215, 150))
+        self.groupBox_7.setStyleSheet(u"border: 1px solid white;")
+        self.gridLayout_91 = QGridLayout(self.groupBox_7)
+        self.gridLayout_91.setObjectName(u"gridLayout_91")
+        self.gridLayout_91.setHorizontalSpacing(17)
+        self.ln_cx_vendas_din = QLineEdit(self.groupBox_7)
+        self.ln_cx_vendas_din.setObjectName(u"ln_cx_vendas_din")
+        self.ln_cx_vendas_din.setEnabled(True)
+        self.ln_cx_vendas_din.setMaximumSize(QSize(16777215, 20))
+        self.ln_cx_vendas_din.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90);")
+        self.ln_cx_vendas_din.setInputMethodHints(Qt.ImhNone)
+        self.ln_cx_vendas_din.setMaxLength(10)
+        self.ln_cx_vendas_din.setAlignment(Qt.AlignCenter)
+        self.ln_cx_vendas_din.setDragEnabled(False)
+        self.ln_cx_vendas_din.setReadOnly(False)
+
+        self.gridLayout_91.addWidget(self.ln_cx_vendas_din, 1, 1, 1, 1)
+
+        self.ln_cx_vendas = QLineEdit(self.groupBox_7)
+        self.ln_cx_vendas.setObjectName(u"ln_cx_vendas")
+        self.ln_cx_vendas.setEnabled(True)
+        self.ln_cx_vendas.setMaximumSize(QSize(16777215, 20))
+        self.ln_cx_vendas.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90);")
+        self.ln_cx_vendas.setInputMethodHints(Qt.ImhNone)
+        self.ln_cx_vendas.setMaxLength(10)
+        self.ln_cx_vendas.setAlignment(Qt.AlignCenter)
+        self.ln_cx_vendas.setDragEnabled(False)
+        self.ln_cx_vendas.setReadOnly(True)
+
+        self.gridLayout_91.addWidget(self.ln_cx_vendas, 0, 1, 1, 1)
+
+        self.label_183 = QLabel(self.groupBox_7)
+        self.label_183.setObjectName(u"label_183")
+        self.label_183.setMaximumSize(QSize(16777215, 30))
+        self.label_183.setFont(font7)
+        self.label_183.setStyleSheet(u"border: none;")
+
+        self.gridLayout_91.addWidget(self.label_183, 2, 0, 1, 1)
+
+        self.label_54 = QLabel(self.groupBox_7)
+        self.label_54.setObjectName(u"label_54")
+        self.label_54.setMaximumSize(QSize(16777215, 30))
+        self.label_54.setFont(font7)
+        self.label_54.setStyleSheet(u"border: none;")
+
+        self.gridLayout_91.addWidget(self.label_54, 0, 0, 1, 1)
+
+        self.ln_cx_vendas_cart = QLineEdit(self.groupBox_7)
+        self.ln_cx_vendas_cart.setObjectName(u"ln_cx_vendas_cart")
+        self.ln_cx_vendas_cart.setEnabled(True)
+        self.ln_cx_vendas_cart.setMaximumSize(QSize(16777215, 20))
+        self.ln_cx_vendas_cart.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90);")
+        self.ln_cx_vendas_cart.setInputMethodHints(Qt.ImhNone)
+        self.ln_cx_vendas_cart.setMaxLength(10)
+        self.ln_cx_vendas_cart.setAlignment(Qt.AlignCenter)
+        self.ln_cx_vendas_cart.setDragEnabled(False)
+        self.ln_cx_vendas_cart.setReadOnly(False)
+
+        self.gridLayout_91.addWidget(self.ln_cx_vendas_cart, 2, 1, 1, 1)
+
+        self.label_182 = QLabel(self.groupBox_7)
+        self.label_182.setObjectName(u"label_182")
+        self.label_182.setMaximumSize(QSize(16777215, 30))
+        self.label_182.setFont(font7)
+        self.label_182.setStyleSheet(u"border: none;")
+
+        self.gridLayout_91.addWidget(self.label_182, 1, 0, 1, 1)
+
+        self.label_184 = QLabel(self.groupBox_7)
+        self.label_184.setObjectName(u"label_184")
+        self.label_184.setMaximumSize(QSize(16777215, 30))
+        self.label_184.setFont(font7)
+        self.label_184.setStyleSheet(u"border: none;")
+
+        self.gridLayout_91.addWidget(self.label_184, 3, 0, 1, 1)
+
+        self.ln_cx_vendas_total = QLineEdit(self.groupBox_7)
+        self.ln_cx_vendas_total.setObjectName(u"ln_cx_vendas_total")
+        self.ln_cx_vendas_total.setEnabled(True)
+        self.ln_cx_vendas_total.setMaximumSize(QSize(16777215, 20))
+        self.ln_cx_vendas_total.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"border-radius: 10px;\n"
+"color: rgb(90, 90, 90);")
+        self.ln_cx_vendas_total.setInputMethodHints(Qt.ImhNone)
+        self.ln_cx_vendas_total.setMaxLength(10)
+        self.ln_cx_vendas_total.setAlignment(Qt.AlignCenter)
+        self.ln_cx_vendas_total.setDragEnabled(False)
+        self.ln_cx_vendas_total.setReadOnly(True)
+
+        self.gridLayout_91.addWidget(self.ln_cx_vendas_total, 3, 1, 1, 1)
+
+
+        self.gridLayout_11.addWidget(self.groupBox_7, 6, 0, 1, 4)
+
+
+        self.gridLayout_10.addWidget(self.frame_4, 1, 0, 3, 1)
 
 
         self.gridLayout_4.addWidget(self.frame_2, 1, 0, 1, 1)
@@ -4251,37 +4340,37 @@ class Ui_Sistema(object):
         self.est_consult_tab = QTableWidget(self.consultar_estoque)
         if (self.est_consult_tab.columnCount() < 9):
             self.est_consult_tab.setColumnCount(9)
+        __qtablewidgetitem26 = QTableWidgetItem()
+        __qtablewidgetitem26.setFont(font8);
+        self.est_consult_tab.setHorizontalHeaderItem(0, __qtablewidgetitem26)
         __qtablewidgetitem27 = QTableWidgetItem()
         __qtablewidgetitem27.setFont(font8);
-        self.est_consult_tab.setHorizontalHeaderItem(0, __qtablewidgetitem27)
+        self.est_consult_tab.setHorizontalHeaderItem(1, __qtablewidgetitem27)
         __qtablewidgetitem28 = QTableWidgetItem()
         __qtablewidgetitem28.setFont(font8);
-        self.est_consult_tab.setHorizontalHeaderItem(1, __qtablewidgetitem28)
+        self.est_consult_tab.setHorizontalHeaderItem(2, __qtablewidgetitem28)
         __qtablewidgetitem29 = QTableWidgetItem()
         __qtablewidgetitem29.setFont(font8);
-        self.est_consult_tab.setHorizontalHeaderItem(2, __qtablewidgetitem29)
-        __qtablewidgetitem30 = QTableWidgetItem()
-        __qtablewidgetitem30.setFont(font8);
-        self.est_consult_tab.setHorizontalHeaderItem(3, __qtablewidgetitem30)
+        self.est_consult_tab.setHorizontalHeaderItem(3, __qtablewidgetitem29)
         font11 = QFont()
         font11.setPointSize(11)
         font11.setBold(False)
         font11.setWeight(50)
+        __qtablewidgetitem30 = QTableWidgetItem()
+        __qtablewidgetitem30.setFont(font11);
+        self.est_consult_tab.setHorizontalHeaderItem(4, __qtablewidgetitem30)
         __qtablewidgetitem31 = QTableWidgetItem()
-        __qtablewidgetitem31.setFont(font11);
-        self.est_consult_tab.setHorizontalHeaderItem(4, __qtablewidgetitem31)
+        __qtablewidgetitem31.setFont(font8);
+        self.est_consult_tab.setHorizontalHeaderItem(5, __qtablewidgetitem31)
         __qtablewidgetitem32 = QTableWidgetItem()
         __qtablewidgetitem32.setFont(font8);
-        self.est_consult_tab.setHorizontalHeaderItem(5, __qtablewidgetitem32)
+        self.est_consult_tab.setHorizontalHeaderItem(6, __qtablewidgetitem32)
         __qtablewidgetitem33 = QTableWidgetItem()
         __qtablewidgetitem33.setFont(font8);
-        self.est_consult_tab.setHorizontalHeaderItem(6, __qtablewidgetitem33)
+        self.est_consult_tab.setHorizontalHeaderItem(7, __qtablewidgetitem33)
         __qtablewidgetitem34 = QTableWidgetItem()
         __qtablewidgetitem34.setFont(font8);
-        self.est_consult_tab.setHorizontalHeaderItem(7, __qtablewidgetitem34)
-        __qtablewidgetitem35 = QTableWidgetItem()
-        __qtablewidgetitem35.setFont(font8);
-        self.est_consult_tab.setHorizontalHeaderItem(8, __qtablewidgetitem35)
+        self.est_consult_tab.setHorizontalHeaderItem(8, __qtablewidgetitem34)
         self.est_consult_tab.setObjectName(u"est_consult_tab")
         self.est_consult_tab.setEnabled(True)
         self.est_consult_tab.setFont(font7)
@@ -4620,27 +4709,27 @@ class Ui_Sistema(object):
         font12.setPointSize(11)
         font12.setBold(True)
         font12.setWeight(75)
+        __qtablewidgetitem35 = QTableWidgetItem()
+        __qtablewidgetitem35.setFont(font12);
+        self.vend_tb.setHorizontalHeaderItem(0, __qtablewidgetitem35)
         __qtablewidgetitem36 = QTableWidgetItem()
         __qtablewidgetitem36.setFont(font12);
-        self.vend_tb.setHorizontalHeaderItem(0, __qtablewidgetitem36)
+        self.vend_tb.setHorizontalHeaderItem(1, __qtablewidgetitem36)
         __qtablewidgetitem37 = QTableWidgetItem()
         __qtablewidgetitem37.setFont(font12);
-        self.vend_tb.setHorizontalHeaderItem(1, __qtablewidgetitem37)
+        self.vend_tb.setHorizontalHeaderItem(2, __qtablewidgetitem37)
         __qtablewidgetitem38 = QTableWidgetItem()
         __qtablewidgetitem38.setFont(font12);
-        self.vend_tb.setHorizontalHeaderItem(2, __qtablewidgetitem38)
+        self.vend_tb.setHorizontalHeaderItem(3, __qtablewidgetitem38)
         __qtablewidgetitem39 = QTableWidgetItem()
         __qtablewidgetitem39.setFont(font12);
-        self.vend_tb.setHorizontalHeaderItem(3, __qtablewidgetitem39)
+        self.vend_tb.setHorizontalHeaderItem(4, __qtablewidgetitem39)
         __qtablewidgetitem40 = QTableWidgetItem()
         __qtablewidgetitem40.setFont(font12);
-        self.vend_tb.setHorizontalHeaderItem(4, __qtablewidgetitem40)
+        self.vend_tb.setHorizontalHeaderItem(5, __qtablewidgetitem40)
         __qtablewidgetitem41 = QTableWidgetItem()
         __qtablewidgetitem41.setFont(font12);
-        self.vend_tb.setHorizontalHeaderItem(5, __qtablewidgetitem41)
-        __qtablewidgetitem42 = QTableWidgetItem()
-        __qtablewidgetitem42.setFont(font12);
-        self.vend_tb.setHorizontalHeaderItem(6, __qtablewidgetitem42)
+        self.vend_tb.setHorizontalHeaderItem(6, __qtablewidgetitem41)
         self.vend_tb.setObjectName(u"vend_tb")
         font13 = QFont()
         font13.setPointSize(8)
@@ -6344,43 +6433,43 @@ class Ui_Sistema(object):
         self.tableWidget = QTableWidget(self.tab_despesa)
         if (self.tableWidget.columnCount() < 5):
             self.tableWidget.setColumnCount(5)
+        __qtablewidgetitem42 = QTableWidgetItem()
+        self.tableWidget.setHorizontalHeaderItem(0, __qtablewidgetitem42)
         __qtablewidgetitem43 = QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(0, __qtablewidgetitem43)
+        self.tableWidget.setHorizontalHeaderItem(1, __qtablewidgetitem43)
         __qtablewidgetitem44 = QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(1, __qtablewidgetitem44)
+        self.tableWidget.setHorizontalHeaderItem(2, __qtablewidgetitem44)
         __qtablewidgetitem45 = QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(2, __qtablewidgetitem45)
+        self.tableWidget.setHorizontalHeaderItem(3, __qtablewidgetitem45)
         __qtablewidgetitem46 = QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(3, __qtablewidgetitem46)
-        __qtablewidgetitem47 = QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(4, __qtablewidgetitem47)
+        self.tableWidget.setHorizontalHeaderItem(4, __qtablewidgetitem46)
         if (self.tableWidget.rowCount() < 2):
             self.tableWidget.setRowCount(2)
+        __qtablewidgetitem47 = QTableWidgetItem()
+        __qtablewidgetitem47.setTextAlignment(Qt.AlignCenter);
+        self.tableWidget.setVerticalHeaderItem(0, __qtablewidgetitem47)
         __qtablewidgetitem48 = QTableWidgetItem()
-        __qtablewidgetitem48.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget.setVerticalHeaderItem(0, __qtablewidgetitem48)
+        self.tableWidget.setVerticalHeaderItem(1, __qtablewidgetitem48)
         __qtablewidgetitem49 = QTableWidgetItem()
-        self.tableWidget.setVerticalHeaderItem(1, __qtablewidgetitem49)
+        self.tableWidget.setItem(0, 0, __qtablewidgetitem49)
         __qtablewidgetitem50 = QTableWidgetItem()
-        self.tableWidget.setItem(0, 0, __qtablewidgetitem50)
+        self.tableWidget.setItem(0, 1, __qtablewidgetitem50)
         __qtablewidgetitem51 = QTableWidgetItem()
-        self.tableWidget.setItem(0, 1, __qtablewidgetitem51)
+        self.tableWidget.setItem(0, 2, __qtablewidgetitem51)
         __qtablewidgetitem52 = QTableWidgetItem()
-        self.tableWidget.setItem(0, 2, __qtablewidgetitem52)
+        self.tableWidget.setItem(0, 3, __qtablewidgetitem52)
         __qtablewidgetitem53 = QTableWidgetItem()
-        self.tableWidget.setItem(0, 3, __qtablewidgetitem53)
+        self.tableWidget.setItem(0, 4, __qtablewidgetitem53)
         __qtablewidgetitem54 = QTableWidgetItem()
-        self.tableWidget.setItem(0, 4, __qtablewidgetitem54)
+        self.tableWidget.setItem(1, 0, __qtablewidgetitem54)
         __qtablewidgetitem55 = QTableWidgetItem()
-        self.tableWidget.setItem(1, 0, __qtablewidgetitem55)
+        self.tableWidget.setItem(1, 1, __qtablewidgetitem55)
         __qtablewidgetitem56 = QTableWidgetItem()
-        self.tableWidget.setItem(1, 1, __qtablewidgetitem56)
+        self.tableWidget.setItem(1, 2, __qtablewidgetitem56)
         __qtablewidgetitem57 = QTableWidgetItem()
-        self.tableWidget.setItem(1, 2, __qtablewidgetitem57)
+        self.tableWidget.setItem(1, 3, __qtablewidgetitem57)
         __qtablewidgetitem58 = QTableWidgetItem()
-        self.tableWidget.setItem(1, 3, __qtablewidgetitem58)
-        __qtablewidgetitem59 = QTableWidgetItem()
-        self.tableWidget.setItem(1, 4, __qtablewidgetitem59)
+        self.tableWidget.setItem(1, 4, __qtablewidgetitem58)
         self.tableWidget.setObjectName(u"tableWidget")
         font25 = QFont()
         font25.setFamily(u"Roboto")
@@ -6428,37 +6517,37 @@ class Ui_Sistema(object):
         self.tableWidget_2 = QTableWidget(self.tab_entrada)
         if (self.tableWidget_2.columnCount() < 4):
             self.tableWidget_2.setColumnCount(4)
+        __qtablewidgetitem59 = QTableWidgetItem()
+        self.tableWidget_2.setHorizontalHeaderItem(0, __qtablewidgetitem59)
         __qtablewidgetitem60 = QTableWidgetItem()
-        self.tableWidget_2.setHorizontalHeaderItem(0, __qtablewidgetitem60)
+        self.tableWidget_2.setHorizontalHeaderItem(1, __qtablewidgetitem60)
         __qtablewidgetitem61 = QTableWidgetItem()
-        self.tableWidget_2.setHorizontalHeaderItem(1, __qtablewidgetitem61)
+        self.tableWidget_2.setHorizontalHeaderItem(2, __qtablewidgetitem61)
         __qtablewidgetitem62 = QTableWidgetItem()
-        self.tableWidget_2.setHorizontalHeaderItem(2, __qtablewidgetitem62)
-        __qtablewidgetitem63 = QTableWidgetItem()
-        self.tableWidget_2.setHorizontalHeaderItem(3, __qtablewidgetitem63)
+        self.tableWidget_2.setHorizontalHeaderItem(3, __qtablewidgetitem62)
         if (self.tableWidget_2.rowCount() < 2):
             self.tableWidget_2.setRowCount(2)
+        __qtablewidgetitem63 = QTableWidgetItem()
+        __qtablewidgetitem63.setTextAlignment(Qt.AlignCenter);
+        self.tableWidget_2.setVerticalHeaderItem(0, __qtablewidgetitem63)
         __qtablewidgetitem64 = QTableWidgetItem()
-        __qtablewidgetitem64.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget_2.setVerticalHeaderItem(0, __qtablewidgetitem64)
+        self.tableWidget_2.setVerticalHeaderItem(1, __qtablewidgetitem64)
         __qtablewidgetitem65 = QTableWidgetItem()
-        self.tableWidget_2.setVerticalHeaderItem(1, __qtablewidgetitem65)
+        self.tableWidget_2.setItem(0, 0, __qtablewidgetitem65)
         __qtablewidgetitem66 = QTableWidgetItem()
-        self.tableWidget_2.setItem(0, 0, __qtablewidgetitem66)
+        self.tableWidget_2.setItem(0, 1, __qtablewidgetitem66)
         __qtablewidgetitem67 = QTableWidgetItem()
-        self.tableWidget_2.setItem(0, 1, __qtablewidgetitem67)
+        self.tableWidget_2.setItem(0, 2, __qtablewidgetitem67)
         __qtablewidgetitem68 = QTableWidgetItem()
-        self.tableWidget_2.setItem(0, 2, __qtablewidgetitem68)
+        self.tableWidget_2.setItem(0, 3, __qtablewidgetitem68)
         __qtablewidgetitem69 = QTableWidgetItem()
-        self.tableWidget_2.setItem(0, 3, __qtablewidgetitem69)
+        self.tableWidget_2.setItem(1, 0, __qtablewidgetitem69)
         __qtablewidgetitem70 = QTableWidgetItem()
-        self.tableWidget_2.setItem(1, 0, __qtablewidgetitem70)
+        self.tableWidget_2.setItem(1, 1, __qtablewidgetitem70)
         __qtablewidgetitem71 = QTableWidgetItem()
-        self.tableWidget_2.setItem(1, 1, __qtablewidgetitem71)
+        self.tableWidget_2.setItem(1, 2, __qtablewidgetitem71)
         __qtablewidgetitem72 = QTableWidgetItem()
-        self.tableWidget_2.setItem(1, 2, __qtablewidgetitem72)
-        __qtablewidgetitem73 = QTableWidgetItem()
-        self.tableWidget_2.setItem(1, 3, __qtablewidgetitem73)
+        self.tableWidget_2.setItem(1, 3, __qtablewidgetitem72)
         self.tableWidget_2.setObjectName(u"tableWidget_2")
         self.tableWidget_2.setFont(font25)
         self.tableWidget_2.setStyleSheet(u"QTableWidget{\n"
@@ -6527,49 +6616,49 @@ class Ui_Sistema(object):
         self.tableWidget_3 = QTableWidget(self.tab_transferencia)
         if (self.tableWidget_3.columnCount() < 6):
             self.tableWidget_3.setColumnCount(6)
+        __qtablewidgetitem73 = QTableWidgetItem()
+        self.tableWidget_3.setHorizontalHeaderItem(0, __qtablewidgetitem73)
         __qtablewidgetitem74 = QTableWidgetItem()
-        self.tableWidget_3.setHorizontalHeaderItem(0, __qtablewidgetitem74)
+        self.tableWidget_3.setHorizontalHeaderItem(1, __qtablewidgetitem74)
         __qtablewidgetitem75 = QTableWidgetItem()
-        self.tableWidget_3.setHorizontalHeaderItem(1, __qtablewidgetitem75)
+        self.tableWidget_3.setHorizontalHeaderItem(2, __qtablewidgetitem75)
         __qtablewidgetitem76 = QTableWidgetItem()
-        self.tableWidget_3.setHorizontalHeaderItem(2, __qtablewidgetitem76)
+        self.tableWidget_3.setHorizontalHeaderItem(3, __qtablewidgetitem76)
         __qtablewidgetitem77 = QTableWidgetItem()
-        self.tableWidget_3.setHorizontalHeaderItem(3, __qtablewidgetitem77)
+        self.tableWidget_3.setHorizontalHeaderItem(4, __qtablewidgetitem77)
         __qtablewidgetitem78 = QTableWidgetItem()
-        self.tableWidget_3.setHorizontalHeaderItem(4, __qtablewidgetitem78)
-        __qtablewidgetitem79 = QTableWidgetItem()
-        self.tableWidget_3.setHorizontalHeaderItem(5, __qtablewidgetitem79)
+        self.tableWidget_3.setHorizontalHeaderItem(5, __qtablewidgetitem78)
         if (self.tableWidget_3.rowCount() < 2):
             self.tableWidget_3.setRowCount(2)
+        __qtablewidgetitem79 = QTableWidgetItem()
+        __qtablewidgetitem79.setTextAlignment(Qt.AlignCenter);
+        self.tableWidget_3.setVerticalHeaderItem(0, __qtablewidgetitem79)
         __qtablewidgetitem80 = QTableWidgetItem()
-        __qtablewidgetitem80.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget_3.setVerticalHeaderItem(0, __qtablewidgetitem80)
+        self.tableWidget_3.setVerticalHeaderItem(1, __qtablewidgetitem80)
         __qtablewidgetitem81 = QTableWidgetItem()
-        self.tableWidget_3.setVerticalHeaderItem(1, __qtablewidgetitem81)
+        self.tableWidget_3.setItem(0, 0, __qtablewidgetitem81)
         __qtablewidgetitem82 = QTableWidgetItem()
-        self.tableWidget_3.setItem(0, 0, __qtablewidgetitem82)
+        self.tableWidget_3.setItem(0, 1, __qtablewidgetitem82)
         __qtablewidgetitem83 = QTableWidgetItem()
-        self.tableWidget_3.setItem(0, 1, __qtablewidgetitem83)
+        self.tableWidget_3.setItem(0, 2, __qtablewidgetitem83)
         __qtablewidgetitem84 = QTableWidgetItem()
-        self.tableWidget_3.setItem(0, 2, __qtablewidgetitem84)
+        self.tableWidget_3.setItem(0, 3, __qtablewidgetitem84)
         __qtablewidgetitem85 = QTableWidgetItem()
-        self.tableWidget_3.setItem(0, 3, __qtablewidgetitem85)
+        self.tableWidget_3.setItem(0, 4, __qtablewidgetitem85)
         __qtablewidgetitem86 = QTableWidgetItem()
-        self.tableWidget_3.setItem(0, 4, __qtablewidgetitem86)
+        self.tableWidget_3.setItem(0, 5, __qtablewidgetitem86)
         __qtablewidgetitem87 = QTableWidgetItem()
-        self.tableWidget_3.setItem(0, 5, __qtablewidgetitem87)
+        self.tableWidget_3.setItem(1, 0, __qtablewidgetitem87)
         __qtablewidgetitem88 = QTableWidgetItem()
-        self.tableWidget_3.setItem(1, 0, __qtablewidgetitem88)
+        self.tableWidget_3.setItem(1, 1, __qtablewidgetitem88)
         __qtablewidgetitem89 = QTableWidgetItem()
-        self.tableWidget_3.setItem(1, 1, __qtablewidgetitem89)
+        self.tableWidget_3.setItem(1, 2, __qtablewidgetitem89)
         __qtablewidgetitem90 = QTableWidgetItem()
-        self.tableWidget_3.setItem(1, 2, __qtablewidgetitem90)
+        self.tableWidget_3.setItem(1, 3, __qtablewidgetitem90)
         __qtablewidgetitem91 = QTableWidgetItem()
-        self.tableWidget_3.setItem(1, 3, __qtablewidgetitem91)
+        self.tableWidget_3.setItem(1, 4, __qtablewidgetitem91)
         __qtablewidgetitem92 = QTableWidgetItem()
-        self.tableWidget_3.setItem(1, 4, __qtablewidgetitem92)
-        __qtablewidgetitem93 = QTableWidgetItem()
-        self.tableWidget_3.setItem(1, 5, __qtablewidgetitem93)
+        self.tableWidget_3.setItem(1, 5, __qtablewidgetitem92)
         self.tableWidget_3.setObjectName(u"tableWidget_3")
         self.tableWidget_3.setFont(font25)
         self.tableWidget_3.setStyleSheet(u"QTableWidget{\n"
@@ -8196,55 +8285,17 @@ class Ui_Sistema(object):
         self.label_40.setText("")
         self.label_8.setText(QCoreApplication.translate("Sistema", u"     Vendas", None))
         self.label_2.setText(QCoreApplication.translate("Sistema", u"     Gasolina", None))
-        self.cb_bomba.setItemText(0, "")
-
-        self.label_9.setText(QCoreApplication.translate("Sistema", u"     Bomba: ", None))
-        self.groupBox.setTitle(QCoreApplication.translate("Sistema", u"Anterior", None))
-        self.ln_digi_anterior.setText("")
-        self.label_15.setText(QCoreApplication.translate("Sistema", u"Digital: ", None))
-        self.label_14.setText(QCoreApplication.translate("Sistema", u"Anal\u00f3gico: ", None))
-        self.ln_ana_anterior.setText("")
-        self.groupBox_2.setTitle(QCoreApplication.translate("Sistema", u"Fechamento", None))
-        self.ln_ana_atual.setInputMask("")
-        self.ln_ana_atual.setText("")
-        self.label_18.setText(QCoreApplication.translate("Sistema", u"Digital: ", None))
-        self.ln_digi_atual.setText("")
-        self.label_19.setText(QCoreApplication.translate("Sistema", u"Anal\u00f3gico: ", None))
-        self.btn_cx_inserir.setText(QCoreApplication.translate("Sistema", u"Inserir", None))
-        self.groupBox_3.setTitle("")
-        self.ln_cx_pix.setInputMask("")
-        self.ln_cx_pix.setText("")
-        self.label_27.setText(QCoreApplication.translate("Sistema", u"Litros", None))
-        self.ln_cx_din.setInputMask("")
-        self.ln_cx_din.setText("")
-        self.ln_cx_resto_2.setText("")
-        self.ln_cx_cartao.setInputMask("")
-        self.ln_cx_cartao.setText("")
-        self.ln_cx_valor.setText("")
-        self.label_29.setText(QCoreApplication.translate("Sistema", u"Resto", None))
-        self.label_30.setText(QCoreApplication.translate("Sistema", u"Dinheiro", None))
-        self.label_47.setText(QCoreApplication.translate("Sistema", u"Pix", None))
-        self.ln_cx_resto.setText("")
-        self.label_28.setText(QCoreApplication.translate("Sistema", u"R$", None))
-        self.label_51.setText(QCoreApplication.translate("Sistema", u"Cart\u00e3o", None))
-        self.ln_cx_litros.setText("")
-        self.label_52.setText(QCoreApplication.translate("Sistema", u"Total", None))
-        self.label_54.setText(QCoreApplication.translate("Sistema", u"Vendas", None))
-        self.ln_cx_vendas.setInputMask("")
-        self.ln_cx_vendas.setText(QCoreApplication.translate("Sistema", u"0.00", None))
         self.btn_cx_fechar.setText(QCoreApplication.translate("Sistema", u"Fechar", None))
         ___qtablewidgetitem21 = self.cb_cx_ven_tab.horizontalHeaderItem(0)
-        ___qtablewidgetitem21.setText(QCoreApplication.translate("Sistema", u"Codigo", None));
+        ___qtablewidgetitem21.setText(QCoreApplication.translate("Sistema", u"Produto", None));
         ___qtablewidgetitem22 = self.cb_cx_ven_tab.horizontalHeaderItem(1)
-        ___qtablewidgetitem22.setText(QCoreApplication.translate("Sistema", u"Descri\u00e7\u00e3o", None));
+        ___qtablewidgetitem22.setText(QCoreApplication.translate("Sistema", u"Uni", None));
         ___qtablewidgetitem23 = self.cb_cx_ven_tab.horizontalHeaderItem(2)
-        ___qtablewidgetitem23.setText(QCoreApplication.translate("Sistema", u"Uni", None));
+        ___qtablewidgetitem23.setText(QCoreApplication.translate("Sistema", u"Quantidade", None));
         ___qtablewidgetitem24 = self.cb_cx_ven_tab.horizontalHeaderItem(3)
-        ___qtablewidgetitem24.setText(QCoreApplication.translate("Sistema", u"Quantidade", None));
+        ___qtablewidgetitem24.setText(QCoreApplication.translate("Sistema", u"Valor Uni", None));
         ___qtablewidgetitem25 = self.cb_cx_ven_tab.horizontalHeaderItem(4)
-        ___qtablewidgetitem25.setText(QCoreApplication.translate("Sistema", u"Valor Uni", None));
-        ___qtablewidgetitem26 = self.cb_cx_ven_tab.horizontalHeaderItem(5)
-        ___qtablewidgetitem26.setText(QCoreApplication.translate("Sistema", u"Subtotal", None));
+        ___qtablewidgetitem25.setText(QCoreApplication.translate("Sistema", u"Subtotal", None));
         self.label_38.setText("")
         self.label_39.setText("")
         self.cb_cx_ven_adc.setText(QCoreApplication.translate("Sistema", u"Adicionar", None))
@@ -8262,6 +8313,52 @@ class Ui_Sistema(object):
         self.cb_cx_ven_total.setText("")
         self.label_181.setText(QCoreApplication.translate("Sistema", u"Total:     ", None))
         self.cb_cx_ven_inserir.setText(QCoreApplication.translate("Sistema", u"Deletar", None))
+        self.cb_bomba.setItemText(0, "")
+
+        self.groupBox.setTitle(QCoreApplication.translate("Sistema", u"Anterior", None))
+        self.ln_digi_anterior.setText("")
+        self.label_15.setText(QCoreApplication.translate("Sistema", u"Digital: ", None))
+        self.label_14.setText(QCoreApplication.translate("Sistema", u"Anal\u00f3gico: ", None))
+        self.ln_ana_anterior.setText("")
+        self.label_9.setText(QCoreApplication.translate("Sistema", u"     Bomba: ", None))
+        self.btn_cx_inserir.setText(QCoreApplication.translate("Sistema", u"Inserir", None))
+        self.groupBox_2.setTitle(QCoreApplication.translate("Sistema", u"Fechamento", None))
+        self.ln_ana_atual.setInputMask("")
+        self.ln_ana_atual.setText("")
+        self.label_18.setText(QCoreApplication.translate("Sistema", u"Digital: ", None))
+        self.ln_digi_atual.setText("")
+        self.label_19.setText(QCoreApplication.translate("Sistema", u"Anal\u00f3gico: ", None))
+        self.groupBox_3.setTitle("")
+        self.label_47.setText(QCoreApplication.translate("Sistema", u"Pix", None))
+        self.ln_cx_pix.setInputMask("")
+        self.ln_cx_pix.setText("")
+        self.ln_cx_litros.setText("")
+        self.label_51.setText(QCoreApplication.translate("Sistema", u"Cart\u00e3o", None))
+        self.label_52.setText(QCoreApplication.translate("Sistema", u"Total", None))
+        self.label_27.setText(QCoreApplication.translate("Sistema", u"Litros", None))
+        self.ln_cx_valor.setText("")
+        self.ln_cx_cartao.setInputMask("")
+        self.ln_cx_cartao.setText("")
+        self.label_30.setText(QCoreApplication.translate("Sistema", u"Dinheiro", None))
+        self.label_28.setText(QCoreApplication.translate("Sistema", u"R$", None))
+        self.ln_cx_resto.setText("")
+        self.ln_cx_resto_2.setText("")
+        self.label_29.setText(QCoreApplication.translate("Sistema", u"Resto", None))
+        self.ln_cx_din.setInputMask("")
+        self.ln_cx_din.setText("")
+        self.groupBox_7.setTitle("")
+        self.ln_cx_vendas_din.setInputMask("")
+        self.ln_cx_vendas_din.setText("")
+        self.ln_cx_vendas.setInputMask("")
+        self.ln_cx_vendas.setText("")
+        self.label_183.setText(QCoreApplication.translate("Sistema", u"Vendas Cart\u00e3o", None))
+        self.label_54.setText(QCoreApplication.translate("Sistema", u"Vendas", None))
+        self.ln_cx_vendas_cart.setInputMask("")
+        self.ln_cx_vendas_cart.setText("")
+        self.label_182.setText(QCoreApplication.translate("Sistema", u"Vendas Dinheiro", None))
+        self.label_184.setText(QCoreApplication.translate("Sistema", u"Total", None))
+        self.ln_cx_vendas_total.setInputMask("")
+        self.ln_cx_vendas_total.setText("")
         self.cons_lb_3.setText(QCoreApplication.translate("Sistema", u"     Configura\u00e7\u00f5es", None))
         self.cons_lb_nav_2.setText("")
         self.config_comb_btn.setText(QCoreApplication.translate("Sistema", u"Combustivel", None))
@@ -8385,24 +8482,24 @@ class Ui_Sistema(object):
         self.est_const_btn_pesquisar.setText(QCoreApplication.translate("Sistema", u"Pesquisar", None))
         self.est_const_btn_editar.setText(QCoreApplication.translate("Sistema", u"Editar", None))
         self.est_const_btn_deletar.setText(QCoreApplication.translate("Sistema", u"Deletar", None))
-        ___qtablewidgetitem27 = self.est_consult_tab.horizontalHeaderItem(0)
-        ___qtablewidgetitem27.setText(QCoreApplication.translate("Sistema", u"Cod.", None));
-        ___qtablewidgetitem28 = self.est_consult_tab.horizontalHeaderItem(1)
-        ___qtablewidgetitem28.setText(QCoreApplication.translate("Sistema", u"Tipo", None));
-        ___qtablewidgetitem29 = self.est_consult_tab.horizontalHeaderItem(2)
-        ___qtablewidgetitem29.setText(QCoreApplication.translate("Sistema", u"Marca", None));
-        ___qtablewidgetitem30 = self.est_consult_tab.horizontalHeaderItem(3)
-        ___qtablewidgetitem30.setText(QCoreApplication.translate("Sistema", u"Produto", None));
-        ___qtablewidgetitem31 = self.est_consult_tab.horizontalHeaderItem(4)
-        ___qtablewidgetitem31.setText(QCoreApplication.translate("Sistema", u"Uni.", None));
-        ___qtablewidgetitem32 = self.est_consult_tab.horizontalHeaderItem(5)
-        ___qtablewidgetitem32.setText(QCoreApplication.translate("Sistema", u"Qnt.", None));
-        ___qtablewidgetitem33 = self.est_consult_tab.horizontalHeaderItem(6)
-        ___qtablewidgetitem33.setText(QCoreApplication.translate("Sistema", u"Cod. Barras", None));
-        ___qtablewidgetitem34 = self.est_consult_tab.horizontalHeaderItem(7)
-        ___qtablewidgetitem34.setText(QCoreApplication.translate("Sistema", u"Valor Compra", None));
-        ___qtablewidgetitem35 = self.est_consult_tab.horizontalHeaderItem(8)
-        ___qtablewidgetitem35.setText(QCoreApplication.translate("Sistema", u"Valor Venda", None));
+        ___qtablewidgetitem26 = self.est_consult_tab.horizontalHeaderItem(0)
+        ___qtablewidgetitem26.setText(QCoreApplication.translate("Sistema", u"Cod.", None));
+        ___qtablewidgetitem27 = self.est_consult_tab.horizontalHeaderItem(1)
+        ___qtablewidgetitem27.setText(QCoreApplication.translate("Sistema", u"Tipo", None));
+        ___qtablewidgetitem28 = self.est_consult_tab.horizontalHeaderItem(2)
+        ___qtablewidgetitem28.setText(QCoreApplication.translate("Sistema", u"Marca", None));
+        ___qtablewidgetitem29 = self.est_consult_tab.horizontalHeaderItem(3)
+        ___qtablewidgetitem29.setText(QCoreApplication.translate("Sistema", u"Produto", None));
+        ___qtablewidgetitem30 = self.est_consult_tab.horizontalHeaderItem(4)
+        ___qtablewidgetitem30.setText(QCoreApplication.translate("Sistema", u"Uni.", None));
+        ___qtablewidgetitem31 = self.est_consult_tab.horizontalHeaderItem(5)
+        ___qtablewidgetitem31.setText(QCoreApplication.translate("Sistema", u"Qnt.", None));
+        ___qtablewidgetitem32 = self.est_consult_tab.horizontalHeaderItem(6)
+        ___qtablewidgetitem32.setText(QCoreApplication.translate("Sistema", u"Cod. Barras", None));
+        ___qtablewidgetitem33 = self.est_consult_tab.horizontalHeaderItem(7)
+        ___qtablewidgetitem33.setText(QCoreApplication.translate("Sistema", u"Valor Compra", None));
+        ___qtablewidgetitem34 = self.est_consult_tab.horizontalHeaderItem(8)
+        ___qtablewidgetitem34.setText(QCoreApplication.translate("Sistema", u"Valor Venda", None));
         self.label_25.setText(QCoreApplication.translate("Sistema", u"Editar Dados", None))
         self.est_edt_ln_qnt.setText("")
         self.label_60.setText(QCoreApplication.translate("Sistema", u"Marca:", None))
@@ -8431,20 +8528,20 @@ class Ui_Sistema(object):
         self.est_edt_cb_unidade.setItemText(3, QCoreApplication.translate("Sistema", u"CX", None))
         self.est_edt_cb_unidade.setItemText(4, QCoreApplication.translate("Sistema", u"LT", None))
 
-        ___qtablewidgetitem36 = self.vend_tb.horizontalHeaderItem(0)
-        ___qtablewidgetitem36.setText(QCoreApplication.translate("Sistema", u"    Item    ", None));
-        ___qtablewidgetitem37 = self.vend_tb.horizontalHeaderItem(1)
-        ___qtablewidgetitem37.setText(QCoreApplication.translate("Sistema", u"    C\u00f3digo    ", None));
-        ___qtablewidgetitem38 = self.vend_tb.horizontalHeaderItem(2)
-        ___qtablewidgetitem38.setText(QCoreApplication.translate("Sistema", u"Descri\u00e7\u00e3o do Produto", None));
-        ___qtablewidgetitem39 = self.vend_tb.horizontalHeaderItem(3)
-        ___qtablewidgetitem39.setText(QCoreApplication.translate("Sistema", u"Uni.", None));
-        ___qtablewidgetitem40 = self.vend_tb.horizontalHeaderItem(4)
-        ___qtablewidgetitem40.setText(QCoreApplication.translate("Sistema", u"    Quantidade    ", None));
-        ___qtablewidgetitem41 = self.vend_tb.horizontalHeaderItem(5)
-        ___qtablewidgetitem41.setText(QCoreApplication.translate("Sistema", u"    Valor Unit\u00e1rio    ", None));
-        ___qtablewidgetitem42 = self.vend_tb.horizontalHeaderItem(6)
-        ___qtablewidgetitem42.setText(QCoreApplication.translate("Sistema", u"    Subtotal    ", None));
+        ___qtablewidgetitem35 = self.vend_tb.horizontalHeaderItem(0)
+        ___qtablewidgetitem35.setText(QCoreApplication.translate("Sistema", u"    Item    ", None));
+        ___qtablewidgetitem36 = self.vend_tb.horizontalHeaderItem(1)
+        ___qtablewidgetitem36.setText(QCoreApplication.translate("Sistema", u"    C\u00f3digo    ", None));
+        ___qtablewidgetitem37 = self.vend_tb.horizontalHeaderItem(2)
+        ___qtablewidgetitem37.setText(QCoreApplication.translate("Sistema", u"Descri\u00e7\u00e3o do Produto", None));
+        ___qtablewidgetitem38 = self.vend_tb.horizontalHeaderItem(3)
+        ___qtablewidgetitem38.setText(QCoreApplication.translate("Sistema", u"Uni.", None));
+        ___qtablewidgetitem39 = self.vend_tb.horizontalHeaderItem(4)
+        ___qtablewidgetitem39.setText(QCoreApplication.translate("Sistema", u"    Quantidade    ", None));
+        ___qtablewidgetitem40 = self.vend_tb.horizontalHeaderItem(5)
+        ___qtablewidgetitem40.setText(QCoreApplication.translate("Sistema", u"    Valor Unit\u00e1rio    ", None));
+        ___qtablewidgetitem41 = self.vend_tb.horizontalHeaderItem(6)
+        ___qtablewidgetitem41.setText(QCoreApplication.translate("Sistema", u"    Subtotal    ", None));
         self.vend_btn_finalizar.setText(QCoreApplication.translate("Sistema", u"Finalizar", None))
         self.vend_btn_cancelar.setText(QCoreApplication.translate("Sistema", u"Deletar", None))
         self.label_46.setText("")
@@ -8564,123 +8661,123 @@ class Ui_Sistema(object):
 
         self.label_137.setText(QCoreApplication.translate("Sistema", u"\u00e0", None))
         self.pushButton_17.setText("")
-        ___qtablewidgetitem43 = self.tableWidget.horizontalHeaderItem(0)
-        ___qtablewidgetitem43.setText(QCoreApplication.translate("Sistema", u"VENCIMENTO", None));
-        ___qtablewidgetitem44 = self.tableWidget.horizontalHeaderItem(1)
-        ___qtablewidgetitem44.setText(QCoreApplication.translate("Sistema", u"TIPO", None));
-        ___qtablewidgetitem45 = self.tableWidget.horizontalHeaderItem(2)
-        ___qtablewidgetitem45.setText(QCoreApplication.translate("Sistema", u"VALOR", None));
-        ___qtablewidgetitem46 = self.tableWidget.horizontalHeaderItem(3)
-        ___qtablewidgetitem46.setText(QCoreApplication.translate("Sistema", u"CONTA", None));
-        ___qtablewidgetitem47 = self.tableWidget.horizontalHeaderItem(4)
-        ___qtablewidgetitem47.setText(QCoreApplication.translate("Sistema", u"DESCRI\u00c7\u00c3O", None));
-        ___qtablewidgetitem48 = self.tableWidget.verticalHeaderItem(0)
+        ___qtablewidgetitem42 = self.tableWidget.horizontalHeaderItem(0)
+        ___qtablewidgetitem42.setText(QCoreApplication.translate("Sistema", u"VENCIMENTO", None));
+        ___qtablewidgetitem43 = self.tableWidget.horizontalHeaderItem(1)
+        ___qtablewidgetitem43.setText(QCoreApplication.translate("Sistema", u"TIPO", None));
+        ___qtablewidgetitem44 = self.tableWidget.horizontalHeaderItem(2)
+        ___qtablewidgetitem44.setText(QCoreApplication.translate("Sistema", u"VALOR", None));
+        ___qtablewidgetitem45 = self.tableWidget.horizontalHeaderItem(3)
+        ___qtablewidgetitem45.setText(QCoreApplication.translate("Sistema", u"CONTA", None));
+        ___qtablewidgetitem46 = self.tableWidget.horizontalHeaderItem(4)
+        ___qtablewidgetitem46.setText(QCoreApplication.translate("Sistema", u"DESCRI\u00c7\u00c3O", None));
+        ___qtablewidgetitem47 = self.tableWidget.verticalHeaderItem(0)
+        ___qtablewidgetitem47.setText(QCoreApplication.translate("Sistema", u"New Row", None));
+        ___qtablewidgetitem48 = self.tableWidget.verticalHeaderItem(1)
         ___qtablewidgetitem48.setText(QCoreApplication.translate("Sistema", u"New Row", None));
-        ___qtablewidgetitem49 = self.tableWidget.verticalHeaderItem(1)
-        ___qtablewidgetitem49.setText(QCoreApplication.translate("Sistema", u"New Row", None));
 
         __sortingEnabled = self.tableWidget.isSortingEnabled()
         self.tableWidget.setSortingEnabled(False)
-        ___qtablewidgetitem50 = self.tableWidget.item(0, 0)
-        ___qtablewidgetitem50.setText(QCoreApplication.translate("Sistema", u"10/12/2021", None));
-        ___qtablewidgetitem51 = self.tableWidget.item(0, 1)
-        ___qtablewidgetitem51.setText(QCoreApplication.translate("Sistema", u"Combustivel", None));
-        ___qtablewidgetitem52 = self.tableWidget.item(0, 2)
-        ___qtablewidgetitem52.setText(QCoreApplication.translate("Sistema", u"R$ 10000,00", None));
-        ___qtablewidgetitem53 = self.tableWidget.item(0, 3)
-        ___qtablewidgetitem53.setText(QCoreApplication.translate("Sistema", u"Conta Inter", None));
-        ___qtablewidgetitem54 = self.tableWidget.item(0, 4)
-        ___qtablewidgetitem54.setText(QCoreApplication.translate("Sistema", u"BOLETO COMPRA GASOLINA", None));
-        ___qtablewidgetitem55 = self.tableWidget.item(1, 0)
-        ___qtablewidgetitem55.setText(QCoreApplication.translate("Sistema", u"13/12/2021", None));
-        ___qtablewidgetitem56 = self.tableWidget.item(1, 1)
-        ___qtablewidgetitem56.setText(QCoreApplication.translate("Sistema", u"Sal\u00e1rio", None));
-        ___qtablewidgetitem57 = self.tableWidget.item(1, 2)
-        ___qtablewidgetitem57.setText(QCoreApplication.translate("Sistema", u"R$ 1200,00", None));
-        ___qtablewidgetitem58 = self.tableWidget.item(1, 3)
-        ___qtablewidgetitem58.setText(QCoreApplication.translate("Sistema", u"Conta Inter", None));
-        ___qtablewidgetitem59 = self.tableWidget.item(1, 4)
-        ___qtablewidgetitem59.setText(QCoreApplication.translate("Sistema", u"PAGAMENTO SAL\u00c1RIO JOAQUIM REFERENTE AO M\u00caS DE NOVEMBRO", None));
+        ___qtablewidgetitem49 = self.tableWidget.item(0, 0)
+        ___qtablewidgetitem49.setText(QCoreApplication.translate("Sistema", u"10/12/2021", None));
+        ___qtablewidgetitem50 = self.tableWidget.item(0, 1)
+        ___qtablewidgetitem50.setText(QCoreApplication.translate("Sistema", u"Combustivel", None));
+        ___qtablewidgetitem51 = self.tableWidget.item(0, 2)
+        ___qtablewidgetitem51.setText(QCoreApplication.translate("Sistema", u"R$ 10000,00", None));
+        ___qtablewidgetitem52 = self.tableWidget.item(0, 3)
+        ___qtablewidgetitem52.setText(QCoreApplication.translate("Sistema", u"Conta Inter", None));
+        ___qtablewidgetitem53 = self.tableWidget.item(0, 4)
+        ___qtablewidgetitem53.setText(QCoreApplication.translate("Sistema", u"BOLETO COMPRA GASOLINA", None));
+        ___qtablewidgetitem54 = self.tableWidget.item(1, 0)
+        ___qtablewidgetitem54.setText(QCoreApplication.translate("Sistema", u"13/12/2021", None));
+        ___qtablewidgetitem55 = self.tableWidget.item(1, 1)
+        ___qtablewidgetitem55.setText(QCoreApplication.translate("Sistema", u"Sal\u00e1rio", None));
+        ___qtablewidgetitem56 = self.tableWidget.item(1, 2)
+        ___qtablewidgetitem56.setText(QCoreApplication.translate("Sistema", u"R$ 1200,00", None));
+        ___qtablewidgetitem57 = self.tableWidget.item(1, 3)
+        ___qtablewidgetitem57.setText(QCoreApplication.translate("Sistema", u"Conta Inter", None));
+        ___qtablewidgetitem58 = self.tableWidget.item(1, 4)
+        ___qtablewidgetitem58.setText(QCoreApplication.translate("Sistema", u"PAGAMENTO SAL\u00c1RIO JOAQUIM REFERENTE AO M\u00caS DE NOVEMBRO", None));
         self.tableWidget.setSortingEnabled(__sortingEnabled)
 
-        ___qtablewidgetitem60 = self.tableWidget_2.horizontalHeaderItem(0)
-        ___qtablewidgetitem60.setText(QCoreApplication.translate("Sistema", u"DATA", None));
-        ___qtablewidgetitem61 = self.tableWidget_2.horizontalHeaderItem(1)
-        ___qtablewidgetitem61.setText(QCoreApplication.translate("Sistema", u"VALOR", None));
-        ___qtablewidgetitem62 = self.tableWidget_2.horizontalHeaderItem(2)
-        ___qtablewidgetitem62.setText(QCoreApplication.translate("Sistema", u"CONTA", None));
-        ___qtablewidgetitem63 = self.tableWidget_2.horizontalHeaderItem(3)
-        ___qtablewidgetitem63.setText(QCoreApplication.translate("Sistema", u"DESCRI\u00c7\u00c3O", None));
-        ___qtablewidgetitem64 = self.tableWidget_2.verticalHeaderItem(0)
+        ___qtablewidgetitem59 = self.tableWidget_2.horizontalHeaderItem(0)
+        ___qtablewidgetitem59.setText(QCoreApplication.translate("Sistema", u"DATA", None));
+        ___qtablewidgetitem60 = self.tableWidget_2.horizontalHeaderItem(1)
+        ___qtablewidgetitem60.setText(QCoreApplication.translate("Sistema", u"VALOR", None));
+        ___qtablewidgetitem61 = self.tableWidget_2.horizontalHeaderItem(2)
+        ___qtablewidgetitem61.setText(QCoreApplication.translate("Sistema", u"CONTA", None));
+        ___qtablewidgetitem62 = self.tableWidget_2.horizontalHeaderItem(3)
+        ___qtablewidgetitem62.setText(QCoreApplication.translate("Sistema", u"DESCRI\u00c7\u00c3O", None));
+        ___qtablewidgetitem63 = self.tableWidget_2.verticalHeaderItem(0)
+        ___qtablewidgetitem63.setText(QCoreApplication.translate("Sistema", u"New Row", None));
+        ___qtablewidgetitem64 = self.tableWidget_2.verticalHeaderItem(1)
         ___qtablewidgetitem64.setText(QCoreApplication.translate("Sistema", u"New Row", None));
-        ___qtablewidgetitem65 = self.tableWidget_2.verticalHeaderItem(1)
-        ___qtablewidgetitem65.setText(QCoreApplication.translate("Sistema", u"New Row", None));
 
         __sortingEnabled1 = self.tableWidget_2.isSortingEnabled()
         self.tableWidget_2.setSortingEnabled(False)
-        ___qtablewidgetitem66 = self.tableWidget_2.item(0, 0)
-        ___qtablewidgetitem66.setText(QCoreApplication.translate("Sistema", u"10/12/2021", None));
-        ___qtablewidgetitem67 = self.tableWidget_2.item(0, 1)
-        ___qtablewidgetitem67.setText(QCoreApplication.translate("Sistema", u"R$ 10000,00", None));
-        ___qtablewidgetitem68 = self.tableWidget_2.item(0, 2)
-        ___qtablewidgetitem68.setText(QCoreApplication.translate("Sistema", u"Conta Inter", None));
-        ___qtablewidgetitem69 = self.tableWidget_2.item(0, 3)
-        ___qtablewidgetitem69.setText(QCoreApplication.translate("Sistema", u"Combustivel", None));
-        ___qtablewidgetitem70 = self.tableWidget_2.item(1, 0)
-        ___qtablewidgetitem70.setText(QCoreApplication.translate("Sistema", u"13/12/2021", None));
-        ___qtablewidgetitem71 = self.tableWidget_2.item(1, 1)
-        ___qtablewidgetitem71.setText(QCoreApplication.translate("Sistema", u"R$ 1200,00", None));
-        ___qtablewidgetitem72 = self.tableWidget_2.item(1, 2)
-        ___qtablewidgetitem72.setText(QCoreApplication.translate("Sistema", u"Conta Inter", None));
-        ___qtablewidgetitem73 = self.tableWidget_2.item(1, 3)
-        ___qtablewidgetitem73.setText(QCoreApplication.translate("Sistema", u"Sal\u00e1rio", None));
+        ___qtablewidgetitem65 = self.tableWidget_2.item(0, 0)
+        ___qtablewidgetitem65.setText(QCoreApplication.translate("Sistema", u"10/12/2021", None));
+        ___qtablewidgetitem66 = self.tableWidget_2.item(0, 1)
+        ___qtablewidgetitem66.setText(QCoreApplication.translate("Sistema", u"R$ 10000,00", None));
+        ___qtablewidgetitem67 = self.tableWidget_2.item(0, 2)
+        ___qtablewidgetitem67.setText(QCoreApplication.translate("Sistema", u"Conta Inter", None));
+        ___qtablewidgetitem68 = self.tableWidget_2.item(0, 3)
+        ___qtablewidgetitem68.setText(QCoreApplication.translate("Sistema", u"Combustivel", None));
+        ___qtablewidgetitem69 = self.tableWidget_2.item(1, 0)
+        ___qtablewidgetitem69.setText(QCoreApplication.translate("Sistema", u"13/12/2021", None));
+        ___qtablewidgetitem70 = self.tableWidget_2.item(1, 1)
+        ___qtablewidgetitem70.setText(QCoreApplication.translate("Sistema", u"R$ 1200,00", None));
+        ___qtablewidgetitem71 = self.tableWidget_2.item(1, 2)
+        ___qtablewidgetitem71.setText(QCoreApplication.translate("Sistema", u"Conta Inter", None));
+        ___qtablewidgetitem72 = self.tableWidget_2.item(1, 3)
+        ___qtablewidgetitem72.setText(QCoreApplication.translate("Sistema", u"Sal\u00e1rio", None));
         self.tableWidget_2.setSortingEnabled(__sortingEnabled1)
 
         self.label_174.setText(QCoreApplication.translate("Sistema", u"TOTAL:     ", None))
         self.label_139.setText("")
-        ___qtablewidgetitem74 = self.tableWidget_3.horizontalHeaderItem(0)
-        ___qtablewidgetitem74.setText(QCoreApplication.translate("Sistema", u"DATA", None));
-        ___qtablewidgetitem75 = self.tableWidget_3.horizontalHeaderItem(1)
-        ___qtablewidgetitem75.setText(QCoreApplication.translate("Sistema", u"STATUS", None));
-        ___qtablewidgetitem76 = self.tableWidget_3.horizontalHeaderItem(2)
-        ___qtablewidgetitem76.setText(QCoreApplication.translate("Sistema", u"DE", None));
-        ___qtablewidgetitem77 = self.tableWidget_3.horizontalHeaderItem(3)
-        ___qtablewidgetitem77.setText(QCoreApplication.translate("Sistema", u"PARA", None));
-        ___qtablewidgetitem78 = self.tableWidget_3.horizontalHeaderItem(4)
-        ___qtablewidgetitem78.setText(QCoreApplication.translate("Sistema", u"VALOR", None));
-        ___qtablewidgetitem79 = self.tableWidget_3.horizontalHeaderItem(5)
-        ___qtablewidgetitem79.setText(QCoreApplication.translate("Sistema", u"DESCRI\u00c7\u00c3O", None));
-        ___qtablewidgetitem80 = self.tableWidget_3.verticalHeaderItem(0)
+        ___qtablewidgetitem73 = self.tableWidget_3.horizontalHeaderItem(0)
+        ___qtablewidgetitem73.setText(QCoreApplication.translate("Sistema", u"DATA", None));
+        ___qtablewidgetitem74 = self.tableWidget_3.horizontalHeaderItem(1)
+        ___qtablewidgetitem74.setText(QCoreApplication.translate("Sistema", u"STATUS", None));
+        ___qtablewidgetitem75 = self.tableWidget_3.horizontalHeaderItem(2)
+        ___qtablewidgetitem75.setText(QCoreApplication.translate("Sistema", u"DE", None));
+        ___qtablewidgetitem76 = self.tableWidget_3.horizontalHeaderItem(3)
+        ___qtablewidgetitem76.setText(QCoreApplication.translate("Sistema", u"PARA", None));
+        ___qtablewidgetitem77 = self.tableWidget_3.horizontalHeaderItem(4)
+        ___qtablewidgetitem77.setText(QCoreApplication.translate("Sistema", u"VALOR", None));
+        ___qtablewidgetitem78 = self.tableWidget_3.horizontalHeaderItem(5)
+        ___qtablewidgetitem78.setText(QCoreApplication.translate("Sistema", u"DESCRI\u00c7\u00c3O", None));
+        ___qtablewidgetitem79 = self.tableWidget_3.verticalHeaderItem(0)
+        ___qtablewidgetitem79.setText(QCoreApplication.translate("Sistema", u"New Row", None));
+        ___qtablewidgetitem80 = self.tableWidget_3.verticalHeaderItem(1)
         ___qtablewidgetitem80.setText(QCoreApplication.translate("Sistema", u"New Row", None));
-        ___qtablewidgetitem81 = self.tableWidget_3.verticalHeaderItem(1)
-        ___qtablewidgetitem81.setText(QCoreApplication.translate("Sistema", u"New Row", None));
 
         __sortingEnabled2 = self.tableWidget_3.isSortingEnabled()
         self.tableWidget_3.setSortingEnabled(False)
-        ___qtablewidgetitem82 = self.tableWidget_3.item(0, 0)
-        ___qtablewidgetitem82.setText(QCoreApplication.translate("Sistema", u"10/12/2021", None));
-        ___qtablewidgetitem83 = self.tableWidget_3.item(0, 1)
-        ___qtablewidgetitem83.setText(QCoreApplication.translate("Sistema", u"pago", None));
-        ___qtablewidgetitem84 = self.tableWidget_3.item(0, 2)
-        ___qtablewidgetitem84.setText(QCoreApplication.translate("Sistema", u"Combustivel", None));
-        ___qtablewidgetitem85 = self.tableWidget_3.item(0, 3)
-        ___qtablewidgetitem85.setText(QCoreApplication.translate("Sistema", u"R$ 10000,00", None));
-        ___qtablewidgetitem86 = self.tableWidget_3.item(0, 4)
-        ___qtablewidgetitem86.setText(QCoreApplication.translate("Sistema", u"Conta Inter", None));
-        ___qtablewidgetitem87 = self.tableWidget_3.item(0, 5)
-        ___qtablewidgetitem87.setText(QCoreApplication.translate("Sistema", u"BOLETO COMPRA GASOLINA", None));
-        ___qtablewidgetitem88 = self.tableWidget_3.item(1, 0)
-        ___qtablewidgetitem88.setText(QCoreApplication.translate("Sistema", u"13/12/2021", None));
-        ___qtablewidgetitem89 = self.tableWidget_3.item(1, 1)
-        ___qtablewidgetitem89.setText(QCoreApplication.translate("Sistema", u"em aberto", None));
-        ___qtablewidgetitem90 = self.tableWidget_3.item(1, 2)
-        ___qtablewidgetitem90.setText(QCoreApplication.translate("Sistema", u"Sal\u00e1rio", None));
-        ___qtablewidgetitem91 = self.tableWidget_3.item(1, 3)
-        ___qtablewidgetitem91.setText(QCoreApplication.translate("Sistema", u"R$ 1200,00", None));
-        ___qtablewidgetitem92 = self.tableWidget_3.item(1, 4)
-        ___qtablewidgetitem92.setText(QCoreApplication.translate("Sistema", u"Conta Inter", None));
-        ___qtablewidgetitem93 = self.tableWidget_3.item(1, 5)
-        ___qtablewidgetitem93.setText(QCoreApplication.translate("Sistema", u"PAGAMENTO SAL\u00c1RIO JOAQUIM REFERENTE AO M\u00caS DE NOVEMBRO", None));
+        ___qtablewidgetitem81 = self.tableWidget_3.item(0, 0)
+        ___qtablewidgetitem81.setText(QCoreApplication.translate("Sistema", u"10/12/2021", None));
+        ___qtablewidgetitem82 = self.tableWidget_3.item(0, 1)
+        ___qtablewidgetitem82.setText(QCoreApplication.translate("Sistema", u"pago", None));
+        ___qtablewidgetitem83 = self.tableWidget_3.item(0, 2)
+        ___qtablewidgetitem83.setText(QCoreApplication.translate("Sistema", u"Combustivel", None));
+        ___qtablewidgetitem84 = self.tableWidget_3.item(0, 3)
+        ___qtablewidgetitem84.setText(QCoreApplication.translate("Sistema", u"R$ 10000,00", None));
+        ___qtablewidgetitem85 = self.tableWidget_3.item(0, 4)
+        ___qtablewidgetitem85.setText(QCoreApplication.translate("Sistema", u"Conta Inter", None));
+        ___qtablewidgetitem86 = self.tableWidget_3.item(0, 5)
+        ___qtablewidgetitem86.setText(QCoreApplication.translate("Sistema", u"BOLETO COMPRA GASOLINA", None));
+        ___qtablewidgetitem87 = self.tableWidget_3.item(1, 0)
+        ___qtablewidgetitem87.setText(QCoreApplication.translate("Sistema", u"13/12/2021", None));
+        ___qtablewidgetitem88 = self.tableWidget_3.item(1, 1)
+        ___qtablewidgetitem88.setText(QCoreApplication.translate("Sistema", u"em aberto", None));
+        ___qtablewidgetitem89 = self.tableWidget_3.item(1, 2)
+        ___qtablewidgetitem89.setText(QCoreApplication.translate("Sistema", u"Sal\u00e1rio", None));
+        ___qtablewidgetitem90 = self.tableWidget_3.item(1, 3)
+        ___qtablewidgetitem90.setText(QCoreApplication.translate("Sistema", u"R$ 1200,00", None));
+        ___qtablewidgetitem91 = self.tableWidget_3.item(1, 4)
+        ___qtablewidgetitem91.setText(QCoreApplication.translate("Sistema", u"Conta Inter", None));
+        ___qtablewidgetitem92 = self.tableWidget_3.item(1, 5)
+        ___qtablewidgetitem92.setText(QCoreApplication.translate("Sistema", u"PAGAMENTO SAL\u00c1RIO JOAQUIM REFERENTE AO M\u00caS DE NOVEMBRO", None));
         self.tableWidget_3.setSortingEnabled(__sortingEnabled2)
 
         self.label_168.setText(QCoreApplication.translate("Sistema", u"MOVIMENTA\u00c7\u00c3O:     ", None))

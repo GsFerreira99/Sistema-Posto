@@ -69,3 +69,18 @@ class Vendas(Ui_Sistema):
             self.ui.vend_tb.removeRow(row)
             self.lista_produtos.pop(row)
             self.ui.vend_ln_total.setText(self.atualizar_total())
+
+    def produto(self, produto):
+        produto = self.ui.db.select_generico(f"SELECT codigo, produto, unidade, cod_barras, preço_venda, quantidade FROM Estoque WHERE produto = '{produto}' OR codigo = '{produto}' OR cod_barras = '{produto}'")
+        produto = {
+            'codigo': produto[0][0],
+            'descrição': produto[0][1],
+            'unidade': produto[0][2],
+            'cod_barras': produto[0][3],
+            'preço_venda': converter_string_para_float(produto[0][4]),
+            'estoque' : produto[0][5],
+        }
+        return produto
+
+    def subtotal(self, produto, quantidade):
+        return produto['preço_venda'] * quantidade 

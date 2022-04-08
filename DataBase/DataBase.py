@@ -34,14 +34,11 @@ class DataBase():
         dados = []
         for valores in info.values():
             dados.append(valores)
-        dados.pop()
-        retiradas = info['retiradas']
-        dados.append(retiradas['total'])
 
         self.cursor.execute(
             """INSERT INTO Caixa (data, bomba, funcionario, digital_anterior, analogico_anterior,
-            digital_atual, analogico_atual, litros, valor, dinheiro_caixa, pix, cartao, total, resto, retiradas) 
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+            digital_atual, analogico_atual, litros, valor, dinheiro_caixa, pix, cartao, total, resto, vendas) 
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """, dados,)
         self.commit_db()
         #self.close_db()

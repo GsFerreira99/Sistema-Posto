@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'InterfaceAyWTJL.ui'
+## Form generated from reading UI file 'InterfacePrmLqf.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -7129,18 +7129,6 @@ class Ui_Sistema(object):
         self.gridLayout_58 = QGridLayout(self.widget_19)
         self.gridLayout_58.setObjectName(u"gridLayout_58")
         self.gridLayout_58.setContentsMargins(40, -1, 40, -1)
-        self.label_80 = QLabel(self.widget_19)
-        self.label_80.setObjectName(u"label_80")
-        self.label_80.setFont(font2)
-
-        self.gridLayout_58.addWidget(self.label_80, 3, 0, 1, 1)
-
-        self.label_140 = QLabel(self.widget_19)
-        self.label_140.setObjectName(u"label_140")
-        self.label_140.setFont(font2)
-
-        self.gridLayout_58.addWidget(self.label_140, 9, 0, 1, 1)
-
         self.fin_novo_desp_valor = QLineEdit(self.widget_19)
         self.fin_novo_desp_valor.setObjectName(u"fin_novo_desp_valor")
         self.fin_novo_desp_valor.setMaximumSize(QSize(16777215, 25))
@@ -7149,11 +7137,35 @@ class Ui_Sistema(object):
 
         self.gridLayout_58.addWidget(self.fin_novo_desp_valor, 7, 1, 1, 1)
 
-        self.label_100 = QLabel(self.widget_19)
-        self.label_100.setObjectName(u"label_100")
-        self.label_100.setFont(font2)
+        self.fin_novo_desp_tipo = QComboBox(self.widget_19)
+        self.fin_novo_desp_tipo.addItem("")
+        self.fin_novo_desp_tipo.setObjectName(u"fin_novo_desp_tipo")
+        self.fin_novo_desp_tipo.setMaximumSize(QSize(16777215, 25))
+        self.fin_novo_desp_tipo.setFont(font8)
+        self.fin_novo_desp_tipo.setStyleSheet(u"QComboBox {\n"
+"    border-radius: 0px;\n"
+"	border-bottom: 1px solid rgb(209, 209, 209);\n"
+"}\n"
+"")
+        self.fin_novo_desp_tipo.setEditable(True)
 
-        self.gridLayout_58.addWidget(self.label_100, 7, 0, 1, 1)
+        self.gridLayout_58.addWidget(self.fin_novo_desp_tipo, 3, 1, 1, 1)
+
+        self.fin_novo_desp_conta = QComboBox(self.widget_19)
+        self.fin_novo_desp_conta.addItem("")
+        self.fin_novo_desp_conta.addItem("")
+        self.fin_novo_desp_conta.addItem("")
+        self.fin_novo_desp_conta.setObjectName(u"fin_novo_desp_conta")
+        self.fin_novo_desp_conta.setMaximumSize(QSize(16777215, 25))
+        self.fin_novo_desp_conta.setFont(font8)
+        self.fin_novo_desp_conta.setStyleSheet(u"QComboBox {\n"
+"    border-radius: 0px;\n"
+"	border-bottom: 1px solid rgb(209, 209, 209);\n"
+"}\n"
+"")
+        self.fin_novo_desp_conta.setEditable(True)
+
+        self.gridLayout_58.addWidget(self.fin_novo_desp_conta, 8, 1, 1, 1)
 
         self.label_114 = QLabel(self.widget_19)
         self.label_114.setObjectName(u"label_114")
@@ -7164,22 +7176,6 @@ class Ui_Sistema(object):
         self.label_114.setAlignment(Qt.AlignCenter)
 
         self.gridLayout_58.addWidget(self.label_114, 0, 0, 1, 2)
-
-        self.fin_novo_desp_status = QComboBox(self.widget_19)
-        self.fin_novo_desp_status.addItem("")
-        self.fin_novo_desp_status.addItem("")
-        self.fin_novo_desp_status.addItem("")
-        self.fin_novo_desp_status.setObjectName(u"fin_novo_desp_status")
-        self.fin_novo_desp_status.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_desp_status.setFont(font8)
-        self.fin_novo_desp_status.setStyleSheet(u"QComboBox {\n"
-"    border-radius: 0px;\n"
-"	border-bottom: 1px solid rgb(209, 209, 209);\n"
-"}\n"
-"")
-        self.fin_novo_desp_status.setEditable(True)
-
-        self.gridLayout_58.addWidget(self.fin_novo_desp_status, 9, 1, 1, 1)
 
         self.widget_20 = QWidget(self.widget_19)
         self.widget_20.setObjectName(u"widget_20")
@@ -7207,7 +7203,13 @@ class Ui_Sistema(object):
         self.gridLayout_64.addWidget(self.fin_novo_desp_btn_inserir, 0, 0, 1, 1)
 
 
-        self.gridLayout_58.addWidget(self.widget_20, 10, 0, 1, 2)
+        self.gridLayout_58.addWidget(self.widget_20, 11, 0, 1, 2)
+
+        self.label_80 = QLabel(self.widget_19)
+        self.label_80.setObjectName(u"label_80")
+        self.label_80.setFont(font2)
+
+        self.gridLayout_58.addWidget(self.label_80, 3, 0, 1, 1)
 
         self.label_57 = QLabel(self.widget_19)
         self.label_57.setObjectName(u"label_57")
@@ -7220,6 +7222,56 @@ class Ui_Sistema(object):
         self.label_148.setFont(font2)
 
         self.gridLayout_58.addWidget(self.label_148, 4, 0, 1, 1)
+
+        self.fin_novo_desp_nome = QComboBox(self.widget_19)
+        self.fin_novo_desp_nome.addItem("")
+        self.fin_novo_desp_nome.setObjectName(u"fin_novo_desp_nome")
+        self.fin_novo_desp_nome.setMaximumSize(QSize(16777215, 25))
+        self.fin_novo_desp_nome.setFont(font8)
+        self.fin_novo_desp_nome.setStyleSheet(u"QComboBox {\n"
+"    border-radius: 0px;\n"
+"	border-bottom: 1px solid rgb(209, 209, 209);\n"
+"}\n"
+"")
+        self.fin_novo_desp_nome.setEditable(True)
+
+        self.gridLayout_58.addWidget(self.fin_novo_desp_nome, 5, 1, 1, 1)
+
+        self.fin_novo_desp_status = QComboBox(self.widget_19)
+        self.fin_novo_desp_status.addItem("")
+        self.fin_novo_desp_status.addItem("")
+        self.fin_novo_desp_status.addItem("")
+        self.fin_novo_desp_status.setObjectName(u"fin_novo_desp_status")
+        self.fin_novo_desp_status.setMaximumSize(QSize(16777215, 25))
+        self.fin_novo_desp_status.setFont(font8)
+        self.fin_novo_desp_status.setStyleSheet(u"QComboBox {\n"
+"    border-radius: 0px;\n"
+"	border-bottom: 1px solid rgb(209, 209, 209);\n"
+"}\n"
+"")
+        self.fin_novo_desp_status.setEditable(True)
+
+        self.gridLayout_58.addWidget(self.fin_novo_desp_status, 10, 1, 1, 1)
+
+        self.label_99 = QLabel(self.widget_19)
+        self.label_99.setObjectName(u"label_99")
+        self.label_99.setFont(font2)
+
+        self.gridLayout_58.addWidget(self.label_99, 6, 0, 1, 1)
+
+        self.fin_novo_desp_desc = QLineEdit(self.widget_19)
+        self.fin_novo_desp_desc.setObjectName(u"fin_novo_desp_desc")
+        self.fin_novo_desp_desc.setMaximumSize(QSize(16777215, 25))
+        self.fin_novo_desp_desc.setFont(font8)
+        self.fin_novo_desp_desc.setStyleSheet(u"border-bottom: 1px solid rgb(209, 209, 209);")
+
+        self.gridLayout_58.addWidget(self.fin_novo_desp_desc, 6, 1, 1, 1)
+
+        self.label_100 = QLabel(self.widget_19)
+        self.label_100.setObjectName(u"label_100")
+        self.label_100.setFont(font2)
+
+        self.gridLayout_58.addWidget(self.label_100, 7, 0, 1, 1)
 
         self.fin_novo_desp_data = QDateEdit(self.widget_19)
         self.fin_novo_desp_data.setObjectName(u"fin_novo_desp_data")
@@ -7244,19 +7296,17 @@ class Ui_Sistema(object):
 
         self.gridLayout_58.addWidget(self.fin_novo_desp_data, 1, 1, 1, 1)
 
-        self.fin_novo_desp_tipo = QComboBox(self.widget_19)
-        self.fin_novo_desp_tipo.addItem("")
-        self.fin_novo_desp_tipo.setObjectName(u"fin_novo_desp_tipo")
-        self.fin_novo_desp_tipo.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_desp_tipo.setFont(font8)
-        self.fin_novo_desp_tipo.setStyleSheet(u"QComboBox {\n"
-"    border-radius: 0px;\n"
-"	border-bottom: 1px solid rgb(209, 209, 209);\n"
-"}\n"
-"")
-        self.fin_novo_desp_tipo.setEditable(True)
+        self.label_164 = QLabel(self.widget_19)
+        self.label_164.setObjectName(u"label_164")
+        self.label_164.setFont(font2)
 
-        self.gridLayout_58.addWidget(self.fin_novo_desp_tipo, 3, 1, 1, 1)
+        self.gridLayout_58.addWidget(self.label_164, 5, 0, 1, 1)
+
+        self.label_140 = QLabel(self.widget_19)
+        self.label_140.setObjectName(u"label_140")
+        self.label_140.setFont(font2)
+
+        self.gridLayout_58.addWidget(self.label_140, 10, 0, 1, 1)
 
         self.fin_novo_desp_cat = QComboBox(self.widget_19)
         self.fin_novo_desp_cat.addItem("")
@@ -7272,61 +7322,43 @@ class Ui_Sistema(object):
 
         self.gridLayout_58.addWidget(self.fin_novo_desp_cat, 4, 1, 1, 1)
 
-        self.fin_novo_desp_conta = QComboBox(self.widget_19)
-        self.fin_novo_desp_conta.addItem("")
-        self.fin_novo_desp_conta.addItem("")
-        self.fin_novo_desp_conta.addItem("")
-        self.fin_novo_desp_conta.setObjectName(u"fin_novo_desp_conta")
-        self.fin_novo_desp_conta.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_desp_conta.setFont(font8)
-        self.fin_novo_desp_conta.setStyleSheet(u"QComboBox {\n"
-"    border-radius: 0px;\n"
-"	border-bottom: 1px solid rgb(209, 209, 209);\n"
-"}\n"
-"")
-        self.fin_novo_desp_conta.setEditable(True)
-
-        self.gridLayout_58.addWidget(self.fin_novo_desp_conta, 8, 1, 1, 1)
-
-        self.label_99 = QLabel(self.widget_19)
-        self.label_99.setObjectName(u"label_99")
-        self.label_99.setFont(font2)
-
-        self.gridLayout_58.addWidget(self.label_99, 6, 0, 1, 1)
-
         self.label_101 = QLabel(self.widget_19)
         self.label_101.setObjectName(u"label_101")
         self.label_101.setFont(font2)
 
         self.gridLayout_58.addWidget(self.label_101, 8, 0, 1, 1)
 
-        self.fin_novo_desp_desc = QLineEdit(self.widget_19)
-        self.fin_novo_desp_desc.setObjectName(u"fin_novo_desp_desc")
-        self.fin_novo_desp_desc.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_desp_desc.setFont(font8)
-        self.fin_novo_desp_desc.setStyleSheet(u"border-bottom: 1px solid rgb(209, 209, 209);")
+        self.label_185 = QLabel(self.widget_19)
+        self.label_185.setObjectName(u"label_185")
+        self.label_185.setFont(font2)
 
-        self.gridLayout_58.addWidget(self.fin_novo_desp_desc, 6, 1, 1, 1)
+        self.gridLayout_58.addWidget(self.label_185, 9, 0, 1, 1)
 
-        self.label_164 = QLabel(self.widget_19)
-        self.label_164.setObjectName(u"label_164")
-        self.label_164.setFont(font2)
-
-        self.gridLayout_58.addWidget(self.label_164, 5, 0, 1, 1)
-
-        self.fin_novo_desp_nome = QComboBox(self.widget_19)
-        self.fin_novo_desp_nome.addItem("")
-        self.fin_novo_desp_nome.setObjectName(u"fin_novo_desp_nome")
-        self.fin_novo_desp_nome.setMaximumSize(QSize(16777215, 25))
-        self.fin_novo_desp_nome.setFont(font8)
-        self.fin_novo_desp_nome.setStyleSheet(u"QComboBox {\n"
+        self.fin_novo_desp_conta_2 = QComboBox(self.widget_19)
+        self.fin_novo_desp_conta_2.addItem("")
+        self.fin_novo_desp_conta_2.addItem("")
+        self.fin_novo_desp_conta_2.addItem("")
+        self.fin_novo_desp_conta_2.addItem("")
+        self.fin_novo_desp_conta_2.addItem("")
+        self.fin_novo_desp_conta_2.addItem("")
+        self.fin_novo_desp_conta_2.addItem("")
+        self.fin_novo_desp_conta_2.addItem("")
+        self.fin_novo_desp_conta_2.addItem("")
+        self.fin_novo_desp_conta_2.addItem("")
+        self.fin_novo_desp_conta_2.addItem("")
+        self.fin_novo_desp_conta_2.addItem("")
+        self.fin_novo_desp_conta_2.addItem("")
+        self.fin_novo_desp_conta_2.setObjectName(u"fin_novo_desp_conta_2")
+        self.fin_novo_desp_conta_2.setMaximumSize(QSize(16777215, 25))
+        self.fin_novo_desp_conta_2.setFont(font8)
+        self.fin_novo_desp_conta_2.setStyleSheet(u"QComboBox {\n"
 "    border-radius: 0px;\n"
 "	border-bottom: 1px solid rgb(209, 209, 209);\n"
 "}\n"
 "")
-        self.fin_novo_desp_nome.setEditable(True)
+        self.fin_novo_desp_conta_2.setEditable(True)
 
-        self.gridLayout_58.addWidget(self.fin_novo_desp_nome, 5, 1, 1, 1)
+        self.gridLayout_58.addWidget(self.fin_novo_desp_conta_2, 9, 1, 1, 1)
 
 
         self.gridLayout_68.addWidget(self.widget_19, 0, 0, 1, 1)
@@ -8111,7 +8143,7 @@ class Ui_Sistema(object):
         self.retranslateUi(Sistema)
 
         self.stackedWidget.setCurrentIndex(0)
-        self.stackedWidget_2.setCurrentIndex(2)
+        self.stackedWidget_2.setCurrentIndex(6)
         self.nav_consultas.setCurrentIndex(1)
         self.stackedWidget_3.setCurrentIndex(0)
         self.stackedWidget_4.setCurrentIndex(0)
@@ -8120,7 +8152,7 @@ class Ui_Sistema(object):
         self.stackedWidget_12.setCurrentIndex(1)
         self.stackedWidget_10.setCurrentIndex(1)
         self.stackedWidget_7.setCurrentIndex(1)
-        self.stackedWidget_6.setCurrentIndex(1)
+        self.stackedWidget_6.setCurrentIndex(2)
         self.stackedWidget_19.setCurrentIndex(0)
         self.stackedWidget_15.setCurrentIndex(2)
         self.stackedWidget_16.setCurrentIndex(0)
@@ -8356,7 +8388,7 @@ class Ui_Sistema(object):
         self.ln_cx_vendas_cart.setInputMask("")
         self.ln_cx_vendas_cart.setText("")
         self.label_182.setText(QCoreApplication.translate("Sistema", u"Vendas Dinheiro", None))
-        self.label_184.setText(QCoreApplication.translate("Sistema", u"Total", None))
+        self.label_184.setText(QCoreApplication.translate("Sistema", u"Resto", None))
         self.ln_cx_vendas_total.setInputMask("")
         self.ln_cx_vendas_total.setText("")
         self.cons_lb_3.setText(QCoreApplication.translate("Sistema", u"     Configura\u00e7\u00f5es", None))
@@ -8800,29 +8832,44 @@ class Ui_Sistema(object):
         self.label_166.setText("")
         self.pushButton_16.setText("")
         self.label_167.setText("")
-        self.label_80.setText(QCoreApplication.translate("Sistema", u"TIPO:     ", None))
-        self.label_140.setText(QCoreApplication.translate("Sistema", u"STATUS:     ", None))
-        self.label_100.setText(QCoreApplication.translate("Sistema", u"VALOR:     ", None))
-        self.label_114.setText(QCoreApplication.translate("Sistema", u"INSERIR DESPESA", None))
-        self.fin_novo_desp_status.setItemText(0, "")
-        self.fin_novo_desp_status.setItemText(1, QCoreApplication.translate("Sistema", u"Em aberto", None))
-        self.fin_novo_desp_status.setItemText(2, QCoreApplication.translate("Sistema", u"Pago", None))
-
-        self.fin_novo_desp_btn_inserir.setText(QCoreApplication.translate("Sistema", u"INSERIR", None))
-        self.label_57.setText(QCoreApplication.translate("Sistema", u"VENCIMENTO:     ", None))
-        self.label_148.setText(QCoreApplication.translate("Sistema", u"CATEGORIA:     ", None))
         self.fin_novo_desp_tipo.setItemText(0, "")
-
-        self.fin_novo_desp_cat.setItemText(0, "")
 
         self.fin_novo_desp_conta.setItemText(0, "")
         self.fin_novo_desp_conta.setItemText(1, QCoreApplication.translate("Sistema", u"Conta Inter", None))
         self.fin_novo_desp_conta.setItemText(2, QCoreApplication.translate("Sistema", u"Caixa Posto", None))
 
-        self.label_99.setText(QCoreApplication.translate("Sistema", u"DESCRI\u00c7\u00c3O:     ", None))
-        self.label_101.setText(QCoreApplication.translate("Sistema", u"CONTA:     ", None))
-        self.label_164.setText(QCoreApplication.translate("Sistema", u"NOME:", None))
+        self.label_114.setText(QCoreApplication.translate("Sistema", u"INSERIR DESPESA", None))
+        self.fin_novo_desp_btn_inserir.setText(QCoreApplication.translate("Sistema", u"INSERIR", None))
+        self.label_80.setText(QCoreApplication.translate("Sistema", u"TIPO:     ", None))
+        self.label_57.setText(QCoreApplication.translate("Sistema", u"VENCIMENTO:     ", None))
+        self.label_148.setText(QCoreApplication.translate("Sistema", u"CATEGORIA:     ", None))
         self.fin_novo_desp_nome.setItemText(0, "")
+
+        self.fin_novo_desp_status.setItemText(0, "")
+        self.fin_novo_desp_status.setItemText(1, QCoreApplication.translate("Sistema", u"Em aberto", None))
+        self.fin_novo_desp_status.setItemText(2, QCoreApplication.translate("Sistema", u"Pago", None))
+
+        self.label_99.setText(QCoreApplication.translate("Sistema", u"DESCRI\u00c7\u00c3O:     ", None))
+        self.label_100.setText(QCoreApplication.translate("Sistema", u"VALOR:     ", None))
+        self.label_164.setText(QCoreApplication.translate("Sistema", u"NOME:", None))
+        self.label_140.setText(QCoreApplication.translate("Sistema", u"STATUS:     ", None))
+        self.fin_novo_desp_cat.setItemText(0, "")
+
+        self.label_101.setText(QCoreApplication.translate("Sistema", u"CONTA:     ", None))
+        self.label_185.setText(QCoreApplication.translate("Sistema", u"FORMA PAGAMENTO:     ", None))
+        self.fin_novo_desp_conta_2.setItemText(0, QCoreApplication.translate("Sistema", u"\u00c0 Vista", None))
+        self.fin_novo_desp_conta_2.setItemText(1, QCoreApplication.translate("Sistema", u"1x", None))
+        self.fin_novo_desp_conta_2.setItemText(2, QCoreApplication.translate("Sistema", u"2x", None))
+        self.fin_novo_desp_conta_2.setItemText(3, QCoreApplication.translate("Sistema", u"3x", None))
+        self.fin_novo_desp_conta_2.setItemText(4, QCoreApplication.translate("Sistema", u"4x", None))
+        self.fin_novo_desp_conta_2.setItemText(5, QCoreApplication.translate("Sistema", u"5x", None))
+        self.fin_novo_desp_conta_2.setItemText(6, QCoreApplication.translate("Sistema", u"6x", None))
+        self.fin_novo_desp_conta_2.setItemText(7, QCoreApplication.translate("Sistema", u"7x", None))
+        self.fin_novo_desp_conta_2.setItemText(8, QCoreApplication.translate("Sistema", u"8x", None))
+        self.fin_novo_desp_conta_2.setItemText(9, QCoreApplication.translate("Sistema", u"9x", None))
+        self.fin_novo_desp_conta_2.setItemText(10, QCoreApplication.translate("Sistema", u"10x", None))
+        self.fin_novo_desp_conta_2.setItemText(11, QCoreApplication.translate("Sistema", u"11x", None))
+        self.fin_novo_desp_conta_2.setItemText(12, QCoreApplication.translate("Sistema", u"12x", None))
 
         self.fin_novo_transf_de.setItemText(0, "")
         self.fin_novo_transf_de.setItemText(1, QCoreApplication.translate("Sistema", u"Conta Inter", None))

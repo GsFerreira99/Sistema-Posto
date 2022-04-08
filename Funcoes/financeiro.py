@@ -91,7 +91,10 @@ class Novo(Financeiro):
         data = QDate.currentDate().toString("yyyy-MM-dd")
         codigo = DataBase(caminho_db()).select_generico("SELECT codigo FROM {} ORDER BY codigo DESC LIMIT 1".format(tabela))
         self.inserir_db("INSERT INTO Movimentacoes (data, tipo, id) VALUES('{}', '{}', '{}')".format(data, tabela, codigo[0][0]))
-   
+    
+    def limpar_parcela(self, parcela):
+        return int(parcela.replace('x',''))
+
     ##DESPESA
     def inserir_nova_despesa(self):
         try: 
@@ -104,13 +107,28 @@ class Novo(Financeiro):
             dados.append(self.ui.fin_novo_desp_desc.text())
             dados.append(converter_string_para_float(self.ui.fin_novo_desp_valor.text()))
             dados.append(self.ui.fin_novo_desp_conta.currentText())
+            dados.append(self.ui.fin_novo_desp_conta_2.currentText())
 
-            if verificar_vazio(dados) == False:
-                self.inserir_db("INSERT INTO Despesas (status, data, tipo, categoria, nome, descricao, valor, conta) VALUES ('{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(*dados))
+            if verificar_vazio(dados) == False and dados[8] == 'À Vista':
+                self.inserir_db("INSERT INTO Despesas (status, data, tipo, categoria, nome, descricao, valor, conta, forma_pagamento) VALUES ('{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(*dados))
                 self.inserir_movimentacao("Despesas")
                 if dados[0] == "Pago":
                     Transacao(dados[6]).despesa(dados[7])
                 Erro("Despesa inserida com sucesso!", QMessageBox.Information)
+                self.mudar_tela()
+                self.limpar_campos_despesa()
+            elif verificar_vazio(dados) == False and dados[8] != 'À Vista':
+                parcelas = self.limpar_parcela(dados[8])
+                data = self.ui.fin_novo_desp_data.date()
+                valor_parcela = dados[6] / parcelas
+                for i in range(parcelas):
+                    parcela = dados[5] + f" - {i + 1}/{parcelas}"
+                    self.inserir_db(f"INSERT INTO Despesas (status, data, tipo, categoria, nome, descricao, valor, conta, forma_pagamento) VALUES ('{dados[0]}', '{data.toString('yyyy-MM-dd')}', '{dados[2]}', '{dados[3]}', '{dados[4]}', '{parcela}', '{valor_parcela}', '{dados[7]}', '{dados[8]}')")
+                    data = data.addMonths(1)
+                    if dados[0] == 'Pago' and i == 0:
+                        self.inserir_movimentacao("Despesas")
+                        Transacao(valor_parcela).despesa(dados[7])
+                Erro("Despesa parcelada inserida com sucesso!", QMessageBox.Information)
                 self.mudar_tela()
                 self.limpar_campos_despesa()
             else:
@@ -126,6 +144,9 @@ class Novo(Financeiro):
         self.ui.fin_novo_desp_desc.setText("")
         self.ui.fin_novo_desp_valor.setText("")
         self.ui.fin_novo_desp_conta.setCurrentIndex(0)
+        self.ui.fin_novo_desp_cat.setCurrentIndex(0)
+        self.ui.fin_novo_desp_nome.setCurrentIndex(0)
+        self.ui.fin_novo_desp_conta_2.setCurrentIndex(0)
 
     def preencher_cb(self):
         self.preencher_tipo()
